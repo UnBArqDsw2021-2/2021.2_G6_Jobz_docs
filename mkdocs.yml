@@ -1,0 +1,14 @@
+site_name: Jobz
+theme:
+  name: material
+  language: pt
+  font:
+    text: 'Kurale'
+
+docs_dir: docs/
+
+nav:
+  - Sobre o projeto: index.md
+
+
+
