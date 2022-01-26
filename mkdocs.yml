@@ -9,6 +9,31 @@ docs_dir: docs/
 
 nav:
   - Sobre o projeto: index.md
+  - Planejamento:
+    - Metodologia: metodologia.md
+    - Atas de reunião:
+        - 1 Ata: /Atas/1_ata.md
+  - Entrega I:
+    - Plano de riscos: /Entrega_I/planoRisco.md
+    
+    - Pré-rastreabilidade:
+      - Rich Picture: /Entrega_I/Elicitacao/richPicute.md
+    
+    - Elicitação:
+      - Técnicas de Elicitação:
+        - Brainstorming: /Entrega_I/Elicitacao/Tecnicas/brainstorming.md
+        - Questionário: /Entrega_I/Elicitacao/Tecnicas/questionario.md
+        - W5H2: /Entrega_I/Elicitacao/Tecnicas/w5h2.md
+      - Técnica de Priorização:
+        - MoSCoW: /Entrega_I/Elicitacao/priorizacao/moscow.md
+      - Resultado:  /Entrega_I/Elicitacao/resultado.md
 
-
-
+    - Modelagem:
+      - Léxicos: /Entrega_I/Modelagem/lexicos.md
+      - Personas: /Entrega_I/Modelagem/personas.md
+      - Causa e efeito: /Entrega_I/Modelagem/causaEefeito.md
+      - Storyboard: /Entrega_I/Modelagem/storyboard.md
+      - Backlog:  /Entrega_I/Modelagem/backlog.md
+    
+    - Apresentação: /Entrega_I/Apresentacao/apresentacao.m
+  
