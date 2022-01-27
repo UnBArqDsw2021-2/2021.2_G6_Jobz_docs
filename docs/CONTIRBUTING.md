@@ -7,7 +7,6 @@ Nesse guia nós estabeleceremos uma visão geral de como contribuir e os padrõe
 <br>
 
 ## Contribuindo
-<hr>
 
 ### Issues
 <br>
