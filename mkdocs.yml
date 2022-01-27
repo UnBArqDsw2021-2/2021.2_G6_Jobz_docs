@@ -13,9 +13,9 @@ nav:
     - Metodologia: metodologia.md
     - Atas de reunião:
         - 1 Ata: /Atas/1_ata.md
-  - Entrega I:
+  - Desenho de Software(Base):
     - Plano de riscos: /Entrega_I/planoRisco.md
-    
+
     - Pré-rastreabilidade:
       - Rich Picture: /Entrega_I/Elicitacao/richPicute.md
     
@@ -29,7 +29,7 @@ nav:
       - Resultado:  /Entrega_I/Elicitacao/resultado.md
 
     - Modelagem:
-      - Léxicos: /Entrega_I/Modelagem/lexicos.md
+      - Léxicos: Entrega_I/Modelagem/lexicos.md
       - Personas: /Entrega_I/Modelagem/personas.md
       - Causa e efeito: /Entrega_I/Modelagem/causaEefeito.md
       - Storyboard: /Entrega_I/Modelagem/storyboard.md
