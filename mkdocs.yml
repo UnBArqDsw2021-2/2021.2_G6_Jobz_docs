@@ -21,6 +21,7 @@ nav:
     
     - Elicitação:
       - Técnicas de Elicitação:
+        - Personas: Entrega_I/Elicitacao/Tecnicas/personas.md
         - Brainstorming: /Entrega_I/Elicitacao/Tecnicas/brainstorming.md
         - Questionário: /Entrega_I/Elicitacao/Tecnicas/questionario.md
         - W5H2: /Entrega_I/Elicitacao/Tecnicas/w5h2.md
@@ -30,7 +31,6 @@ nav:
 
     - Modelagem:
       - Léxicos: Entrega_I/Modelagem/lexicos.md
-      - Personas: /Entrega_I/Modelagem/personas.md
       - Causa e efeito: /Entrega_I/Modelagem/causaEefeito.md
       - Storyboard: /Entrega_I/Modelagem/storyboard.md
       - Backlog:  /Entrega_I/Modelagem/backlog.md
