@@ -7,6 +7,9 @@ theme:
 
 docs_dir: docs/
 
+extra_css:
+  - Arquivos/CSS/pagina.css
+
 nav:
   - Sobre o projeto: index.md
   - Planejamento:
@@ -32,7 +35,7 @@ nav:
       - Léxicos: Entrega_I/Modelagem/lexicos.md
       - Personas: /Entrega_I/Modelagem/personas.md
       - Causa e efeito: /Entrega_I/Modelagem/causaEefeito.md
-      - Storyboard: /Entrega_I/Modelagem/storyboard.md
+      - Storyboard: Entrega_I/Modelagem/storyboard.md
       - Backlog:  /Entrega_I/Modelagem/backlog.md
     
     - Apresentação: /Entrega_I/Apresentacao/apresentacao.m
