@@ -1,6 +1,6 @@
 site_name: Jobz
 theme:
-  name: material
+  name: mkdocs
   language: pt
   font:
     text: "Kurale"
@@ -17,7 +17,7 @@ nav:
       - Atas de reunião:
           - 1 Ata: /Atas/1_ata.md
   - Desenho de Software(Base):
-      - Plano de riscos: /Entrega_I/planoRisco.md
+      - Plano de riscos: Entrega_I/PlanoRisco/planoRisco.md
 
       - Pré-rastreabilidade:
           - Rich Picture: /Entrega_I/Elicitacao/richPicute.md
