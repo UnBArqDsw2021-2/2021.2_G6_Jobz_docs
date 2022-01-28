@@ -6,7 +6,7 @@
 27/01/2022 | 1.0 | Lorrayne Cardozo | Criação do documento de personas
 
 ## 1. Introdução
-As personas são um grupo de personagens fictícios que simulam os prováveis usuários finais da aplicação e até mesmo o perfil de anti-usuários. São caracterizados, principalmente, por seus objetivos, expectativas e necessidades, auxiliando a perceber brechas e ressaltar novas oportunidades de melhorias no sistema. 
+As personas são um grupo de personagens fictícios criados com o objetivo de simular tanto o perfil de prováveis usuários finais da aplicação quanto de anti-usuários, descrevendo de forma detalhada suas principais características como objetivos, expectativas e necessidades. A utilização dessa ferramenta possui a finalidade de auxiliar a perceber brechas e ressaltar novas oportunidades de melhorias no sistema, além de permitir visualizar a perspectiva dos usuários e direcionar o produto para o público alvo correto.
 
 ## 2. Equipe de Personas
 
