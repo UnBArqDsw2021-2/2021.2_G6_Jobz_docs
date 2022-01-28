@@ -24,7 +24,7 @@
 
 | L01               | Usuário                                          |
 | ----------------- | ------------------------------------------------ |
-| **Classificação** | Sujeito                                          |
+| **Classificação** | Objeto                                          |
 | **Noção**         | Indivíduo que pretende utilizar o sistema.       |
 | **Impacto**       | O usuário pode fazer <a href="#Login">login</a>. |
 | **Sinônimo**      | -                                                |
@@ -33,7 +33,7 @@
 
 | L02               | Prestador de Serviços                                                                                                                          |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Classificação** | Sujeito                                                                                                                                        |
+| **Classificação** | Objeto                                                                                                                                        |
 | **Noção**         | <a href="#Usuario">Usuário</a> que oferece serviços para outros usuários da plataforma.                                                        |
 | **Impacto**       | <a href="#Prestador">Prestador de serviços</a> pode gerar anúncios.<br><a href="#Prestador">Prestador de serviços</a> pode cadastrar serviços. |
 | **Sinônimo**      | -                                                                                                                                              |
@@ -42,9 +42,9 @@
 
 | L03               | Cliente                                                                                                                                                                                                                                                                                                                            |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Classificação** | Sujeito                                                                                                                                                                                                                                                                                                                            |
+| **Classificação** | Objeto                                                                                                                                                                                                                                                                                                                            |
 | **Noção**         | <a href="#Usuario">Usuário</a> que utiliza o sistema com o intuito de contratar serviços de um <a href="#Prestador">prestador de serviços</a>.                                                                                                                                                                                     |
-| **Impacto**       | <a href="#Cliente">Cliente</a> pode efetuar pagamentos.<br><a href="#Cliente">Cliente</a> pode deixar avaliações.<br><a href="#Cliente">Cliente</a> pode <a href="Recomendar">recomendar</a> <a href="#Prestador">prestadores de serviços</a>.<br><a href="#Cliente">Cliente</a> pode realizar <a href="#Pesquisar">pesquisas</a>. |
+| **Impacto**       | <a href="#Cliente">Cliente</a> pode efetuar pagamentos.<br><a href="#Cliente">Cliente</a> pode deixar avaliações.<br><a href="#Cliente">Cliente</a> pode <a href="#Recomendar">recomendar</a> <a href="#Prestador">prestadores de serviços</a>.<br><a href="#Cliente">Cliente</a> pode realizar <a href="#Pesquisar">pesquisas</a>. |
 | **Sinônimo**      | -                                                                                                                                                                                                                                                                                                                                  |
 
 ### L04 - Login <a id="Login"></a>
@@ -78,7 +78,7 @@
 
 | L07               | Categorias de Serviço                                                                      |
 | ----------------- | ------------------------------------------------------------------------------------------ |
-| **Classificação** | Sujeito                                                                                    |
+| **Classificação** | Objeto                                                                                    |
 | **Noção**         | Categoria que tem como objetivo de aglomerar serviços de propósito semelhante ou identico. |
 | **Impacto**       | Facilita a busca do <a href="#Cliente">cliente</a> por um serviço específico.              |
 | **Sinônimo**      | -                                                                                          |
@@ -116,7 +116,7 @@
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Classificação** | Verbo                                                                                                                                              |
 | **Noção**         | Ato de alertar os <a href="#Usuario">usuários</a> atrelados a um serviço agendado sobre a sua existencia.                                          |
-| **Impacto**       | Ajuda o <a href="#Cliente">cliente</a> e o <a href="#Prestador">Prestador de serviços</a> a não se esqueçam do <a href="#Agendar">agendamento</a>. |
+| **Impacto**       | Ajuda o <a href="#Cliente">cliente</a> e o <a href="#Prestador">prestador de serviços</a> a não se esqueçam do <a href="#Agendar">agendamento</a>. |
 | **Sinônimo**      | -                                                                                                                                                  |
 
 ### L12 - Chat <a id="Chat"></a>
@@ -140,3 +140,4 @@ SAYÃO, Miriam; DE CARVALHO, Gustavo R. Construção do léxico de aplicações 
 | :----: | ---------- | ---------------------------------------------- | ---------------- |
 |  1.0   | 26/01/2022 | Criação do documento                           | Fernando Miranda |
 |  1.1   | 28/01/2022 | Adição dos textos de introdução e Bibliografia | Rodrigo Balbino  |
+|  1.2   | 28/01/2022 | Correções de hyperlinks e classificação        | Fernando Miranda |
