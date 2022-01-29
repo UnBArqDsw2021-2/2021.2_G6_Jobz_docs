@@ -1,3 +1,9 @@
+# <center>Jobz
+
+<p align='center'>
+    <img src='assets/images/logo.png' width=auto height=auto>
+</p>
+
 ## Sobre o Projeto
 
 <p style="text-indent: 40px; align="justify"> Repositório destinado à disciplina de Arquitetura & desenho de software professora  Milene Serrano.

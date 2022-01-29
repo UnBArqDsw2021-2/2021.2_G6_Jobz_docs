@@ -1,31 +1,32 @@
 -   [**Página Inicial**](/)
+- [TEMPLATE](doc-template.md)
 
 -   **Desenho de Software (Base)**
 
     -   Projeto Não Orientado a Abordagens Específicas
         <!-- -   [Design Sprint](./pages/base/planoRisco.md) -->
-        -   [Rich Picture](./pages/base/planoRisco.md)
+        <!-- -   [Rich Picture](./pages/base/planoRisco.md) -->
         -   [5W2H](./pages/base/5w2h.md)
-        -   [Mapa Mental](./pages/base/planoRisco.md)
+        <!-- -   [Mapa Mental](./pages/base/planoRisco.md) -->
         -   [Causa e Efeito](./pages/base/causaEefeito.md)
         -   [Léxicos](./pages/base/lexicos.md)
         -   [Plano de Riscos](./pages/base/planoRisco.md)
-        -   [Priorização](./pages/base/planoRisco.md)
-        -   Técnicas de Elicitação
-            -   [Brainstorm](./pages/base/planoRisco.md)
-            -   [Introspecção](./pages/base/planoRisco.md)
-            -   [Questionário](./pages/base/planoRisco.md)
+            <!-- -   [Priorização](./pages/base/planoRisco.md) -->
+            <!-- -   Técnicas de Elicitação -->
+            <!-- -   [Brainstorm](./pages/base/planoRisco.md) -->
+            <!-- -   [Introspecção](./pages/base/planoRisco.md) -->
+            <!-- -   [Questionário](./pages/base/planoRisco.md) -->
     -   Processos/Metodologias/Abordagens
         -   [Metodologia do Projeto](./pages/base/metodologia-do-projeto.md)
-        -   [Metodologia BPMN](./pages/base/planoRisco.md)
+        <!-- -   [Metodologia BPMN](./pages/base/planoRisco.md) -->
     -   Iniciativas Extras
         -   [Personas](./pages/base/personas.md)
         -   [Storyboard](./pages/base/storyboard.md)
-        -   [TAP](./pages/base/planoRisco.md)
-        -   [Guia de Estilo](./pages/base/planoRisco.md)
+            <!-- -   [TAP](./pages/base/planoRisco.md) -->
+            <!-- -   [Guia de Estilo](./pages/base/planoRisco.md) -->
         -   [Guia de Contribuição](./pages/base/guia-contribuicao.md)
-        -   [Product Backlog](./pages/base/planoRisco.md)
-        -   [Protótipo de Média Fidelidade](./pages/base/planoRisco.md)
+            <!-- -   [Product Backlog](./pages/base/planoRisco.md) -->
+            <!-- -   [Protótipo de Média Fidelidade](./pages/base/planoRisco.md) -->
 
 -   **Sprints**
     -   Sprint 1
@@ -64,6 +65,7 @@
     -   Sprint 12
         -   [Planejamento](./pages/sprints/sprint12/sprint_planning.md)
         -   [Resultados](./pages/sprints/sprint12/sprint_review.md) -->
+
 
 <!-- -   **Desenho de Software (Modelagem)**
 
