@@ -12,7 +12,7 @@ Para o nosso projeto o diagrama de Causa-Efeito será utilizado como um dos arte
 
 ## 2. Diagrama
 
-<img src='../../assets/images/CausaEfeito.png' width=auto height=auto>
+<img src='assets/images/CausaEfeito.png' width=auto height=auto>
 
 _Figura 1 - Diagrama Causa-Efeito criado pelo grupo._
 
