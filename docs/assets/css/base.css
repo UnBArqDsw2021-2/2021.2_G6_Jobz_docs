@@ -1,0 +1,73 @@
+:root {
+	--main-color: #e60b2c;
+	--secondary-color: #e60b2c;
+}
+
+.github-corner {
+	display: none;
+}
+
+/* Markdown style */
+.anchor,
+.markdown-section a {
+	color: var(--secondary-color) !important;
+}
+
+.markdown-section blockquote {
+	border-left: 4px solid var(--main-color);
+}
+
+.markdown-section tr:nth-child(2n) {
+	background: none;
+}
+
+/* Sidebar style */
+.sidebar {
+	background-color: rgba(0, 0, 0, 0.07);
+	border: none;
+}
+
+.sidebar img {
+	width: 35%;
+}
+
+.folder {
+	cursor: pointer;
+}
+
+.sidebar ul li.active > a {
+	text-decoration: none;
+	color: var(--main-color) !important;
+}
+
+.sidebar ul li > a {
+	font-size: 1rem;
+}
+
+.sidebar-toggle-button > span {
+	background-color: var(--main-color) !important;
+}
+
+/* Coverpage style */
+.show {
+	background: none !important;
+}
+
+.cover-main {
+	background: none;
+}
+
+.cover-image {
+	max-width: 15%;
+	max-height: 15%;
+}
+
+section.cover .cover-main > p:last-child a:last-child {
+	background-color: var(--main-color) !important;
+	border-color: var(--main-color) !important;
+}
+
+section.cover .cover-main > p:last-child a {
+	color: var(--main-color);
+	border-color: var(--main-color) !important;
+}
