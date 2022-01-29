@@ -1,10 +1,5 @@
 # <center>Personas
 
-## Histórico de Versões
-| Data | Versão | Autor(es) | Descrição
-|:-:|:-:|:-:|:-:|
-27/01/2022 | 1.0 | Lorrayne Cardozo | Criação do documento de personas
-
 ## 1. Introdução
 As personas são um grupo de personagens fictícios criados com o objetivo de simular tanto o perfil de prováveis usuários finais da aplicação quanto de anti-usuários, descrevendo de forma detalhada suas principais características como objetivos, expectativas e necessidades. A utilização dessa ferramenta possui a finalidade de auxiliar a perceber brechas e ressaltar novas oportunidades de melhorias no sistema, além de permitir visualizar a perspectiva dos usuários e direcionar o produto para o público alvo correto.
 
@@ -58,3 +53,10 @@ As personas são um grupo de personagens fictícios criados com o objetivo de si
 > COOPER, Alan, et al. 2007. About Face 3 The Essentials of Interaction Design.
 
 > As imagens utilizadas para representar a equipe de personas foram encontradas no site [Pexels](https://www.pexels.com/pt-br/), onde a utilização é gratuita e a citação de créditos não é obrigatória, conforme é apresentado em sua [licença](https://www.pexels.com/pt-br/licenca/).
+
+
+## 4. Versionamento
+| Data | Versão | Autor(es) | Descrição
+|:-:|:-:|:-:|:-:|
+| 27/01/2022 | 1.0 | Lorrayne Cardozo | Criação do documento de personas |
+| 29/01/2022 | 1.1 | João Victor | Revisão do documento

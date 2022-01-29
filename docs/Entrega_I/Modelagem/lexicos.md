@@ -1,9 +1,9 @@
-# Léxicos
+# <center>Léxicos
 
-<p align = "justify"> &emsp;&emsp; Uma das principais técnicas utilizadas para a modelagem de um projeto é chamada de léxico. Esse artefato tem como objetivo igualar o conhecimento da equipe, descrevendo os símbolos e termos específicos relacionados ao tema de nossa aplicação. Sendo assim, o léxico é uma fonte de consulta para compreender todas as terminologias utilizadas pelo grupo durante o período de desenvolvimento do projeto.</p>
 
 ## 1. Introdução
 
+<p align = "justify"> &emsp;&emsp; Uma das principais técnicas utilizadas para a modelagem de um projeto é chamada de léxico. Esse artefato tem como objetivo igualar o conhecimento da equipe, descrevendo os símbolos e termos específicos relacionados ao tema de nossa aplicação. Sendo assim, o léxico é uma fonte de consulta para compreender todas as terminologias utilizadas pelo grupo durante o período de desenvolvimento do projeto.</p>
 <p align = "justify"> &emsp;&emsp; Para esse projeto será utilizado a descrição de termos via léxico LAL(Léxico Ampliado da Linguagem), na qual serve para descrever os termos relacionados ao projeto. Assim, nossos léxicos serão apresentados seguindo a seguinte estrutura:
 </p>
 
@@ -128,16 +128,17 @@
 | **Impacto**       | <a href="#Cliente">Cliente</a> pode se comunicar pela plataforma diretamente com o <a href="#Prestador">prestador de serviços</a>. |
 | **Sinônimo**      | -                                                                                                                                  |
 
-## Bibliografia
+## 3. Referências
 
-SERRANO, Milene; Requisitos - Aula - PROJETO E DESENHO DE SOFTWARE;
+> SERRANO, Milene; Requisitos - Aula - PROJETO E DESENHO DE SOFTWARE;
 
-SAYÃO, Miriam; DE CARVALHO, Gustavo R. Construção do léxico de aplicações – PUC-Rio. Rio de Janeiro. 2006. Disponível em: http://www.nilc.icmc.usp.br/til/til2006/0030.pdf
+> SAYÃO, Miriam; DE CARVALHO, Gustavo R. Construção do léxico de aplicações – PUC-Rio. Rio de Janeiro. 2006. Disponível em: http://www.nilc.icmc.usp.br/til/til2006/0030.pdf
 
-## Versionamento
+## 4. Versionamento
 
 | Versão | Data       | Modificação                                    | Autor            |
 | :----: | ---------- | ---------------------------------------------- | ---------------- |
 |  1.0   | 26/01/2022 | Criação do documento                           | Fernando Miranda |
 |  1.1   | 28/01/2022 | Adição dos textos de introdução e Bibliografia | Rodrigo Balbino  |
 |  1.2   | 28/01/2022 | Correções de hyperlinks e classificação        | Fernando Miranda |
+| 1.3 | 29/01/2022 | Revisão do documento | Lorrayne Cardozo

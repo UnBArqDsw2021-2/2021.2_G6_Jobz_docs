@@ -1,4 +1,4 @@
-# Causa e Efeito (Diagrama de Ishikawa)
+# <center>Causa e Efeito (Diagrama de Ishikawa)
 
 ## 1. Introdução
 
@@ -16,17 +16,18 @@ Para o nosso projeto o diagrama de Causa-Efeito será utilizado como um dos arte
 
 _Figura 1 - Diagrama Causa-Efeito criado pelo grupo._
 
-## 3. Bibliografia
+## 3. Referências
 
-SERRANO, Milene; Requisitos - Aula - PROJETO E DESENHO DE SOFTWARE;
+> SERRANO, Milene; Requisitos - Aula - PROJETO E DESENHO DE SOFTWARE;
 
-Rodrigues, Viviane. Diagrama de Ishikawa: o que é e como fazer. 2021. Disponível em: https://www.siteware.com.br/metodologias/diagrama-de-ishikawa/
+> Rodrigues, Viviane. Diagrama de Ishikawa: o que é e como fazer. 2021. Disponível em: https://www.siteware.com.br/metodologias/diagrama-de-ishikawa/
 
 </p>
 
 ## 4. Versionamento
 
-| Versão | Data       | Modificação          | Autor           |
+| Versão | Data       | Modificação          | Autor(es)           |
 | :----: | ---------- | -------------------- | --------------- |
 |  1.0   | 28/01/2022 | Criação do documento | Rodrigo Balbino |
 |  1.1   | 28/01/2022 | Adição de conteúdo   | Pedro Campos    |
+| 1.2 | 29/01/2022 | Revisão do documento | Lorrayne Cardozo
