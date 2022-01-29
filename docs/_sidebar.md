@@ -3,7 +3,7 @@
 -   **Desenho de Software (Base)**
 
     -   Projeto Não Orientado a Abordagens Específicas
-        <!-- -   [Design Sprint](./pages/base/planoRisco.md) -->
+        -   [Design Sprint](./pages/base/designSprint.md)
         <!-- -   [Rich Picture](./pages/base/planoRisco.md) -->
         -   [5W2H](./pages/base/5w2h.md)
         <!-- -   [Mapa Mental](./pages/base/planoRisco.md) -->
@@ -13,7 +13,7 @@
             <!-- -   [Priorização](./pages/base/planoRisco.md) -->
             <!-- -   Técnicas de Elicitação -->
             <!-- -   [Brainstorm](./pages/base/planoRisco.md) -->
-            <!-- -   [Introspecção](./pages/base/planoRisco.md) -->
+            -   [Introspecção](./pages/base/introspeccao.md)
             <!-- -   [Questionário](./pages/base/planoRisco.md) -->
     -   Processos/Metodologias/Abordagens
         -   [Metodologia do Projeto](./pages/base/metodologia-do-projeto.md)
