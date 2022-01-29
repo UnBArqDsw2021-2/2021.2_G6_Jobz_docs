@@ -1,14 +1,14 @@
--   [Página Inicial](/)
+-   [**Página Inicial**](/)
 
 -   **Desenho de Software (Base)**
 
     -   Projeto Não Orientado a Abordagens Específicas
-        -   [Design Sprint](./pages/base/planoRisco.md)
+        <!-- -   [Design Sprint](./pages/base/planoRisco.md) -->
         -   [Rich Picture](./pages/base/planoRisco.md)
-        -   [5W2H](./pages/base/planoRisco.md)
+        -   [5W2H](./pages/base/5w2h.md)
         -   [Mapa Mental](./pages/base/planoRisco.md)
-        -   [Ishikawa](./pages/base/planoRisco.md)
-        -   [Léxicos](./pages/base/planoRisco.md)
+        -   [Causa e Efeito](./pages/base/causaEefeito.md)
+        -   [Léxicos](./pages/base/lexicos.md)
         -   [Plano de Riscos](./pages/base/planoRisco.md)
         -   [Priorização](./pages/base/planoRisco.md)
         -   Técnicas de Elicitação
@@ -16,14 +16,14 @@
             -   [Introspecção](./pages/base/planoRisco.md)
             -   [Questionário](./pages/base/planoRisco.md)
     -   Processos/Metodologias/Abordagens
-        -   [Metodologia do Projeto](./pages/base/planoRisco.md)
+        -   [Metodologia do Projeto](./pages/base/metodologia-do-projeto.md)
         -   [Metodologia BPMN](./pages/base/planoRisco.md)
     -   Iniciativas Extras
-        -   [Personas](./pages/base/planoRisco.md)
-        -   [Storyboard](./pages/base/planoRisco.md)
+        -   [Personas](./pages/base/personas.md)
+        -   [Storyboard](./pages/base/storyboard.md)
         -   [TAP](./pages/base/planoRisco.md)
         -   [Guia de Estilo](./pages/base/planoRisco.md)
-        -   [Guia de Contribuição](./pages/base/planoRisco.md)
+        -   [Guia de Contribuição](./pages/base/guia-contribuicao.md)
         -   [Product Backlog](./pages/base/planoRisco.md)
         -   [Protótipo de Média Fidelidade](./pages/base/planoRisco.md)
 
