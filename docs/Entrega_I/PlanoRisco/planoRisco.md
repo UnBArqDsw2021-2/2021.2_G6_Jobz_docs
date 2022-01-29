@@ -1,11 +1,11 @@
-# Plano de riscos
+# <center> Plano de riscos
 
-## Sobre o documento
+## 1. Introdução
 
 O plano proposto visa identificar todos os riscos envolvidos em todo o ciclo de vida de desenvolvimento do software, bem como trazer soluções para contornar cada um destes riscos (caso aconteça) visando mapear os riscos para um melhor controle e manter o ritmo de trabalho da equipe de desenvolvimento.
 
 
-## Análise dos Riscos
+## 2. Análise dos Riscos
 Possíveis riscos e suas respectivas prevenções e contenções de acordo com o escopo da disciplina e o projeto escolhido:
 
 | Risco | Descrição       | Prevenção          | Contenção           |
@@ -19,7 +19,7 @@ Possíveis riscos e suas respectivas prevenções e contenções de acordo com o
 |  7  | Dificuldade com a tecnologia escolhida | Adiantar materiais de estudo e dar suporte para os membros da equipe que não tem facilidade com a tecnologia escolhida | Realocar o respectivo membro para outra tarefa que não dependa do uso da tecnologia ou que possua o nível de complexidade mais baixo 
 
 
-## Grau dos riscos
+## 3. Grau dos riscos
 O grau dos riscos é definido pela multiplicação da probabilidade e o impacto, respectivamente. Para essa definição, estamos considerando os valores em uma escala de 1 a 5:
 
 | Risco | Descrição       | Probabilidade          | Impacto        | Grau
@@ -33,9 +33,9 @@ O grau dos riscos é definido pela multiplicação da probabilidade e o impacto,
 |  7  | Dificuldade com a tecnologia escolhida | 3 | 3 | 9 |
 
 
+## 4. Versionamento
 
-
-
-| Versão | Data       | Modificação          | Autor           |
+| Versão | Data       | Modificação          | Autor(es)           |
 | :----: | ---------- | -------------------- | --------------- |
 |  1.0   | 28/01/2022 | Criação do documento | Luís Fernando Furtado de Araújo |
+| 1.1 | 29/01/2022 | Revisão do documento | Lorrayne Cardozo |
