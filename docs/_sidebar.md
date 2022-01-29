@@ -3,23 +3,29 @@
 -   **Desenho de Software (Base)**
 
     -   Projeto Não Orientado a Abordagens Específicas
+        -   [Design Sprint](./pages/base/planoRisco.md)
+        -   [Rich Picture](./pages/base/planoRisco.md)
+        -   [5W2H](./pages/base/planoRisco.md)
+        -   [Mapa Mental](./pages/base/planoRisco.md)
+        -   [Ishikawa](./pages/base/planoRisco.md)
+        -   [Léxicos](./pages/base/planoRisco.md)
         -   [Plano de Riscos](./pages/base/planoRisco.md)
+        -   [Priorização](./pages/base/planoRisco.md)
+        -   Técnicas de Elicitação
+            -   [Brainstorm](./pages/base/planoRisco.md)
+            -   [Introspecção](./pages/base/planoRisco.md)
+            -   [Questionário](./pages/base/planoRisco.md)
     -   Processos/Metodologias/Abordagens
-        -   [Plano de Riscos](./pages/base/planoRisco.md)
-    -   Extras
-
--   **Desenho de Software (Modelagem)**
-
-    -   Extras
-        -   [Plano de Riscos](./pages/base/planoRisco.md)
-
--   **Desenho de Software (Padrões de Projeto)**
-
-    -   [Plano de Riscos](./pages/base/planoRisco.md)
-
--   **Arquitetura de Software & Reutilização**
-
-    -   [Plano de Riscos](./pages/base/planoRisco.md)
+        -   [Metodologia do Projeto](./pages/base/planoRisco.md)
+        -   [Metodologia BPMN](./pages/base/planoRisco.md)
+    -   Iniciativas Extras
+        -   [Personas](./pages/base/planoRisco.md)
+        -   [Storyboard](./pages/base/planoRisco.md)
+        -   [TAP](./pages/base/planoRisco.md)
+        -   [Guia de Estilo](./pages/base/planoRisco.md)
+        -   [Guia de Contribuição](./pages/base/planoRisco.md)
+        -   [Product Backlog](./pages/base/planoRisco.md)
+        -   [Protótipo de Média Fidelidade](./pages/base/planoRisco.md)
 
 -   **Sprints**
     -   Sprint 1
@@ -58,3 +64,40 @@
     -   Sprint 12
         -   [Planejamento](./pages/sprints/sprint12/sprint_planning.md)
         -   [Resultados](./pages/sprints/sprint12/sprint_review.md) -->
+
+<!-- -   **Desenho de Software (Modelagem)**
+
+    -   Projeto Orientado a Abordagens Tradicionais
+        -   Notação UML – Diagramas Estáticos
+            -   [Diagrama de Classes](./pages/base/planoRisco.md)
+            -   [Diagrama de Pacotes](./pages/base/planoRisco.md)
+            -   [Diagrama de Componentes](./pages/base/planoRisco.md)
+        -   Notação UML – Diagramas Dinâmicos
+            -   [Diagrama de Sequência](./pages/base/planoRisco.md)
+            -   [Diagrama de Atividades](./pages/base/planoRisco.md)
+            -   [Diagrama de Estados](./pages/base/planoRisco.md)
+            -   [Diagrama de Comunicação](./pages/base/planoRisco.md)
+        -   Modelagem Ágil
+            -   [Product Backlog](./pages/base/planoRisco.md)
+    -   Iniciativas Extras
+        -   [Prototipo de Alta Fidelidade](./pages/base/planoRisco.md)
+        -   [Métricas de Gerenciamento](./pages/base/planoRisco.md)
+        -   [Casos de Uso](./pages/base/planoRisco.md)
+
+-   **Desenho de Software (Padrões de Projeto)**
+
+    -   [GRASP](./pages/base/planoRisco.md)
+    -   GOFs
+        -   [Criacionais](./pages/base/planoRisco.md)
+        -   [Estruturais](./pages/base/planoRisco.md)
+        -   [Emergentes](./pages/base/planoRisco.md)
+    -   [Emergentes](./pages/base/planoRisco.md)
+    -   Iniciativas Extras
+        -   [EXTRA](./pages/base/planoRisco.md)
+
+-   **Arquitetura de Software & Reutilização**
+
+    -   [Documento de Arquitetura](./pages/base/planoRisco.md)
+    -   [Reutilização de Software](./pages/base/planoRisco.md)
+    -   Iniciativa Extras
+        -   [EXTRA](./pages/base/planoRisco.md) -->
