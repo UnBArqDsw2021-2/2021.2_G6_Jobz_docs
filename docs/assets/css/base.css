@@ -71,3 +71,20 @@ section.cover .cover-main > p:last-child a {
 	color: var(--main-color);
 	border-color: var(--main-color) !important;
 }
+
+
+/*			Image Zoom			*/
+input[type=checkbox] {
+	display: none;
+  }
+  
+  .container img {
+	margin: 100px;
+	transition: transform 0.25s ease;
+	cursor: zoom-in;
+  }
+  
+  input[type=checkbox]:checked ~ label > img {
+	transform: scale(2);
+	cursor: zoom-out;
+  }
