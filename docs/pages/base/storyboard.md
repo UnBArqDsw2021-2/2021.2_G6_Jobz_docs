@@ -36,7 +36,7 @@ Maria está tendo problemas com seu computador e não tem tempo de levar ele at�
     </figcaption>
 </p>
 
-### 2.3 Historia 3 - Serviços Gerais de Reparo
+### 2.3 Historia 3 - Prestador de serviço
 
 Luis trabalha com montagem de moveis e serviços gerais de reparo, porém não conseguia encontrar clientes pois não sabia como fazer a divulgação de seu trabalho. Além disso ele tinha dificuldades na hora de agendar seus serviços pois utilizava um caderno para fazer os seus agendamentos. Depois que começou a utilizar o Jobz ele conseguiu encontrar mais clientes e organizar melhor seus serviços.
 
@@ -49,7 +49,24 @@ Luis trabalha com montagem de moveis e serviços gerais de reparo, porém não c
     </figcaption>
 </p>
 
-## 3. Referências
+## 3. Resultados
+
+| Número | Requisito                                                                             |
+| ------ | ------------------------------------------------------------------------------------- |
+| 001    | O usuário deve poder ver as empresas ou profissionais que realizam o serviço desejado |
+| 002    | O usuário deve poder pesquisar por categorias de serviço                              |
+| 003    | O usuário deve poder ver os horários disponiveis do prestador do serviço              |
+| 004    | O usuário deve poder avaliar o serviço prestado                                       |
+| 005    | O usuário deve poder entrar em contato com o prestador de serviço                     |
+| 006    | O usuário deve poder compartilhar informações de um prestador de serviço              |
+| 007    | O prestador de serviço deve poder cadastrar seu serviços e categoriza-los             |
+| 008    | O prestador de serviço deve poder informar quais horários tem disponíveis             |
+| 009    | O prestador de serviço deve poder ver seus agendamentos                               |
+| 010    | O prestador de serviço deve poder ver se possui serviços novos                        |
+| 011    | O prestador de serviço deve poder aprovar um serviço marcado para ele                 |
+| 012    | O prestador de serviço deve poder avaliar seus clientes                               |
+
+## 4. Referências
 
 > -   N. Boulila, A. Hoffmann and A. Herrmann, "Using Storytelling to record requirements: Elements for an effective requirements elicitation approach," 2011 Fourth International Workshop on Multimedia and Enjoyable Requirements Engineering (MERE'11), 2011, pp. 9-16, doi: 10.1109/MERE.2011.6043945.
 
