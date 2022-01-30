@@ -20,7 +20,7 @@
         <!-- -   [Metodologia BPMN](./pages/base/planoRisco.md) -->
     -   Iniciativas Extras
         -   [Personas](./pages/base/personas.md)
-        -   [Storyboard](./pages/base/storyboard.md)
+        -   [Storytelling](./pages/base/storyboard.md)
             <!-- -   [TAP](./pages/base/planoRisco.md) -->
             <!-- -   [Guia de Estilo](./pages/base/planoRisco.md) -->
         -   [Guia de Contribuição](./pages/base/guia-contribuicao.md)
