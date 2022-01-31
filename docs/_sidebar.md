@@ -10,7 +10,7 @@
         -   [Causa e Efeito](./pages/base/causaEefeito.md)
         -   [Léxicos](./pages/base/lexicos.md)
         -   [Plano de Riscos](./pages/base/planoRisco.md)
-            <!-- -   [Priorização](./pages/base/planoRisco.md) -->
+        -   [Priorização](./pages/base/moscow.md)
             <!-- -   Técnicas de Elicitação -->
             <!-- -   [Brainstorm](./pages/base/planoRisco.md) -->
         -   [Introspecção](./pages/base/introspeccao.md)
