@@ -13,7 +13,7 @@
             <!-- -   [Priorização](./pages/base/planoRisco.md) -->
             <!-- -   Técnicas de Elicitação -->
             <!-- -   [Brainstorm](./pages/base/planoRisco.md) -->
-            -   [Introspecção](./pages/base/introspeccao.md)
+        -   [Introspecção](./pages/base/introspeccao.md)
             <!-- -   [Questionário](./pages/base/planoRisco.md) -->
     -   Processos/Metodologias/Abordagens
         -   [Metodologia do Projeto](./pages/base/metodologia-do-projeto.md)
