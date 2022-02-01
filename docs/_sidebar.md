@@ -17,7 +17,7 @@
             <!-- -   [Questionário](./pages/base/planoRisco.md) -->
     -   Processos/Metodologias/Abordagens
         -   [Metodologia do Projeto](./pages/base/metodologia-do-projeto.md)
-        <!-- -   [Metodologia BPMN](./pages/base/planoRisco.md) -->
+        -   [Metodologia BPMN](./pages/base/BPMN.md)
     -   Iniciativas Extras
         -   [Personas](./pages/base/personas.md)
         -   [Storytelling](./pages/base/storyboard.md)
