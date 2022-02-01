@@ -32,7 +32,7 @@ O XP é um método de desenvolvimento de software, leve, não é prescritivo, e 
 
 Para um melhor proveito dessa metodologia, uma adaptação será feita para nosso contexto. Com isso foi definido que todas as tarefas do projeto serão planejadas para serem pequenas entregas, para que uma pessoa consiga entregar dentro do prazo definido. A programação em pares será utilizada para que buscar uma integração melhor entre a equipe e criar um sentimento de posse sobre os artefatos produzidos.
 
-### Bibliografias
+### Referências
 
 -   [1] Scrum. Disponível em (https://pt.wikipedia.org/wiki/Scrum)
 
