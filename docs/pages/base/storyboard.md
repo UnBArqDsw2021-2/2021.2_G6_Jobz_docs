@@ -51,29 +51,31 @@ Luis trabalha com montagem de móveis e serviços gerais de reparo, porém não 
 
 ## 3. Resultados
 
-| Número  | Requisito                                                                             |
-| ------- | ------------------------------------------------------------------------------------- |
-| RF01    | O usuário deve poder ver as empresas ou profissionais que realizam o serviço desejado |
-| RF02    | O usuário deve poder pesquisar por categorias de serviço                              |
-| RF03    | O usuário deve poder ver os horários disponiveis do prestador do serviço              |
-| RF04    | O usuário deve poder avaliar o serviço prestado                                       |
-| RF05    | O usuário deve poder entrar em contato com o prestador de serviço                     |
-| RF06    | O usuário deve poder compartilhar informações de um prestador de serviço              |
-| RF07    | O prestador de serviço deve poder cadastrar seu serviços e categoriza-los             |
-| RF08    | O prestador de serviço deve poder informar quais horários tem disponíveis             |
-| RF09    | O prestador de serviço deve poder ver seus agendamentos                               |
-| RF10    | O prestador de serviço deve poder ver se possui serviços novos                        |
-| RF11    | O prestador de serviço deve poder aprovar um serviço marcado para ele                 |
-| RF12    | O prestador de serviço deve poder avaliar seus clientes                               |
+| Número | Requisito                                                                             |
+| ------ | ------------------------------------------------------------------------------------- |
+| RF01   | O usuário deve poder ver as empresas ou profissionais que realizam o serviço desejado |
+| RF02   | O usuário deve poder pesquisar por categorias de serviço                              |
+| RF03   | O usuário deve poder ver os horários disponiveis do prestador do serviço              |
+| RF04   | O usuário deve poder avaliar o serviço prestado                                       |
+| RF05   | O usuário deve poder entrar em contato com o prestador de serviço                     |
+| RF06   | O usuário deve poder compartilhar informações de um prestador de serviço              |
+| RF07   | O prestador de serviço deve poder cadastrar seu serviços e categoriza-los             |
+| RF08   | O prestador de serviço deve poder informar quais horários tem disponíveis             |
+| RF09   | O prestador de serviço deve poder ver seus agendamentos                               |
+| RF10   | O prestador de serviço deve poder ver se possui serviços novos                        |
+| RF11   | O prestador de serviço deve poder aprovar um serviço marcado para ele                 |
+| RF12   | O prestador de serviço deve poder avaliar seus clientes                               |
 
 ## 4. Referências
 
 > -   N. Boulila, A. Hoffmann and A. Herrmann, "Using Storytelling to record requirements: Elements for an effective requirements elicitation approach," 2011 Fourth International Workshop on Multimedia and Enjoyable Requirements Engineering (MERE'11), 2011, pp. 9-16, doi: 10.1109/MERE.2011.6043945.
 
+</div>
+
 ### Histórico de versão
 
-|    Data    | Versão |         Autor           |                         Descrição                                  |
+|    Data    | Versão |          Autor          | Descrição                                                          |
 | :--------: | :----: | :---------------------: | :----------------------------------------------------------------- |
-| 28/01/2022 |  0.1   | Fernando Miranda        |              Adição dos Storyboard                                 |
-| 30/01/2022 |  1.0   | João Victor de Oliveira |      Adição da introdução e das storytellings                      |
-| 01/02/2022 |  1.1   | Fernando Miranda        | Correção de texto e padronização dos identificadores de requisitos |
+| 28/01/2022 |  0.1   |    Fernando Miranda     | Adição dos Storyboard                                              |
+| 30/01/2022 |  1.0   | João Victor de Oliveira | Adição da introdução e das storytellings                           |
+| 01/02/2022 |  1.1   |    Fernando Miranda     | Correção de texto e padronização dos identificadores de requisitos |
