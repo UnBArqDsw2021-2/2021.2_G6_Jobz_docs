@@ -4,7 +4,7 @@
 
 ## 1. Introdução
 
-O Backlog do Produto, ou Backlog, foi introduzido pela primeira vez pelo método ágil Scrum é um artefato utilizado em projetos ágeis[dean], artefato este que consistem em uma lista de pedidos ou requisições do cliente sobre quais comportamentos e funcionalidades o sistema deve possuir para este ser considerado como um produto finalizado[animalesco]. Um backlog pode ser implementado com diferentes níveis de detalhes, entre implementações diferentes, os principais pontos componentes de um backlog são:
+O Backlog do Produto, ou Backlog, foi introduzido pela primeira vez pelo método ágil Scrum é um artefato utilizado em projetos ágeis, artefato este que consistem em uma lista de pedidos ou requisições do cliente sobre quais comportamentos e funcionalidades o sistema deve possuir para este ser considerado como um produto finalizado. Um backlog pode ser implementado com diferentes níveis de detalhes, entre implementações diferentes, os principais pontos componentes de um backlog são:
 
  - Tema(Theme);
  - Épicos(Epics);
@@ -12,18 +12,18 @@ O Backlog do Produto, ou Backlog, foi introduzido pela primeira vez pelo método
  - Histórias de Usuário(User Stories);
  - Tarefas(Tasks);
 
-O **Tema** em um backlog do produto é o componente que possui a granularidade mais alta em um backlog, tratando de uma relação direta entre o backlog e o objetivo do projeto, pode-se dizer que o tema descreve a visão do produto, representando os princípios que agregam valor à aplicação[animalesco].
+O **Tema** em um backlog do produto é o componente que possui a granularidade mais alta em um backlog, tratando de uma relação direta entre o backlog e o objetivo do projeto, pode-se dizer que o tema descreve a visão do produto, representando os princípios que agregam valor à aplicação.
 
 
-**Épicos** são formados por um conjunto de funcionalidades, os épicos são representações expressadas em alto nível, ou mais próxima as necessidades reais, de um grupo de funcionalidades que o cliente precisa que o software execute. Os Épicos também podem ser descritos como histórias de usuário que são grandes demais para serem implementadas em um único ciclo de desenvolvimento Mike Cohn(2010), que deverão ser subdivididas em histórias até estas poderem ser implementadas em um único ciclo.[karl]
+**Épicos** são formados por um conjunto de funcionalidades, os épicos são representações expressadas em alto nível, ou mais próxima as necessidades reais, de um grupo de funcionalidades que o cliente precisa que o software execute. Os Épicos também podem ser descritos como histórias de usuário que são grandes demais para serem implementadas em um único ciclo de desenvolvimento Mike Cohn(2010), que deverão ser subdivididas em histórias até estas poderem ser implementadas em um único ciclo.
 
 
-**Funcionalidades** - Enquanto os épicos tratam de um nível superior das necessidades do cliente com um produto de software, as funcionalidades são especificações de processos que se decompões em histórias de usuário e vão descrever melhor quais responsabilidades do software.[animalesco]
+**Funcionalidades** - Enquanto os épicos tratam de um nível superior das necessidades do cliente com um produto de software, as funcionalidades são especificações de processos que se decompões em histórias de usuário e vão descrever melhor quais responsabilidades do software.
 
 
-As **Histórias de usuário** são descrições focadas na visão do usuário, em que as funcionalidades serão necessárias, descrições que devem ser entendidas tanto por clientes, quanto pelos desenvolvedores e tem o objetivo de contextualizar o desenvolvimento de uma funcionalidade que o sistema precisa atender.[dean]
+As **Histórias de usuário** são descrições focadas na visão do usuário, em que as funcionalidades serão necessárias, descrições que devem ser entendidas tanto por clientes, quanto pelos desenvolvedores e tem o objetivo de contextualizar o desenvolvimento de uma funcionalidade que o sistema precisa atender.
 
-As **Tarefas** representam o menor nível de granularidade nas descrições de requisitos registradas no backlog do produto. As tarefas são pré-requisitos para que uma história de usuário possa ser completada. [dean]
+As **Tarefas** representam o menor nível de granularidade nas descrições de requisitos registradas no backlog do produto. As tarefas são pré-requisitos para que uma história de usuário possa ser completada.
 
 
 ## 2. Conteudo
