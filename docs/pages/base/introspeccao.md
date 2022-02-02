@@ -1,6 +1,7 @@
 # <center>Introspecção
 
 <div align="justify">
+
 ## 1. Introdução
 
 A técnica de Introspecção demanda ao responsável pelo levantamento de requisitos que se coloque no lugar do cliente e descreva requisitos e funcionalidades que gostaria que estivessem presentes no produto. Portanto, foi feito o uso das personas, colocando-se no lugar dos clientes dos diferentes perfis da aplicação, identificando seus possíveis desejos e principais necessidades. Foram utilizados as personas `Pedro Oliveira` como cliente e `Mariana Freitas` como prestadora de serviço.
