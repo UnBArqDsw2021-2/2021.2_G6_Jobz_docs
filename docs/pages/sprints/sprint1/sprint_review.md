@@ -22,12 +22,11 @@ Membros faltantes: Nenhum
 | [#9](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/9)   | 5W2H                                                     | -         | Todos os membros   |
 | [#10](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/10) | Guia de contribuição                                     | -         | Alvaro             |
 | [#12](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/12) | Metodologia de projeto                                   | -         | João               |
+| [#11](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/11) | Storyboard                                               | -         | Fernando e João    |
 
 ### Pontuação entregue na sprint: -
 
 ## Dívidas técnicas
-
-| [#11](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/11) | Storyboard | - | Fernando e João |
 
 ## Burndown
 
