@@ -14,7 +14,7 @@
       <!-- -   Técnicas de Elicitação -->
       <!-- -   [Brainstorm](./pages/base/planoRisco.md) -->
     - [Introspecção](./pages/base/introspeccao.md)
-      <!-- -   [Questionário](./pages/base/planoRisco.md) -->
+    - [Questionário](./pages/base/planoRisco.md)
     - [Mapa mental](./pages/base/mapaMental.md)
       <!-- -   [mapaMental](./pages/base/mapaMental.md) -->
   - Processos/Metodologias/Abordagens
@@ -24,7 +24,7 @@
     - [Personas](./pages/base/personas.md)
     - [Storytelling](./pages/base/storyboard.md)
       <!-- -   [TAP](./pages/base/planoRisco.md) -->
-      <!-- -   [Guia de Estilo](./pages/base/planoRisco.md) -->
+      - [Guia de Estilo](./pages/base/planoRisco.md)
     - [Guia de Contribuição](./pages/base/guia-contribuicao.md)
     - [Product Backlog](./pages/base/backlog.md)
       <!-- -   [Protótipo de Média Fidelidade](./pages/base/planoRisco.md) -->
