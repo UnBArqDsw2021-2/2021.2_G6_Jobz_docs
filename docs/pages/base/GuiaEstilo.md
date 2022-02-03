@@ -16,7 +16,7 @@
 	Temos 3 elementos que compõem a logo, a palavra em sí, cujo objetivo é associar mais facilmente o nome da aplicação, o 'O' representado pela engrenagem, para passar rapidamente a ideia de um serviço de consertos, e o degrade de cores, característica de logos modernas, para contribuir com a proposta de práticidade e efciencia da aplicação.
 </p>
 
-<img src='assets/images/JobzV2semfundo.png' width=auto height=auto>
+<img src='assets/images/logo.png' width=auto height=auto>
 
 ## 4. Paleta de Cores.
 <p align = "justify">
