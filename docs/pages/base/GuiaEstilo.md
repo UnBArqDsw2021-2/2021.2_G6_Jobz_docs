@@ -27,7 +27,7 @@
 <img src='assets/images/colorpallet1.jpg' width=auto height=auto>
 
 
-<img src='assets/images/colorpallet1.jpg' width=auto height=auto>
+<img src='assets/images/colorpallet2.jpg' width=auto height=auto>
 
 ## 5. Versionamento
 
