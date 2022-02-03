@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 <p align = "justify">
-	Aqui vamos definir as diretrizes básicas escolhidas para o trabalho, com o conceito do projeto, logo e paleta de cores.
+	Aqui vamos definir as diretrizes básicas escolhidas para o trabalho, com o conceito do projeto, logo e paleta de cores que serão utilizadas como padrão durante todo o projeto.
 </p>
 
 ## 2. Conceito.
@@ -31,6 +31,7 @@
 
 ## 5. Versionamento
 
-| Versão | Data       | Modificação          | Autor(es)        |
-| :----: | ---------- | -------------------- | ---------------- |
-|  1.0   | 02/02/2022 | Criação do documento | Ariel Serafim    |
+| Versão | Data       | Modificação          | Autor(es)           |
+| :----: | ---------- | -------------------- | ------------------- |
+|  1.0   | 02/02/2022 | Criação do documento | Ariel Serafim       |
+|  1.1   | 03/02/2022 | Revisão do documento | Lorrayne Cardozo    |

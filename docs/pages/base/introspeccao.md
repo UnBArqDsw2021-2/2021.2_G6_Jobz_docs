@@ -38,7 +38,6 @@ A técnica de Introspecção demanda ao responsável pelo levantamento de requis
 
 > Elicitação de Requisitos. PUC-RIO. Disponível em: https://www2.dbd.puc-rio.br/pergamum/tesesabertas/0521479_08_cap_02.pdf. Data de acesso: 29 de janeiro de 2022.
 
-</div>
 ## 4. Versionamento
 
 |    Data    | Versão |        Modificação        |    Autor(res)    |
@@ -46,3 +45,5 @@ A técnica de Introspecção demanda ao responsável pelo levantamento de requis
 | 30/01/2022 |  1.0   |   Criação do documento    | Lorrayne Cardozo |
 | 02/02/2022 |  1.1   | Adição de mais requisitos | Lorrayne Cardozo |
 | 03/02/2022 |  1.2   | Remoção de requisitos duplicados | Antônio Aldisio |
+
+</div>
