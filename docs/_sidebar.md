@@ -21,6 +21,7 @@
     - [Metodologia do Projeto](./pages/base/metodologia-do-projeto.md)
     - [Metodologia BPMN](./pages/base/BPMN.md)
   - Iniciativas Extras
+    - [Termo de Abertura](./pages/base/termodeabertura.md)
     - [Personas](./pages/base/personas.md)
     - [Storytelling](./pages/base/storyboard.md)
       <!-- -   [TAP](./pages/base/planoRisco.md) -->
