@@ -16,8 +16,7 @@
 	Temos 3 elementos que compõem a logo, a palavra em sí, cujo objetivo é associar mais facilmente o nome da aplicação, o 'O' representado pela engrenagem, para passar rapidamente a ideia de um serviço de consertos, e o degrade de cores, característica de logos modernas, para contribuir com a proposta de práticidade e efciencia da aplicação.
 </p>
 
-<img width="600px"  class="center" src="assets/images/JobzV2semfundo.png" alt="Logo">
-<figcaption><center>Figura 01 - Logo Jobz!.<br></center></figcaption>
+<img src='assets/images/JobzV2semfundo.png' width=auto height=auto>
 
 ## 4. Paleta de Cores.
 <p align = "justify">
@@ -25,11 +24,10 @@
 	A segunda usa tons de verde mais escuros, cujo objetivo é estar em contraste com a logo.
 </p>
 
-<img width="600px"  class="center" src="assets/images/colorpallet1.jpg" alt="consonancia">
-<figcaption><center>Figura 02 - Paleta de cores em consonância com a logo.<br></center></figcaption>
+<img src='assets/images/colorpallet1.jpg' width=auto height=auto>
 
-<img width="600px"  class="center" src="assets/images/colorpallet1.jpg" alt="contraste">
-<figcaption><center>Figura 03 - Paleta de Cores em contraste com a logo.<br></center></figcaption>
+
+<img src='assets/images/colorpallet1.jpg' width=auto height=auto>
 
 ## 5. Versionamento
 
