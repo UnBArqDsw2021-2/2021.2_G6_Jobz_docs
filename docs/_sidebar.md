@@ -24,7 +24,7 @@
     - [Personas](./pages/base/personas.md)
     - [Storytelling](./pages/base/storyboard.md)
       <!-- -   [TAP](./pages/base/planoRisco.md) -->
-      - [Guia de Estilo](./pages/base/planoRisco.md)
+    - [Guia de Estilo](./pages/base/GuiaEstilo.md)
     - [Guia de Contribuição](./pages/base/guia-contribuicao.md)
     - [Product Backlog](./pages/base/backlog.md)
       <!-- -   [Protótipo de Média Fidelidade](./pages/base/planoRisco.md) -->
