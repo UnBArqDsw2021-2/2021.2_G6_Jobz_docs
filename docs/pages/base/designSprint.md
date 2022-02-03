@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="../../assets/css/slider.css">
+<link rel="stylesheet" type="text/css" href="assets/css/slider.css">
 
 # <center>Design Sprint
 
