@@ -1,4 +1,5 @@
-<style src='assets/css/slider.css'></style>
+<link rel="stylesheet" type="text/css" href="../../assets/css/slider.css">
+
 # <center>Design Sprint
 
 ## 1. Introdução
@@ -75,16 +76,16 @@ Após a discussão sobre o Brainstorming foram levantadas diversas ideias que se
 Na etapa de decisão, a equipe voltou a se reunir por volta de 30 minutos e elaborou um [Rich Picture](./richPicture.md) que melhor se adequa ao projeto, se baseando nos desenhos criados anteriormente pelos integrantes, além de desenvolver [Storyboards](./storyboard.md).
 
 <img width="500px"  class="center" src='assets/images/RichPicuture_v02 .jpeg' alt="rich01">
-<figcaption><center>Figura 0 - Rich Picture final.<br></center></figcaption>
+<figcaption><center>Figura 01 - Rich Picture final.<br></center></figcaption>
 
 <img width="500px"  class="center" src='assets/images/storyboard1.png' alt="storyboard1">
-<figcaption><center>Figura 0 - Storyboard demonstrando um serviço de montagem de móveis.<br></center></figcaption>
+<figcaption><center>Figura 02 - Storyboard demonstrando um serviço de montagem de móveis.<br></center></figcaption>
 
 <img width="500px"  class="center" src='assets/images/storyboard2.png' alt="storyboard2">
-<figcaption><center>Figura 0 - Storyboard demonstrando um serviço de conserto de computador.<br></center></figcaption>
+<figcaption><center>Figura 03 - Storyboard demonstrando um serviço de conserto de computador.<br></center></figcaption>
 
 <img width="500px"  class="center" src='assets/images/storyboard3.png' alt="storyboard3">
-<figcaption><center>Figura 0 - Storyboard demonstrando um serviço de conserto de computador.<br></center></figcaption>
+<figcaption><center>Figura 04 - Storyboard demonstrando um serviço de conserto de computador.<br></center></figcaption>
 
 
 ### 2.4. Prototype
