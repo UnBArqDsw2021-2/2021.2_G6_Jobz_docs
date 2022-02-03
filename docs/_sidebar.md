@@ -6,17 +6,15 @@
     - [Design Sprint](./pages/base/designSprint.md)
     - [Rich Picture](./pages/base/richPicture.md)
     - [5W2H](./pages/base/5w2h.md)
-    <!-- -   [Mapa Mental](./pages/base/planoRisco.md) -->
     - [Causa e Efeito](./pages/base/causaEefeito.md)
     - [Léxicos](./pages/base/lexicos.md)
     - [Plano de Riscos](./pages/base/planoRisco.md)
     - [Priorização](./pages/base/moscow.md)
-      <!-- -   Técnicas de Elicitação -->
-      <!-- -   [Brainstorm](./pages/base/planoRisco.md) -->
+        <!-- -   Técnicas de Elicitação -->
+      [Brainstorm](./pages/base/brainstorm.md)
     - [Introspecção](./pages/base/introspeccao.md)
     - [Questionário](./pages/base/questionario.md)
     - [Mapa mental](./pages/base/mapaMental.md)
-      <!-- -   [mapaMental](./pages/base/mapaMental.md) -->
   - Processos/Metodologias/Abordagens
     - [Metodologia do Projeto](./pages/base/metodologia-do-projeto.md)
     - [Metodologia BPMN](./pages/base/BPMN.md)
@@ -24,11 +22,10 @@
     - [Termo de Abertura](./pages/base/termodeabertura.md)
     - [Personas](./pages/base/personas.md)
     - [Storytelling](./pages/base/storyboard.md)
-      <!-- -   [TAP](./pages/base/planoRisco.md) -->
     - [Guia de Estilo](./pages/base/GuiaEstilo.md)
     - [Guia de Contribuição](./pages/base/guia-contribuicao.md)
     - [Product Backlog](./pages/base/backlog.md)
-      <!-- -   [Protótipo de Média Fidelidade](./pages/base/planoRisco.md) -->
+      <!-- -   [Protótipo de Média Fidelidade](./pages/base/prototipo.md) -->
 
 - **Sprints**
   - Sprint 1

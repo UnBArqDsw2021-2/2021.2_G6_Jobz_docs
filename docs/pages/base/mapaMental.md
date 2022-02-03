@@ -12,19 +12,19 @@
 
 ### 2.1 Tema do projeto
 
-<img src='assets/images/mapaTemas.png' width=auto height=auto>
+<img src='assets/images/mapaMental/mapaTemas.png' width=auto height=auto>
 
 ### 2.2 Subtema do projeto
 
-<img src='assets/images/mapaSubTemas.png' width=auto height=auto>
+<img src='assets/images/mapaMental/mapaSubTemas.png' width=auto height=auto>
 
 ### 2.3 Nome do projeto
 
-<img src='assets/images/nomeTema.png' width=auto height=auto>
+<img src='assets/images/mapaMental/nomeTema.png' width=auto height=auto>
 
 ### 2.4 Mvp do projeto
 
-<img src='assets/images/MVP.png' width=auto height=auto>
+<img src='assets/images/mapaMental/MVP.png' width=auto height=auto>
 
 ## 3. Referências
 
