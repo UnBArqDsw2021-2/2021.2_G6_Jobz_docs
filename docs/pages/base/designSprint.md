@@ -1,65 +1,4 @@
-<style>
-* { margin: 0; padding: 0; }
-.slider {
-    display: block;
-    height: auto;
-    width: 200;
-    margin: auto;
-    margin-top: 20px;
-    position: relative;
-}
-
-.slider li {
-    list-style: none;
-    position: absolute;
-}
-
-.slider img {
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    vertical-align: top;
-}
-
-.slider input {
-    display: none;
-}
-
-.slider label {
-    background-color: #000;
-    bottom: 10px;
-    cursor: pointer;
-    display: block;
-    height: 10px;
-    position: absolute;
-    width: 10px;
-    z-index: 10;
-}
-
-.slider li:nth-child(1) label {
-    left: 10px;
-}
-
-.slider li:nth-child(2) label {
-    left: 40px;
-}
-
-.slider li:nth-child(3) label {
-    left: 70px;
-}
-
-.slider img {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.slider li input:checked ~ img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
-}
-
-</style>
+<style src='assets/css/slider.css'></style>
 # <center>Design Sprint
 
 ## 1. Introdução
@@ -81,19 +20,54 @@ Após a discussão sobre o Brainstorming foram levantadas diversas ideias que se
 
 <ul class="slider">
     <li>
-        <input type="radio" id="slide1" name="slide" checked>
-        <label for="slide1"></label>
-        <img src="assets/images/rich-Alvaro.jpeg" />
+          <input type="radio" id="slide1" name="slide" checked>
+          <label for="slide1"></label>
+          <img src="assets/images/rich-Alvaro.jpeg" />
     </li>
     <li>
-        <input type="radio" id="slide2" name="slide">
-        <label for="slide2"></label>
-        <img src="assets/images/rich-antonio.jpeg" />
+          <input type="radio" id="slide2" name="slide">
+          <label for="slide2"></label>
+          <img src="assets/images/rich-antonio.jpeg" />
     </li>
     <li>
-        <input type="radio" id="slide3" name="slide">
-        <label for="slide3"></label>
-        <img src="assets/images/rich-ariel.png" />
+          <input type="radio" id="slide3" name="slide">
+          <label for="slide3"></label>
+          <img src="assets/images/rich-ariel.png" />
+    </li>
+    <li>
+        <input type="radio" id="slide4" name="slide">
+        <label for="slide4"></label>
+        <img src="assets/images/rich-balbino.png" />
+  </li>
+  <li>
+        <input type="radio" id="slide5" name="slide">
+        <label for="slide5"></label>
+        <img src="assets/images/rich-braz.png" />
+        </li>
+    <li>
+        <input type="radio" id="slide6" name="slide">
+        <label for="slide6"></label>
+        <img src="assets/images/rich-ferando.jpeg" />
+    </li>
+    <li>
+        <input type="radio" id="slide7" name="slide">
+        <label for="slide7"></label>
+        <img src="assets/images/rich-joao.png" />
+    </li>
+    <li>
+        <input type="radio" id="slide8" name="slide">
+        <label for="slide8"></label>
+        <img src="assets/images/rich-lorrayne.png" />
+    </li>
+    <li>
+        <input type="radio" id="slide9" name="slide">
+        <label for="slide9"></label>
+        <img src="assets/images/rich-luis.png" />
+    </li>
+    <li>
+        <input type="radio" id="slide10" name="slide">
+        <label for="slide10"></label>
+        <img src="assets/images/rich-ph.jpeg" />
     </li>
 </ul>
 
