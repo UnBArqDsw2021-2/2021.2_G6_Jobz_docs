@@ -1,0 +1,99 @@
+* { margin: 0; padding: 0; }
+
+.slider {
+display: block;
+margin: auto;
+height: 293px;
+width: 600px;
+margin-top: 20px;
+position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    margin-bottom: 20px;
+    height: 450px;
+    width: auto;
+    vertical-align: top;
+}
+
+.slider figcaption {
+    margin: auto;
+    height: 450px;
+    width: auto;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.slider input {
+    display: none;
+} 
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    border-radius:25px;
+    width: 10px;
+    z-index: 10;
+    margin-left: 80px;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider li:nth-child(4) label {
+    left: 100px;
+}
+
+.slider li:nth-child(5) label {
+    left: 130px;
+}
+
+.slider li:nth-child(6) label {
+    left: 160px;
+}
+
+.slider li:nth-child(7) label {
+    left: 190px;
+}
+
+.slider li:nth-child(8) label {
+    left: 220px;
+}
+
+.slider li:nth-child(9) label {
+    left: 250px;
+}
+
+.slider li:nth-child(10) label {
+    left: 280px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
