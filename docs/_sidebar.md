@@ -4,7 +4,7 @@
 
   - Projeto Não Orientado a Abordagens Específicas
     - [Design Sprint](./pages/base/designSprint.md)
-    <!-- -   [Rich Picture](./pages/base/planoRisco.md) -->
+    - [Rich Picture](./pages/base/planoRisco.md)
     - [5W2H](./pages/base/5w2h.md)
     <!-- -   [Mapa Mental](./pages/base/planoRisco.md) -->
     - [Causa e Efeito](./pages/base/causaEefeito.md)
