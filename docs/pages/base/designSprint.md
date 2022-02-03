@@ -83,17 +83,17 @@ Após a discussão sobre o Brainstorming foram levantadas diversas ideias que se
     <li>
         <input type="radio" id="slide1" name="slide" checked>
         <label for="slide1"></label>
-        <img src="../../assets/images/rich-Alvaro.jpeg" />
+        <img src="../../../assets/images/rich-Alvaro.jpeg" />
     </li>
     <li>
         <input type="radio" id="slide2" name="slide">
         <label for="slide2"></label>
-        <img src="../../assets/images/rich-antonio.jpeg" />
+        <img src="../../../assets/images/rich-antonio.jpeg" />
     </li>
     <li>
         <input type="radio" id="slide3" name="slide">
         <label for="slide3"></label>
-        <img src="../../assets/images/rich-ariel.png" />
+        <img src="../../../assets/images/rich-ariel.png" />
     </li>
 </ul>
 
