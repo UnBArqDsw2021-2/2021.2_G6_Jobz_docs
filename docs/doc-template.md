@@ -9,7 +9,7 @@
 ### 2.1 ADIÇÃO DE IMAGENS
 
 <p align='center'>
-    <img src='assets/images/logo.png' width=40% height=auto>
+    <img src='assets/images/guia_estilo/logo.png' width=40% height=auto>
     <figcaption align='center'>
         <b>Figura 1: DESCRIÇÃO DA IMAGEM</b>
         <br>

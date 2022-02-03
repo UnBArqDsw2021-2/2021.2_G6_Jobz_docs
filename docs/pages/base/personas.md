@@ -8,7 +8,7 @@ As personas são um grupo de personagens fictícios criados com o objetivo de si
 
 | <h3>Persona Primária |                                                                                                                                                                                           |
 | :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Foto                 | <img src='assets/images/persona1.jpeg' width=150px height=auto>                                                                                                                           |
+| Foto                 | <img src='assets/images/personas/persona1.jpeg' width=150px height=auto>                                                                                                                  |
 | Nome                 | Pedro Oliveira                                                                                                                                                                            |
 | Idade                | 30 anos                                                                                                                                                                                   |
 | Escolaridade         | Ensino superior completo                                                                                                                                                                  |
@@ -19,7 +19,7 @@ As personas são um grupo de personagens fictícios criados com o objetivo de si
 
 | <h3>Persona Secundária |                                                                                                                                                                                                                                                                     |
 | :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Foto                   | <img src='assets/images/persona2.jpeg' width=150px height=auto>                                                                                                                                                                                               |
+| Foto                   | <img src='assets/images/personas/persona2.jpeg' width=150px height=auto>                                                                                                                                                                                            |
 | Nome                   | Ana de Souza                                                                                                                                                                                                                                                        |
 | Idade                  | 32 anos                                                                                                                                                                                                                                                             |
 | Escolaridade           | Ensino superior completo                                                                                                                                                                                                                                            |
@@ -30,7 +30,7 @@ As personas são um grupo de personagens fictícios criados com o objetivo de si
 
 | <h3>Persona Terciária |                                                                                                                                                                                                                                                                                          |
 | :-------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Foto                  | <img src='assets/images/persona3.jpeg' width=140px height=auto>                                                                                                                                                                                                                    |
+| Foto                  | <img src='assets/images/personas/persona3.jpeg' width=140px height=auto>                                                                                                                                                                                                                 |
 | Nome                  | Mariana Freitas                                                                                                                                                                                                                                                                          |
 | Idade                 | 27 anos                                                                                                                                                                                                                                                                                  |
 | Escolaridade          | Ensino médio completo                                                                                                                                                                                                                                                                    |
@@ -41,7 +41,7 @@ As personas são um grupo de personagens fictícios criados com o objetivo de si
 
 | <h3>Antipersona |                                                                              |
 | :-------------- | :--------------------------------------------------------------------------- |
-| Foto            | <img src='assets/images/antipersona.jpeg' width=270px height=auto>     |
+| Foto            | <img src='assets/images/personas/antipersona.jpeg' width=270px height=auto>  |
 | Nome            | José Alves                                                                   |
 | Idade           | 71 anos                                                                      |
 | Escolaridade    | Ensino médio completo                                                        |
