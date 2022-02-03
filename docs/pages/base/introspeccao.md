@@ -31,8 +31,8 @@ A técnica de Introspecção demanda ao responsável pelo levantamento de requis
 | RF19 | Mariana Freitas |                  Visualizar seus serviços marcados                   |
 | RF20 | Mariana Freitas |                  Cadastrar serviço e categorizá-lo                   |
 | RF21 | Mariana Freitas |         Cadastrar horário disponivel para realizar o serviço         |
-| RF22 | Mariana Freitas |             Visualizar localização e endereço do cliente             |
-| RF23 | Mariana Freitas |             Visualizar localização e endereço do cliente             |
+
+
 
 ## 3. Referências
 
@@ -45,3 +45,4 @@ A técnica de Introspecção demanda ao responsável pelo levantamento de requis
 | :--------: | :----: | :-----------------------: | :--------------: |
 | 30/01/2022 |  1.0   |   Criação do documento    | Lorrayne Cardozo |
 | 02/02/2022 |  1.1   | Adição de mais requisitos | Lorrayne Cardozo |
+| 03/02/2022 |  1.2   | Remoção de requisitos duplicados | Antônio Aldisio |
