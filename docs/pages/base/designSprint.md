@@ -1,3 +1,65 @@
+<style>
+* { margin: 0; padding: 0; }
+.slider {
+    display: block;
+    height: auto;
+    width: 200;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+</style>
 # <center>Design Sprint
 
 ## 1. Introdução
@@ -16,6 +78,24 @@ A etapa de entendimento do projeto foi feita durante cerca de 30 minutos utiliza
 
 ### 2.2. Sketch
 Após a discussão sobre o Brainstorming foram levantadas diversas ideias que serviram como inspiração para a próxima etapa. Foi reservado cerca de 1 hora para a etapa de esboço, em que cada integrante da equipe produziu um Rich Picture.
+
+<ul class="slider">
+    <li>
+        <input type="radio" id="slide1" name="slide" checked>
+        <label for="slide1"></label>
+        <img src="../../assets/images/rich-Alvaro.jpeg" />
+    </li>
+    <li>
+        <input type="radio" id="slide2" name="slide">
+        <label for="slide2"></label>
+        <img src="../../assets/images/rich-antonio.jpeg" />
+    </li>
+    <li>
+        <input type="radio" id="slide3" name="slide">
+        <label for="slide3"></label>
+        <img src="../../assets/images/rich-ariel.png" />
+    </li>
+</ul>
 
 ### 2.3. Decision
 Na etapa de decisão, a equipe voltou a se reunir por volta de 30 minutos e escolheu o [Rich Picture]() que melhor se adequa ao projeto, além de desenvolver um [Storyboard]().
