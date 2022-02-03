@@ -14,7 +14,7 @@
       <!-- -   Técnicas de Elicitação -->
       <!-- -   [Brainstorm](./pages/base/planoRisco.md) -->
     - [Introspecção](./pages/base/introspeccao.md)
-    - [Questionário](./pages/base/planoRisco.md)
+    - [Questionário](./pages/base/questionario.md)
     - [Mapa mental](./pages/base/mapaMental.md)
       <!-- -   [mapaMental](./pages/base/mapaMental.md) -->
   - Processos/Metodologias/Abordagens
