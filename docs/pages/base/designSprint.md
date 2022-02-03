@@ -28,52 +28,52 @@ Após a discussão sobre o Brainstorming foram levantadas diversas ideias que se
     <li align='center'>
           <input type="radio" id="slide1" name="slide" checked>
           <label for="slide1"></label>
-          <img src="assets/images/rich-Alvaro.jpeg" />
+          <img src="assets/images/rich_pictures/rich-Alvaro.jpeg" />
     </li>
     <li align='center'>
           <input type="radio" id="slide2" name="slide">
           <label for="slide2"></label>
-          <img src="assets/images/rich-antonio.jpeg" />
+          <img src="assets/images/rich_pictures/rich-antonio.jpeg" />
     </li>
     <li align='center'>
           <input type="radio" id="slide3" name="slide">
           <label for="slide3"></label>
-          <img src="assets/images/rich-ariel.png" />
+          <img src="assets/images/rich_pictures/rich-ariel.png" />
     </li>
     <li align='center'>
         <input type="radio" id="slide4" name="slide">
         <label for="slide4"></label>
-        <img src="assets/images/rich-balbino.png" />
+        <img src="assets/images/rich_pictures/rich-balbino.png" />
     </li>
     <li align='center'>
         <input type="radio" id="slide5" name="slide">
         <label for="slide5"></label>
-        <img src="assets/images/rich-braz.png" />
+        <img src="assets/images/rich_pictures/rich-braz.png" />
         </li>
     <li align='center'>
         <input type="radio" id="slide6" name="slide">
         <label for="slide6"></label>
-        <img src="assets/images/rich-ferando.jpeg" />
+        <img src="assets/images/rich_pictures/rich-ferando.jpeg" />
     </li>
     <li align='center'>
         <input type="radio" id="slide7" name="slide">
         <label for="slide7"></label>
-        <img src="assets/images/rich-joao.png" />
+        <img src="assets/images/rich_pictures/rich-joao.png" />
     </li>
     <li align='center'>
         <input type="radio" id="slide8" name="slide">
         <label for="slide8"></label>
-        <img src="assets/images/rich-lorrayne.png" />
+        <img src="assets/images/rich_pictures/rich-lorrayne.png" />
     </li>
     <li align='center'>
         <input type="radio" id="slide9" name="slide">
         <label for="slide9"></label>
-        <img src="assets/images/rich-luis.png" />
+        <img src="assets/images/rich_pictures/rich-luis.png" />
     </li>
     <li align='center'>
         <input type="radio" id="slide10" name="slide">
         <label for="slide10"></label>
-        <img src="assets/images/rich-ph.jpeg" />
+        <img src="assets/images/rich_pictures/rich-ph.jpeg" />
     </li>
 </ul>
 
@@ -81,22 +81,22 @@ Após a discussão sobre o Brainstorming foram levantadas diversas ideias que se
 Na etapa de decisão, a equipe voltou a se reunir por volta de 30 minutos e elaborou um [Rich Picture](https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/richPicture) que melhor se adequa ao projeto, se baseando nos desenhos criados anteriormente pelos integrantes, além de desenvolver [Storyboards](https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/storyboard).
 
 <p align='center'>
-    <img src='assets/images/RichPicuture_v02 .jpeg' width=auto height=auto>
+    <img src='assets/images/rich_pictures/RichPicuture_v02 .jpeg' width=auto height=auto>
     <figcaption><center>Figura 02 - Versão final do Rich Picture.<br></center></figcaption>
 </p>
 
 <p align='center'>
-    <img src='assets/images/storyboard1.png' width=auto height=auto>
+    <img src='assets/images/storyBoards/storyboard1.png' width=auto height=auto>
     <figcaption><center>Figura 03 - Storyboard demonstrando um serviço de montagem de móveis.<br></center></figcaption>
 </p>
 
 <p align='center'>
-    <img src='assets/images/storyboard2.png' width=auto height=auto>
+    <img src='assets/images/storyBoards/storyboard2.png' width=auto height=auto>
     <figcaption><center>Figura 04 - Storyboard demonstrando um serviço de conserto de computador.<br></center></figcaption>
 </p>
 
 <p align='center'>
-    <img src='assets/images/storyboard3.png' width=auto height=auto>
+    <img src='assets/images/storyBoards/storyboard3.png' width=auto height=auto>
     <figcaption><center>Figura 05 - Storyboard demonstrando um serviço de conserto de computador.<br></center></figcaption>
 </p>
 
