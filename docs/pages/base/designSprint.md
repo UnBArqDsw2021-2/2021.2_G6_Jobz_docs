@@ -83,22 +83,35 @@ Após a discussão sobre o Brainstorming foram levantadas diversas ideias que se
     <li>
         <input type="radio" id="slide1" name="slide" checked>
         <label for="slide1"></label>
-        <img src="../../../assets/images/rich-Alvaro.jpeg" />
+        <img src="assets/images/rich-Alvaro.jpeg" />
     </li>
     <li>
         <input type="radio" id="slide2" name="slide">
         <label for="slide2"></label>
-        <img src="../../../assets/images/rich-antonio.jpeg" />
+        <img src="assets/images/rich-antonio.jpeg" />
     </li>
     <li>
         <input type="radio" id="slide3" name="slide">
         <label for="slide3"></label>
-        <img src="../../../assets/images/rich-ariel.png" />
+        <img src="assets/images/rich-ariel.png" />
     </li>
 </ul>
 
 ### 2.3. Decision
-Na etapa de decisão, a equipe voltou a se reunir por volta de 30 minutos e escolheu o [Rich Picture]() que melhor se adequa ao projeto, além de desenvolver um [Storyboard]().
+Na etapa de decisão, a equipe voltou a se reunir por volta de 30 minutos e elaborou um [Rich Picture](./richPicture.md) que melhor se adequa ao projeto, se baseando nos desenhos criados anteriormente pelos integrantes, além de desenvolver [Storyboards](./storyboard.md).
+
+<img width="500px"  class="center" src='assets/images/RichPicuture_v02 .jpeg' alt="rich01">
+<figcaption><center>Figura 0 - Rich Picture final.<br></center></figcaption>
+
+<img width="500px"  class="center" src='assets/images/storyboard1.png' alt="storyboard1">
+<figcaption><center>Figura 0 - Storyboard demonstrando um serviço de montagem de móveis.<br></center></figcaption>
+
+<img width="500px"  class="center" src='assets/images/storyboard2.png' alt="storyboard2">
+<figcaption><center>Figura 0 - Storyboard demonstrando um serviço de conserto de computador.<br></center></figcaption>
+
+<img width="500px"  class="center" src='assets/images/storyboard3.png' alt="storyboard3">
+<figcaption><center>Figura 0 - Storyboard demonstrando um serviço de conserto de computador.<br></center></figcaption>
+
 
 ### 2.4. Prototype
 Por fim, a equipe trabalhou cerca de 2 horas na construção de um [Protótipo de Baixa/Média Fidelidade](), afim de representar as ideias levantadas pela equipe.
