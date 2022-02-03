@@ -12,7 +12,29 @@ Dentro do projeto em questão, a metodologia BPMN foi utilizada para "desenhar" 
 
 ## 2. Resultado
 
+* ### Desdobramento requisitos e Metodologia 
+
+<img src='assets/images/BPMN1.png' width=auto height=auto>
+
+_Figura 1 - Metodologia adotada pelo grupo._
+
+* ### Design Sprint
+
+<img src='assets/images/BPMN2.png' width=auto height=auto>
+
+_Figura 2 - Detalhamento do trabalho realizado com o Design Sprint._
+
+* ### Sprint Review
+
+<img src='assets/images/BPMN3.png' width=auto height=auto>
+
+_Figura 3 - Detalhamento de como será realizada a Sprint Review._
+
 ## 3. Referências
+
+> SERRANO, Milene; Requisitos - Aula -  DSW - BPMN;
+
+>UM GUIA para iniciar estudos em BPMN (I): Atividades e sequência. [S. l.], 3 fev. 2022. Disponível em: http://blog.iprocess.com.br/2012/11/um-guia-para-iniciar-estudos-em-bpmn-i-atividades-e-sequencia/. Acesso em: 2 fev. 2022.
 
 ## 4. Versionamento
 
@@ -20,3 +42,4 @@ Dentro do projeto em questão, a metodologia BPMN foi utilizada para "desenhar" 
 | :----: | ---------- | -------------------- | ---------------- |
 |  1.0   | 01/02/2022 | Criação do documento | Pedro Campos     |
 |  1.0   | 03/02/2022 | Adição da introdução | Pedro Campos     |
+|  1.0   | 03/02/2022 | Adição resultado obtido e referencias | Pedro Campos   |
