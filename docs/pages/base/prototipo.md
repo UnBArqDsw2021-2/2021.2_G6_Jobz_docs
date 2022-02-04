@@ -3,9 +3,9 @@
 <div align="justify">
 
 ## 1. Introdução
-Um protótipo de media fidelidade tem o intuito de mostrar minimamente como sera a navegação e as possíveis funcionalidades, mas sem focar ainda na estilização e visual final do produto.
+Um protótipo de media fidelidade tem o intuito de mostrar de forma compreensível como será a navegação e as possíveis funcionalidades, mas sem estabelecer de forma concreta a estilização final do produto.
 
-Com isso foram criadas 4 paginas as quais serão mostradas mais detalhadamente a seguir.
+Com isso foram prototipadas 4 páginas as quais serão mostradas mais detalhadamente a seguir.
 
 ## 2. Telas
 
