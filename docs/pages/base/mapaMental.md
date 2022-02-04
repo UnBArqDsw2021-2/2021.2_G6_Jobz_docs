@@ -8,7 +8,8 @@
 
 ## 2. Mapa Mental
 
-<p style= "text-indent: 20px; text-align:justify"></p>Tendo em vista o processo de brainstorm realizada pela equipe, utilizamos dessas ideias para desenvolver uma versão estrutural mais organizada visualmente.
+<p style= "text-indent: 20px; text-align:justify">Tendo em vista o processo de brainstorm realizada pela equipe, utilizamos dessas ideias para desenvolver uma versão estrutural mais organizada visualmente.
+</p>
 
 ### 2.1 Tema do projeto
 
@@ -37,3 +38,4 @@
 | Versão | Data       | Modificação          | Autor(es)       |
 | :----: | ---------- | -------------------- | --------------- |
 |  1.0   | 01/02/2022 | Criação do documento | Rodrigo Balbino |
+|  1.0	 | 04/02/2022  | Revisão do documento | Pedro Campos   |
