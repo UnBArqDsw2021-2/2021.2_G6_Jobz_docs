@@ -1,10 +1,6 @@
-# Metodologia do Projeto
+# <center> Metodologia do Projeto
 
-### Histórico de versão
-
-|    Data    | Versão | Autor (es)  |      Descrição       |
-| :--------: | :----: | :---------: | :------------------: |
-| 28/01/2022 |  1.0   | João Victor | Criação do documento |
+<div align="justify">
 
 ## 1. Introdução
 
@@ -32,8 +28,30 @@ O XP é um método de desenvolvimento de software, leve, não é prescritivo, e 
 
 Para um melhor proveito dessa metodologia, uma adaptação será feita para nosso contexto. Com isso foi definido que todas as tarefas do projeto serão planejadas para serem pequenas entregas, para que uma pessoa consiga entregar dentro do prazo definido. A programação em pares será utilizada para que buscar uma integração melhor entre a equipe e criar um sentimento de posse sobre os artefatos produzidos.
 
+## 2.3. Kanban
+
+O Kanban é uma uma forma de fazer a gestão dos fluxos de desenvolvimento de um projeto, com foco no aumento de produtividade. É um sistema visual de gestão de trabalho que busca conduzir cada tarefa por um fluxo predefinido de trabalho.
+
+Para a aplicação do Kanban, será utilizado o plugin Zenhub, onde as tarefas serão dispostas em cards que correspondem as issues do GitHub.
+
+As pipelines padrões de um Kanban são: `To do`,`Doing`,`Done`. Para nosso contexto serão utilizados as seguintes pipelines:
+
+-   Product Backlog: Todas as tarefas à serem realizadas
+-   Sprint Backlog: Tarefas que devem ser realizadas na Sprint atual
+-   In Progress: Tarefas em andamento
+-   Review/QA: Tarefas aguardando revisão
+-   Closed: Tarefas finalizadas
+
 ### Referências
 
--   [1] Scrum. Disponível em (https://pt.wikipedia.org/wiki/Scrum)
+> Scrum. Disponível em https://pt.wikipedia.org/wiki/Scrum
+> Introdução ao Extreme Programming (XP). Disponível em https://www.devmedia.com.br/introducao-ao-extreme-programming-xp/29249
 
--   [2] Introdução ao Extreme Programming (XP). Disponível em (https://www.devmedia.com.br/introducao-ao-extreme-programming-xp/29249)
+</div>
+
+### Histórico de versão
+
+|    Data    | Versão | Autor (es)  |      Descrição       |
+| :--------: | :----: | :---------: | :------------------: |
+| 28/01/2022 |  1.0   | João Victor | Criação do documento |
+| 04/02/2022 |  1.1   | João Victor |   Adição do Kanban   |

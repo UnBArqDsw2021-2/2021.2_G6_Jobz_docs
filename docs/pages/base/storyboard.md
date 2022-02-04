@@ -74,8 +74,8 @@ Luis trabalha com montagem de móveis e serviços gerais de reparo, porém não 
 
 ### Histórico de versão
 
-|    Data    | Versão |          Autor          | Descrição                                                          |
-| :--------: | :----: | :---------------------: | :----------------------------------------------------------------- |
-| 28/01/2022 |  0.1   |    Fernando Miranda     | Adição dos Storyboard                                              |
-| 30/01/2022 |  1.0   | João Victor de Oliveira | Adição da introdução e das storytellings                           |
-| 01/02/2022 |  1.1   |    Fernando Miranda     | Correção de texto e padronização dos identificadores de requisitos |
+|    Data    | Versão |      Autor       | Descrição                                                          |
+| :--------: | :----: | :--------------: | :----------------------------------------------------------------- |
+| 28/01/2022 |  0.1   | Fernando Miranda | Adição dos Storyboard                                              |
+| 30/01/2022 |  1.0   |   João Victor    | Adição da introdução e das storytellings                           |
+| 01/02/2022 |  1.1   | Fernando Miranda | Correção de texto e padronização dos identificadores de requisitos |
