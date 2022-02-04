@@ -38,4 +38,6 @@ O grau dos riscos é definido pela multiplicação da probabilidade e o impacto,
 | Versão | Data       | Modificação          | Autor(es)           |
 | :----: | ---------- | -------------------- | --------------- |
 |  1.0   | 28/01/2022 | Criação do documento | Luís Fernando Furtado de Araújo |
-| 1.1 | 29/01/2022 | Revisão do documento | Lorrayne Cardozo |
+|  1.1   | 28/01/2022 | Criação da introdução e análise dos riscos | Luís Fernando Furtado de Araújo |
+|  1.2   | 28/01/2022 | Criação do grau dos riscos | Luís Fernando Furtado de Araújo |
+| 1.3 | 29/01/2022 | Revisão do documento | Lorrayne Cardozo |
