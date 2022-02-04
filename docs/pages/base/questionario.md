@@ -61,7 +61,9 @@ O objetivo central é entender se o problema que buscamos resolver é uma demand
 
 ## 3. Análise e Requisitos elicitados
 
- ID   | Requisito |
+### 3.1 Requisito
+
+|ID   | Requisito |
 |:-:   | :-: |  
 | RF01 | Adicionar sessão de ajuda|
 | RF02 | Favoritar categorias de serviço preferido|
@@ -71,7 +73,9 @@ O objetivo central é entender se o problema que buscamos resolver é uma demand
 | RF06 | Criar filtro de busca de serviços |
 | RF07 | Criação de dashboard para o prestador de serviços (com estatísticas com relação ao seu serviço e histórico na plataforma) |
 
- ID   | Requisito nao funcional|
+### 3.2 Requisito nâo funcional
+
+| ID   | Requisito nao funcional|
 |:-:   | :-: |  
 | RNF01 | Interface intuitiva |
 
