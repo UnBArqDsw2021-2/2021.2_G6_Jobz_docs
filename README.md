@@ -1,7 +1,7 @@
 # Jobz
 
 **Código da Disciplina**: FGA0208<br>
-**Número do Grupo**: XX<br>
+**Número do Grupo**: 06<br>
 
 ## Alunos
 
