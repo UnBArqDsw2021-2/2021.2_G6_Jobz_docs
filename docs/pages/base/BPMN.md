@@ -7,7 +7,7 @@ A notação BPMN (Business Process Model and Notation) é uma notação voltada 
 </p>
 
 <p style="text-indent: 20px; text-align: justify">
-Dentro do projeto em questão, a metodologia BPMN foi utilizada para "desenhar" a metodologia de desenvolvimento que será utilizada pela equipe ao decorrer do projeto. Dentro dessa perspectiva, utilizaremos práticas comuns do Scrum e algumas técnicas do XP para guiar o andamento do projeto, como pode ser observado abaixo. 
+Dentro do projeto em questão, a metodologia BPMN foi utilizada para "desenhar" a metodologia de desenvolvimento que será utilizada pela equipe ao decorrer do projeto. Dentro dessa perspectiva, utilizaremos práticas comuns do Scrum, algumas técnicas do XP para guiar o andamento do projeto, além de práticas úteis do KANBAN que poderão ser observadas logo abaixo. 
 </p>
 
 ## 2. Resultado
@@ -44,3 +44,4 @@ _Figura 3 - Detalhamento de como será realizada a Sprint Review._
 |  1.0   | 03/02/2022 | Adição da introdução                  | Pedro Campos |
 |  1.0   | 03/02/2022 | Adição resultado obtido e referencias | Pedro Campos |
 |  1.1   | 04/02/2022 | Revisão do documento | Luís Fernando Furtado de Araújo |
+|  1.2   |04/02/2022  |Refatoração da metodologia| Pedro Campos |
