@@ -25,7 +25,7 @@
     - [Guia de Estilo](./pages/base/GuiaEstilo.md)
     - [Guia de Contribuição](./pages/base/guia-contribuicao.md)
     - [Product Backlog](./pages/base/backlog.md)
-      <!-- -   [Protótipo de Média Fidelidade](./pages/base/prototipo.md) -->
+    - [Protótipo de Média Fidelidade](./pages/base/prototipo.md)
 
 - **Sprints**
   - Sprint 1
