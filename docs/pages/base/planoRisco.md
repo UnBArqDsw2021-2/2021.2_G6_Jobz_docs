@@ -33,7 +33,14 @@ O grau dos riscos é definido pela multiplicação da probabilidade e o impacto,
 |  7  | Dificuldade com a tecnologia escolhida | 3 | 3 | 9 |
 
 
-## 4. Versionamento
+## 4. Referências
+
+> SERRANO, Milene; Desenho de Software (Base) - Plano de riscos;
+
+> Adrienne Watt, Project Management – 2nd Edition, Risk Management Planning. Disponível em: https://opentextbc.ca/projectmanagement/chapter/chapter-16-risk-management-planning-project-management//. Acesso em: 28 de fev. 2022.
+
+
+## 5. Versionamento
 
 | Versão | Data       | Modificação          | Autor(es)           |
 | :----: | ---------- | -------------------- | --------------- |
@@ -41,3 +48,4 @@ O grau dos riscos é definido pela multiplicação da probabilidade e o impacto,
 |  1.1   | 28/01/2022 | Criação da introdução e análise dos riscos | Luís Fernando Furtado de Araújo |
 |  1.2   | 28/01/2022 | Criação do grau dos riscos | Luís Fernando Furtado de Araújo |
 | 1.3 | 29/01/2022 | Revisão do documento | Lorrayne Cardozo |
+|  1.4  | 04/01/2022 | Adição das referências utilizadas para o documento | Luís Fernando Furtado de Araújo |
