@@ -94,7 +94,7 @@
 
 ## 5. Versionamento
 
-| Data       | Versão |    Autor        | Descrição            |
-| :--------: | ------ | --------------- | -------------------- |
-| 03/02/2022 |  1.0   | Rodrigo Balbino | Criação do documento |
-| 04/02/2022 |  1.1   | Rodrigo Balbino | Criação do documento |
+| Data       | Versão |    Autor         | Descrição            |
+| :--------: | ------ | ---------------  | -------------------- |
+| 03/02/2022 |  1.0   | Rodrigo Balbino  | Criação do documento |
+| 04/02/2022 |  1.1   | Fernando Miranda | Revisão do documento |
