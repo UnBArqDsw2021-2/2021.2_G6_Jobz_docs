@@ -77,7 +77,7 @@ Após a discussão sobre o Brainstorming foram levantadas diversas ideias que se
 Na etapa de decisão, a equipe voltou a se reunir por volta de 30 minutos e elaborou um [Rich Picture](https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/richPicture) que melhor se adequa ao projeto, se baseando nos desenhos criados anteriormente pelos integrantes, além de desenvolver [Storyboards](https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/storyboard).
 
 <p align='center'>
-    <img src='assets/images/rich_pictures/RichPicuture_v02 .jpeg' width=auto height=auto>
+    <img src='assets/images/rich_pictures/RichPicture_v02 .jpeg' width=auto height=auto>
     <figcaption><center>Figura 12 - Versão final do Rich Picture.<br></center></figcaption>
 </p>
 
@@ -100,7 +100,7 @@ Na etapa de decisão, a equipe voltou a se reunir por volta de 30 minutos e elab
 Por fim, a equipe trabalhou cerca de 2 horas na construção de um [Protótipo de Média Fidelidade](https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/prototipo), afim de representar visualmente as ideias levantadas.
 
 <center>
-<img src='assets/images/prototipo/tela-login.png'  width=auto height=auto>
+<img src='assets/images/prototipo/tela-login.jpg'  width=auto height=auto>
 <figcaption>Figura 16 - Tela de login do protótipo.<br></figcaption>
 </center>
 
