@@ -54,3 +54,4 @@ As pipelines padrões de um Kanban são: `To do`,`Doing`,`Done`. Para nosso cont
 |    Data    | Versão | Autor (es)  |      Descrição       |
 | :--------: | :----: | :---------: | :------------------: |
 | 28/01/2022 |  1.0   | João Victor | Criação do documento |
+| 04/02/2022 |  1.1   | João Victor |   Adição do Kanban   |
