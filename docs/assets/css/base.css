@@ -74,14 +74,17 @@ section.cover .cover-main > p:last-child a {
 
 /*		Table		*/
 
+.backlogTable {
+}
 
 .backlogTheme {
 	writing-mode: vertical-rl;
 	text-orientation: upright;
-	color: seashell;
+	color: seashell !important;
 	background-color: rgb(5, 49, 58);
 	border-collapse: collapse !important; 
 	border-radius: 20px !important;
+	border-spacing:0 15px;
 }
 
 .backlogEpics {
@@ -91,6 +94,7 @@ section.cover .cover-main > p:last-child a {
 	background-color: rgb(5, 49, 58) !important;
 	border-collapse: collapse !important; 
 	border-radius: 20px !important;
+	border-spacing:0 15px !important;
 }
 
 .backlogFeatures {
@@ -129,6 +133,7 @@ section.cover .cover-main > p:last-child a {
 	border-radius: 20px !important;
 }
 
+
 .backlogID {
 	text-align: center !important;
 	width: 50px !important;
@@ -141,7 +146,7 @@ section.cover .cover-main > p:last-child a {
 .backlogEpic1 {
 	text-align: center !important;
 	color: seashell !important;
-	background-color: rgb(47, 123, 119) !important;
+	background-color: rgb(25, 90, 96) !important;
 	border-collapse: collapse !important; 
 	border-radius: 20px !important;
 }
@@ -149,7 +154,7 @@ section.cover .cover-main > p:last-child a {
 .user1 {
 	text-align: center !important;
 	color: seashell !important;
-	background-color: rgb(47, 123, 119) !important;
+	background-color: rgb(25, 90, 96) !important;
 	border-collapse: collapse !important; 
 	border-radius: 20px !important;
 }
@@ -157,7 +162,7 @@ section.cover .cover-main > p:last-child a {
 .user1-2 {
 	text-align: center !important;
 	color: seashell !important;
-	background-color: rgb(65, 143, 139) !important;
+	background-color: rgb(62, 132, 139) !important;
 	border-collapse: collapse !important; 
 	border-radius: 20px !important;
 }
@@ -165,7 +170,7 @@ section.cover .cover-main > p:last-child a {
 .user2 {
 	text-align: center !important;
 	color: seashell !important;
-	background-color: rgb(65, 143, 139) !important;
+	background-color: rgb(62, 132, 139) !important;
 	border-collapse: collapse !important; 
 	border-radius: 20px !important;
 }
@@ -173,185 +178,7 @@ section.cover .cover-main > p:last-child a {
 .user2-2 {
 	text-align: center !important;
 	color: seashell !important;
-	background-color: rgb(89, 165, 161) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.user3 {
-	text-align: center !important;
-	color: seashell !important;
-	background-color: rgb(47, 123, 119) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.user3-2 {
-	text-align: center !important;
-	color: seashell !important;
-	background-color: rgb(74, 151, 147) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.backlogEpic2 {
-	text-align: center !important;
-	color: seashell !important;
 	background-color: rgb(25, 90, 96) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.sched1 {
-	text-align: center !important;
-	color: seashell !important;
-	background-color: rgb(25, 90, 96) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.sched1-2 {
-	text-align: center !important;
-	color: seashell !important;
-	background-color: rgb(41, 103, 109) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.sched2 {
-	text-align: center !important;
-	color: seashell !important;
-	background-color: rgb(41, 105, 110) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.sched2-2 {
-	text-align: center !important;
-	color: seashell !important;
-	background-color: rgb(62, 132, 139) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.backlogEpic3 {
-	text-align: center !important;
-	color: seashell !important;
-	background-color: rgb(71, 144, 140) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.rating1 {
-	text-align: center !important;
-	color: seashell !important;
-	background-color: rgb(71, 144, 140) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.rating1-2 {
-	text-align: center !important;
-	color: seashell !important;
-	background-color: rgb(100, 172, 168) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.rating2 {
-	text-align: center !important;
-	color: seashell !important;
-	background-color: rgb(106, 167, 163) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.rating2-2 {
-	text-align: center !important;
-	color: seashell !important;
-	background-color: rgb(126, 184, 180) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-
-.backlogEpic4 {
-	text-align: center;
-	color: seashell;
-	background-color: rgb(11, 76, 82) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.search1 {
-	text-align: center;
-	color: seashell;
-	background-color: rgb(11, 76, 82) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.search1-2 {
-	text-align: center;
-	color: seashell;
-	background-color: rgb(31, 107, 114) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.search2 {
-	text-align: center;
-	color: seashell;
-	background-color: rgb(22, 106, 114) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.search2-2 {
-	text-align: center;
-	color: seashell;
-	background-color: rgb(41, 142, 151) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.backlogEpic5 {
-	text-align: center;
-	color: seashell;
-	background-color: rgb(30, 105, 108) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-
-.userInt1 {
-	text-align: center;
-	color: seashell;
-	background-color: rgb(30, 105, 108) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.userInt1-2 {
-	text-align: center;
-	color: seashell;
-	background-color: rgb(56, 127, 129) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.userInt2 {
-	text-align: center;
-	color: seashell;
-	background-color: rgb(43, 143, 146) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.userInt2-2 {
-	text-align: center;
-	color: seashell;
-	background-color: rgb(58, 171, 175) !important;
 	border-collapse: collapse !important; 
 	border-radius: 20px !important;
 }

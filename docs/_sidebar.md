@@ -9,12 +9,13 @@
     - [Causa e Efeito](./pages/base/causaEefeito.md)
     - [Léxicos](./pages/base/lexicos.md)
     - [Plano de Riscos](./pages/base/planoRisco.md)
+    
+    - Técnicas de Elicitação 
+      - [Brainstorm](./pages/base/brainstorm.md)
+      - [Introspecção](./pages/base/introspeccao.md)
+      - [Questionário](./pages/base/questionario.md)
+      - [Mapa mental](./pages/base/mapaMental.md)
     - [Priorização](./pages/base/moscow.md)
-        <!-- -   Técnicas de Elicitação -->
-      [Brainstorm](./pages/base/brainstorm.md)
-    - [Introspecção](./pages/base/introspeccao.md)
-    - [Questionário](./pages/base/questionario.md)
-    - [Mapa mental](./pages/base/mapaMental.md)
   - Processos/Metodologias/Abordagens
     - [Metodologia do Projeto](./pages/base/metodologia-do-projeto.md)
     - [Metodologia BPMN](./pages/base/BPMN.md)
@@ -25,7 +26,7 @@
     - [Guia de Estilo](./pages/base/GuiaEstilo.md)
     - [Guia de Contribuição](./pages/base/guia-contribuicao.md)
     - [Product Backlog](./pages/base/backlog.md)
-      <!-- -   [Protótipo de Média Fidelidade](./pages/base/prototipo.md) -->
+    - [Protótipo de Média Fidelidade](./pages/base/prototipo.md)
 
 - **Sprints**
   - Sprint 1

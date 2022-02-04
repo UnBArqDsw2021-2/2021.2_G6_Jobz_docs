@@ -1,5 +1,3 @@
-<link rel="stylesheet" type="text/css" href="assets/css/slider.css">
-
 # <center>Design Sprint
 
 ## 1. Introdução
@@ -24,84 +22,87 @@ A etapa de entendimento do projeto foi feita durante cerca de 30 minutos utiliza
 Após a discussão sobre o Brainstorming foram levantadas diversas ideias que serviram como inspiração para a próxima etapa. Foi reservado cerca de 1 hora para a etapa de esboço, em que cada integrante da equipe produziu um [Rich Picture](https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/richPicture).
 
 
-<ul class="slider">
-    <li align='center'>
-          <input type="radio" id="slide1" name="slide" checked>
-          <label for="slide1"></label>
-          <img src="assets/images/rich_pictures/rich-Alvaro.jpeg" />
-    </li>
-    <li align='center'>
-          <input type="radio" id="slide2" name="slide">
-          <label for="slide2"></label>
-          <img src="assets/images/rich_pictures/rich-antonio.jpeg" />
-    </li>
-    <li align='center'>
-          <input type="radio" id="slide3" name="slide">
-          <label for="slide3"></label>
-          <img src="assets/images/rich_pictures/rich-ariel.png" />
-    </li>
-    <li align='center'>
-        <input type="radio" id="slide4" name="slide">
-        <label for="slide4"></label>
-        <img src="assets/images/rich_pictures/rich-balbino.png" />
-    </li>
-    <li align='center'>
-        <input type="radio" id="slide5" name="slide">
-        <label for="slide5"></label>
-        <img src="assets/images/rich_pictures/rich-braz.png" />
-        </li>
-    <li align='center'>
-        <input type="radio" id="slide6" name="slide">
-        <label for="slide6"></label>
-        <img src="assets/images/rich_pictures/rich-ferando.jpeg" />
-    </li>
-    <li align='center'>
-        <input type="radio" id="slide7" name="slide">
-        <label for="slide7"></label>
-        <img src="assets/images/rich_pictures/rich-joao.png" />
-    </li>
-    <li align='center'>
-        <input type="radio" id="slide8" name="slide">
-        <label for="slide8"></label>
-        <img src="assets/images/rich_pictures/rich-lorrayne.png" />
-    </li>
-    <li align='center'>
-        <input type="radio" id="slide9" name="slide">
-        <label for="slide9"></label>
-        <img src="assets/images/rich_pictures/rich-luis.png" />
-    </li>
-    <li align='center'>
-        <input type="radio" id="slide10" name="slide">
-        <label for="slide10"></label>
-        <img src="assets/images/rich_pictures/rich-ph.jpeg" />
-    </li>
-</ul>
+#### 2.2.1 Álvaro Gouvea
+
+<center><img width="600px" src="assets/images/rich_pictures/rich-Alvaro.jpeg">
+<figcaption>Figura 02 - Proposta de rich picture Álvaro Gouvea.<br></figcaption></center>
+
+#### 2.2.2 Antônio Aldísio
+
+<center><img width="600px" src="assets/images/rich_pictures/rich-antonio.jpeg">
+<figcaption>Figura 03 - Proposta de rich picture  Antônio Aldísio.<br></figcaption></center>
+
+#### 2.2.3 Ariel Serafim
+
+<center><img width="600px" src="assets/images/rich_pictures/rich-ariel.png">
+<figcaption>Figura 04 - Proposta de rich picture  Ariel Serafim.<br></figcaption></center>
+
+#### 2.2.4 Fernando Miranda
+
+<center><img width="600px" src="assets/images/rich_pictures/rich-fernando.jpeg">
+<figcaption>Figura 05 - Proposta de rich picture  Fernando Miranda.<br></figcaption></center>
+
+#### 2.2.5 Guilherme Braz
+
+<center><img width="600px" src="assets/images/rich_pictures/rich-braz.png">
+<figcaption>Figura 06 - Proposta de rich picture Guilherme Braz.<br></figcaption></center>
+
+#### 2.2.6 João Victor
+
+<center><img width="600px" src="assets/images/rich_pictures/rich-joao.png">
+<figcaption>Figura 07 - Proposta de rich picture João Victor.<br></figcaption></center>
+
+#### 2.2.7 Lorrayne Cardozo
+
+<center><img width="600px" src="assets/images/rich_pictures/rich-lorrayne.png">
+<figcaption>Figura 08 - Proposta de rich picture Lorrayne Cardozo.<br></figcaption></center>
+
+#### 2.2.8 Luis Fernando
+
+<center><img width="600px" src="assets/images/rich_pictures/rich-luis.png">
+<figcaption>Figura 09 - Proposta de rich picture Luis Fernando.<br></figcaption></center>
+
+#### 2.2.9 Pedro Henrique Campos
+
+<center><img width="600px" src="assets/images/rich_pictures/rich-ph.jpeg">
+<figcaption>Figura 10 - Proposta de rich picture Pedro Henrique Campos.<br></figcaption></center>
+
+#### 2.2.10 Rodrigo Balbino
+
+<center><img width="600px" src="assets/images/rich_pictures/rich-balbino.png">
+<figcaption>Figura 11 - Proposta de rich picture Rodrigo Balbino.<br></figcaption></center>
+
 
 ### 2.3. Decision
 Na etapa de decisão, a equipe voltou a se reunir por volta de 30 minutos e elaborou um [Rich Picture](https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/richPicture) que melhor se adequa ao projeto, se baseando nos desenhos criados anteriormente pelos integrantes, além de desenvolver [Storyboards](https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/storyboard).
 
 <p align='center'>
-    <img src='assets/images/rich_pictures/RichPicuture_v02 .jpeg' width=auto height=auto>
-    <figcaption><center>Figura 02 - Versão final do Rich Picture.<br></center></figcaption>
+    <img src='assets/images/rich_pictures/RichPicture_v02 .jpeg' width=auto height=auto>
+    <figcaption><center>Figura 12 - Versão final do Rich Picture.<br></center></figcaption>
 </p>
 
 <p align='center'>
     <img src='assets/images/storyBoards/storyboard1.png' width=auto height=auto>
-    <figcaption><center>Figura 03 - Storyboard demonstrando um serviço de montagem de móveis.<br></center></figcaption>
+    <figcaption><center>Figura 13 - Storyboard demonstrando um serviço de montagem de móveis.<br></center></figcaption>
 </p>
 
 <p align='center'>
     <img src='assets/images/storyBoards/storyboard2.png' width=auto height=auto>
-    <figcaption><center>Figura 04 - Storyboard demonstrando um serviço de conserto de computador.<br></center></figcaption>
+    <figcaption><center>Figura 14 - Storyboard demonstrando um serviço de conserto de computador.<br></center></figcaption>
 </p>
 
 <p align='center'>
     <img src='assets/images/storyBoards/storyboard3.png' width=auto height=auto>
-    <figcaption><center>Figura 05 - Storyboard demonstrando um serviço de conserto de computador.<br></center></figcaption>
+    <figcaption><center>Figura 15 - Storyboard demonstrando um serviço de conserto de computador.<br></center></figcaption>
 </p>
 
 ### 2.4. Prototype
-Por fim, a equipe trabalhou cerca de 2 horas na construção de um [Protótipo de Baixa/Média Fidelidade](), afim de representar as ideias levantadas pela equipe.
+Por fim, a equipe trabalhou cerca de 2 horas na construção de um [Protótipo de Média Fidelidade](https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/prototipo), afim de representar visualmente as ideias levantadas.
+
+<center>
+<img src='assets/images/prototipo/tela-login.jpg'  width=auto height=auto>
+<figcaption>Figura 16 - Tela de login do protótipo.<br></figcaption>
+</center>
 
 
 ## 3. Referências 
