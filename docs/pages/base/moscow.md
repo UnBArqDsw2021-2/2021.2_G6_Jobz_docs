@@ -25,7 +25,7 @@ Na tabela foram identificados os metodos que originaram os requisitos funcionais
 ## 2.1 Requisistos funcionais
 
 |  ID  |                  Técnica                   |                              Requisito                               | Priorização |
-| :--: | :----------------------------------------: | :------------------------------------------------------------------: | :---------: |
+| :--: | :----------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | RF01 | <a href="/introspeccao " >Introspecção</a> |                    Filtrar serviços por categoria                    |    COULD    |
 | RF02 | <a href="/introspeccao " >Introspecção</a> |           Filtrar serviços por quantidade de contratações            |    COULD    |
 | RF03 | <a href="/introspeccao " >Introspecção</a> |             Filtrar serviços por qualidade de avaliações             |    COULD    |
@@ -64,12 +64,14 @@ RF24 | <a href="/questionario " >Questionário</a> | Favoritar categorias de ser
 | RF36 | <a href="/brainstorm " >Brainstorm</a> |  Notificação de agendamento | SHOULD |
 | RF37 | <a href="/brainstorm " >Brainstorm</a> | Divulgar serviços | WOULD | 
 | RF38 | <a href="/brainstorm " >Brainstorm</a> | Recomendar serviço para outro usuário |WOULD | 
-| RF39 | <a href="/brainstorm " >Brainstorm</a> | Recomendação de serviço por proximidade | WOULD |
+| RF39 | <a href="/brainstorm " >Brainstorm</a> | Recomendação de serviço por proximidade |WOULD |
 
 
 ## 2.2 Requisistos Não Funcionais
-| RNF01 | <a href="/questionario " >Questionário</a> <a href="/brainstorm " >Brainstorm</a> | Interface intuitiva | MUST| 
-| RNF02 |<a href="/brainstorm " >Brainstorm </a> |  Estabilidade do sistema | MUST | 
+|  ID  | Técnica | Requisito | Priorização |
+| :--: | :-----: | :-------: | :---------: |
+| RNF01 |<a href="/questionario " >Questionário </a>  |  Interface intuitiva     | MUST |
+| RNF02 |<a href="/brainstorm " >Brainstorm </a>      |  Estabilidade do sistema | MUST | 
 
 
 
