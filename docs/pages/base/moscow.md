@@ -48,10 +48,9 @@ Na tabela foram identificados os metodos que originaram os requisitos funcionais
 | RF20 | <a href="/introspeccao " >Introspecção</a> |                  Cadastrar serviço e categorizá-lo                   |    MUST     |
 | RF21 | <a href="/introspeccao " >Introspecção</a> |         Cadastrar horário disponivel para realizar o serviço         |    MUST     |
 | RF22 | <a href="/introspeccao " >Introspecção</a> |             Visualizar localização e endereço do cliente             |    MUST     |
-
 | RF23 | <a href="/questionario " >Questionário</a> | Adicionar sessão de ajuda| COULD    |
-| RF24 | <a href="/questionario " >Questionário</a> | Favoritar categorias de serviço preferido| COULD    |
-| RF25 | <a href="/questionario " >Questionário</a>  <a href="/brainstorm " >Brainstorm</a> | Favoritar prestador de serviço preferido| COULD    |
+RF24 | <a href="/questionario " >Questionário</a> | Favoritar categorias de serviço preferido| COULD    |
+| RF25 | <a href="/questionario " >Questionário</a> | Favoritar prestador de serviço preferido| COULD    |
 | RF26 | <a href="/questionario " >Questionário</a> | Acrescentar funcionalidade de avaliação de serviço | WOULD    |
 | RF27 | <a href="/questionario " >Questionário</a> |  Apresentar recomendação de serviços populares e bem avaliados| SHOULD    |
 | RF28 | <a href="/questionario " >Questionário</a> |  Criar filtro de busca de serviços | MUST    |
@@ -68,7 +67,7 @@ Na tabela foram identificados os metodos que originaram os requisitos funcionais
 | RF39 | <a href="/brainstorm " >Brainstorm</a> | Recomendação de serviço por proximidade | WOULD |
 
 
-## 2.2 Requisistos funcionais
+## 2.2 Requisistos Não Funcionais
 | RNF01 | <a href="/questionario " >Questionário</a> <a href="/brainstorm " >Brainstorm</a> | Interface intuitiva | MUST| 
 | RNF02 |<a href="/brainstorm " >Brainstorm </a> |  Estabilidade do sistema | MUST | 
 
