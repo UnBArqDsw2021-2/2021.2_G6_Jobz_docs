@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-<div align="justify"> Rich Picture e uma ferramenta para a representação visual simples, que pode de ser entendida por qualquer pessoa, das preocupações e relações dos usuários com uma aplicação.<a href="#Bibliografia">[1]</a><br><br>
+<div align="justify"> Rich Picture e uma ferramenta para a representação visual simples, que pode de ser entendida por qualquer pessoa, das preocupações e relações dos usuários com uma aplicação.
 O grupo seguiu o seguinte fluxo de trabalho em relação aos Rich Pictures:<br>
 
 1. Elaboração de Rich Pictures individuais, primeiramente para ganhar experiencia com a técnica, e também para propor ideias do tema do projeto.
@@ -77,9 +77,14 @@ As melhorias pode ser visto abaixo
 <img width="600px"  class="center" src="assets/images/rich_pictures/RichPicture_v02 .jpeg" alt="rich02">
 <figcaption><center>Figura 12 - Rich picture da equipe versão 02.<br></center></figcaption>
 
-## 4. Versionamento
+
+## 4. Referências
+
+> -  MONK, Andrew; HOWARD, Steve. Methods & tools: the rich picture: a tool for resoning about work context. <strong>Interactions</strong>, York v.5, n.2, march./1998 
+
+## 5. Versionamento
 
 | Versão | Data       | Modificação                             | Autor           |
 | :----: | ---------- | --------------------------------------- | --------------- |
 |  1.0   | 28/01/2022 | Criação do documento e Adição do item 1 | Antônio Aldísio |
-|  1.1   | 04/02/2022 | Correção das imagens | Antônio Aldísio |
+|  1.1   | 04/02/2022 | Correção das imagens e inclusão de referencias| Antônio Aldísio |
