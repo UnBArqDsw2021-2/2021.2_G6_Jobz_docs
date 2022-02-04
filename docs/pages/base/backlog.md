@@ -26,7 +26,7 @@ As **Histórias de usuário** são descrições focadas na visão do usuário, e
 As **Tarefas** representam o menor nível de granularidade nas descrições de requisitos registradas no backlog do produto. As tarefas são pré-requisitos para que uma história de usuário possa ser completada.
 
 
-## 2. Conteudo
+## 2. Conteúdo
 
 Com a aplicação das técnicas de elicitação de requisitos, a equipe pode montar o backlog do produto com as funcionalidades que foram levantadas como necessárias para o produto.
 
