@@ -11,7 +11,7 @@
     - [Plano de Riscos](./pages/base/planoRisco.md)
     - [Priorização](./pages/base/moscow.md)
         <!-- -   Técnicas de Elicitação -->
-      [Brainstorm](./pages/base/brainstorm.md)
+    - [Brainstorm](./pages/base/brainstorm.md)
     - [Introspecção](./pages/base/introspeccao.md)
     - [Questionário](./pages/base/planoRisco.md)
     - [Mapa mental](./pages/base/mapaMental.md)
