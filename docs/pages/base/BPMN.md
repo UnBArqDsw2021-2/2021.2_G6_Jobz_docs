@@ -43,3 +43,4 @@ _Figura 3 - Detalhamento de como será realizada a Sprint Review._
 |  1.0   | 01/02/2022 | Criação do documento                  | Pedro Campos |
 |  1.0   | 03/02/2022 | Adição da introdução                  | Pedro Campos |
 |  1.0   | 03/02/2022 | Adição resultado obtido e referencias | Pedro Campos |
+|  1.1   | 04/02/2022 | Revisão do documento | Luís Fernando Furtado de Araújo |
