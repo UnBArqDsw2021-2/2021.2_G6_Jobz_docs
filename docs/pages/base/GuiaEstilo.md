@@ -27,13 +27,11 @@
 	Temos duas paletas de cores, a primeira pensada para seguir o estilo da logo, usando as 5 cores originais usadas para a criação da logo.
 	A segunda usa tons de verde mais escuros, cujo objetivo é estar em contraste com a logo.
 </p>
-| Cor    | Valor   |
-| :----------------------------------------------------------------: | ------- |
-|  ![#581845](https://via.placeholder.com/15/581845/000000?text=+)   | #581845 |
-|  ![#900c3f](https://via.placeholder.com/15/900c3f/000000?text=+)   | #900c3f |
-|  ![#c70039](https://via.placeholder.com/15/c70039/000000?text=+)   | #c70039 |
-|  ![#ff5733](https://via.placeholder.com/15/ff5733/000000?text=+)   | #ff5733 |
-|  ![#ffc305](https://via.placeholder.com/15/ffc305/000000?text=+)   | #ffc305 |
+
+<p align = "justify">
+	As cores são respectivamente,#581845,#900c3f,#c70039,#ff5733,#ffc305.
+</p>
+
 <img src='assets/images/guia_estilo/colorpallet1.jpg' width=auto height=auto>
 
 <img src='assets/images/guia_estilo/colorpallet2.jpg' width=auto height=auto>
