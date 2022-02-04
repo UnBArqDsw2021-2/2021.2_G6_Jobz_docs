@@ -31,12 +31,12 @@
 
 ### 3.1 Tema do projeto
 
-<p style= "text-indent: 20px; text-align:justify"> Inicialmente, era necessário selecionar um tema para o nosso projeto, então decidimos realizar a primeira Brainstorm para a resolução dessa tarefa. Tendo reunido todos os participantes em uma chamada, passamos a juntar todas as possíveis ideias. Assim, ao final da reunião, de 15 opções decidimos selecionas as 4 melhores ideias para fazer a votação. Como apresentado na imagem a seguir, o mais votado foi o Cadastro de negócios.  </p>
+<p style= "text-indent: 20px; text-align:justify"> Inicialmente, era necessário selecionar um tema para o nosso projeto, então decidimos realizar a primeira Brainstorm para a resolução dessa tarefa. Tendo reunido todos os participantes em uma chamada, passamos a juntar todas possíveis ideias. Assim, ao final da reunião, de 15 opções decidimos selecionas as 4 melhores ideias para fazer a votação. Como apresentado na imagem a seguir, o mais votado foi o Cadastro de negócios.  </p>
 
  <p align='center' >    
     <img src='assets/images/brainstorm/temaProjeto.png' width=auto height=auto >
     <legend>
-        <b>Figura 1: Votação para o tema do projeto.</b>
+        <b>Figura 1: Votação para o tema do projeto</b>
     </legend>
   </p>
 
@@ -47,7 +47,7 @@
 <p align='center' >
     <img src='assets/images/brainstorm/subTema.png' width=auto height=auto >
     <legend>
-        <b>Figura 2: Quadro de ideias para o escopo do projeto.</b>
+        <b>Figura 2: Quadro de ideias para o escopo do projeto</b>
     </legend>
   </p>
  
@@ -56,7 +56,7 @@
  <p align='center' >
     <img src='assets/images/brainstorm/votaEscopo.png' width=auto height=auto >
     <legend>
-        <b>Figura 3: Votação para o escopo do projeto.</b>
+        <b>Figura 3: Votação para o escopo do projeto</b>
     </legend>
   </p>
 
@@ -67,7 +67,7 @@
  <p align='center' >
     <img src='assets/images/brainstorm/nomeProjeto.png' width=auto height=auto>
     <legend>
-        <b>Figura 4: Votação para o nome do projeto.</b>
+        <b>Figura 4: Votação para o nome do projeto</b>
     </legend>
   </p>
 
@@ -78,11 +78,33 @@
  <p align='center' >
     <img src='assets/images/brainstorm/mvp.png' width=auto height=auto>
     <legend>
-        <b>Figura 5: Quadro de ideias para o mvp.</b>
+        <b>Figura 5: Quadro de ideias para o mvp</b>
     </legend>
   </p>
 
-## 4. Referências
+### 4 Análise e Requisitos elicitados
+
+ ID   | Requisito |
+|:-:   | :-: |  
+| RF01 | Cadastrar usuário |
+| RF02 | Cadastrar serviço |
+| RF03 | Agendar serviço |
+| RF04 | Compartilhar serviço |
+| RF05 | Informações de serviços realizados |
+| RF06 | Categorizar serviços |
+| RF07 | Notificação de agendamento |
+| RF08 | Divulgar serviços |
+| RF09 | Recomendar serviço para outro usuário |
+| RF10 | Chat entre prestador de serviço e cliente |
+| RF11 | Recomendação de serviço por proximidade |
+| RF11 | Favoritar serviços |
+
+ ID   | Requisito nao funcional|
+|:-:   | :-: |  
+| RNF01 | Interface intuitiva |
+| RNF02 | Estabilidade do sistema |
+
+## 5. Referências
 
 > Jackson, Jennifer. How to brainstorm: 4 ways to get the creative juices flowing. 2021. Disponível em: https://www.lucidchart.com/blog/how-to-brainstorm
 
@@ -92,9 +114,10 @@
 
 > Patel, Nell. Brainstorming: O Que É, Como Fazer (Passo a Passo). 2020. Disponível em: https://neilpatel.com/br/blog/o-que-e-brainstorming/
 
-## 5. Versionamento
+## 6. Versionamento
 
-| Data       | Versão |    Autor         | Descrição            |
-| :--------: | ------ | ---------------  | -------------------- |
-| 03/02/2022 |  1.0   | Rodrigo Balbino  | Criação do documento |
-| 04/02/2022 |  1.1   | Fernando Miranda | Revisão do documento |
+| Versão | Data       | Modificação          | Autor(es)       |
+| :----: | ---------- | -------------------- | --------------- |
+|  1.0   | 03/02/2022 | Criação do documento | Rodrigo Balbino |
+|  1.1   | 04/02/2022 | Revisão do documento | Fernando Miranda |
+|  1.2   | 04/02/2022 | Adição da tabela de requisitos | Álvaro Gouvea |
