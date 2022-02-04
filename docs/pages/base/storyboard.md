@@ -15,7 +15,7 @@ Para isso foram elaboradas três narrativas em que são demonstradas por meio de
 Pedro é um estudante universitário que recentemente decidiu morar sozinho, porém após comprar os móveis de seu quarto ele se deparou com o desafio de monta-los. Então Pedro acessa o Jobz para encontrar um montador de móveis que tenha horário livre durante a semana. Com isso ele encontra o Luís e contrata para montar seus móveis. Após o serviço Luís pede para que Pedro o avalie no site e recomende para seus amigos.
 
 <p align='center'>
-    <img src='assets/images/storyboard1.png' width=auto height=auto>
+    <img src='assets/images/storyBoards/storyboard1.png' width=auto height=auto>
     <figcaption align='center'>
         <b>Figura 1: Storyboard demonstrando um serviço de montagem de móveis </b>
         <br>
@@ -28,7 +28,7 @@ Pedro é um estudante universitário que recentemente decidiu morar sozinho, por
 Maria está tendo problemas com seu computador e não tem tempo de levar ele até uma loja para ser consertado. Ao conversar sobre seu problema com um amigo, ele recomenda que ela procure algum técnico pelo Jobz. Maria então acessa o Jobz e chama o Pedro que conserte seu computador, assim ela pode voltar a trabalhar.
 
 <p align='center'>
-    <img src='assets/images/storyboard2.png' width=auto height=auto>
+    <img src='assets/images/storyBoards/storyboard2.png' width=auto height=auto>
     <figcaption align='center'>
         <b>Figura 2: Storyboard demonstrando um serviço de conserto de computador.</b>
         <br>
@@ -41,7 +41,7 @@ Maria está tendo problemas com seu computador e não tem tempo de levar ele at�
 Luis trabalha com montagem de móveis e serviços gerais de reparo, porém não conseguia encontrar clientes, pois não sabia como fazer a divulgação de seu trabalho. Além disso, ele tinha dificuldades na hora de agendar seus serviços, pois utilizava um caderno para fazer os seus agendamentos. Depois que começou a utilizar o Jobz ele conseguiu encontrar mais clientes e organizar melhor seus serviços.
 
 <p align='center'>
-    <img src='assets/images/storyboard3.png' width=auto height=auto>
+    <img src='assets/images/storyBoards/storyboard3.png' width=auto height=auto>
     <figcaption align='center'>
         <b>Figura 3: Storyboard demonstrando um serviço de conserto de computador.</b>
         <br>
