@@ -31,12 +31,12 @@
 
 ### 3.1 Tema do projeto
 
-<p style= "text-indent: 20px; text-align:justify"> Inicialmente, era necessário selecionar um tema para o nosso projeto, então decidimos realizar a primeira Brainstorm para a resolução dessa tarefa. Tendo reunido todos os participantes em uma chamada, passamos a juntar todas possíveis ideias. Assim, ao final da reunião, de 15 opções decidimos selecionas as 4 melhores ideias para fazer a votação. Como apresentado na imagem a seguir, o mais votado foi o Cadastro de negócios.  </p>
+<p style= "text-indent: 20px; text-align:justify"> Inicialmente, era necessário selecionar um tema para o nosso projeto, então decidimos realizar a primeira Brainstorm para a resolução dessa tarefa. Tendo reunido todos os participantes em uma chamada, passamos a juntar todas as possíveis ideias. Assim, ao final da reunião, de 15 opções decidimos selecionas as 4 melhores ideias para fazer a votação. Como apresentado na imagem a seguir, o mais votado foi o Cadastro de negócios.  </p>
 
  <p align='center' >    
     <img src='assets/images/brainstorm/temaProjeto.png' width=auto height=auto >
     <legend>
-        <b>Figura 1: Votação para o tema do projeto</b>
+        <b>Figura 1: Votação para o tema do projeto.</b>
     </legend>
   </p>
 
@@ -47,7 +47,7 @@
 <p align='center' >
     <img src='assets/images/brainstorm/subTema.png' width=auto height=auto >
     <legend>
-        <b>Figura 2: Quadro de ideias para o escopo do projeto</b>
+        <b>Figura 2: Quadro de ideias para o escopo do projeto.</b>
     </legend>
   </p>
  
@@ -56,7 +56,7 @@
  <p align='center' >
     <img src='assets/images/brainstorm/votaEscopo.png' width=auto height=auto >
     <legend>
-        <b>Figura 3: Votação para o escopo do projeto</b>
+        <b>Figura 3: Votação para o escopo do projeto.</b>
     </legend>
   </p>
 
@@ -67,7 +67,7 @@
  <p align='center' >
     <img src='assets/images/brainstorm/nomeProjeto.png' width=auto height=auto>
     <legend>
-        <b>Figura 4: Votação para o nome do projeto</b>
+        <b>Figura 4: Votação para o nome do projeto.</b>
     </legend>
   </p>
 
@@ -78,7 +78,7 @@
  <p align='center' >
     <img src='assets/images/brainstorm/mvp.png' width=auto height=auto>
     <legend>
-        <b>Figura 5: Quadro de ideias para o mvp</b>
+        <b>Figura 5: Quadro de ideias para o mvp.</b>
     </legend>
   </p>
 
@@ -94,6 +94,7 @@
 
 ## 5. Versionamento
 
-| Versão | Data       | Modificação          | Autor(es)       |
-| :----: | ---------- | -------------------- | --------------- |
-|  1.0   | 03/02/2022 | Criação do documento | Rodrigo Balbino |
+| Data       | Versão |    Autor        | Descrição            |
+| :--------: | ------ | --------------- | -------------------- |
+| 03/02/2022 |  1.0   | Rodrigo Balbino | Criação do documento |
+| 04/02/2022 |  1.1   | Rodrigo Balbino | Criação do documento |

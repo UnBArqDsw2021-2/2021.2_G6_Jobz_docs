@@ -30,7 +30,7 @@ Maria está tendo problemas com seu computador e não tem tempo de levar ele at�
 <p align='center'>
     <img src='assets/images/storyboard2.png' width=auto height=auto>
     <figcaption align='center'>
-        <b>Figura 1: Storyboard demonstrando um serviço de conserto de computador.</b>
+        <b>Figura 2: Storyboard demonstrando um serviço de conserto de computador.</b>
         <br>
         <small>Fonte: Autoria própria</small>
     </figcaption>
@@ -43,7 +43,7 @@ Luis trabalha com montagem de móveis e serviços gerais de reparo, porém não 
 <p align='center'>
     <img src='assets/images/storyboard3.png' width=auto height=auto>
     <figcaption align='center'>
-        <b>Figura 1: Storyboard demonstrando um serviço de conserto de computador.</b>
+        <b>Figura 3: Storyboard demonstrando um serviço de conserto de computador.</b>
         <br>
         <small>Fonte: Autoria própria</small>
     </figcaption>
