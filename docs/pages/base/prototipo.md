@@ -12,7 +12,7 @@ Com isso foram criadas 4 paginas as quais serão mostradas mais detalhadamente a
 ### Login
 
 <p align='center'>
-    <img src='assets/images/prototipo/tela-login.jpg' width=40% height=auto>
+    <img src='assets/images/prototipo/tela-login.jpg' width=100% height=auto>
     <figcaption align='center'>
         <b>Figura 1: Tela login</b>
         <br>
@@ -23,7 +23,7 @@ Com isso foram criadas 4 paginas as quais serão mostradas mais detalhadamente a
 ### 2.2 Home
 
 <p align='center'>
-    <img src='assets/images/prototipo/home.jpg width=40% height=auto>
+    <img src='assets/images/prototipo/home.jpg' width=100% height=auto>
     <figcaption align='center'>
         <b>Figura 2: Home</b>
         <br>
@@ -35,7 +35,7 @@ Com isso foram criadas 4 paginas as quais serão mostradas mais detalhadamente a
 ### 2.3 Home - Prestador de serviço
 
 <p align='center'>
-    <img src='assets/images/prototipo/home-logged.jpg' width=40% height=auto>
+    <img src='assets/images/prototipo/home-logged.jpg' width=100% height=auto>
     <figcaption align='center'>
         <b>Figura 3: Home - Prestador de serviço</b>
         <br>
@@ -46,7 +46,7 @@ Com isso foram criadas 4 paginas as quais serão mostradas mais detalhadamente a
 ### 2.4 Pagina de uma categoria de serviço
 
 <p align='center'>
-    <img src='assets/images/prototipo/servico.jpg' width=40% height=auto>
+    <img src='assets/images/prototipo/servico.jpg' width=100% height=auto>
     <figcaption align='center'>
         <b>Figura 4: Pagina de uma categoria de serviço</b>
         <br>
