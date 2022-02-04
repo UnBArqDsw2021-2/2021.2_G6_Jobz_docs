@@ -23,7 +23,7 @@ O grupo seguiu o seguinte fluxo de trabalho em relação aos Rich Pictures:<br>
 
 ### 2.3 Ariel Serafim
 
-<img width="600px"  class="center" src="assets/images/rich_pictures/rich-ariel.png" alt="richAriel">
+<img width="600px"  class="center" src="assets/images/rich_pictures/rich-ariel.jpeg" alt="richAriel">
 <figcaption><center>Figura 03 - Proposta de rich picture  Ariel Serafim.<br></center></figcaption>
 
 ### 2.4 Fernando Miranda
