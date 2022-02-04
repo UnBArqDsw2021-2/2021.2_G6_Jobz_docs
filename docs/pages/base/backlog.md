@@ -32,43 +32,43 @@ Com a aplicação das técnicas de elicitação de requisitos, a equipe pode mon
 
 <table class="backlogTable">
     <thead>
-        <th class="backlogThemeH">Tema</th>
-        <th class="backlogEpics">Épicos</th>
-        <th class="backlogFeatures">Funcionalidades</th>
-        <th class="backlogID">ID</th> 
-        <th class="backlogUserStories">Histórias de usuário</th>
-        <th class="backlogTasks">Tarefas</th>
+        <th class="backlogHeader">Tema</th>
+        <th class="backlogHeader">Épicos</th>
+        <th class="backlogHeader">Funcionalidades</th>
+        <th class="backlogHeader">ID</th> 
+        <th class="backlogHeader">Histórias de usuário</th>
+        <th class="backlogHeader">Tarefas</th>
     </thead>
     <tbody>
         <!-- Épico de Usuário -->
         <!-- Feature de Conta -->
         <tr>
             <td rowspan="50" class="backlogTheme">Site aglomerador de prestadores de Serviço</td>
-            <td rowspan="16" class="backlogEpic1"><a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l01-usu%c3%a1rio">usuário</a></td>
-            <td rowspan="7" class="user1">Conta</td>
-            <td rowspan="4" class="user1">US01</d>
-            <td rowspan="4"class="user1">Eu, como <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l01-usu%c3%a1rio">usuário</a>, gostaria de me cadastrar, para que possa ter uma conta na plataforma.</td>
-            <td class="user1">Criar modelo de <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l03-cliente">cliente</a></td>
+            <td rowspan="16" class="user2-2"><a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l01-usu%c3%a1rio">usuário</a></td>
+            <td rowspan="7" class="user2-2">Conta</td>
+            <td rowspan="4" class="user2-2">US01</d>
+            <td rowspan="4"class="user2-2">Eu, como <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l01-usu%c3%a1rio">usuário</a>, gostaria de me cadastrar, para que possa ter uma conta na plataforma.</td>
+            <td class="user2-2">Criar modelo de <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l03-cliente">cliente</a></td>
         </tr>
         <tr>
-            <td class="user1">Criar modelo de <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l02-prestador-de-servi%c3%a7os">prestador de serviços</a>.</td>
+            <td class="user2-2">Criar modelo de <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l02-prestador-de-servi%c3%a7os">prestador de serviços</a>.</td>
         </tr>
-            <td class="user1">Criar página de registro.</td>
+            <td class="user2-2">Criar página de registro.</td>
         <tr>
-            <td class="user1">Criar persistência de dados do <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l01-usu%c3%a1rio">usuário</a>.</td>
-        </tr>
-        <tr>
-            <td class="user1-2">US02</d>
-            <td class="user1-2">Eu, como <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l01-usu%c3%a1rio">usuário</a>, gostaria de efetuar <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l04-login">login</a> no site, para que possa ter acesso as suas funcionalidades.</td>
-            <td class="user1-2">Criar página de <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l04-login">login</a>.</td>
+            <td class="user2-2">Criar persistência de dados do <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l01-usu%c3%a1rio">usuário</a>.</td>
         </tr>
         <tr>
-            <td rowspan="2" class="user1">US03</d>
-            <td rowspan="2" class="user1">Eu, como <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l01-usu%c3%a1rio">usuário</a>, gostaria de recuperar minha senha, para que possa acessar minha conta no caso que à tenha esquecido.</td>
-            <td class="user1">Criar página de recuperação de senha.</td>
+            <td class="user2">US02</d>
+            <td class="user2">Eu, como <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l01-usu%c3%a1rio">usuário</a>, gostaria de efetuar <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l04-login">login</a> no site, para que possa ter acesso as suas funcionalidades.</td>
+            <td class="user2">Criar página de <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l04-login">login</a>.</td>
         </tr>
         <tr>
-            <td class="user1">Criar funcionalidade de requisição de recuperação de senha.</td>
+            <td rowspan="2" class="user2-2">US03</d>
+            <td rowspan="2" class="user2-2">Eu, como <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l01-usu%c3%a1rio">usuário</a>, gostaria de recuperar minha senha, para que possa acessar minha conta no caso que à tenha esquecido.</td>
+            <td class="user2-2">Criar página de recuperação de senha.</td>
+        </tr>
+        <tr>
+            <td class="user2-2">Criar funcionalidade de requisição de recuperação de senha.</td>
         </tr>
         <tr>
             <td rowspan="6" class="user2">Perfil</td>
@@ -97,16 +97,16 @@ Com a aplicação das técnicas de elicitação de requisitos, a equipe pode mon
         </tr>
         <!-- Feature de Favoritos -->
         <tr>
-            <td rowspan="3" class="user1">Favoritos</td>
-            <td rowspan="3" class="user1">US07</d>
-            <td rowspan="3" class="user1">Eu, como <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l03-cliente">cliente</a>, gostaria de favoritar um <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l02-prestador-de-servi%c3%a7os">prestador de serviços</a>, para que eu possa encontralo novamento com facilidade.</td>
-            <td class="user1">Criar lista de favoritos.</td>
+            <td rowspan="3" class="user2-2">Favoritos</td>
+            <td rowspan="3" class="user2-2">US07</d>
+            <td rowspan="3" class="user2-2">Eu, como <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l03-cliente">cliente</a>, gostaria de favoritar um <a class="linkBacklog" href="https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/./pages/base/lexicos?id=l02-prestador-de-servi%c3%a7os">prestador de serviços</a>, para que eu possa encontralo novamento com facilidade.</td>
+            <td class="user2-2">Criar lista de favoritos.</td>
         </tr>
         <tr>
-            <td class="user1">Criar persistência da lista de favoritos.</td>
+            <td class="user2-2">Criar persistência da lista de favoritos.</td>
         </tr>
         <tr>
-            <td class="user1">Criar pagina de favoritos.</td>
+            <td class="user2-2">Criar pagina de favoritos.</td>
         </tr>
         <!-- Epico de Agendamento -->
         <!-- Feature de Disponibilidade -->
