@@ -68,8 +68,8 @@ RF24 | <a href="/questionario " >Questionário</a> | Favoritar categorias de ser
 
 
 ## 2.2 Requisistos Não Funcionais
-|  ID  | Técnica | Requisito | Priorização |
-| :--: | :-----: | :-------: | :---------: |
+|  ID   | Técnica | Requisito | Priorização |
+| :-------:  | :------------------------------------: | :----------------------: | :---------: |
 | RNF01 |<a href="/questionario " >Questionário </a>  |  Interface intuitiva     | MUST |
 | RNF02 |<a href="/brainstorm " >Brainstorm </a>      |  Estabilidade do sistema | MUST | 
 
