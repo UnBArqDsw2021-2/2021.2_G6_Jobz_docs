@@ -1,5 +1,3 @@
-# <center>Jobz
-
 <p align='center'>
     <img src='assets/images/guia_estilo/logo.png' width=auto height=auto>
 </p>
@@ -11,7 +9,7 @@ Serão documentados os métodos e técnicas para o desenvolvimento desse projeto
 
 ## Sobre o Site
 
-<p style="text-indent: 40px; align = "justify">Uma aplicação web para conectar pequenas empresas, profissionais autonomos que realizam serviços de concerto e manutenção geral, à clientes que buscam por esse serviços.   </p>
+<p style="text-indent: 40px; align = "justify">Uma aplicação web para conectar pequenas empresas, profissionais autonomos que realizam serviços de concerto e manutenção geral, à clientes que buscam por esse serviços, com foco em tecnologia.   </p>
 
 ## Integrantes
 
