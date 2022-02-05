@@ -28,7 +28,7 @@
     - [Protótipo de Média Fidelidade](./pages/base/prototipo.md)
 
 - **Apresentações**
-  - [Base](./pages/apresentacoes/base.md)
+  - [Base](./pages/Apresentacoes/base.md)
 - **Sprints**
   - Sprint 1
     - [Planejamento](./pages/sprints/sprint1/sprint_planning.md)
