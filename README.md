@@ -24,11 +24,18 @@ Uma aplicação web para conectar pequenas empresas, profissionais autonomos que
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
 
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
+<img src='docs/assets/images/apresentacao-base/logo.png' width=auto height=auto>
+<img src='docs/assets/images/apresentacao-base/DesignSprint.png' width=auto height=auto>
+<img src='docs/assets/images/apresentacao-base/TermoAbertura.png' width=auto height=auto>
+<img src='docs/assets/images/apresentacao-base/metodologias.png' width=auto height=auto>
 
 ## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
 
-Adicione o(s)s vídeo(s) da Primeira Entrega.
+[Projeto Não Orientado a Abordagens Específicas](https://www.youtube.com/watch?v=eT3nrE5kbbQ) 
+
+[Processos/Metodologias/Abordagens](https://www.youtube.com/watch?v=rfFAu3dBPeM)
+
+[Iniciativas Extras](https://www.youtube.com/watch?v=QfjaEft9OEA)
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
 
