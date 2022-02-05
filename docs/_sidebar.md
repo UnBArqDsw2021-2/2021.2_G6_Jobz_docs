@@ -35,8 +35,8 @@
     - [Resultados](./pages/sprints/sprint1/sprint_review.md)
   - Sprint 2
     - [Planejamento](./pages/sprints/sprint2/sprint_planning.md)
-    <!-- -   [Resultados](./pages/sprints/sprint2/sprint_review.md)
-  - Sprint 3
+    -   [Resultados](./pages/sprints/sprint2/sprint_review.md)
+    <!-- - Sprint 3
     - [Planejamento](./pages/sprints/sprint3/sprint_planning.md)
     - [Resultados](./pages/sprints/sprint3/sprint_review.md)
   - Sprint 4
