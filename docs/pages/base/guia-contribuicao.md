@@ -21,7 +21,23 @@
     Verifique as issues abertas na [lista de issues](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues) para achar alguma que seja de seu interesse, você pode filtrá-las usando os seguintes [labels](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/labels). Algumas issues são designadas para pessoas específicas e recomendamos não alterá-las. Caso não haja alguém designado para aquela issue, sinta-se livre para criar uma nova branch e fazer seu pull request quando terminar!
 </p>
 
+ ### 2 Commits
+    
+ ### 2.1 Onde fazer commits
+<p align = "justify">
+        Para evitar conflitos de código e permitir um controle mais granular das contribuições para o projeto pedimos que sua contribuição para alguma issue não ocorra diretamente na branch master mas seja feita em uma branch dedicada àquela issue especifica, seguindo o seguinte padrão de nomes: issue#NumeroDaIssue_Descrição. Como por exemplo issue#1_CriacaoDosDocs.
+</p>
+<p align = "justify">
+    Após a conclusão da sua contribuição na issue faça um Pull Request da sua branch indicando no pull request qual issue está sendo resolvida nela, selecione também um revisor e assim que confirmado sua branch terá o merge na master.
+</p>
+
+### 2.2 Padrão de commits
+    <p align = "justify">
+        Para melhor compreensão das alterações existentes nesse projeto pedimos que os commits sejam descritos de forma não muito extensa e em portugês.
+    </p>
+    
 |    Data    | Versão |    Autor    |      Descrição       |
 | :--------: | :----: | :---------: | :------------------: |
 | 29/01/2022 |  0.1   | Álvaro Gouvea | Criação do documento |
 | 04/02/2022 |  1.0   | Álvaro Gouvea | Correções na formatação |
+| 08/02/2022 |  1.1   | Álvaro Gouvea | Adição de instrução de commits |
