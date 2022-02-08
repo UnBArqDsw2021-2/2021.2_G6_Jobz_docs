@@ -27,6 +27,27 @@
         -   [Product Backlog](./pages/base/backlog.md)
         -   [Protótipo de Média Fidelidade](./pages/base/prototipo.md)
 
+-   **Desenho de Software (Modelagem)**
+
+    -   Projeto Orientado a Abordagens Tradicionais
+        -   Diagramas Estáticos
+            -   [Diagrama de Classes](./pages/modelagem/diagrama-comunicacao.md)
+            -   [Diagrama de Componentes](./pages/modelagem/diagrama-comunicacao.md)
+            -   [Diagrama de Pacotes](./pages/modelagem/diagrama-comunicacao.md)
+            -   [Diagrama de Implementação](./pages/modelagem/diagrama-comunicacao.md)
+            -   [Diagrama de Entidade e Relacionamento](./pages/modelagem/diagrama-comunicacao.md)
+        -   Diagramas Dinâmicos
+            -   [Diagrama de Sequência](./pages/modelagem/diagrama-comunicacao.md)
+            -   [Diagrama de Atividades](./pages/modelagem/diagrama-comunicacao.md)
+            -   [Diagrama de Estados](./pages/modelagem/diagrama-comunicacao.md)
+            -   [Diagrama de Comunicação](./pages/modelagem/diagrama-comunicacao.md)
+            -   [Casos de Uso](./pages/modelagem/diagrama-comunicacao.md)
+        -   Modelagem Ágil
+            -   [Product Backlog](./pages/modelagem/diagrama-comunicacao.md)
+    -   Iniciativas Extras
+        -   [Prototipo de Alta Fidelidade](./pages/modelagem/diagrama-comunicacao.md)
+        -   [Métricas de Gerenciamento](./pages/modelagem/diagrama-comunicacao.md)
+
 -   **Apresentações**
     -   [Base](./pages/Apresentacoes/base.md)
 -   **Sprints**
@@ -67,26 +88,7 @@
         -   [Planejamento](./pages/sprints/sprint12/sprint_planning.md)
         -   [Resultados](./pages/sprints/sprint12/sprint_review.md) -->
 
-<!-- -   **Desenho de Software (Modelagem)**
-
-    -   Projeto Orientado a Abordagens Tradicionais
-        -   Notação UML – Diagramas Estáticos
-            -   [Diagrama de Classes](./pages/base/planoRisco.md)
-            -   [Diagrama de Pacotes](./pages/base/planoRisco.md)
-            -   [Diagrama de Componentes](./pages/base/planoRisco.md)
-        -   Notação UML – Diagramas Dinâmicos
-            -   [Diagrama de Sequência](./pages/base/planoRisco.md)
-            -   [Diagrama de Atividades](./pages/base/planoRisco.md)
-            -   [Diagrama de Estados](./pages/base/planoRisco.md)
-            -   [Diagrama de Comunicação](./pages/base/planoRisco.md)
-        -   Modelagem Ágil
-            -   [Product Backlog](./pages/base/planoRisco.md)
-    -   Iniciativas Extras
-        -   [Prototipo de Alta Fidelidade](./pages/base/planoRisco.md)
-        -   [Métricas de Gerenciamento](./pages/base/planoRisco.md)
-        -   [Casos de Uso](./pages/base/planoRisco.md)
-
--   **Desenho de Software (Padrões de Projeto)**
+<!-- -   **Desenho de Software (Padrões de Projeto)**
 
     -   [GRASP](./pages/base/planoRisco.md)
     -   GOFs
