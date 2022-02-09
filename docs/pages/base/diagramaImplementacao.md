@@ -18,29 +18,31 @@ Um diagrama de implementação possui elementos gráficos que representam os dif
 Assim, a elaboração de um diagrama de implementação do processo de modelagem de um produto de software, irá apoiar a compreensão da integração dos sistemas utilizados, que serão base para a construção do produto de software em questão. 
 
 
-## 2. Conteudo
+## 2. Diagrama de Implementação
 
-<!-- ### 2.1 ADIÇÃO DE IMAGENS
 
 <p align='center'>
-    <img src='assets/images/guia_estilo/logo.png' width=40% height=auto>
+    <img src='assets/images/diagramasEstaticos/diagramaImplementação.svg' width=40% height=auto>
     <figcaption align='center'>
-        <b>Figura 1: DESCRIÇÃO DA IMAGEM</b>
+        <b>Figura 1: Diagrama de implementação do produto. </b>
         <br>
-        <small>Fonte: FONTE DA IMAGEM (AUTOR)</small>
+        <small>Fonte: Autoria própria.</small>
     </figcaption>
 </p>
--->
+
 ## 3. Referências
 
 > UML-DIAGRAMS. **Structure Diagrams**. Dispoível em: https://www.uml-diagrams.org/uml-25-diagrams.html#structure-diagram. Acesso em: 8 fev. 2022.
+
 > IBM. **Diagramas de Implementação**. Disponível em: https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=topologies-deployment-diagrams. Acesso em: 9 fev. 2022.
+
 > ANIMALESCO. **Diagrama de Implementação**. Disponível em: https://unbarqdsw2021-1.github.io/2021.1_G01_Animalesco_docs/#/pages/diagrama-de-implementacao. Acesso em: 9 fev. 2022.
 
 </div>
 
 ### Histórico de versão
 
-|    Data    | Versão |       Autor      |            Descrição              |
-| :--------: | :----: | :--------------: | :-------------------------------: |
-| 09/02/2022 |  0.5   | Fernando Miranda | Criação do documento e introdução |
+|    Data    | Versão |       Autor      |              Descrição                 |
+| :--------: | :----: | :--------------: | :------------------------------------: |
+| 09/02/2022 |  0.5   | Fernando Miranda |    Criação do documento e introdução   |
+| 09/02/2022 |  1.0   | Fernando Miranda | Adicionado o diagrama de implementação |
