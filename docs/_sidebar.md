@@ -46,7 +46,7 @@
     -   Iniciativas Extras
         <!-- -   [Prototipo de Alta Fidelidade](./pages/base/planoRisco.md)-->
         <!-- -   [Métricas de Gerenciamento](./pages/base/planoRisco.md)-->
-        <!-- -   [Casos de Uso](./pages/base/planoRisco.md)-->
+         -   [Casos de Uso](./pages/base/casosUso.md)
     
 -   **Apresentações**
     -   [Base](./pages/Apresentacoes/base.md)
