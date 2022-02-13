@@ -11,12 +11,12 @@
 - **Noção** apresenta o significado do símbolo, ou melhor, sua denotação.
 - **Impacto** apresenta o efeito do símbolo na aplicação, ou melhor, sua conotação.
 
-| Número Léxico     | Nome do léxico          |
-| ----------------- | ----------------------- |
-| **Classificação** | Objeto / Verbo / Estado |
-| **Noção**         | Denotação               |
-| **Impacto**       | Conotação               |
-| **Sinônimo**      | Opcional                |
+| Elemento          | Descrição               | Status      |
+| ----------------- | ----------------------- |--------     | 
+| **Classificação** | Objeto / Verbo / Estado | Obrigatório |
+| **Noção**         | Denotação               | Obrigatório |
+| **Impacto**       | Conotação               | Obrigatório |
+| **Sinônimo**      | Termo sinõnimo          | Opcional    |
 
 ## 2. Léxicos
 
@@ -143,3 +143,4 @@
 |  1.2   | 28/01/2022 | Correções de hyperlinks e classificação        | Fernando Miranda |
 |  1.3   | 29/01/2022 | Revisão do documento                           | Lorrayne Cardozo |
 |  1.4   | 29/01/2022 | Correções de hyperlinks e revisão de texto     | Fernando Miranda |
+|  1.5   | 04/02/2022 | Correção da tabela sobre elementos dos lexicos | Ariel Serafim    |

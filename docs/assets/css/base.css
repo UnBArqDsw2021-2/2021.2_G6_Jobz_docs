@@ -74,9 +74,6 @@ section.cover .cover-main > p:last-child a {
 
 /*		Table		*/
 
-.backlogTable {
-}
-
 .backlogTheme {
 	writing-mode: vertical-rl;
 	text-orientation: upright;
@@ -87,7 +84,7 @@ section.cover .cover-main > p:last-child a {
 	border-spacing:0 15px;
 }
 
-.backlogEpics {
+.backlogHeader {
 	text-align: center !important; 
 	width: 100px !important;
 	color: seashell !important;
@@ -95,76 +92,6 @@ section.cover .cover-main > p:last-child a {
 	border-collapse: collapse !important; 
 	border-radius: 20px !important;
 	border-spacing:0 15px !important;
-}
-
-.backlogFeatures {
-	text-align: center !important;
-	width: 100px !important;
-	color: seashell !important;
-	background-color: rgb(5, 49, 58) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.backlogUserStories {
-	text-align: center !important;
-	width: 250px !important;
-	color: seashell !important;
-	background-color: rgb(5, 49, 58) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.backlogThemeH {
-	text-align: center !important;
-	width: 50px !important;
-	color: seashell !important;
-	background-color: rgb(5, 49, 58) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.backlogTasks {
-	text-align: center !important;
-	width: 250px !important;
-	color: seashell !important;
-	background-color: rgb(5, 49, 58) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-
-.backlogID {
-	text-align: center !important;
-	width: 50px !important;
-	color: seashell !important;
-	background-color: rgb(5, 49, 58) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.backlogEpic1 {
-	text-align: center !important;
-	color: seashell !important;
-	background-color: rgb(25, 90, 96) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.user1 {
-	text-align: center !important;
-	color: seashell !important;
-	background-color: rgb(25, 90, 96) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
-}
-
-.user1-2 {
-	text-align: center !important;
-	color: seashell !important;
-	background-color: rgb(62, 132, 139) !important;
-	border-collapse: collapse !important; 
-	border-radius: 20px !important;
 }
 
 .user2 {

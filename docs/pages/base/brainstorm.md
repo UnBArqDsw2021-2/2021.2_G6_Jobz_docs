@@ -14,12 +14,9 @@
 
 <p style="text-indent: 20px; text-align: justify"> O jamboard foi principalmente utilizado pela facilidade de reunir a equipe em tempo real, além de oferecer funcionalidades como os sticky notes, que ajudam na visualização e organização das ideias geradas em um quadro, no qual todos são capazes de interagir. </p>
 
-<!-- <img src='assets/images/brainstorm/jamboard_logo.png' width=95px height=auto> -->
-
 ### 2.2 Telegram
 
 <p style="text-indent: 20px; text-align: justify"> O Telegram permite que a equipe esteja sempre em contato, possibilitando a troca de informação de forma ágil por meio de mensagens de texto. Além de que, essa plataforma possibilita a geração de votações rápidas para a tomada de decisões, permitindo que a equipe consiga definir seus próximos passos sem dificuldades.</p>
-<!--<img src='assets/images/brainstorm/telegram_logo.png' width=100px height=auto>-->
 
 ### 2.2 Discord
 
@@ -84,24 +81,24 @@
 
 ### 4 Análise e Requisitos elicitados
 
- ID   | Requisito |
-|:-:   | :-: |  
-| RF01 | Cadastrar usuário |
-| RF02 | Cadastrar serviço |
-| RF03 | Agendar serviço |
-| RF04 | Compartilhar serviço |
-| RF05 | Informações de serviços realizados |
-| RF06 | Categorizar serviços |
-| RF07 | Notificação de agendamento |
-| RF08 | Divulgar serviços |
-| RF09 | Recomendar serviço para outro usuário |
+|  ID  |                 Requisito                 |
+| :--: | :---------------------------------------: |
+| RF01 |             Cadastrar usuário             |
+| RF02 |             Cadastrar serviço             |
+| RF03 |              Agendar serviço              |
+| RF04 |           Compartilhar serviço            |
+| RF05 |    Informações de serviços realizados     |
+| RF06 |           Categorizar serviços            |
+| RF07 |        Notificação de agendamento         |
+| RF08 |             Divulgar serviços             |
+| RF09 |   Recomendar serviço para outro usuário   |
 | RF10 | Chat entre prestador de serviço e cliente |
-| RF11 | Recomendação de serviço por proximidade |
-| RF11 | Favoritar serviços |
+| RF11 |  Recomendação de serviço por proximidade  |
+| RF11 |            Favoritar serviços             |
 
- ID   | Requisito nao funcional|
-|:-:   | :-: |  
-| RNF01 | Interface intuitiva |
+|  ID   | Requisito nao funcional |
+| :---: | :---------------------: |
+| RNF01 |   Interface intuitiva   |
 | RNF02 | Estabilidade do sistema |
 
 ## 5. Referências
@@ -116,8 +113,8 @@
 
 ## 6. Versionamento
 
-| Versão | Data       | Modificação          | Autor(es)       |
-| :----: | ---------- | -------------------- | --------------- |
-|  1.0   | 03/02/2022 | Criação do documento | Rodrigo Balbino |
-|  1.1   | 04/02/2022 | Revisão do documento | Fernando Miranda |
-|  1.2   | 04/02/2022 | Adição da tabela de requisitos | Álvaro Gouvea |
+| Versão | Data       | Modificação                    | Autor(es)        |
+| :----: | ---------- | ------------------------------ | ---------------- |
+|  1.0   | 03/02/2022 | Criação do documento           | Rodrigo Balbino  |
+|  1.1   | 04/02/2022 | Revisão do documento           | Fernando Miranda |
+|  1.2   | 04/02/2022 | Adição da tabela de requisitos | Álvaro Gouvea    |

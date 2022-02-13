@@ -28,13 +28,18 @@
 	A segunda usa tons de verde mais escuros, cujo objetivo é estar em contraste com a logo.
 </p>
 
+<p align = "justify">
+	As cores são respectivamente,#581845,#900c3f,#c70039,#ff5733,#ffc305.
+</p>
+
 <img src='assets/images/guia_estilo/colorpallet1.jpg' width=auto height=auto>
 
 <img src='assets/images/guia_estilo/colorpallet2.jpg' width=auto height=auto>
 
 ## 5. Versionamento
 
-| Versão | Data       | Modificação          | Autor(es)        |
-| :----: | ---------- | -------------------- | ---------------- |
-|  1.0   | 02/02/2022 | Criação do documento | Ariel Serafim    |
-|  1.1   | 03/02/2022 | Revisão do documento | Lorrayne Cardozo |
+| Versão | Data       | Modificação                 | Autor(es)        |
+| :----: | ---------- | --------------------------- | ---------------- |
+|  1.0   | 02/02/2022 | Criação do documento        | Ariel Serafim    |
+|  1.1   | 03/02/2022 | Revisão do documento        | Lorrayne Cardozo |
+|  1.2   | 04/02/2022 | Adição de valores das cores | Ariel Serafim    |

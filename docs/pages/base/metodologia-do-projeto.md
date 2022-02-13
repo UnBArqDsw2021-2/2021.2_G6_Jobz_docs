@@ -10,6 +10,9 @@ Este documento tem como objetivo definir as abordagens, metodologias e processos
 
 ### 2.1 SCRUM
 
+<img width="600px"  class="center" src="assets/images/metodos/scrum.png" alt="Scrum em uma Imagem">
+<figcaption><center>Figura 01 - Resumo visual do Scrum.<br></center></figcaption>
+
 O Scrum é um framework de gerenciamento de projetos, da etapa da organização ao desenvolvimento ágil de produtos complexos e adaptativos buscando o valor máximo, utilizado desde 1990, atualmente é utilizado em mais de 60% dos projetos ágeis em todo o mundo. [[1]](https://pt.wikipedia.org/wiki/Scrum)
 
 Dentro dessa metodologia existe diversas atividades que ocorrem durante o processo de desenvolvimento, e as seguintes foram selecionadas de acordo com nosso contexto: Product Backlog, Sprints, Sprint Planning, Sprint Review.
@@ -23,12 +26,16 @@ No início de cada Sprint, faz-se uma Sprint Planning Meeting, ou seja, uma reun
 Ao final de uma Sprint, a equipe apresenta as funcionalidades implementadas em uma Sprint Review Meeting, que é uma reunião para a verificação e validação das entregas da sprint anterior.
 
 ### 2.2 XP
+<img width="600px"  class="center" src="assets/images/metodos/XP.png" alt="Principios XP">
+<figcaption><center>Figura 02 - Principios do XP.<br></center></figcaption>
 
 O XP é um método de desenvolvimento de software, leve, não é prescritivo, e procura fundamentar as suas práticas por um conjunto de valores que são: comunicação, simplicidade, feedback e coragem. O objetivo principal do XP é levar ao extremo um conjunto de práticas que são ditas como boas na engenharia de software.
 
 Para um melhor proveito dessa metodologia, uma adaptação será feita para nosso contexto. Com isso foi definido que todas as tarefas do projeto serão planejadas para serem pequenas entregas, para que uma pessoa consiga entregar dentro do prazo definido. A programação em pares será utilizada para que buscar uma integração melhor entre a equipe e criar um sentimento de posse sobre os artefatos produzidos.
 
 ## 2.3. Kanban
+<img width="600px"  class="center" src="assets/images/metodos/kanban.png" alt="kanban">
+<figcaption><center>Figura 03 - Ilustração kanban.<br></center></figcaption>
 
 O Kanban é uma uma forma de fazer a gestão dos fluxos de desenvolvimento de um projeto, com foco no aumento de produtividade. É um sistema visual de gestão de trabalho que busca conduzir cada tarefa por um fluxo predefinido de trabalho.
 
@@ -51,7 +58,8 @@ As pipelines padrões de um Kanban são: `To do`,`Doing`,`Done`. Para nosso cont
 
 ### Histórico de versão
 
-|    Data    | Versão | Autor (es)  |      Descrição       |
-| :--------: | :----: | :---------: | :------------------: |
-| 28/01/2022 |  1.0   | João Victor | Criação do documento |
-| 04/02/2022 |  1.1   | João Victor |   Adição do Kanban   |
+|    Data    | Versão | Autor (es)    |      Descrição       |
+| :--------: | :----: | :---------:   | :------------------: |
+| 28/01/2022 |  1.0   | João Victor   | Criação do documento |
+| 04/02/2022 |  1.1   | João Victor   |   Adição do Kanban   |
+| 04/02/2022 |  1.2   | Ariel Serafim |   Adição de Imagens  |

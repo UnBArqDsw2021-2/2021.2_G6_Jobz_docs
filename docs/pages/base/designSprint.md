@@ -1,7 +1,7 @@
 # <center>Design Sprint
 
 ## 1. Introdução
-O Design Sprint é um método desenvolvido pelo [Google Ventures](https://www.gv.com/sprint/) com o objetivo de realizar algumas etapas de suma importância para o projeto de forma ágil. O processo é feito durante de 5 dia, sendo que em cada dia é concluído um artefato, sendo eles:
+O Design Sprint é um método desenvolvido pelo [Google Ventures](https://www.gv.com/sprint/) com o objetivo de realizar algumas etapas de suma importância para o projeto de forma ágil. O processo é feito durante 5 dias, sendo que em cada dia é concluído um artefato, sendo eles:
 - Unpack (entender);
 - Sketch (esboçar);
 - Decision (decidir);
@@ -115,3 +115,4 @@ Por fim, a equipe trabalhou cerca de 2 horas na construção de um [Protótipo d
 |    Data    | Versão |     Modificação      |    Autor(res)    |
 |:----------:|:------:|:--------------------:|:----------------:|
 | 30/01/2022 |   1.0  | Criação do documento | Lorrayne Cardozo |
+| 04/02/2022 |   2.0  | Revisão do documento | Ariel Serafim |
