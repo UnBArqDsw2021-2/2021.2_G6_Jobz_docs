@@ -27,13 +27,27 @@
         -   [Product Backlog](./pages/base/backlog.md)
         -   [Protótipo de Média Fidelidade](./pages/base/prototipo.md)
 
+
 -   **Desenho de Software (Modelagem)**
 
     -   Projeto Orientado a Abordagens Tradicionais
-        -   Diagramas Estáticos
-        -   Diagramas Dinâmicos
-            -   [Diagrama de Comunicação](./pages/modelagem/diagrama-comunicacao.md)
-
+        -   Notação UML – Diagramas Estáticos
+            -   [Diagrama de Implementação](./pages/base/diagramaImplementacao.md)
+        <!--    -   [Diagrama de Classes](./pages/base/planoRisco.md)-->
+        <!--    -   [Diagrama de Pacotes](./pages/base/planoRisco.md)-->
+        <!--    -   [Diagrama de Componentes](./pages/base/planoRisco.md)-->
+        -   Notação UML – Diagramas Dinâmicos
+        <!--    -   [Diagrama de Sequência](./pages/base/planoRisco.md)-->
+        <!--    -   [Diagrama de Atividades](./pages/base/planoRisco.md)-->
+        <!--    -   [Diagrama de Estados](./pages/base/planoRisco.md)-->
+           -   [Diagrama de Comunicação](./pages/modelagem/diagrama-comunicacao.md)
+        -   Modelagem Ágil
+        <!--    -   [Product Backlog](./pages/base/planoRisco.md)-->
+    -   Iniciativas Extras
+        <!-- -   [Prototipo de Alta Fidelidade](./pages/base/planoRisco.md)-->
+        <!-- -   [Métricas de Gerenciamento](./pages/base/planoRisco.md)-->
+        <!-- -   [Casos de Uso](./pages/base/planoRisco.md)-->
+    
 -   **Apresentações**
     -   [Base](./pages/Apresentacoes/base.md)
 -   **Sprints**
@@ -45,7 +59,7 @@
         -   [Resultados](./pages/sprints/sprint2/sprint_review.md)
     -   Sprint 3
         -   [Planejamento](./pages/sprints/sprint3/sprint_planning.md)
-        <!-- -   [Resultados](./pages/sprints/sprint3/sprint_review.md)
+<!--    -   [Resultados](./pages/sprints/sprint3/sprint_review.md)
     -   Sprint 4
         -   [Planejamento](./pages/sprints/sprint4/sprint_planning.md)
         -   [Resultados](./pages/sprints/sprint4/sprint_review.md)
@@ -72,9 +86,14 @@
         -   [Resultados](./pages/sprints/sprint11/sprint_review.md)
     -   Sprint 12
         -   [Planejamento](./pages/sprints/sprint12/sprint_planning.md)
-        -   [Resultados](./pages/sprints/sprint12/sprint_review.md) -->
+        -   [Resultados](./pages/sprints/sprint12/sprint_review.md)
 
+<<<<<<< HEAD
 <!-- -   **Desenho de Software (Padrões de Projeto)**
+=======
+
+-   **Desenho de Software (Padrões de Projeto)**
+>>>>>>> c983c00261953bb9876db6b061d4a72a061a6de2
 
     -   [GRASP](./pages/base/planoRisco.md)
     -   GOFs

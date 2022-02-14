@@ -55,7 +55,7 @@ A mensagem no diagrama de comunicação é mostrada como uma linha com expressã
 ### 2.1 Criação do serviço
 
 <p align='center'>
-    <img src='assets/images/diagrama-comunicacao/criacao-servico.png' width=auto height=auto>
+    <img src='assets/images/diagrama-comunicacao/collaborator.png' width=auto height=auto>
     <figcaption align='center'>
         <b>Figura 5: Diagrama de comunicação da criação do serviço</b>
         <br>
