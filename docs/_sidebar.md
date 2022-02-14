@@ -37,16 +37,17 @@
         <!--    -   [Diagrama de Pacotes](./pages/base/planoRisco.md)-->
         <!--    -   [Diagrama de Componentes](./pages/base/planoRisco.md)-->
         -   Notação UML – Diagramas Dinâmicos
-        <!--    -   [Diagrama de Sequência](./pages/base/planoRisco.md)-->
-           -   [Diagrama de Atividades](./pages/modelagem/diagramaAtividades.md)
-        <!--    -   [Diagrama de Estados](./pages/base/planoRisco.md)-->
+        <!--    -   [Diagrama de Sequência](./pages/base/planoRisco.md)-->  
+            -   [Diagrama de Atividades](./pages/modelagem/diagramaAtividades.md)
+        <!--    -   [Diagrama de Atividades](./pages/base/planoRisco.md)-->
+            -   [Diagrama de Estados](./pages/base/diagramaEstados.md)
         <!--    -   [Diagrama de Comunicação](./pages/base/planoRisco.md)-->
         -   Modelagem Ágil
         <!--    -   [Product Backlog](./pages/base/planoRisco.md)-->
     -   Iniciativas Extras
         <!-- -   [Prototipo de Alta Fidelidade](./pages/base/planoRisco.md)-->
         <!-- -   [Métricas de Gerenciamento](./pages/base/planoRisco.md)-->
-        <!-- -   [Casos de Uso](./pages/base/planoRisco.md)-->
+         -   [Casos de Uso](./pages/base/casosUso.md)
     
 -   **Apresentações**
     -   [Base](./pages/Apresentacoes/base.md)
