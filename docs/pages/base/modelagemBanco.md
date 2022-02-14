@@ -17,6 +17,20 @@ Objetivo: Representar em forma gráfica o que foi descrito no MER (Modelo Entida
 3. DE (Diagrama de esquemas)<br>
 Objetivo: Representar a configuração lógica da totalidade ou de parte da base de dados relacional.
 
+## 2. Modelo entidade e relacionamento (ME-R)
+
+### Entidades
+
+**USER** (<u>id</u>, name, email, cpf, password, profileType, {phone})<br>
+**ADDRESS** (<u>id</u>, addressType, number, street, neighborhood, complement, city, state, zipcode)<br>
+**COMPANY** (<u>id</u>, name, cnpj, {phone})<br>
+**SERVICE** (<u>id</u>, title, description, {photo})<br>
+**CATEGORY_SERVICE** (<u>id</u>, name)<br>
+**CLIENT_EVALUATION** (<u>id</u>, note, comment)<br>
+
+### Relacionamentos
+
+
 
 ## 2. Versionamento
 
