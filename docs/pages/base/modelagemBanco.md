@@ -1,5 +1,8 @@
 # <center> Modelagem banco de dados
 
+<div align="justify">
+
+
 ## 1. Introdução
 
 O documento em questão tem como objetivo documentar e apresentar a modelagem do banco de dados previamente definida e ir evoluindo de acordo com a evolução do software. 
@@ -19,7 +22,7 @@ Objetivo: Representar a configuração lógica da totalidade ou de parte da base
 
 ## 2. Modelo entidade e relacionamento (ME-R)
 
-### Entidades
+### 2.1 Entidades
 
 **USER** (<u>id</u>, name, email, cpf, password, profileType, {phone})<br>
 **ADDRESS** (<u>id</u>, addressType, number, street, neighborhood, complement, city, state, zipcode)<br>
@@ -28,7 +31,7 @@ Objetivo: Representar a configuração lógica da totalidade ou de parte da base
 **CATEGORY_SERVICE** (<u>id</u>, name)<br>
 **CLIENT_EVALUATION** (<u>id</u>, note, comment)<br>
 
-### Relacionamentos
+### 2.2 Relacionamentos
 
 **USER** -> possui -> **ADDRESS**
 
@@ -88,11 +91,27 @@ Cardinalidade -> **1:n**
 
 ## 3. Diagrama entidade e relacionamento (DE-R)
 
-![V1](../../assets/images/modelagemBanco/V1-MER.png)
+<p align='center'>
+    <img src='assets/images/modelagemBanco/V1-MER.png' width=auto height=auto>
+    <figcaption align='center'>
+        <b>Figura 1: Diagrama de entidade relacionamento</b>
+        <br>
+    </figcaption>
+</p>
+
 
 ## 4. Diagrama lógico
 
-![V1](../../assets/images/modelagemBanco/V1-DE-LOGICO.png)
+
+<p align='center'>
+    <img src='assets/images/modelagemBanco/V1-DE-LOGICO.png' width=auto height=auto>
+    <figcaption align='center'>
+        <b>Figura 2: Diagrama lógico</b>
+        <br>
+    </figcaption>
+</p>
+
+</div>
 
 ## 5. Versionamento
 
@@ -103,3 +122,4 @@ Cardinalidade -> **1:n**
 |  0.3   | 14/01/2022 | Criação do ME-R | Luís Fernando Furtado de Araújo |
 |  0.4   | 14/01/2022 | Adição do Diagrama Lógico | Luís Fernando Furtado de Araújo |
 |  1.0   | 14/01/2022 | Adição do DE-R e revisões | Luís Fernando Furtado de Araújo |
+|  1.1   | 14/01/2022 | Revisão do documento | João Victor |
