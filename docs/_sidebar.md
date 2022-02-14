@@ -47,6 +47,7 @@
         <!-- -   [Prototipo de Alta Fidelidade](./pages/base/planoRisco.md)-->
         <!-- -   [Métricas de Gerenciamento](./pages/base/planoRisco.md)-->
         <!-- -   [Casos de Uso](./pages/base/planoRisco.md)-->
+        -   [Modelagem banco de dados](./pages/base/modelagemBanco.md)
     
 -   **Apresentações**
     -   [Base](./pages/Apresentacoes/base.md)
