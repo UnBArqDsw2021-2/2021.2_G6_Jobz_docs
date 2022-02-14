@@ -37,7 +37,8 @@
         <!--    -   [Diagrama de Pacotes](./pages/base/planoRisco.md)-->
         <!--    -   [Diagrama de Componentes](./pages/base/planoRisco.md)-->
         -   Notação UML – Diagramas Dinâmicos
-        <!--    -   [Diagrama de Sequência](./pages/base/planoRisco.md)-->
+        <!--    -   [Diagrama de Sequência](./pages/base/planoRisco.md)-->  
+            -   [Diagrama de Atividades](./pages/modelagem/diagramaAtividades.md)
         <!--    -   [Diagrama de Atividades](./pages/base/planoRisco.md)-->
             -   [Diagrama de Estados](./pages/base/diagramaEstados.md)
         <!--    -   [Diagrama de Comunicação](./pages/base/planoRisco.md)-->
