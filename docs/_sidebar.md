@@ -1,35 +1,33 @@
--   [**Página Inicial**](/)
+- [**Página Inicial**](/)
 
--   **Desenho de Software (Base)**
+- **Desenho de Software (Base)**
 
-    -   Projeto Não Orientado a Abordagens Específicas
-        -   [Design Sprint](./pages/base/designSprint.md)
-        -   [Rich Picture](./pages/base/richPicture.md)
-        -   [5W2H](./pages/base/5w2h.md)
-        -   [Causa e Efeito](./pages/base/causaEefeito.md)
-        -   [Léxicos](./pages/base/lexicos.md)
-        -   [Plano de Riscos](./pages/base/planoRisco.md)
-        -   [Mapa mental](./pages/base/mapaMental.md)
-        -   Técnicas de Elicitação
-            -   [Brainstorm](./pages/base/brainstorm.md)
-            -   [Introspecção](./pages/base/introspeccao.md)
-            -   [Questionário](./pages/base/questionario.md)
-        -   [Priorização](./pages/base/moscow.md)
-    -   Processos/Metodologias/Abordagens
-        -   [Metodologia do Projeto](./pages/base/metodologia-do-projeto.md)
-        -   [Metodologia BPMN](./pages/base/BPMN.md)
-    -   Iniciativas Extras
-        -   [Termo de Abertura](./pages/base/termodeabertura.md)
-        -   [Personas](./pages/base/personas.md)
-        -   [Storytelling](./pages/base/storyboard.md)
-        -   [Guia de Estilo](./pages/base/GuiaEstilo.md)
-        -   [Guia de Contribuição](./pages/base/guia-contribuicao.md)
-        -   [Product Backlog](./pages/base/backlog.md)
-        -   [Protótipo de Média Fidelidade](./pages/base/prototipo.md)
+  - Projeto Não Orientado a Abordagens Específicas
+    - [Design Sprint](./pages/base/designSprint.md)
+    - [Rich Picture](./pages/base/richPicture.md)
+    - [5W2H](./pages/base/5w2h.md)
+    - [Causa e Efeito](./pages/base/causaEefeito.md)
+    - [Léxicos](./pages/base/lexicos.md)
+    - [Plano de Riscos](./pages/base/planoRisco.md)
+    - [Mapa mental](./pages/base/mapaMental.md)
+    - Técnicas de Elicitação
+      - [Brainstorm](./pages/base/brainstorm.md)
+      - [Introspecção](./pages/base/introspeccao.md)
+      - [Questionário](./pages/base/questionario.md)
+    - [Priorização](./pages/base/moscow.md)
+  - Processos/Metodologias/Abordagens
+    - [Metodologia do Projeto](./pages/base/metodologia-do-projeto.md)
+    - [Metodologia BPMN](./pages/base/BPMN.md)
+  - Iniciativas Extras
+    - [Termo de Abertura](./pages/base/termodeabertura.md)
+    - [Personas](./pages/base/personas.md)
+    - [Storytelling](./pages/base/storyboard.md)
+    - [Guia de Estilo](./pages/base/GuiaEstilo.md)
+    - [Guia de Contribuição](./pages/base/guia-contribuicao.md)
+    - [Product Backlog](./pages/base/backlog.md)
+    - [Protótipo de Média Fidelidade](./pages/base/prototipo.md)
 
-
--   **Desenho de Software (Modelagem)**
-
+- **Desenho de Software (Modelagem)**
     -   Projeto Orientado a Abordagens Tradicionais
         -   Notação UML – Diagramas Estáticos
             -   [Diagrama de Implementação](./pages/modelagem/diagramaImplementacao.md)
@@ -39,8 +37,8 @@
         -   Notação UML – Diagramas Dinâmicos
             -   [Diagrama de Sequência](./pages/base/diagramaSequencia.md)  
             -   [Diagrama de Atividades](./pages/modelagem/diagramaAtividades.md)
+            -   [Diagrama de Comunicação](./pages/modelagem/diagrama-comunicacao.md)
             -   [Diagrama de Estados](./pages/base/diagramaEstados.md)
-            <!-- -   [Diagrama de Comunicação](./pages/modelagem/planoRisco.md) -->
         -   Modelagem Ágil
         <!--    -   [Product Backlog](./pages/base/planoRisco.md)-->
     -   Iniciativas Extras
@@ -89,20 +87,20 @@
         -   [Resultados](./pages/sprints/sprint12/sprint_review.md)
 
 
--   **Desenho de Software (Padrões de Projeto)**
+<!-- -   **Desenho de Software (Padrões de Projeto)**
 
-    -   [GRASP](./pages/base/planoRisco.md)
-    -   GOFs
-        -   [Criacionais](./pages/base/planoRisco.md)
-        -   [Estruturais](./pages/base/planoRisco.md)
-        -   [Emergentes](./pages/base/planoRisco.md)
-    -   [Emergentes](./pages/base/planoRisco.md)
-    -   Iniciativas Extras
-        -   [EXTRA](./pages/base/planoRisco.md)
+  - [GRASP](./pages/base/planoRisco.md)
+  - GOFs
+    - [Criacionais](./pages/base/planoRisco.md)
+    - [Estruturais](./pages/base/planoRisco.md)
+    - [Emergentes](./pages/base/planoRisco.md)
+  - [Emergentes](./pages/base/planoRisco.md)
+  - Iniciativas Extras
+    - [EXTRA](./pages/base/planoRisco.md)
 
--   **Arquitetura de Software & Reutilização**
+- **Arquitetura de Software & Reutilização**
 
-    -   [Documento de Arquitetura](./pages/base/planoRisco.md)
-    -   [Reutilização de Software](./pages/base/planoRisco.md)
-    -   Iniciativa Extras
-        -   [EXTRA](./pages/base/planoRisco.md) -->
+  - [Documento de Arquitetura](./pages/base/planoRisco.md)
+  - [Reutilização de Software](./pages/base/planoRisco.md)
+  - Iniciativa Extras
+    - [EXTRA](./pages/base/planoRisco.md) -->
