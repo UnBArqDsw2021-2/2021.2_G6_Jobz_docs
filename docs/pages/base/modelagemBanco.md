@@ -86,13 +86,15 @@ Cardinalidade -> **1:n**
 
 <hr>
 
+## 3. Diagrama entidade e relacionamento (DE-R)
 
+![V1](../../assets/images/modelagemBanco/V1-MER.png)
 
-
-## 2. Versionamento
+## 4. Versionamento
 
 | Versão | Data       | Modificação          | Autor(es)           |
 | :----: | ---------- | -------------------- | --------------- |
 |  0.1   | 14/01/2022 | Criação do documento | Luís Fernando Furtado de Araújo |
 |  0.2   | 14/01/2022 | Criação da introdução e subtópicos | Luís Fernando Furtado de Araújo |
 |  0.3   | 14/01/2022 | Criação do ME-R | Luís Fernando Furtado de Araújo |
+|  1.0   | 14/01/2022 | Adição do DE-R e revisões | Luís Fernando Furtado de Araújo |
