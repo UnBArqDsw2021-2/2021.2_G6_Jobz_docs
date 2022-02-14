@@ -31,22 +31,8 @@
 
     -   Projeto Orientado a Abordagens Tradicionais
         -   Diagramas Estáticos
-            -   [Diagrama de Classes](./pages/modelagem/diagrama-comunicacao.md)
-            -   [Diagrama de Componentes](./pages/modelagem/diagrama-comunicacao.md)
-            -   [Diagrama de Pacotes](./pages/modelagem/diagrama-comunicacao.md)
-            -   [Diagrama de Implementação](./pages/modelagem/diagrama-comunicacao.md)
-            -   [Diagrama de Entidade e Relacionamento](./pages/modelagem/diagrama-comunicacao.md)
         -   Diagramas Dinâmicos
-            -   [Diagrama de Sequência](./pages/modelagem/diagrama-comunicacao.md)
-            -   [Diagrama de Atividades](./pages/modelagem/diagrama-comunicacao.md)
-            -   [Diagrama de Estados](./pages/modelagem/diagrama-comunicacao.md)
             -   [Diagrama de Comunicação](./pages/modelagem/diagrama-comunicacao.md)
-            -   [Casos de Uso](./pages/modelagem/diagrama-comunicacao.md)
-        -   Modelagem Ágil
-            -   [Product Backlog](./pages/modelagem/diagrama-comunicacao.md)
-    -   Iniciativas Extras
-        -   [Prototipo de Alta Fidelidade](./pages/modelagem/diagrama-comunicacao.md)
-        -   [Métricas de Gerenciamento](./pages/modelagem/diagrama-comunicacao.md)
 
 -   **Apresentações**
     -   [Base](./pages/Apresentacoes/base.md)
