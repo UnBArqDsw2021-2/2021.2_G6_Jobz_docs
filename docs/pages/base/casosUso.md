@@ -40,3 +40,4 @@ Para a criação do Diagrama foram construídas duas versões, sendo que a prime
 |  0.1   | 12/02/2022 | Criação do documento | Pedro Campos     |
 |  0.5   | 12/02/2022 | Adição introdução    | Pedro Campos     |
 |  1.0   | 12/02/2022 | Adição conteúdo      | Pedro Campos	   |
+|  1.1   | 14/02/2022 | Revisado      | Antônio Aldísio	   |
