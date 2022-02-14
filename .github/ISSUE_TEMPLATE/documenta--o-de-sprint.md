@@ -14,11 +14,11 @@ Descrição | Data
 | **Data de início**   | (data)
 | **Data de término** | (data)
 
-| Issue | Responsável | Concluída | Causa |
-| :-:   | :-:         | :-:       | :-:   | 
-| #(id da issue) | @(nome do responsável) | | |
-| #(id da issue) | @(nome do responsável) | | |
-| #(id da issue) | @(nome do responsável) | | |
+| Issue | Responsável | Revisor | Concluída | Causa |
+| :-:   | :-:         | :-:       | :-:   | :-: |
+| #(id da issue) | @(nome do responsável) | | | |
+| #(id da issue) | @(nome do responsável) | | | |
+| #(id da issue) | @(nome do responsável) | | | |
   
 <!-- ✔️✖️⚠️ -->
 <!-- @LorrayneCardozo  -->
