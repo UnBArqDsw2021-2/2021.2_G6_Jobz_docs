@@ -39,7 +39,11 @@
         -   Notação UML – Diagramas Dinâmicos
         <!--    -   [Diagrama de Sequência](./pages/base/planoRisco.md)-->  
             -   [Diagrama de Atividades](./pages/modelagem/diagramaAtividades.md)
+            -   [Diagrama de Comunicação](./pages/modelagem/diagrama-comunicacao.md)
         <!--    -   [Diagrama de Atividades](./pages/base/planoRisco.md)-->
+        <!--    -   [Diagrama de Estados](./pages/base/planoRisco.md)-->
+           
+
             -   [Diagrama de Estados](./pages/base/diagramaEstados.md)
         <!--    -   [Diagrama de Comunicação](./pages/base/planoRisco.md)-->
         -   Modelagem Ágil
@@ -90,7 +94,8 @@
         -   [Resultados](./pages/sprints/sprint12/sprint_review.md)
 
 
--   **Desenho de Software (Padrões de Projeto)**
+<!-- -   **Desenho de Software (Padrões de Projeto)**
+
 
     -   [GRASP](./pages/base/planoRisco.md)
     -   GOFs
