@@ -90,11 +90,16 @@ Cardinalidade -> **1:n**
 
 ![V1](../../assets/images/modelagemBanco/V1-MER.png)
 
-## 4. Versionamento
+## 4. Diagrama lógico
+
+![V1](../../assets/images/modelagemBanco/V1-DE-LOGICO.png)
+
+## 5. Versionamento
 
 | Versão | Data       | Modificação          | Autor(es)           |
 | :----: | ---------- | -------------------- | --------------- |
 |  0.1   | 14/01/2022 | Criação do documento | Luís Fernando Furtado de Araújo |
 |  0.2   | 14/01/2022 | Criação da introdução e subtópicos | Luís Fernando Furtado de Araújo |
 |  0.3   | 14/01/2022 | Criação do ME-R | Luís Fernando Furtado de Araújo |
+|  0.4   | 14/01/2022 | Adição do Diagrama Lógico | Luís Fernando Furtado de Araújo |
 |  1.0   | 14/01/2022 | Adição do DE-R e revisões | Luís Fernando Furtado de Araújo |
