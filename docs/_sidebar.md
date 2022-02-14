@@ -33,13 +33,14 @@
     -   Projeto Orientado a Abordagens Tradicionais
         -   Notação UML – Diagramas Estáticos
             -   [Diagrama de Implementação](./pages/base/diagramaImplementacao.md)
-        <!--    -   [Diagrama de Classes](./pages/base/planoRisco.md)-->
+            -   [Diagrama de Classes](./pages/base/diagramaDeClasses.md)
         <!--    -   [Diagrama de Pacotes](./pages/base/planoRisco.md)-->
         <!--    -   [Diagrama de Componentes](./pages/base/planoRisco.md)-->
         -   Notação UML – Diagramas Dinâmicos
-        <!--    -   [Diagrama de Sequência](./pages/base/planoRisco.md)-->
+        <!--    -   [Diagrama de Sequência](./pages/base/planoRisco.md)-->  
+            -   [Diagrama de Atividades](./pages/modelagem/diagramaAtividades.md)
         <!--    -   [Diagrama de Atividades](./pages/base/planoRisco.md)-->
-        <!--    -   [Diagrama de Estados](./pages/base/planoRisco.md)-->
+            -   [Diagrama de Estados](./pages/base/diagramaEstados.md)
         <!--    -   [Diagrama de Comunicação](./pages/base/planoRisco.md)-->
         -   Modelagem Ágil
         <!--    -   [Product Backlog](./pages/base/planoRisco.md)-->
@@ -48,6 +49,7 @@
         <!-- -   [Métricas de Gerenciamento](./pages/base/planoRisco.md)-->
         <!-- -   [Casos de Uso](./pages/base/planoRisco.md)-->
         -   [Modelagem banco de dados](./pages/base/modelagemBanco.md)
+        -   [Casos de Uso](./pages/base/casosUso.md)
     
 -   **Apresentações**
     -   [Base](./pages/Apresentacoes/base.md)
