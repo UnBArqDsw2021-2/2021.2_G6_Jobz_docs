@@ -29,7 +29,7 @@
 
 ### 2.1 Contratação de Serviços
 
-<div align='center'>
+<p align='center'>
     <img src='assets/images/diagramaSequencia/sequenceDiagramService.png' width=100% height=auto>
     <figcaption align='center'>
         <b>Figura 2: Diagrama de Sequencia da Contratação de Serviços</b>
