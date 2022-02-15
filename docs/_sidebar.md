@@ -57,10 +57,10 @@
         -   [Resultados](./pages/sprints/sprint2/sprint_review.md)
     -   Sprint 3
         -   [Planejamento](./pages/sprints/sprint3/sprint_planning.md)
-<!--    -   [Resultados](./pages/sprints/sprint3/sprint_review.md)
+        -   [Resultados](./pages/sprints/sprint3/sprint_review.md)
     -   Sprint 4
         -   [Planejamento](./pages/sprints/sprint4/sprint_planning.md)
-        -   [Resultados](./pages/sprints/sprint4/sprint_review.md)
+        <!-- -   [Resultados](./pages/sprints/sprint4/sprint_review.md)
     -   Sprint 5
         -   [Planejamento](./pages/sprints/sprint5/sprint_planning.md)
         -   [Resultados](./pages/sprints/sprint5/sprint_review.md)
@@ -84,7 +84,7 @@
         -   [Resultados](./pages/sprints/sprint11/sprint_review.md)
     -   Sprint 12
         -   [Planejamento](./pages/sprints/sprint12/sprint_planning.md)
-        -   [Resultados](./pages/sprints/sprint12/sprint_review.md)
+        -   [Resultados](./pages/sprints/sprint12/sprint_review.md) -->
 
 
 <!-- -   **Desenho de Software (Padrões de Projeto)**
