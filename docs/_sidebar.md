@@ -44,7 +44,7 @@
     -   Iniciativas Extras
         <!-- -   [Prototipo de Alta Fidelidade](./pages/base/planoRisco.md)-->
         -   [Modelagem banco de dados](./pages/base/modelagemBanco.md)
-        -   [Casos de Uso](./pages/base/casosUso.md)
+        -   [Casos de Uso](./pages/modelagem/casosUso.md)
     
 -   **Apresentações**
     -   [Base](./pages/Apresentacoes/base.md)

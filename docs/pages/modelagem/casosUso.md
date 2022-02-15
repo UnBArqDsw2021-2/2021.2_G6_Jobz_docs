@@ -12,16 +12,27 @@ Em geral os diagramas de Casos de Uso são importantes por que identificam as ex
 ## 2. Diagrama
 
 <p style="text-indent: 20px; text-align: justify">
-Para a criação do Diagrama foram construídas duas versões, sendo que a primeira constituída por uma versão inicial do diagrama de Casos de Uso e o segundo com uma versão mais detalhada e corrigindo implicações da primeira versão. Os diagramas podem ser visualizados abaixo: 
+Para a criação do Diagrama foram construídas duas versões, sendo que a primeira constituída por uma versão inicial do diagrama de Casos de Uso e o segundo com uma versão mais detalhada e corrigindo implicações da primeira versão, além de destacar o rastramento dos casos de uso presentes na aplicação. Os diagramas podem ser visualizados abaixo: 
 </p>
 
-<img src='assets/images/CasosUso/CasosUsoJOBZ1.png' width=auto height=auto>
+<p align='center'>
+    <img src='assets/images/CasosUso/CasosUsoJOBZ1.png' width=80% height=auto>
+    <figcaption align='center'>
+        <b align='center'>Figura 1: Diagrama de Casos de Uso versão 1 .  </b>
+        <br>
+        <small>Fonte: Autoria própria.</small>
+    </figcaption>
+</p>
 
-<b>Figura 1: Diagrama de Casos de Uso versão 1 . </b>
+<p align='center'>
+    <img src='assets/images/CasosUso/CasosUsoJOBZ2.png' width=80% height=auto>
+    <figcaption align='center'>
+        <b>Figura 2: Diagrama de Casos de Uso versão 2. </b> 
+        <br>
+        <small>Fonte: Autoria própria.</small>
+    </figcaption>
+</p>
 
-<img src='assets/images/CasosUso/CasosUsoJOBZ2.png' width=auto height=auto>
-
-<b>Figura 2: Diagrama de Casos de Uso versão 2 . </b>
 
 ## 3. Referências
 
@@ -29,9 +40,7 @@ Para a criação do Diagrama foram construídas duas versões, sendo que a prime
 
 > SERRANO, Milene; Requisitos - Aula - PROJETO E DESENHO DE SOFTWARE;
 
-> Diagrama de Casos de Uso do projeto "Curumim";
-
-</p>
+> <li><a href="https://unbarqdsw2021-1.github.io/2021.1_G6_Curumim/modelagem/modelagem-dinamica/casos-de-uso/">Diagrama de Casos de Uso do projeto "Curumim"</a>;</li>
 
 ## 4. Versionamento
 
