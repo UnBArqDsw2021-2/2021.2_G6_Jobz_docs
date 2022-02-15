@@ -25,7 +25,7 @@ Para a criação do Diagrama foram construídas duas versões, sendo que a prime
 </p>
 
 <p align='center'>
-    <img src='assets/images/CasosUso/CasosUsoJOBZ2.png' width=80% height=auto>
+    <img src='assets/images/CasosUso/CasosUsoJOBZ2.svg' width=80% height=auto>
     <figcaption align='center'>
         <b>Figura 2: Diagrama de Casos de Uso versão 2. </b> 
         <br>
@@ -50,3 +50,4 @@ Para a criação do Diagrama foram construídas duas versões, sendo que a prime
 |  0.5   | 12/02/2022 | Adição introdução    | Pedro Campos     |
 |  1.0   | 12/02/2022 | Adição conteúdo      | Pedro Campos	   |
 |  1.1   | 14/02/2022 | Revisado      | Antônio Aldísio	   |
+|  2.0   | 15/02/2022 | Refatoração conteúdo   | Pedro Campos |
