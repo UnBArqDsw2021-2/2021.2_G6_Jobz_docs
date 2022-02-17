@@ -36,6 +36,8 @@ Para o desenvolvimento do diagrama foram utilizadas as ferramentas do [draw.io](
 > SERRANO, Milene. Arquitetura e desenho de software - 05h - VideoAula - DSW - Modelagem - Diagrama de Componentes. Acesso dia 14/02/21
 
 > https://www.uml-diagrams.org/component-diagrams.html Acessado dia 16/02/21
+
+> https://developer.ibm.com/articles/the-component-diagram/  Acessado dia 16/02/21
 </div>
 
 ### Histórico de versão
@@ -44,3 +46,4 @@ Para o desenvolvimento do diagrama foram utilizadas as ferramentas do [draw.io](
 | :--------: | :----: | :---------: | :------------------: |
 | 29/01/2022 |  1.0   | Antônio Aldísio | Criação do documento e adição do item 1 |
 | 16/02/2022 |  1.5   | Antônio Aldísio | adição do item 2 e 3 |
+| 17/02/2022 |  1.6   | Antônio Aldísio | adição de referências |
