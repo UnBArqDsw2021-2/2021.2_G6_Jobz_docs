@@ -11,6 +11,24 @@
 <p align='center'>
     <img src='assets/images/diagramasEstaticos/diagramadepacotes.png' width=40% height=auto>
     <figcaption align='center'>
+        <b>Figura 1: Diagrama de pacotes do backend do produto. </b>
+        <br>
+        <small>Fonte: Autoria própria.</small>
+    </figcaption>
+</p>
+
+<p align='center'>
+    <img src='assets/images/diagramasEstaticos/diagramapacotesfrontend.png' width=40% height=auto>
+    <figcaption align='center'>
+        <b>Figura 1: Diagrama de pacotes do frontend produto. </b>
+        <br>
+        <small>Fonte: Autoria própria.</small>
+    </figcaption>
+</p>
+
+<p align='center'>
+    <img src='assets/images/diagramasEstaticos/diagramapacotesgeral.png' width=40% height=auto>
+    <figcaption align='center'>
         <b>Figura 1: Diagrama de pacotes do produto. </b>
         <br>
         <small>Fonte: Autoria própria.</small>
@@ -34,3 +52,4 @@
 |    Data    | Versão |       Autor      |              Descrição                 |
 | :--------: | :----: | :--------------: | :------------------------------------: |
 | 16/02/2022 |  0.1   | Ariel Serafim    |    Criação do documento   |
+| 16/02/2022 |  0.2   | Ariel Serafim    |    Adição dos diagramas de frontend e geral.   |
