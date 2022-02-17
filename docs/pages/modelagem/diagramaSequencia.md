@@ -13,24 +13,13 @@
 
 ## 2. Diagrama de Sequência
 
-<div align="justify">   Os fluxos considerados mais importantes para a nossa aplicação, é a venda de produtos e contratação de serviços. Dessa forma, foi decidido que os diagramas de sequência a serem desenvolvidos deveriam ser para apresentar esses dois processos.
-</p>
-
-### 2.1 Venda de Produtos
-
-<p align='center'>
-    <img src='assets/images/diagramaSequencia/sequenceDiagramProduct.png' width=100% height=auto>
-    <figcaption align='center'>
-        <b>Figura 1: Diagrama de Sequencia da Compra de Produtos</b>
-        <br>
-        <small>Autor: Rodrigo Balbino</small>
-    </figcaption>
+<div align="justify">   O fluxo considerado mais importante para a nossa aplicação  é a contratação de serviços. Dessa forma, foi decidido que o diagrama de sequência a ser desenvolvido deveria ser para apresentar esses  processo.
 </p>
 
 ### 2.1 Contratação de Serviços
 
 <p align='center'>
-    <img src='assets/images/diagramaSequencia/sequenceDiagramService.png' width=100% height=auto>
+    <img src='assets/images/diagramaSequencia/sequenceDiagramHiring.png' width=100% height=auto>
     <figcaption align='center'>
         <b>Figura 2: Diagrama de Sequencia da Contratação de Serviços</b>
         <br>
@@ -46,6 +35,7 @@
 
 ### Histórico de versão
 
-|    Data    | Versão |      Autor      |      Descrição       |
-| :--------: | :----: | :-------------: | :------------------: |
-| 29/01/2022 |  1.0   | Rodrigo Balbino | Criação do documento |
+|    Data    | Versão |      Autor      |            Descrição             |
+| :--------: | :----: | :-------------: | :------------------------------: |
+| 29/01/2022 |  1.0   | Rodrigo Balbino |       Criação do documento       |
+| 17/02/2022 |  1.1   | Rodrigo Balbino | Correção do diagrama para inglês |
