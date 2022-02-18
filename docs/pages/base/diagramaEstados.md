@@ -57,3 +57,4 @@ O seu comportamento através da análise da mudança de estados dos tipos de obj
 |    Data    | Versão |    Autor    |      Descrição       |
 | :--------: | :----: | :---------: | :------------------: |
 | 14/02/2022 |  0.1   |  Guilherme Braz | Criação do documento |
+| 18/02/2022 |  1.0   |  Antônio Aldisio | melhoria do item 1 |
