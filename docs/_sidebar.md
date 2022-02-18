@@ -33,7 +33,7 @@
             -   [Diagrama de Implementação](./pages/modelagem/diagramaImplementacao.md)
             -   [Diagrama de Classes](./pages/modelagem/diagramaDeClasses.md)
             -   [Diagrama de Pacotes](./pages/modelagem/diagramaPacotes.md)
-        <!--    -   [Diagrama de Componentes](./pages/base/planoRisco.md)-->
+            -   [Diagrama de Componentes](./pages/modelagem/componentes.md)
     - Notação UML – Diagramas Dinâmicos
       - [Diagrama de Sequência](./pages/modelagem/diagramaSequencia.md)
       - [Diagrama de Atividades](./pages/modelagem/diagramaAtividades.md)
