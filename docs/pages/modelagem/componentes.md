@@ -23,7 +23,7 @@ Para o desenvolvimento do diagrama foram utilizadas as ferramentas do [draw.io](
 ## 3. Diagrama
 
 <p align='center'>
-    <img src='assets/images/Diagrama_Compomentes/Diagrama compomente.jpeg' width=40% height=auto>
+    <img src='assets/images/Diagrama_Compomentes/Diagrama compomente.jpeg' width=100% height=auto>
     <figcaption align='center'>
         <b>Figura 1: Diagrama de Componentes</b>
         <br>
@@ -47,3 +47,5 @@ Para o desenvolvimento do diagrama foram utilizadas as ferramentas do [draw.io](
 | 29/01/2022 |  1.0   | Antônio Aldísio | Criação do documento e adição do item 1 |
 | 16/02/2022 |  1.5   | Antônio Aldísio | adição do item 2 e 3 |
 | 17/02/2022 |  1.6   | Antônio Aldísio | adição de referências |
+| 18/02/2022 |  1.7   | Luís Fernando Furtado de Araújo | Ajustes da imagem do diagrama |
+| 18/02/2022 |  1.8   | Luís Fernando Furtado de Araújo | Revisão do documento |
