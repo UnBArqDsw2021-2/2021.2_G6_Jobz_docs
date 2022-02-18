@@ -32,17 +32,17 @@
     - Notação UML – Diagramas Estáticos
       - [Diagrama de Implementação](./pages/modelagem/diagramaImplementacao.md)
       - [Diagrama de Classes](./pages/modelagem/diagramaDeClasses.md)
-        <!--    -   [Diagrama de Pacotes](./pages/base/planoRisco.md)-->
-        <!--    -   [Diagrama de Componentes](./pages/base/planoRisco.md)-->
+        <!--    -   [Diagrama de Pacotes](./pages/modelagem/diagramaImplementacao.md)-->
+        <!--    -   [Diagrama de Componentes](./pages/modelagem/diagramaImplementacao.md)-->
     - Notação UML – Diagramas Dinâmicos
       - [Diagrama de Sequência](./pages/modelagem/diagramaSequencia.md)
       - [Diagrama de Atividades](./pages/modelagem/diagramaAtividades.md)
       - [Diagrama de Comunicação](./pages/modelagem/diagrama-comunicacao.md)
       - [Diagrama de Estados](./pages/modelagem/diagramaEstados.md)
     - Modelagem Ágil
-    <!--    -   [Product Backlog](./pages/base/planoRisco.md)-->
+    <!--    -   [Product Backlog](./pages/modelagem/diagramaImplementacao.md)-->
   - Iniciativas Extras
-    <!-- -   [Prototipo de Alta Fidelidade](./pages/base/planoRisco.md)-->
+    <!-- -   [Prototipo de Alta Fidelidade](./pages/modelagem/diagramaImplementacao.md)-->
     - [Modelagem banco de dados](./pages/modelagem/modelagemBanco.md)
     - [Casos de Uso](./pages/modelagem/casosUso.md)
 - **Apresentações**
