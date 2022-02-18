@@ -6,7 +6,10 @@
 
 O diagrama é mais comum em abordagem de Orientação a Objetos na parte de agrupar classes com base em um objetivo comum, para que o desenvolvedor e outras pessoas envolvidas analisem o projeto de desenvolvimento de software de forma generalizada. O termo "componente" refere-se a um módulo de classes que representa sistemas e/ou subsistemas independentes com capacidade de interagir com o restante do sistema.
 
-Sendo assim, o diagrama de componentes mostra a estrutura do sistema de software, que descreve os componentes do software, suas dependências e suas interfaces.
+Sendo assim, o diagrama de componentes apresentado mostra a estrutura do sistema do software, que descreve os componentes, suas dependências e suas interfaces.
+
+O objetivo da aplicação dessa ténica em nosso projeto é desenhar as classes de forma que haja um material disponível para todos os stackholders do projeto poderem consultar de que forma está desenhado os componentes de nossa aplicação.
+
 
 ## 2. Metodologia
 
@@ -45,7 +48,8 @@ Para o desenvolvimento do diagrama foram utilizadas as ferramentas do [draw.io](
 |    Data    | Versão |    Autor    |      Descrição       |
 | :--------: | :----: | :---------: | :------------------: |
 | 29/01/2022 |  1.0   | Antônio Aldísio | Criação do documento e adição do item 1 |
-| 16/02/2022 |  1.5   | Antônio Aldísio | adição do item 2 e 3 |
-| 17/02/2022 |  1.6   | Antônio Aldísio | adição de referências |
+| 16/02/2022 |  1.5   | Antônio Aldísio | Adição do item 2 e 3 |
+| 17/02/2022 |  1.6   | Antônio Aldísio | Adição de referências |
 | 18/02/2022 |  1.7   | Luís Fernando Furtado de Araújo | Ajustes da imagem do diagrama |
 | 18/02/2022 |  1.8   | Luís Fernando Furtado de Araújo | Revisão do documento |
+| 18/02/2022 |  1.9   | Luís Fernando Furtado de Araújo | Ajustes na introdução |
