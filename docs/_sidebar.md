@@ -31,8 +31,8 @@
     -   Projeto Orientado a Abordagens Tradicionais
         -   Notação UML – Diagramas Estáticos
             -   [Diagrama de Implementação](./pages/modelagem/diagramaImplementacao.md)
-            -   [Diagrama de Classes](./pages/base/diagramadepacotes.md)
-            -   [Diagrama de Pacotes](./pages/base/planoRisco.md)
+            -   [Diagrama de Classes](./pages/modelagem/diagramaDeClasses.md)
+            -   [Diagrama de Pacotes](./pages/modelagem/diagramaPacotes.md)
         <!--    -   [Diagrama de Componentes](./pages/base/planoRisco.md)-->
         -   Notação UML – Diagramas Dinâmicos
             -   [Diagrama de Sequência](./pages/base/diagramaSequencia.md)  
