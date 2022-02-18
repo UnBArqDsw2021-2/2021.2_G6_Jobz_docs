@@ -28,11 +28,11 @@
     - [Protótipo de Média Fidelidade](./pages/base/prototipo.md)
 
 - **Desenho de Software (Modelagem)**
-  - Projeto Orientado a Abordagens Tradicionais
-    - Notação UML – Diagramas Estáticos
-      - [Diagrama de Implementação](./pages/modelagem/diagramaImplementacao.md)
-      - [Diagrama de Classes](./pages/base/diagramaDeClasses.md)
-        <!--    -   [Diagrama de Pacotes](./pages/base/planoRisco.md)-->
+    -   Projeto Orientado a Abordagens Tradicionais
+        -   Notação UML – Diagramas Estáticos
+            -   [Diagrama de Implementação](./pages/modelagem/diagramaImplementacao.md)
+            -   [Diagrama de Classes](./pages/modelagem/diagramaDeClasses.md)
+            -   [Diagrama de Pacotes](./pages/modelagem/diagramaPacotes.md)
         <!--    -   [Diagrama de Componentes](./pages/base/planoRisco.md)-->
     - Notação UML – Diagramas Dinâmicos
       - [Diagrama de Sequência](./pages/modelagem/diagramaSequencia.md)

@@ -11,7 +11,7 @@
 <p align='center'>
     <img src='assets/images/diagramasEstaticos/diagramaDeClasses.svg' width=40% height=auto>
     <figcaption align='center'>
-        <b>Figura 1: Diagrama de implementação do produto. </b>
+        <b>Figura 1: Diagrama de classes do produto. </b>
         <br>
         <small>Fonte: Autoria própria.</small>
     </figcaption>
@@ -32,3 +32,4 @@
 | 13/02/2022 |  0.5   | Álvaro Gouvea |    Criação do documento   |
 | 13/02/2022 |  1.0   | Álvaro Gouvea |    Adição da introdução   |
 | 13/02/2022 |  1.1   | Álvaro Gouvea |    Adição do diagrama e referências   |
+| 16/02/2022 |  1.2   | Ariel Serafim |    Correção legenda imagem   |
