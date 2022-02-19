@@ -10,7 +10,7 @@ Esse método tem como finalidade, a identificação de possíveis erros de usabi
 
 ## 2. Protótipo
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F8OdrD8NAINjTiqPvR9fmii%2FJOBz-Alta-2.0%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8OdrD8NAINjTiqPvR9fmii%2FJOBz-Alta-2.0%3Fnode-id%3D103%253A8%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D103%253A8%26show-proto-sidebar%3D1" allowfullscreen></iframe>
 
 ## 3. Referências
 
