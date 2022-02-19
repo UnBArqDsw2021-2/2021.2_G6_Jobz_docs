@@ -192,7 +192,9 @@ Pergunta exclusiva para prestadores de serviço que busca ver a necessidade do p
 ## 4. Referências
 
 > VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de Requisitos: Software Orientado ao Negócio. Rio de janeiro: Brasport, 2016.
+
 > WIEGERS, Karl; BEATTY, Joy; Software Requirements: Best practices. 3. ed; Microsoft Press, 2013
+
 > BARBOSA, S. D. J; SILVA, B. S. d; Interação Humano-Computador. 1. ed. Elsevier, 2010
 </div>
 
