@@ -6,11 +6,9 @@
 
 Diagrama de Estados, é um diagrama UML (Linguagem de Modelagem Unificada) que serve para retratar principalmente os estados e transações que ocorrem no produto de software.
 
-O seu comportamento através da análise da mudança de estados dos tipos de objetos de um sistema, podemos prever todos os possīves comportamentos de um objeto de acordo com os eventos que mesmo possa sofrer, ou seja, o digrama de estados capturam o ciclo de vida dos objetos, subsistemas e sistemas.
+O seu comportamento ocorre por meio da análise da mudança de estados dos tipos de objetos de um sistema, podemos prever todos os possīves comportamentos de um objeto de acordo com os eventos que o mesmo possa sofrer, ou seja, o diagrama de estados captura o ciclo de vida dos objetos, sistemas e subsistemas.
 
-
-
-## 2. Conteudo
+## 2. Diagramas
 
 ### 2.1 Diagrama de Estados de login
 
@@ -27,7 +25,7 @@ O seu comportamento através da análise da mudança de estados dos tipos de obj
 <p align='center'>
     <img src='assets/images/diagramasDinamicos/diagramaEstado-servico.png' width=100% height=auto>
     <figcaption align='center'>
-        <b>Figura 1: Diagrama de serviçosn</b>
+        <b>Figura 1: Diagrama de serviços</b>
         <br>
     </figcaption>
 </p>
@@ -60,4 +58,5 @@ O seu comportamento através da análise da mudança de estados dos tipos de obj
 | :--------: | :----: | :---------: | :------------------: |
 | 14/02/2022 |  0.1   |  Guilherme Braz | Criação do documento |
 | 18/02/2022 |  1.0   |  Antônio Aldisio | melhoria do item 1 |
+| 20/02/2022 |  1.1   |  Rodrigo Balbino | Revisão do documento |
 
