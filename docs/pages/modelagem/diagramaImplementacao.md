@@ -47,4 +47,4 @@ Assim, a elaboração de um diagrama de implementação do processo de modelagem
 | 09/02/2022 |  0.5   | Fernando Miranda |    Criação do documento e introdução      |
 | 09/02/2022 |  1.0   | Fernando Miranda | Adicionado o diagrama de implementação    |
 | 14/02/2022 |  1.1   | Lorrayne Cardozo | Revisão do documento                      |
-| 14/02/2022 |  1.2   | Fernando Miranda | Melhoria de texto, padrões e link de referencias |
+| 19/02/2022 |  1.2   | Fernando Miranda | Melhoria de texto, padrões e link de referencias |
