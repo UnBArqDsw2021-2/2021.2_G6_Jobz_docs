@@ -3,6 +3,18 @@
 ## 1. Introdução
 
 O plano proposto visa identificar todos os riscos envolvidos em todo o ciclo de vida de desenvolvimento do software, bem como trazer soluções para contornar cada um destes riscos (caso aconteça) visando mapear os riscos para um melhor controle e manter o ritmo de trabalho da equipe de desenvolvimento.
+Os componentes do plano de risco são:
+
+|:-----------:| ------------------------------------------------------------------------- |
+|Risco| Nome do risco em si.|
+|Descrição| Descreve o risco.| 
+|Prevenção| Descreve como podemos impedir ou previnir que o risco ocorra.|
+|Contenção| Descreve o que fazer para conter o risco, caso de fato venha a ocorrer.|
+|Probabilidade| Chance estimada do risco ocorrer.|
+|Impacto| Impacto estimado do risco no projeto.|
+|Grau| Calculado a partir da probabilidade e do impacto, estima a 'intensidade' do risco.|
+
+Com o plano de riscos, almejamos definir quais perigos nossa aplicação pode correr e nós preparar para que nenhum risco ocorra, ou, se ocorrer, os prejuisos reais sejam mínimos.
 
 
 ## 2. Análise dos Riscos
@@ -49,3 +61,4 @@ O grau dos riscos é definido pela multiplicação da probabilidade e o impacto,
 |  1.2   | 28/01/2022 | Criação do grau dos riscos | Luís Fernando Furtado de Araújo |
 | 1.3 | 29/01/2022 | Revisão do documento | Lorrayne Cardozo |
 |  1.4  | 04/01/2022 | Adição das referências utilizadas para o documento | Luís Fernando Furtado de Araújo |
+|  2.0  | 20/02/2022 | Reafatoração do documento | Ariel Serafim |
