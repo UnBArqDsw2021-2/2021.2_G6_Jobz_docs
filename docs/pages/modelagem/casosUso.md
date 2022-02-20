@@ -2,11 +2,11 @@
 ## 1. Introdução
 
 <p style="text-indent: 20px; text-align: justify">
-O diagrama de Casos de Uso é uma representação visual mais geral da notação UML, que é usado normalmente para o Levantamento e Análise de Requisitos, destacando alguma necessidade do usuário, mas normalmente consultado durante toda o processo de desenvolvimento do projeto, servindo de base para outros diagramas. O diagrama identifica os altores que serão utilizados ou outros tipos de serviços, ou seja, opções que o sistema disponibilizará.
+O diagrama de Casos de Uso é uma representação visual mais geral da notação UML, que é usado normalmente para o Levantamento e Análise de Requisitos, destacando alguma necessidade do usuário, mas normalmente consultado durante todo o processo de desenvolvimento do projeto, servindo de base para outros diagramas. O diagrama identifica os atores que serão utilizados ou outros tipos de serviços, ou seja, opções que o sistema disponibilizará.
 </p>
 
 <p style="text-indent: 20px; text-align: justify">
-Em geral os diagramas de Casos de Uso são importantes por que identificam as expectativas dos clientes para o sistema, identificam recursos específicos do sistema, comportamentos compartilhados entre os recursos do sistema e oferecem um modo simples e fácil de entender, para os clientes verem seus requisitos. Pensando nesses aspectos foi criado um diagrama de Casos de Uso para a aplicação JOBS.
+Em geral os diagramas de Casos de Uso são importantes por que identificam as expectativas dos clientes para o sistema, identificam recursos específicos do sistema, comportamentos compartilhados entre os recursos do sistema e oferecem um modo simples e fácil para os clientes entenderem e visualizarem seus requisitos. Pensando nesses aspectos foi criado um diagrama de Casos de Uso para a aplicação JOBS.
 </p>
 
 ## 2. Diagrama
@@ -51,3 +51,4 @@ Para a criação do Diagrama foram construídas duas versões, sendo que a prime
 |  1.0   | 12/02/2022 | Adição conteúdo      | Pedro Campos	   |
 |  1.1   | 14/02/2022 | Revisado      | Antônio Aldísio	   |
 |  2.0   | 15/02/2022 | Refatoração conteúdo   | Pedro Campos |
+|  2.1   | 20/02/2022 | Revisão e correções   | Álvaro Gouvea |
