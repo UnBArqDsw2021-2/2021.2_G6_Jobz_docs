@@ -23,7 +23,6 @@
     <figcaption align='center'>
         <b>Figura 2: Diagrama de Sequencia da Contratação de Serviços</b>
         <br>
-        <small>Autor: Rodrigo Balbino</small>
     </figcaption>
 </p>
 
@@ -40,3 +39,5 @@
 | 29/01/2022 |  1.0   | Rodrigo Balbino |       Criação do documento       |
 | 17/02/2022 |  1.1   | Rodrigo Balbino | Correção do diagrama para inglês |
 | 20/02/2022 |  1.2   | Álvaro Gouvea | Revisão e correções |
+| 20/02/2022 |  1.3   | Rodrigo Balbino | corrigindo fonte |
+
