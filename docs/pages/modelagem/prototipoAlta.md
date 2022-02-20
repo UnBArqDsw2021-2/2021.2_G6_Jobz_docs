@@ -4,9 +4,9 @@
 
 ## 1. Introdução
 
-O método de prototipagem de alta fidelidade busca fornecer aos stakeholders uma forma de visualizar antecipadamente uma representação muito próxima do que seria o produto final, com isso é possível perceber detalhes quanto as decisões de design tomadas no projeto.
+O método de prototipagem de alta fidelidade busca fornecer aos stakeholders uma forma de visualizar antecipadamente uma representação muito próxima do que seria o produto, com isso é possível perceber detalhes quanto as decisões de design tomadas no projeto. Uma das principais vantagens de um protótipo de alta fidelidade consistem na sua estética completa, de forma que não é esperado que existam diferenças notáveis entre um protótipo de alta fidelidade e o produto.
 
-Esse método tem como finalidade, a identificação de possíveis erros de usabilidade, levando em conta as interações dos potenciais usuários do sistema. Também é possível validar certos requisitos do projeto, uma vez que os stakeholders podem interagir com o produto.
+O protótipo de alta fidelidade também busca ser mais interativo do que outros níveis de prototipação, assim permitindo a identificação de erros de usabilidade levando em conta as interações dos potenciais usuários do sistema, tal como também ajudando a validar certos requisitos do projeto dado que os stakeholders podem interagir com o produto.
 
 ## 2. Protótipo
 
@@ -22,4 +22,5 @@ Esse método tem como finalidade, a identificação de possíveis erros de usabi
 
 |    Data    | Versão |    Autor    |      Descrição       |
 | :--------: | :----: | :---------: | :------------------: |
-| 15/02/2022 |  0.1   | Alvaro Gouvea e Guilherme Braz | Criação do documento |
+| 15/02/2022 |  0.1   | Álvaro Gouvea e Guilherme Braz | Criação do documento |
+| 20/02/2022 |  1.0   | Álvaro Gouvea e Guilherme Braz | Revisão do Documento |
