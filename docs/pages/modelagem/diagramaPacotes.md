@@ -58,7 +58,7 @@ A utilização dessa ténica no projeto tem como objetivo apresentar de forma cl
 
 </div>
 
-## 4. Versionamento
+### Histórico de versão
 
 |    Data    | Versão |       Autor(es)          |                      Descrição                 |
 | :--------: | :----: | :----------------------: | :--------------------------------------------: |
