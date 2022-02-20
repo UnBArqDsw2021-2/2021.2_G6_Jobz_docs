@@ -5,6 +5,7 @@
 O plano proposto visa identificar todos os riscos envolvidos em todo o ciclo de vida de desenvolvimento do software, bem como trazer soluções para contornar cada um destes riscos (caso aconteça) visando mapear os riscos para um melhor controle e manter o ritmo de trabalho da equipe de desenvolvimento.
 Os componentes do plano de risco são:
 
+|Componente   | Significado.|
 |:-----------:| ------------------------------------------------------------------------- |
 |Risco| Nome do risco em si.|
 |Descrição| Descreve o risco.| 
