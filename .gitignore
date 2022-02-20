@@ -1,1 +1,5 @@
 site/
+.DS_Store
+docs./DS_Store
+docs/assets/images/.DS_Store
+docs/pages/.DS_Store

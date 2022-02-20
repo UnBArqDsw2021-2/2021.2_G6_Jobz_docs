@@ -3,9 +3,11 @@
 <div align="justify">
 
 ## 1. Introdução
+
 Diagrama de Estados, é um diagrama UML (Linguagem de Modelagem Unificada) que serve para retratar principalmente os estados e transações que ocorrem no produto de software.
 
 O seu comportamento através da análise da mudança de estados dos tipos de objetos de um sistema, podemos prever todos os possīves comportamentos de um objeto de acordo com os eventos que mesmo possa sofrer, ou seja, o digrama de estados capturam o ciclo de vida dos objetos, subsistemas e sistemas.
+
 
 
 ## 2. Conteudo
@@ -13,7 +15,7 @@ O seu comportamento através da análise da mudança de estados dos tipos de obj
 ### 2.1 Diagrama de Estados de login
 
 <p align='center'>
-    <img src='/assets/images/diagramasDinamicos/diagramaEstado-login.png' width=100% height=auto>
+    <img src='assets/images/diagramasDinamicos/diagramaEstado-login.png' width=100% height=auto>
     <figcaption align='center'>
         <b>Figura 1: Diagrama de Estados de login</b>
         <br>
@@ -23,7 +25,7 @@ O seu comportamento através da análise da mudança de estados dos tipos de obj
 ### 2.2 Diagrama de Estados de serviços do Trabalhador
 
 <p align='center'>
-    <img src='/assets/images/diagramasDinamicos/diagramaEstado-servico.png' width=100% height=auto>
+    <img src='assets/images/diagramasDinamicos/diagramaEstado-servico.png' width=100% height=auto>
     <figcaption align='center'>
         <b>Figura 1: Diagrama de serviçosn</b>
         <br>
@@ -33,7 +35,7 @@ O seu comportamento através da análise da mudança de estados dos tipos de obj
 ### 2.3 Diagrama de Estados de Agendamento de serviço
 
 <p align='center'>
-    <img src='/assets/images/diagramasDinamicos/diagramaEstado-agendar.png' width=100% height=auto>
+    <img src='assets/images/diagramasDinamicos/diagramaEstado-agendar.png' width=100% height=auto>
     <figcaption align='center'>
         <b>Figura 1: Diagrama de agendamento de serviço</b>
         <br>
@@ -54,7 +56,8 @@ O seu comportamento através da análise da mudança de estados dos tipos de obj
 
 ### Histórico de versão
 
-|    Data    | Versão |    Autor    |      Descrição       |
+  |    Data    | Versão |    Autor    |      Descrição       |
 | :--------: | :----: | :---------: | :------------------: |
 | 14/02/2022 |  0.1   |  Guilherme Braz | Criação do documento |
 | 18/02/2022 |  1.0   |  Antônio Aldisio | melhoria do item 1 |
+
