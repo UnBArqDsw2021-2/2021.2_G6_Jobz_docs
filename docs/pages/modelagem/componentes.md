@@ -4,7 +4,7 @@
 
 ## 1. Introdução
 
-O diagrama é mais comum em abordagem de Orientação a Objetos na parte de agrupar classes com base em um objetivo comum, para que o desenvolvedor e outras pessoas envolvidas analisem o projeto de desenvolvimento de software de forma generalizada. O termo "componente" refere-se a um módulo de classes que representa sistemas e/ou subsistemas independentes com capacidade de interagir com o restante do sistema.
+O Diagram de Componentes é um diagrama da notação UML, tendo como objetivo principal mostrar relações estruturais entre os componentes de um sistema, sendo mais comum em abordagem de Orientação a Objetos na parte de agrupar classes com base em um objetivo comum, para que o desenvolvedor e outras pessoas envolvidas analisem o projeto de desenvolvimento de software de forma generalizada. O termo "componente" refere-se a um módulo de classes que representa sistemas e/ou subsistemas independentes com capacidade de interagir com o restante do sistema.
 
 Sendo assim, o diagrama de componentes apresentado mostra a estrutura do sistema do software, que descreve os componentes, suas dependências e suas interfaces.
 
@@ -53,3 +53,4 @@ Para o desenvolvimento do diagrama foram utilizadas as ferramentas do [draw.io](
 | 18/02/2022 |  1.7   | Luís Fernando Furtado de Araújo | Ajustes da imagem do diagrama |
 | 18/02/2022 |  1.8   | Luís Fernando Furtado de Araújo | Revisão do documento |
 | 18/02/2022 |  1.9   | Luís Fernando Furtado de Araújo | Ajustes na introdução |
+| 20/02/2022 |  1.9.5 | Pedro Campos | Revisão e ajuste introdução|
