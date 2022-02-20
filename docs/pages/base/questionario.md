@@ -4,11 +4,11 @@
 
 ## 1. Introdução
 
-Um questionário, utilizado no processo de elicitação de requisitos, se refere a algum formato de formulário composto de perguntas relevantes ao domínio cognitivo que receberá o produto a ser desenvolvido. Diferente de técnicas como entrevistas, o questionário permite a coleta de dados de um grande número de pessoas, formando amostras muito maiores.
+Um questionário, segundo Barbosa (2010), utilizado no processo de elicitação de requisitos, se refere a algum formato de formulário composto de perguntas relevantes ao domínio cognitivo que receberá o produto a ser desenvolvido. Diferente de técnicas como entrevistas, o questionário permite a coleta de dados de um grande número de pessoas, formando amostras muito maiores.
 
 O questionário possui vantagens sobre outras técnicas de elicitação de requisitos, como a diversidade de público atingido, tanto em relação as suas personalidades quanto a sua disposição geográfica, a oportunidade de que o usuário responda este questionário a qualquer momento em qualquer lugar, mas também tem pontos negativos, como o menor nível de detalhes que podem ser colhidos, se comparada a técnicas como observação ou entrevista, e também a possibilidade de dúvidas sobre as perguntas do questionário, para que isso se minimize é necessário que o questionário seja composto por perguntas que não possuam ambiguidades nem mal-etendidos.
 
-Pensando em criar um questionário com perguntas bem escritas, alguns fatores podem ser verificados durante a sua criação, entre eles:
+Pensando em criar um questionário com perguntas bem escritas, segundo Wiegers(2013), alguns fatores podem ser verificados durante a sua criação, entre eles:
 
 - Dar opções que cubram todas as possíveis respostas.
 - Fazer com que as respostas sejam mutualmente exclusivas(que não podem ocorrer simultaneamente) e campos para escrita, no caso de possibilidades que não foram listadas.
