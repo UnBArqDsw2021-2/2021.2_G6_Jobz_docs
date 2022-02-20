@@ -49,6 +49,7 @@
     -   [Prototipo de Alta Fidelidade](./pages/modelagem/prototipoAlta.md)
     - [Modelagem banco de dados](./pages/base/modelagemBanco.md)
     - [Casos de Uso](./pages/modelagem/casosUso.md)
+    - [Correções](./pages/modelagem/correcoes.md)
 
 - **Apresentações**
   - [Base](./pages/Apresentacoes/base.md)

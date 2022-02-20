@@ -11,7 +11,7 @@ Durante o processo de priorização, cada funcionalidade é avaliada com relaç�
 - **M**ust: Funcionalidade tem alto valor agregadom, se o produto não contiver esta funcionalidade ele não terá sucesso, deve ter prioridade sobre as outras no processo de implementação.
 - **S**hould: Requisito que tem importância mas não é essencial, caso não seja implementado impactará a satisfação do cliente.
 - **C**ould: Requisito que é apenas desejável para o produto, requisito que deve ser implementado somente se ouver tempo e os recursos permitam.
-- **W**ould ou **W**on't: Requisito dispensável, que pode ser adicionado em outro momento ou até mesmo em outros projetos, mesmo que seja marcado como não importante a atribuição ainda indica que a funcionalidade foi avaliada.[[1]](./pages/base/moscow?id=3.-referências)
+- **W**ould ou **W**on't: Requisito dispensável, que pode ser adicionado em outro momento ou até mesmo em outros projetos, mesmo que seja marcado como não importante a atribuição ainda indica que a funcionalidade foi avaliada.[[1]](./pages/base/moscow?id=_3-referências)
 
 <p align='center'>
     <img src='assets/images/moscow.png' width=40% height=auto>
