@@ -32,13 +32,18 @@ Além disso o diagrama possui diversas formas de especificar determinados tipos 
 ## 2. Diagrama de Classes
 
 <p align='center'>
-    <img src='assets/images/diagramasEstaticos/diagramaClasses/diagramaDeClasses.svg' width=40% height=auto>
+    <img src='assets/images/diagramasEstaticos/diagramaClasses/classDiagram.svg' width=40% height=auto>
     <figcaption align='center'>
         <b>Figura 2: Diagrama de classes do produto. </b>
         <br>
         <small>Fonte: Autoria própria.</small>
     </figcaption>
 </p>
+
+<p style="text-indent: 20px; text-align: justify">
+Obs.: O diagrama foi traduzido para o inglês para melhor aplicação do diagrama em partes posteriores do projeto.
+<p/>
+
 
 ## 3. Referências
 
@@ -60,4 +65,5 @@ Além disso o diagrama possui diversas formas de especificar determinados tipos 
 | 16/02/2022 |  1.2   | Ariel Serafim |    Correção legenda imagem   |
 | 19/02/2022 |  1.2   | Pedro Campos  | Revisão do documento		|
 | 19/02/2022 |  1.5   | Pedro Campos 	| Refatoração da introdução    |
+| 19/02/2022 |  2.0   | Pedro Campos 	| Tradução do diagrama    |
 
