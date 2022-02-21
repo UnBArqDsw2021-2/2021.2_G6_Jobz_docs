@@ -5,6 +5,8 @@
 
 ## 1. Introdução
 
+O processo de modelagem de banco de dados é um processo de desenvolvimento de software que visa a construção de um modelo de dados que represente a estrutura de dados de uma base de dados, nesse processo se usa de coletas, analises, categorização e a explorarão dos dados e seus tipos.
+
 O documento em questão tem como objetivo documentar e apresentar a modelagem do banco de dados previamente definida e ir evoluindo de acordo com a evolução do software. 
 
 Para essa modelagem, optaremos por utilizar um banco de dados relacional.
@@ -113,7 +115,7 @@ Cardinalidade -> **1:n**
 
 </div>
 
-## 5. Versionamento
+## 5. Histórico de versão
 
 | Versão | Data       | Modificação          | Autor(es)           |
 | :----: | ---------- | -------------------- | --------------- |
@@ -123,3 +125,4 @@ Cardinalidade -> **1:n**
 |  0.4   | 14/01/2022 | Adição do Diagrama Lógico | Luís Fernando Furtado de Araújo |
 |  1.0   | 14/01/2022 | Adição do DE-R e revisões | Luís Fernando Furtado de Araújo |
 |  1.1   | 14/01/2022 | Revisão do documento | João Victor |
+|  1.2   | 21/02/2022  | Correções do documento | Guilherme Braz |
