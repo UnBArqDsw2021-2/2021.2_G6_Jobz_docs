@@ -12,6 +12,12 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 -   Modificação na descrição de alguns requisitos
 -   Corrigido links quebrados para as tecnicas de origem dos requisitos
 
+### 2.1 Storyboarding
+
+-   Correção no nome do artefato: Mudança de "Storytelling" para "StoryBoard
+-   Adição de conteúdo na introdução
+-   Padronização no nome do Versionamento
+
 </div>
 
 ### Histórico de versão
@@ -19,3 +25,4 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 |    Data    | Versão |             Autor             |                     Descrição                      |
 | :--------: | :----: | :---------------------------: | :------------------------------------------------: |
 | 20/02/2022 |  0.1   | Rodrigo Balbino e João Victor | Adição das correções da priorização dos requisitos |
+| 21/02/2022| 0.2    | Pedro Campos | Adição das correções do Storyboard|
