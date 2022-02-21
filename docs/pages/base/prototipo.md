@@ -19,7 +19,6 @@ O presente documento exibe o protótipo de média fidelidade criado pela equipe 
     <figcaption align='center'>
         <b>Figura 1: Tela login</b>
         <br>
-        <small>Fonte: equipe</small>
     </figcaption>
 </p>
 
@@ -30,7 +29,6 @@ O presente documento exibe o protótipo de média fidelidade criado pela equipe 
     <figcaption align='center'>
         <b>Figura 2: Home</b>
         <br>
-        <small>Fonte: equipe</small>
     </figcaption>
 </p>
 
@@ -42,18 +40,16 @@ O presente documento exibe o protótipo de média fidelidade criado pela equipe 
     <figcaption align='center'>
         <b>Figura 3: Home - Prestador de serviço</b>
         <br>
-        <small>Fonte: equipe</small>
     </figcaption>
 </p>
 
-### 2.4 Pagina de uma categoria de serviço
+### 2.4 Página de uma categoria de serviço
 
 <p align='center'>
     <img src='assets/images/prototipo/servico.jpg' width=100% height=auto>
     <figcaption align='center'>
         <b>Figura 4: Pagina de uma categoria de serviço</b>
         <br>
-        <small>Fonte: equipe</small>
         </figcaption>
 </p>
 
@@ -75,5 +71,6 @@ O presente documento exibe o protótipo de média fidelidade criado pela equipe 
 | 04/02/2022 |  1.0   | Guilherme Braz e Álvaro Gouvea | Criação do documento         |
 | 05/02/2022 |  1.1   | Guilherme Braz e Álvaro Gouvea | Adição de telas do protótipo |
 | 18/02/2022 |  1.2   | Lorrayne Cardozo               | Atualização da introdução    |
+| 20/02/2022 |  1.3   | Rodrigo Balbino               | Corrigindo fonte de imagens    |
 
 </div>

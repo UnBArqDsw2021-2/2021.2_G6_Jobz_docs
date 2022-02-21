@@ -115,8 +115,8 @@ Site aglomerador de [prestadores de serviço](./pages/base/lexicos.md#l02-presta
 | [E04](#_3-Épicos)     | [FT09](#_4-features)    | [US24](#_5-histórias-de-usuário)                | MUST   | RF08            |
 | [E04](#_3-Épicos)     | [FT09](#_4-features)    | [US25](#_5-histórias-de-usuário)                | MUST   | RF08            |
 | [E05](#_3-Épicos)     | [FT10](#_4-features)    | [US26](#_5-histórias-de-usuário)                | COULD  | RF03            |
-| [E05](#_3-Épicos)     | [FT10](#_4-features)    | [US2](#_5-histórias-de-usuário)                | MUST   | RF09            |
-| [E05](#_3-Épicos)     | [FT11](#_4-features)    | US28                | WOULD  | RF05            |
+| [E05](#_3-Épicos)     | [FT10](#_4-features)    | [US27](#_5-histórias-de-usuário)                | MUST   | RF09            |
+| [E05](#_3-Épicos)     | [FT11](#_4-features)    | [US28](#_5-histórias-de-usuário)                  | WOULD  | RF05            |
 
 <!--
 <table class="backlogTable">
@@ -391,5 +391,5 @@ Site aglomerador de [prestadores de serviço](./pages/base/lexicos.md#l02-presta
 | :--------: | :----: | :---------------------------: | :----------------------------------: |
 | 01/02/2022 |  0.1   |       Fernando Miranda        | Adicionada introdução e Referências  |
 | 01/02/2022 |  1.0   |       Fernando Miranda        | Adicionada versão inicial do Backlog |
-| 18/02/2022 |  1.1   | Rodrigo Balbino e João Victor | Refatoração e priorização do backlog |
-| 19/02/2022 |  1.2   |       Fernando Miranda     | Adicionados links entre tabelas/paginas |
+| 18/02/2022 |  2.0   | Rodrigo Balbino e João Victor | Refatoração e priorização do backlog |
+| 19/02/2022 |  2.1   |       Fernando Miranda     | Adicionados links entre tabelas/paginas |

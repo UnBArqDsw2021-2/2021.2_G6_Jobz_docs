@@ -46,7 +46,7 @@
       - [Product Backlog](./pages/modelagem/backlogPriorizado.md)
 
   - Iniciativas Extras
-    <!-- -   [Prototipo de Alta Fidelidade](./pages/base/planoRisco.md)-->
+    -   [Prototipo de Alta Fidelidade](./pages/modelagem/prototipoAlta.md)
     - [Modelagem banco de dados](./pages/base/modelagemBanco.md)
     - [Casos de Uso](./pages/modelagem/casosUso.md)
 

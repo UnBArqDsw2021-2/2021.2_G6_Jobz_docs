@@ -19,6 +19,7 @@ Para a construção dos diagramas, foram considerados os seguintes símbolos:
 |<img src='assets/images/diagramaAtividades/fim.png' width=100px height=auto>         | É chamado de nó final e representa o fim de um fluxo no diagrama de atividades.                                                     |
 
 A partir da implementação do diagrama de atividades, podemos descrever as etapas que ocorrem quando um determinado cenário é iniciado, até que este cenário seja encerrado, ajudando a compreensão do processo que será executado, para que os envolvidos na produção do software possam identificar as necessidades do sistema com maior precisão.
+A partir do exposto acima, esperamos atingir com o uso desse diagrama, uma maior compreensão dos fluxos de atividades no nosso projeto, isso é, detalhar os processos necessários para a correta execução do nosso produto. Temos então o detalhamento dos fluxos de login, perfil do cliente e perfil do prestador de serviço.
 
 
 ## 2. Diagramas
@@ -63,7 +64,8 @@ A partir da implementação do diagrama de atividades, podemos descrever as etap
 
 ### Histórico de versão
 
-|    Data    | Versão |    Autor         |          Descrição                  |
-| :--------: | :----: | :--------------: | :--------------------------------:  |
-| 13/02/2022 |  1.0   | Lorrayne Cardozo |   Criação do documento de personas  |
-| 19/02/2022 |  1.1   | Fernando Miranda | Revisão e padronização do documento |
+|    Data    | Versão |    Autor         |          Descrição                      |
+| :--------: | :----: | :--------------: | :------------------------------------:  |
+| 13/02/2022 |  1.0   | Lorrayne Cardozo |   Criação do documento de personas      |
+| 19/02/2022 |  1.1   | Fernando Miranda | Revisão e padronização do documento     |
+| 20/02/2022 |  1.1   | Ariel Serafim    | Adição do impacto da tecnica no projeto |
