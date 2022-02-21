@@ -12,15 +12,24 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 -   Modificação na descrição de alguns requisitos
 -   Corrigido links quebrados para as tecnicas de origem dos requisitos
 
-### 2.1 Storyboarding
+## 3 Storyboarding
 
 -   Correção no nome do artefato: Mudança de "Storytelling" para "StoryBoard
 -   Adição de conteúdo na introdução
 -   Padronização no nome do Versionamento
 
-### 2.2 Causa e Efeito
+## 4 Causa e Efeito
 -   Adição de conteúdo na introdução
 -   Padronização no nome do Versionamento
+
+
+## 5 Questionário
+
+- Padronização dos links de imagens.
+- Padronização do Histórico de versão.
+- Reformulação da introdução, com mais fontes e melhor descrição.
+- Breve descrição sobre o intuito de cada questão.
+
 
 </div>
 
@@ -31,3 +40,5 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 | 20/02/2022 |  0.1   | Rodrigo Balbino e João Victor | Adição das correções da priorização dos requisitos |
 | 21/02/2022| 0.2    | Pedro Campos | Adição das correções do Storyboard|
 | 21/02/2022| 0.3    | Álvaro Gouvea | Adição das correções de Causa e Efeito |
+| 21/02/2022| 0.4  | Fernando Miranda| Adição das correções da página de questionário |
+
