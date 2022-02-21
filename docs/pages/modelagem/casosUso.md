@@ -42,7 +42,7 @@ Para a criação do Diagrama foram construídas duas versões, sendo que a prime
 
 > <li><a href="https://unbarqdsw2021-1.github.io/2021.1_G6_Curumim/modelagem/modelagem-dinamica/casos-de-uso/">Diagrama de Casos de Uso do projeto "Curumim"</a>;</li>
 
-## 4. Versionamento
+### Histórico de versão
 
 | Versão | Data       | Modificação          | Autor(es)        |
 | :----: | ---------- | -------------------- | ---------------- |
