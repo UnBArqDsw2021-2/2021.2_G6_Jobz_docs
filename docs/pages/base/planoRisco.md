@@ -15,7 +15,7 @@ Os componentes do plano de risco são:
 |Impacto| Impacto estimado do risco no projeto.|
 |Grau| Calculado a partir da probabilidade e do impacto, estima a 'intensidade' do risco.|
 
-Com o plano de riscos, almejamos definir quais perigos nossa aplicação pode correr e nós preparar para que nenhum risco ocorra, ou, se ocorrer, os prejuisos reais sejam mínimos.
+Com o plano de riscos, almejamos definir quais perigos nossa aplicação pode correr e nós preparar para que nenhum risco ocorra, ou, se ocorrer, os prejuizos reais sejam mínimos.
 
 
 ## 2. Análise dos Riscos
