@@ -32,10 +32,11 @@
   - Projeto Orientado a Abordagens Tradicionais
 
     - Notação UML – Diagramas Estáticos
+
       - [Diagrama de Implementação](./pages/modelagem/diagramaImplementacao.md)
-      -   [Diagrama de Classes](./pages/modelagem/diagramaDeClasses.md)
-      -   [Diagrama de Pacotes](./pages/modelagem/diagramaPacotes.md)
-      -   [Diagrama de Componentes](./pages/modelagem/componentes.md)
+      - [Diagrama de Classes](./pages/modelagem/diagramaDeClasses.md)
+      - [Diagrama de Pacotes](./pages/modelagem/diagramaPacotes.md)
+      - [Diagrama de Componentes](./pages/modelagem/componentes.md)
 
     - Notação UML – Diagramas Dinâmicos
       - [Diagrama de Sequência](./pages/modelagem/diagramaSequencia.md)
@@ -46,8 +47,8 @@
       - [Product Backlog](./pages/modelagem/backlogPriorizado.md)
 
   - Iniciativas Extras
-    -   [Prototipo de Alta Fidelidade](./pages/modelagem/prototipoAlta.md)
-    - [Modelagem banco de dados](./pages/base/modelagemBanco.md)
+    - [Prototipo de Alta Fidelidade](./pages/modelagem/prototipoAlta.md)
+    - [Modelagem banco de dados](./pages/modelagem/modelagemBanco.md)
     - [Casos de Uso](./pages/modelagem/casosUso.md)
     - [Correções](./pages/modelagem/correcoes.md)
 
