@@ -134,13 +134,17 @@
 
 > SAYÃO, Miriam; DE CARVALHO, Gustavo R. Construção do léxico de aplicações – PUC-Rio. Rio de Janeiro. 2006. Disponível em: http://www.nilc.icmc.usp.br/til/til2006/0030.pdf
 
-## 4. Versionamento
+  
+  
+### Histórico de versão
 
-| Versão | Data       | Modificação                                    | Autor            |
-| :----: | ---------- | ---------------------------------------------- | ---------------- |
-|  1.0   | 26/01/2022 | Criação do documento                           | Fernando Miranda |
-|  1.1   | 28/01/2022 | Adição dos textos de introdução e Bibliografia | Rodrigo Balbino  |
-|  1.2   | 28/01/2022 | Correções de hyperlinks e classificação        | Fernando Miranda |
-|  1.3   | 29/01/2022 | Revisão do documento                           | Lorrayne Cardozo |
-|  1.4   | 29/01/2022 | Correções de hyperlinks e revisão de texto     | Fernando Miranda |
-|  1.5   | 04/02/2022 | Correção da tabela sobre elementos dos lexicos | Ariel Serafim    |
+
+|    Data    | Versão |    Autor    |      Descrição       |
+| :--------: | :----: | :---------: | :------------------: |
+| 26/01/2022 |  0.1   | Fernando Miranda |  Criação do documento   |  
+| 28/01/2022 |  1.0   | Rodrigo Balbino | Adição dos textos de introdução e Bibliografia    | 
+| 28/01/2022 |  1.1   | Fernando Miranda | Correções de hyperlinks e classificação   |  
+| 29/01/2022 |  1.3   | Lorrayne Cardozo | Revisão do documento       |    
+| 29/01/2022 |  1.4   | Fernando Miranda | Correções de hyperlinks e revisão de texto        |  
+| 04/02/2022 |  1.5   | Ariel Serafim | Correções de hyperlinks e revisão de texto        |  
+| 21/02/2022 |  1.6   | Antonio Aldisio | Adequação do padrão      |  

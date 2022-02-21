@@ -3,7 +3,11 @@
 ## 1. Introdução
 
 <p style="text-indent: 20px; text-align: justify">
-O diagrama Causa-Efeito (ou diagrama de Ishikawa) analisa sobre diferentes perspectivas ou pontos de vistas um determinado efeito, levantando uma série de causas que podem estar fazendo com que esse efeito aconteça. Normalmente a utilização de um diagrama de Causa-Efeito é baseada no fato de se ter um problema, risco ou algo que foi vislumbrado pelo(s) autor(es) de algo que já está acontecendo ou ainda pode acontecer. A partir da identificação de um efeito são vislumbrados possíveis causas distribuídas por tópicos e sub-tópicos.
+O diagrama Causa-Efeito (ou diagrama de Ishikawa) é uma representação visual que busca de forma gráfica auxiliar a equipe de desenvolvimento nas análises do sistema na procura da principal causa de algum problema. Por meio deles podemos fazer uma análise de diversas perspectivas de um determinado efeito, levantando uma série de causas que podem ser responsáveis por esse efeito.
+</p>
+
+<p style="text-indent: 20px; text-align: justify">
+Como dito anteriormente, esse diagrama é muito utilizado na análise de erros e riscos do sistema, sendo extremamente útil para essas tarefas, já que o diagrama permite a melhor compreensão de possíveis causas não apenas para erros que já ocorreram como também para possíveis erros que visualizados pelos desenvolvedores. Assim da identificação de um efeito, podemos compreender possíveis causas distribuídas entre tópicos e subtópicos.
 </p>
 
 <p style="text-indent: 20px; text-align: justify">
@@ -22,12 +26,11 @@ _Figura 1 - Diagrama Causa-Efeito criado pelo grupo._
 
 > Rodrigues, Viviane. Diagrama de Ishikawa: o que é e como fazer. 2021. Disponível em: https://www.siteware.com.br/metodologias/diagrama-de-ishikawa/
 
-</p>
+### Histórico de versão
 
-## 4. Versionamento
-
-| Versão | Data       | Modificação          | Autor(es)        |
-| :----: | ---------- | -------------------- | ---------------- |
-|  1.0   | 28/01/2022 | Criação do documento | Rodrigo Balbino  |
-|  1.1   | 28/01/2022 | Adição de conteúdo   | Pedro Campos     |
-|  1.2   | 29/01/2022 | Revisão do documento | Lorrayne Cardozo |
+|    Data    | Versão | Modificação          | Autor(es)        |
+| :--------: | :----: | -------------------- | ---------------- |
+| 28/01/2022 | 0.1 | Criação do documento | Rodrigo Balbino  |
+| 28/01/2022 | 1.0 | Adição de conteúdo   | Pedro Campos     |
+| 29/01/2022 | 1.1 | Revisão do documento | Lorrayne Cardozo |
+| 21/02/2022 | 1.2 | Refatoração do documento | Álvaro Gouvea |
