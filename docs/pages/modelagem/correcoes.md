@@ -18,6 +18,10 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 -   Adição de conteúdo na introdução
 -   Padronização no nome do Versionamento
 
+### 2.2 Causa e Efeito
+-   Adição de conteúdo na introdução
+-   Padronização no nome do Versionamento
+
 </div>
 
 ### Histórico de versão
@@ -26,3 +30,4 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 | :--------: | :----: | :---------------------------: | :------------------------------------------------: |
 | 20/02/2022 |  0.1   | Rodrigo Balbino e João Victor | Adição das correções da priorização dos requisitos |
 | 21/02/2022| 0.2    | Pedro Campos | Adição das correções do Storyboard|
+| 21/02/2022| 0.3    | Álvaro Gouvea | Adição das correções de Causa e Efeito |
