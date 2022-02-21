@@ -84,7 +84,7 @@ Luis trabalha com montagem de móveis e serviços gerais de reparo, porém não 
 
 </div>
 
-### Versionamento
+### Histórico de Versão
 
 |    Data    | Versão |      Autor       | Descrição                                                          |
 | :--------: | :----: | :--------------: | :----------------------------------------------------------------- |
