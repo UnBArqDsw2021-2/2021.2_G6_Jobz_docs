@@ -28,9 +28,9 @@ _Figura 1 - Diagrama Causa-Efeito criado pelo grupo._
 
 ### Histórico de versão
 
-| Versão | Data       | Modificação          | Autor(es)        |
-| :----: | ---------- | -------------------- | ---------------- |
-|  1.0   | 28/01/2022 | Criação do documento | Rodrigo Balbino  |
-|  1.1   | 28/01/2022 | Adição de conteúdo   | Pedro Campos     |
-|  1.2   | 29/01/2022 | Revisão do documento | Lorrayne Cardozo |
-|  1.2   | 21/02/2022 | Refatoração do documento | Álvaro Gouvea |
+|    Data    | Versão | Modificação          | Autor(es)        |
+| :--------: | :----: | -------------------- | ---------------- |
+| 28/01/2022 | 0.1 | Criação do documento | Rodrigo Balbino  |
+| 28/01/2022 | 1.0 | Adição de conteúdo   | Pedro Campos     |
+| 29/01/2022 | 1.1 | Revisão do documento | Lorrayne Cardozo |
+| 21/02/2022 | 1.2 | Refatoração do documento | Álvaro Gouvea |
