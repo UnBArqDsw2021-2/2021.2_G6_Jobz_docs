@@ -36,6 +36,14 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 -   Adição do referencial teórico utilizado na criação dos protótipos.
 -   Correção nas legendas de imagens.
 
+## 7. Mapa Mental
+- Adição de conteúdo na introdução.
+- Padronização do histórico de versão de acordo com o template.
+
+## 8. Modelagem banco de dados
+- Adição de conteúdo na introdução.
+- Padronização do histórico de versão de acordo com o template.
+
 </div>
 
 ### Histórico de versão
