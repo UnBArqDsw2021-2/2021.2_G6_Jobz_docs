@@ -113,7 +113,7 @@ Cardinalidade -> **1:n**
 
 </div>
 
-## 5. Versionamento
+### Histórico de versão
 
 | Versão | Data       | Modificação          | Autor(es)           |
 | :----: | ---------- | -------------------- | --------------- |

@@ -36,7 +36,6 @@ Além disso o diagrama possui diversas formas de especificar determinados tipos 
     <figcaption align='center'>
         <b>Figura 2: Diagrama de classes do produto. </b>
         <br>
-        <small>Fonte: Autoria própria.</small>
     </figcaption>
 </p>
 
@@ -66,4 +65,5 @@ Obs.: O diagrama foi traduzido para o inglês para melhor aplicação do diagram
 | 19/02/2022 |  1.2   | Pedro Campos  | Revisão do documento		|
 | 19/02/2022 |  1.5   | Pedro Campos 	| Refatoração da introdução    |
 | 19/02/2022 |  2.0   | Pedro Campos 	| Tradução do diagrama    |
+| 20/02/2022 |  2.1   |  Rodrigo Balbino 	| corrigindo fonte    |
 
