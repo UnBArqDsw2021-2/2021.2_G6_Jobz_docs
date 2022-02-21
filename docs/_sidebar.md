@@ -21,7 +21,7 @@
   - Iniciativas Extras
     - [Termo de Abertura](./pages/base/termodeabertura.md)
     - [Personas](./pages/base/personas.md)
-    - [Storytelling](./pages/base/storyboard.md)
+    - [StoryBoard](./pages/base/storyboard.md)
     - [Guia de Estilo](./pages/base/GuiaEstilo.md)
     - [Guia de Contribuição](./pages/base/guia-contribuicao.md)
     - [Product Backlog](./pages/modelagem/backlogPriorizado.md)
