@@ -55,3 +55,4 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 | 21/02/2022 | 0.3    | Álvaro Gouvea                 | Adição das correções de Causa e Efeito |
 | 21/02/2022 | 0.4    | Fernando Miranda              | Adição das correções da página de questionário |
 | 21/02/2022 | 0.5    | Lorrayne Cardozo              | Adição das correções do documento do protótipo de média fidelidade |
+| 21/02/2022 | 0.6    | Guilherme Braz              | Adição das correções do mapa mental e modelagem de banco de dados |
