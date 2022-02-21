@@ -46,4 +46,4 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 | 21/02/2022 | 0.2    | Pedro Campos                  | Adição das correções do Storyboard|
 | 21/02/2022 | 0.3    | Álvaro Gouvea                 | Adição das correções de Causa e Efeito |
 | 21/02/2022 | 0.4    | Fernando Miranda              | Adição das correções da página de questionário |
-| 21/02/2022 | 0.5    | Fernando Miranda              | Adição das correções do documento do protótipo de média fidelidade |
+| 21/02/2022 | 0.5    | Lorrayne Cardozo              | Adição das correções do documento do protótipo de média fidelidade |
