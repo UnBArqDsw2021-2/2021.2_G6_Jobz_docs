@@ -42,7 +42,7 @@
       - [Diagrama de Sequência](./pages/modelagem/diagramaSequencia.md)
       - [Diagrama de Atividades](./pages/modelagem/diagramaAtividades.md)
       - [Diagrama de Comunicação](./pages/modelagem/diagrama-comunicacao.md)
-      - [Diagrama de Estados](./pages/base/diagramaEstados.md)
+      - [Diagrama de Estados](./pages/modelagem/diagramaEstados.md)
     - Modelagem Ágil
       - [Product Backlog](./pages/modelagem/backlogPriorizado.md)
 
