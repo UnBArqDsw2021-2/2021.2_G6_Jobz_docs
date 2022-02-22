@@ -50,6 +50,8 @@ A mensagem no diagrama de comunicação é mostrada como uma linha com expressã
     </figcaption>
 </p>
 
+Nos utilizando das representações demonstradas pelo artefato produzido, através da utilização do diagrama de comunicações, podemos explorar o comportamento dinâmico de um sistema ou software, entendendo a interligação e a comunicação entre as partes de um sistema completo.
+
 ## 2. Diagramas de Comunicação
 
 ### 2.1 Criação do serviço
@@ -59,7 +61,6 @@ A mensagem no diagrama de comunicação é mostrada como uma linha com expressã
     <figcaption align='center'>
         <b>Figura 5: Diagrama de comunicação da criação do serviço</b>
         <br>
-        <small>Fonte: AUTOR</small>
     </figcaption>
 </p>
 
@@ -70,20 +71,21 @@ A mensagem no diagrama de comunicação é mostrada como uma linha com expressã
     <figcaption align='center'>
         <b>Figura 6: Diagrama de comunicação da contratação do serviço</b>
         <br>
-        <small>Fonte: AUTOR</small>
     </figcaption>
 </p>
 
 ## 3. Referências
 
-> -   UML Communication Diagrams Overview, Disponível em: https://www.uml-diagrams.org/communication-diagrams.html
-> -   Diagrama de comunicação. Animalesco. Disponível em: https://unbarqdsw2021-1.github.io/2021.1_G01_Animalesco_docs/#/pages/communication-diagram
+> -   UML Communication Diagrams Overview, Disponível em: https://www.uml-diagrams.org/communication-diagrams.html. Acesso em 13 de fevereiro de 2022.
+> -   Diagrama de comunicação. Animalesco. Disponível em: https://unbarqdsw2021-1.github.io/2021.1_G01_Animalesco_docs/#/pages/communication-diagram. Acesso em 13 de fevereiro de 2022.
+> -   IBM Criando Diagramas de Comunicação. Disponível em: https://www.ibm.com/docs/pt-br/rsar/9.5?topic=diagrams-example-communication-diagram. Acesso em 19 de fevereiro de 2022.
 
 </div>
 
 ### Histórico de versão
 
-|    Data    | Versão |    Autor    |              Descrição              |
-| :--------: | :----: | :---------: | :---------------------------------: |
-| 08/02/2022 |  0.1   | João Victor |        Criação do documento         |
-| 14/02/2022 |  1.0   | João Victor | Adição dos diagramas de comunicação |
+|    Data    | Versão |       Autor      |               Descrição               |
+| :--------: | :----: | :--------------: | :----------------------------------:  |
+| 08/02/2022 |  0.1   |    João Victor   |         Criação do documento          |
+| 14/02/2022 |  1.0   |    João Victor   |  Adição dos diagramas de comunicação  |
+| 19/02/2022 |  1.1   | Fernando Miranda |  Melhorias na introdução do documento |

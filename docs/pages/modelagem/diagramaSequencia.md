@@ -5,10 +5,10 @@
 <div align="justify">    O diagrama de sequência é utilizado de forma recorrente pelos desenvolvedores, pois é um modelo que apresenta as importantes interações entre os objetos da aplicação. Assim, sendo capaz de apresentar a ordem no qual suas interações ocorrem, tendo em vista um caso particular no qual é executado. Esse diagrama ilustra como diferentes partes de um sistema interagem entre si para fazer algo funcionar. 
 </p>
 
-<div align="justify">    Simplificando, o diagrama de sequência nos apresenta como diferentes partes de um sistema consegue trabalhar em sequência para realizar determinada tarefa.
+<div align="justify">    Simplificando, o diagrama de sequência nos apresenta como diferentes partes de um sistema conseguem trabalhar em sequência para realizar determinada tarefa.
 </p>
 
-<div align="justify">    Além disso, o diagrama é estruturado de forma que representa uma timeline iniciando-se do topo e descendo gradualmente destacando a sequência de interações, possuindo colunas de objetos e mensagens, nas quais são transmitidas entre eles representados por flechas que apontam a direção.
+<div align="justify">    Além disso, o diagrama é estruturado de forma que representa uma timeline iniciando-se do topo e descendo gradualmente, destacando a sequência de interações, possuindo colunas de objetos e mensagens as quais são transmitidas entre eles representadas por flechas que apontam a direção.
 </p>
 
 ## 2. Diagrama de Sequência
@@ -23,7 +23,6 @@
     <figcaption align='center'>
         <b>Figura 2: Diagrama de Sequencia da Contratação de Serviços</b>
         <br>
-        <small>Autor: Rodrigo Balbino</small>
     </figcaption>
 </p>
 
@@ -39,3 +38,6 @@
 | :--------: | :----: | :-------------: | :------------------------------: |
 | 29/01/2022 |  1.0   | Rodrigo Balbino |       Criação do documento       |
 | 17/02/2022 |  1.1   | Rodrigo Balbino | Correção do diagrama para inglês |
+| 20/02/2022 |  1.2   | Álvaro Gouvea | Revisão e correções |
+| 20/02/2022 |  1.3   | Rodrigo Balbino | corrigindo fonte |
+

@@ -80,11 +80,11 @@ As melhorias pode ser visto abaixo
 
 ## 4. Referências
 
-> -  MONK, Andrew; HOWARD, Steve. Methods & tools: the rich picture: a tool for resoning about work context. <strong>Interactions</strong>, York v.5, n.2, march./1998 
+> -  MONK, Andrew; HOWARD, Steve. Methods & tools: the rich picture: a tool for resoning about work context. <strong>Interactions</strong>, York v.5, n.2, march./1998
 
-## 5. Versionamento
+### Histórico de versão
 
-| Versão | Data       | Modificação                             | Autor           |
-| :----: | ---------- | --------------------------------------- | --------------- |
-|  1.0   | 28/01/2022 | Criação do documento e Adição do item 1 | Antônio Aldísio |
-|  1.1   | 04/02/2022 | Correção das imagens e inclusão de referencias| Antônio Aldísio |
+|    Data    | Versão | Modificação                             | Autor           |
+| ---------- | :----: | --------------------------------------- | --------------- |
+| 28/01/2022 |  1.0   | Criação do documento e Adição do item 1 | Antônio Aldísio |
+| 04/02/2022 |  1.1   | Correção das imagens e inclusão de referencias| Antônio Aldísio |
