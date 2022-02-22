@@ -39,11 +39,22 @@ Uma aplicação web para conectar pequenas empresas, profissionais autonomos que
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
 
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
+<img src='docs/assets/images/apresentacao-modelagem/agil.png' width=auto height=auto>
+<img src='docs/assets/images/apresentacao-modelagem/dinamicos.png' width=auto height=auto>
+<img src='docs/assets/images/apresentacao-modelagem/estaticos.png' width=auto height=auto>
+<img src='docs/assets/images/apresentacao-modelagem/extra.png' width=auto height=auto>
 
 ## Vídeo(s) Segunda Entrega <<FOCO: DSW(Modelagem)>>
 
-Adicione o(s)s vídeo(s) da Segunda Entrega.
+
+
+[Notação UML – Diagramas Estáticos](https://www.youtube.com/watch?v=5ZAOZhQOJvI) 
+
+[Notação UML – Diagramas Dinâmicos](https://www.youtube.com/watch?v=4SzbcVgd2f8)
+
+[Modelagem Agil](https://www.youtube.com/watch?v=zhntwoTsx70)
+
+[Iniciativas Extras](https://www.youtube.com/watch?v=fhQ_-XiADMQ)
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 
