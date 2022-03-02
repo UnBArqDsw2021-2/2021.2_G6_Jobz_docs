@@ -1,44 +1,52 @@
-# Planejamento sprint 1
+# Planejamento sprint 6
 
-Período: 25/01/2022 a 28/01/2022
+Período: 28/02/2022 a 06/03/2022
 
-Data da reunião: 25/01/2022
+Data da reunião: 28/02/2022
 
-Membros presentes: Todos
+Membros presentes: Álvaro, Ariel, Antonio, Fernando, Lorrayne, Guilherme, João, Rodrigo, Pedro
 
-Membros faltantes: Nenhum
+Membros faltantes: Luis
 
 ## Issues da sprint
 
-| Número                                                                  | Issue                                                    | Pontuação | Membros            |
-| ----------------------------------------------------------------------- | -------------------------------------------------------- | --------- | ------------------ |
-| [#1](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/1)   | Criar github pages                                       | -         | Antonio e Luis     |
-| [#2](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/2)   | Elaboração e construção do Artefato Causa e Efeito       | -         | Rodrigo e Pedro    |
-| [#3](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/3)   | Léxicos                                                  | -         | Fernando e Rodrigo |
-| [#4](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/4)   | Documentar Rich pictures                                 | -         | Antonio            |
-| [#5](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/5)   | Elaboração de um Questionário como técnica de elicitação | -         | Ariel e Guilherme  |
-| [#6](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/6)   | Elaboração do Plano de Risco                             | -         | Luis               |
-| [#7](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/7)   | Personas                                                 | -         | Lorrayne           |
-| [#9](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/9)   | 5W2H                                                     | -         | Todos os membros   |
-| [#10](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/10) | Guia de contribuição                                     | -         | Alvaro             |
-| [#11](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/11) | Storyboard                                               | -         | Fernando e João    |
-| [#12](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/12) | Metodologia de projeto                                   | -         | João               |
+| Número                                                                  | Issue                           | Pontuação | Membros          |
+| ----------------------------------------------------------------------- | ------------------------------- | --------- | ---------------- |
+| [#63](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/63) | FrontEnd/US_CadastroDeServico   | 13        | Guilherme e Luis |
+| [#64](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/64) | BackEnd/US02_Login              | 5         | Alvaro e Antonio |
+| [#65](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/65) | FrontEnd/US01_CadastroDeUsuário | 13        | Pedro e Rodrigo  |
+| [#67](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/67) | Backend/Docker                  | 8         | Alvaro e Antonio |
+| [#69](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/69) | BackEnd/US01_CadastroDeUsuario  | 13        | Lorrayne e João  |
+| [#70](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/70) | BackEnd/US_CadastrodeServiço    | 13        | Ariel e Fernando |
 
-### Pontuação da sprint: -
+### Pontuação da sprint: 65
 
 ## Quadro de divisão de pontos
 
-Não foi implementado as pontuações nessa sprint
-
-<!-- | Participantes    | Pontos por issue | Pontos individuais |
+| Participantes    | Pontos por issue | Pontos individuais |
 | ---------------- | ---------------- | ------------------ |
-| Álvaro Gouvea    |                  |                    |
-| Antonio Aldisio  |                  |                    |
-| Ariel Serafim    |                  |                    |
-| Fernando Calil   |                  |                    |
-| Guilherme Braz   |                  |                    |
-| João Matos       |                  |                    |
-| Lorrayne Cardozo |                  |                    |
-| Luis Araújo      |                  |                    |
-| Pedro Campos     |                  |                    |
-| Rodrigo Brito    |                  |                    | -->
+| Álvaro Gouvea    | 4 + 2.5          | 6.5                |
+| Antonio Aldisio  | 4 + 2.5          | 6.5                |
+| Ariel Serafim    | 6.5              | 6.5                |
+| Fernando Calil   | 6.5              | 6.5                |
+| Guilherme Braz   | 6.5              | 6.5                |
+| João Matos       | 6.5              | 6.5                |
+| Lorrayne Cardozo | 6.5              | 6.5                |
+| Luis Araújo      | 6.5              | 6.5                |
+| Pedro Campos     | 6.5              | 6.5                |
+| Rodrigo Brito    | 6.5              | 6.5                |
+
+## Observações
+
+Durante a reunião de planejamento foram identificadas modelagens que apresentavam algumas inconsistências com o projeto, devido a issso foi marcada uma reunião extra no dia 01/03/2022 para a revisão dessas modelagens.
+
+Nessa reunião vimos a necessidade de definir alguns papeis dentro da equipe. Dessa forma ficou definido:
+
+| Nome        | Papel         |
+| ----------- | ------------- |
+| João Victor | Scrum Master  |
+| Rodrigo     | Product Owner |
+| Antonio     | DevOps        |
+| Fernando    | Arquiteto     |
+
+Esses papeis podem mudar ao decorrer do semestre se houver a nessecidade.
