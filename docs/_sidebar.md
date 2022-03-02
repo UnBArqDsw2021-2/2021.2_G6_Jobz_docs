@@ -70,8 +70,8 @@
     - [Resultados](./pages/sprints/sprint4/sprint_review.md)
   - Sprint 5
     - [Planejamento](./pages/sprints/sprint5/sprint_planning.md)
-    <!-- - [Resultados](./pages/sprints/sprint5/sprint_review.md)
-  - Sprint 6
+    - [Resultados](./pages/sprints/sprint5/sprint_review.md)
+  <!-- - Sprint 6
     - [Planejamento](./pages/sprints/sprint6/sprint_planning.md)
     - [Resultados](./pages/sprints/sprint6/sprint_review.md)
   - Sprint 7

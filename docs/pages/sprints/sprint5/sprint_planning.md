@@ -1,8 +1,8 @@
 # Planejamento sprint 5
 
-Período: 22/01/2022 a 27/01/2022
+Período: 22/02/2022 a 27/02/2022
 
-Data da reunião: 22/01/2022
+Data da reunião: 22/02/2022
 
 Membros presentes: Todos
 
