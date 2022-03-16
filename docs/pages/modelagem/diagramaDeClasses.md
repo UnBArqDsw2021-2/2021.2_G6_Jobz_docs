@@ -29,12 +29,22 @@ Os elementos principais de um diagrama de classes são as classes e os atributos
 Além disso o diagrama possui diversas formas de especificar determinados tipos de relacionamentos que poderão ser vistos de maneira mais clara na representação do diagrama feito que foi construído para o projeto JOBZ.
 <p/>
 
-## 2. Diagrama de Classes
+## 2. Diagrama de Classes (v1.0)
 
 <p align='center'>
     <img src='assets/images/diagramasEstaticos/diagramaClasses/classDiagram.svg' width=40% height=auto>
     <figcaption align='center'>
-        <b>Figura 2: Diagrama de classes do produto. </b>
+        <b>Figura 2: Diagrama de classes do produto v.1.0 </b>
+        <br>
+    </figcaption>
+</p>
+
+## 3. Diagrama de Classes (v2.0)
+
+<p align='center'>
+    <img src='assets/images/diagramasEstaticos/diagramaClasses/classDiagramV2.svg' width=80% height=auto>
+    <figcaption align='center'>
+        <b>Figura 2: Diagrama de classes do produto v.2.0 </b>
         <br>
     </figcaption>
 </p>
@@ -65,3 +75,4 @@ Obs.: O diagrama foi traduzido para o inglês para melhor aplicação do diagram
 | 19/02/2022 |  1.5   |  Pedro Campos   |    Refatoração da introdução     |
 | 19/02/2022 |  2.0   |  Pedro Campos   |       Tradução do diagrama       |
 | 20/02/2022 |  2.1   | Rodrigo Balbino |         corrigindo fonte         |
+| 16/03/2022 |  2.2   | Luís Araújo |  Adição do diagrama de classes do produto v2.0 |
