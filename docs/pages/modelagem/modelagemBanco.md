@@ -25,66 +25,93 @@ Traremos:
 
 ### 2.1 Entidades
 
-**USER** (<u>id</u>, name, email, cpf, password, profileType, {phone})<br>
-**ADDRESS** (<u>id</u>, addressType, number, street, neighborhood, complement, city, state, zipcode)<br>
-**COMPANY** (<u>id</u>, name, cnpj, {phone})<br>
-**SERVICE** (<u>id</u>, title, description, {photo})<br>
-**CATEGORY_SERVICE** (<u>id</u>, name)<br>
-**CLIENT_EVALUATION** (<u>id</u>, note, comment)<br>
+**PERSON** (name, email, <u>cpf</u>, phone)<br>
+-   **USER** (<u>idUser</u>)<br>
+-   **PROVIDER** (<u>idProvider</u>, {occupation})<br>
+**COMPANY** (<u>idCompany</u>, name, email, {phone})<br>
+**SCHEDULE** (<u>idSchedule</u>, dayOfWeek, entryTime, endOfWork)<br>
+**SERVICE** (<u>idService</u>, datePurchase, dateService, serviceDescription)<br>
+**ADDRESS** (<u>idAddress</u>, state, city, cep, number, district, complement)<br>
+**EVALUATION** (<u>idEvalutation</u>, comment, grade)<br>
+**SERVICE_CATEGORY** (<u>idCategory</u>, nameService)<br>
 
 ### 2.2 Relacionamentos
 
-**USER** -> possui -> **ADDRESS**
+**USER** -> is -> **PERSON**
 
-Um **USER** tem um ou vários **ADDRESS** e um **ADDRESS** tem um ou vários **USER**
+Um **USER** é uma **PERSON**.
+
+Cardinalidade -> **1:1**
+
+<hr>
+
+**PROVIDER** -> is -> **PERSON**
+
+Um **PROVIDER** é uma **PERSON**.
+
+Cardinalidade -> **1:1**
+
+<hr>
+
+**PROVIDER** -> works -> **COMPANY**
+
+Um **PROVIDER** pode trabalhar para apenas uma **COMPANY**, porém uma **COMPANY** pode ter vários **PROVIDER**
+
+Cardinalidade -> **n:1**
+
+<hr>
+
+**USER** -> has -> **ADDRESS**
+
+Um **USER** pode ter mais de um **ADDRESS**, da mesma forma que um **ADDRESS** pode ser de mais de um **USER**
 
 Cardinalidade -> **n:m**
 
 <hr>
 
-**USER** -> pertence -> **COMPANY**
+**USER** -> hires -> **SERVICE**
 
-Um **USER** pertence a uma **COMPANY** e uma **COMPANY** possui vários **USER**
-
-Cardinalidade -> **1:n**
-
-<hr>
-
-**USER** -> executa -> **SERVICE**
-
-Um **USER** executa vários **SERVICE** e um **SERVICE** é executado por um **USER**
+Um **USER** pode contratar vários **SERVICE**, porém um **SERVICE** pode ser contratado por apenas um **USER**
 
 Cardinalidade -> **1:n**
 
 <hr>
 
-**USER** -> registra -> **CLIENT_EVALUATION**
+**COMPANY** -> has -> **ADDRESS**
 
-Um **USER** registra vários **CLIENT_EVALUATION** e um **CLIENT_EVALUATION** é pertencente a um **USER**
-
-Cardinalidade -> **1:n**
-
-<hr>
-
-**COMPANY** -> possui -> **ADDRESS**
-
-Uma **COMPANY** tem um ou vários **ADDRESS** e um **ADDRESS** tem uma ou várias **COMPANY**
+Uma **COMPANY** pode ter mais de um **ADDRESS**, da mesma forma que um **ADDRESS** pode ser de mais de uma **COMPANY**
 
 Cardinalidade -> **n:m**
 
 <hr>
 
-**SERVICE** -> pertence a -> **CATEGORY_SERVICE**
+**COMPANY** -> offers -> **SERVICE**
 
-Um **SERVICE** pertence a um **CATEGORY_SERVICE** e um **CATEGORY_SERVICE** tem uma ou vários **SERVICE**
+Uma **COMPANY** pode oferecer vários **SERVICE**, assim como um **SERVICE** pode ser oferecido por muitas **COMPANY**
 
-Cardinalidade -> **1:n**
+Cardinalidade -> **n:m**
 
 <hr>
 
-**SERVICE** -> possui vários -> **CLIENT_EVALUATION**
+**SERVICE** -> has -> **SERVICE_CATEGORY**
 
-Um **SERVICE** tem um ou vários **CLIENT_EVALUATION** e um **CLIENT_EVALUATION** possui um **SERVICE**
+Um **SERVICE** possui uma **SERVICE_CATEGORY** e uma **SERVICE_CATEGORY** pode pertencer a vários **SERVICE**
+
+Cardinalidade -> **n:1**
+
+<hr>
+
+**SERVICE** -> has -> **EVALUTATION**
+
+Um **SERVICE** possui uma **EVALUTATION** e uma **EVALUTATION** pertence a um **SERVICE**
+
+Cardinalidade -> **1:1**
+
+<hr>
+
+**PROVIDER** -> has -> **SCHEDULE**
+
+Um **PROVIDER** pode possuir várias **SCHEDULE** e uma **SCHEDULE** pertence a um **PROVIDER**
 
 Cardinalidade -> **1:n**
 
@@ -92,6 +119,7 @@ Cardinalidade -> **1:n**
 
 ## 3. Diagrama entidade e relacionamento (DE-R)
 
+### Versão 1
 <p align='center'>
     <img src='assets/images/modelagemBanco/V1-MER.png' width=auto height=auto>
     <figcaption align='center'>
@@ -100,10 +128,30 @@ Cardinalidade -> **1:n**
     </figcaption>
 </p>
 
+### Versão 2
+<p align='center'>
+    <img src='assets/images/modelagemBanco/v2-DERR.png' width=auto height=auto>
+    <figcaption align='center'>
+        <b>Figura 1: Diagrama de entidade relacionamento</b>
+        <br>
+    </figcaption>
+</p>
+
 ## 4. Diagrama lógico
 
+### Versão 1
 <p align='center'>
     <img src='assets/images/modelagemBanco/V1-DE-LOGICO.png' width=auto height=auto>
+    <figcaption align='center'>
+        <b>Figura 2: Diagrama lógico</b>
+        <br>
+    </figcaption>
+</p>
+
+
+### Versão 2
+<p align='center'>
+    <img src='assets/images/modelagemBanco/v2-DLDR.png' width=auto height=auto>
     <figcaption align='center'>
         <b>Figura 2: Diagrama lógico</b>
         <br>
@@ -123,3 +171,4 @@ Cardinalidade -> **1:n**
 |  1.0   | 14/01/2022 | Adição do DE-R e revisões          | Luís Fernando Furtado de Araújo |
 |  1.1   | 14/01/2022 | Revisão do documento               | João Victor                     |
 |  1.2   | 21/02/2022 | Correções do documento             | Guilherme Braz                  |
+|  2.0   | 15/03/2022 | Adição da nova versão do documento | Fernando e Lorrayne             |
