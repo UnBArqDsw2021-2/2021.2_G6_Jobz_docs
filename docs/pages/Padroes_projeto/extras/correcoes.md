@@ -19,5 +19,5 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 
 |    Data    | Versão |             Autor(es)         |                        Descrição                            |
 | :--------: | :----: | :---------------------------: | :---------------------------------------------------------: |
-| 15/03/2022 |   0.1  |      Fernando e Lorrayne      | Consolidação da refatoração da modelagem do banco de dados  |
+| 15/03/2022 |   0.1  |  Fernando, Lorrayne e Ariel   | Consolidação da refatoração da modelagem do banco de dados  |
 
