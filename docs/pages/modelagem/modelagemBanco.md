@@ -6,9 +6,16 @@
 
 O processo de modelagem de banco de dados é um processo de desenvolvimento de software que visa a construção de um modelo de dados que represente a estrutura de dados de uma base de dados, nesse processo se usa de coletas, analises, categorização e a explorarão dos dados e seus tipos.
 
-O documento em questão tem como objetivo documentar e apresentar a modelagem do banco de dados previamente definida e ir evoluindo de acordo com a evolução do software.
+"O objetivo da Modelagem de Dados é transmitir e apresentar uma representação única"(Machado, 2004, p.25), tarefa que não é simples levando em conta a complexidade de tarefas realizadas por softwares atuais. Para que a modelagem das entidades que compõe um sistema seja feita de forma adequada, por profissionais que não são especialistas, "que se propõe a situar uma sequência de atividades em uma ordem que possa resultar em ganhos de produtividade e confiabilidade" (Machado, 2004, p.26), de forma mais específica, trataremos da técnica de Modelagem Conceitual de Dados neste documento.
 
-Para essa modelagem, optaremos por utilizar um banco de dados relacional.
+A Modelagem Conceitual de Dados preve a estruturação em três níveis:
+
+- Projeto Conceitual
+- Projeto Lógico
+- Projeto Físico
+
+
+Para essa modelagem, optaremos por abordar as dois primeiros níveis **Projeto Conceitual** e **Projeto Lógico** em um banco de dados relacional.
 
 Traremos:
 
@@ -18,14 +25,14 @@ Traremos:
 2. DE-R (Diagrama Entidade-Relacionamento)<br>
    Objetivo: Representar em forma gráfica o que foi descrito no MER (Modelo Entidade Relacionamento).
 
-3. DE (Diagrama de esquemas)<br>
+3. DLD (Diagrama Lógico de Dados)<br>
    Objetivo: Representar a configuração lógica da totalidade ou de parte da base de dados relacional.
 
 ## 2. Modelo entidade e relacionamento (ME-R)
 
 ### 2.1 Entidades
 
-**PERSON** (name, email, <u>cpf</u>, phone)<br>
+**PERSON** (name, email, <u>cpf</u>, phone, password)<br>
 -   **USER** (<u>idUser</u>)<br>
 -   **PROVIDER** (<u>idProvider</u>, {occupation})<br>
 **COMPANY** (<u>idCompany</u>, name, email, {phone})<br>
@@ -158,6 +165,14 @@ Cardinalidade -> **1:n**
     </figcaption>
 </p>
 
+## 3. Referências
+
+> DEVMEDIA. Modelagem de Dados Tutorial. Disponível em: https://www.devmedia.com.br/modelagem-de-dados-tutorial/20398. Acesso em: 14 jan. de 2022.
+
+> CURUMIN. Modelo entidade relacionamento. Disponível em: https://unbarqdsw2021-1.github.io/2021.1_G6_Curumim/modelagem/modelagem-estatica/MER/. Acesso em: 14 jan. de 2022
+
+> MACHADO, F. N. R; BANCO DE DADOS: PROJETO E IMPLEMENTAÇÃO. 11. ed. 2004. p. 25-26
+
 </div>
 
 ### Histórico de versão
@@ -172,3 +187,4 @@ Cardinalidade -> **1:n**
 |  1.1   | 14/01/2022 | Revisão do documento               | João Victor                     |
 |  1.2   | 21/02/2022 | Correções do documento             | Guilherme Braz                  |
 |  2.0   | 15/03/2022 | Adição da nova versão do documento | Fernando, Lorrayne e Ariel      |
+|  2.1   | 17/03/2022 | Melhorias pós revisão | Fernando e Lorrayne     |
