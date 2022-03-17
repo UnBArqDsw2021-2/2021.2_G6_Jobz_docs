@@ -187,4 +187,5 @@ Cardinalidade -> **1:n**
 |  1.1   | 14/01/2022 | Revisão do documento               | João Victor                     |
 |  1.2   | 21/02/2022 | Correções do documento             | Guilherme Braz                  |
 |  2.0   | 15/03/2022 | Adição da nova versão do documento | Fernando, Lorrayne e Ariel      |
-|  2.1   | 17/03/2022 | Melhorias pós revisão | Fernando e Lorrayne     |
+|  2.1   | 17/03/2022 | Melhorias pós revisão 		   | Fernando e Lorrayne             |
+|  2.2   | 17/03/2022 | Revisão versão 2 documento 	   | Pedro Campos, Guilherme Braz    |
