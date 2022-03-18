@@ -4,19 +4,34 @@
 
 ## 1. Introdução
 
-Padrōes de projeto são soluções para problemas comuns que encontramos no desenvolvimento ou manutenção de um software. Iremos abortar os padrões de criacionais são padrões de que lidam com mecanismos de criação de objetos, tentando criar objetos de maneira adequada à situação. Eles ajudam a tornar um sistema independente de como seus objetos são criados, compostos e representados.
+Padrões de projeto são soluções para problemas comuns que encontramos no desenvolvimento ou manutenção de um software. Iremos abordar os padrões criacionais, estes são padrões que lidam com mecanismos de criação de objetos, voltados a criar objetos de maneira adequada à situação. Eles ajudam a tornar um sistema independente de como seus objetos são criados, compostos e representados.[1](./pages/Padroes_projeto/gof/criacionais.md#_4-referências)
 
-Iremos abortar os seguintes GoFs Criacionais:
+Conforme o código da aplicação tem o seu foco direcionado para a maior utilização de composição de objetos a aplicação dos padrões criacionais tende a tomar maior enfase, com isso a estruturação de código deixa de ser focada em um comportamento fixo e se volta mais para a definição de comportamentos básicos e fundamentais para o comportamento do software.[2](./pages/Padroes_projeto/gof/criacionais.md#_4-referências)
 
-    * Builder
-    * Factor
+"Existem dois temas recorrentes nesses padrões. Primeiro, todos eles encapsulam conhecimento sobre qual classe concreta o sistema usa. Segundo, eles escondem como instancias dessas classes são criadas e construidas." [(Gamma, 1994, p.94)](./pages/Padroes_projeto/gof/criacionais.md#_4-referências) Com isso os padrões criacionais criam flexibilidade na criação de objetos dentro de um software.
+
+Neste documento iremos abordar os seguintes **GoFs Criacionais** que foram adotados pela equipe:
+
+  - [Builder](./pages/Padroes_projeto/gof/criacionais.md#_3-builder)
+  - [Factory](./pages/Padroes_projeto/gof/criacionais.md#_2-Factory)
 
 
-## 2. Factor
+## 2. Factory
 
-O método de fábrica é um padrão de design criacional que resolve o problema de criar objetos de produto sem especificar suas classes concretas.
+O método de fábrica é um padrão de design criacional que resolve o problema de criar objetos de produto sem especificar suas classes concretas, tendo o objetivo de facilitar a criação de objetos. O padrão **factory** se baseia na ideia de que é mais simples encontrar onde um determinado objeto está sendo instanciado, se isso for feito através de uma função central.
 
-Podemos ver nesse trecho de codigo
+<p align='center'>
+    <img src='assets/images/gofsCriacionais/exFactory.png' width=40% height=auto>
+    <figcaption align='center'>
+        <b>Figura 1: Exemplo de Factory</b>
+        <br>
+        <small>Fonte: https://refactoring.guru/pt-br/design-patterns/factory-method</small>
+    </figcaption>
+</p>
+
+Como podemos perceber na [imagem 1](./pages/Padroes_projeto/gof/criacionais.md#_2-Factory), no padrão **factory** nos passamos apenas uma função, não nos importando onde o objeto está implementado nem como foi implementado.
+
+Podemos ver no trecho de codigo a seguir, uma implementação que está sendo utilizada pela equipe.
 
 <!--
 
@@ -120,10 +135,16 @@ export default Button
 <-->
 
 
-## 3. Referências
+## 4. Referências
 
-> Design Patterns. Refactoring Guru, 2014. Disponível em: https://refactoring.guru/pt-br/design-patterns/creational-patterns. Acesso em: 17, março de 2022.
->
+> Design Patterns. Refactoring Guru, 2014. Disponível em: https://refactoring.guru/pt-br/design-patterns/creational-patterns. Acesso em: 17 mar. de 2022.
+
+> Gamma, E. et al. Design Patterns: Elements of Reusable Object-Oriented Software. 1. ed. Addison-Wesley, 1994. p. 94-96.
+
+> DEVMEDIA. Design Patterns - Factory. Disponível em: https://www.devmedia.com.br/design-patterns-factory/17158. Acesso em 17 mar. de 2022.
+
+> REAL PYTHON. The Factory Method pattern and its implementation in python. Disponível em: https://realpython.com/factory-method-python/. Acesso em 17 mar. de 2022.
+
 
 </div>
 
@@ -132,3 +153,4 @@ export default Button
 |    Data    | Versão |    Autor    |      Descrição       |
 | :--------: | :----: | :---------: | :------------------: |
 | 17/03/2022 |  0.1   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Criação do documento e <br> inclusão inicial dos padrōes utilizados |
+| 18/03/2022 |  0.2   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Melhoria de introdução e descrição do metodo Factory |

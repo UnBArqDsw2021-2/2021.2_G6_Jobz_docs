@@ -56,7 +56,7 @@
 
   - [GRASP](./pages/base/planoRisco.md)
   - GOFs
-    - [Criacionais](./pages/base/planoRisco.md)
+    - [Criacionais](./pages/Padroes_projeto/gof/criacionais.md)
     - [Estruturais](./pages/base/planoRisco.md)
     - [Emergentes](./pages/base/planoRisco.md)
   - [Emergentes](./pages/base/planoRisco.md)
