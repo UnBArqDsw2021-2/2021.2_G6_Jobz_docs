@@ -61,6 +61,10 @@ Obs.: O diagrama foi traduzido para o inglês para melhor aplicação do diagram
 
 > MAZER-DEV. **Diagrama de Classes**. Disponível em: https://mazer.dev/diagrama-de-classes/. Acesso em: 19 fev.2022.
 
+> DEVMEDIA. **Elaboração diagrama de classes**. Disponível em: https://www.devmedia.com.br/orientacoes-basicas-na-elaboracao-de-um-diagrama-de-classes/37224. Acesso em: 14 mar.2022.
+
+> IBM. **Diagrama de classes**. Disponível em: https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=structure-class-diagrams. Acesso em: 16 mar.2022.
+
 </div>
 
 ### Histórico de versão
