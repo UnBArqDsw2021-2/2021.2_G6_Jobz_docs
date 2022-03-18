@@ -73,6 +73,6 @@ Obs.: O diagrama foi traduzido para o inglês para melhor aplicação do diagram
 | 16/02/2022 |  1.2   |  Ariel Serafim  |     Correção legenda imagem      |
 | 19/02/2022 |  1.2   |  Pedro Campos   |       Revisão do documento       |
 | 19/02/2022 |  1.5   |  Pedro Campos   |    Refatoração da introdução     |
-| 19/02/2022 |  2.0   |  Pedro Campos   |       Tradução do diagrama       |
-| 20/02/2022 |  2.1   | Rodrigo Balbino |         corrigindo fonte         |
-| 16/03/2022 |  2.2   | Luís Araújo |  Adição do diagrama de classes do produto v2.0 |
+| 19/02/2022 |  1.6   |  Pedro Campos   |       Tradução do diagrama       |
+| 20/02/2022 |  1.7   | Rodrigo Balbino |         corrigindo fonte         |
+| 16/03/2022 |  2.0  | Luís Araújo e Fernando Miranda |  Adição do diagrama de classes do produto v2.0 |
