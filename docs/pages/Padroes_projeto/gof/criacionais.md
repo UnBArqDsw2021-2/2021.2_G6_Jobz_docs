@@ -21,7 +21,7 @@ Neste documento iremos abordar os seguintes **GoFs Criacionais** que foram adota
 O método de fábrica é um padrão de design criacional que resolve o problema de criar objetos de produto sem especificar suas classes concretas, tendo o objetivo de facilitar a criação de objetos. O padrão **factory** se baseia na ideia de que é mais simples encontrar onde um determinado objeto está sendo instanciado, se isso for feito através de uma função central.
 
 <p align='center'>
-    <img src='assets/images/gofsCriacionais/exFactory.png' width=40% height=auto>
+    <img src='assets/images/gofsCriacionais/exFactory.png' width=100% height=auto>
     <figcaption align='center'>
         <b>Figura 1: Exemplo de Factory</b>
         <br>
@@ -31,82 +31,52 @@ O método de fábrica é um padrão de design criacional que resolve o problema 
 
 Como podemos perceber na [imagem 1](./pages/Padroes_projeto/gof/criacionais.md#_2-Factory), no padrão **factory** nos passamos apenas uma função, não nos importando onde o objeto está implementado nem como foi implementado.
 
-Podemos ver no trecho de codigo a seguir, uma implementação que está sendo utilizada pela equipe.
+Podemos observar no [trecho de código](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd/blob/master/jobz/user/models.py) a seguir, uma implementação que está sendo utilizada pela equipe.
+
 
 <!--
 
 If you realize that you cannot track the objects created by your application because the code that creates them is in many different places instead of a single function/method, you should consider using the Factory Method pattern [Eckel08, page 187]. The Factory Method centralizes an object creation and tracking your objects becomes much more easier. Note that it is absolutely fine to create more than one Factory Method, and this is how it is typically done in practice. Each Factory Method logically groups the creation of objects that have similarities. For example, one Factory Method might be responsible for connecting you to different databases (MySQL, SQLite), another Factory Method might be responsible for creating the geometrical object that you request (circle, triangle), and so on.
 -->
-~~~BackEnd
 
-class PersonManager(BaseUserManager):
-    def _create_user(self, username, name, email, password, cpf, phone, is_staff, is_superuser):
-        if not name:
-            raise ValueError('Usuario deve possuir nome')
-        email = self.normalize_email(email)
-        user = self.model(username=username, name=name, email=email, is_staff=is_staff, is_active=True, is_superuser=is_superuser, cpf=cpf, phone=phone)
-        user.set_password(password)
-        user.save(using=self._db)
-        return user
+<p align='center'>
+    <img src='assets/images/gofsCriacionais/codigo 1.png' width=100% height=auto>
+    <figcaption align='center'>
+        <b>Figura 2: Chamada da classe Factory</b>
+    </figcaption>
+</p>
 
-    def create_user(self, username, name, cpf, phone, email=None, password=None):
-        return self._create_user(username, name, email, password, cpf, phone, False, False)
+Onde podemos observar que a chamada da classe **PersonManager** irá cuidar da criação de usuários.
 
-    def create_superuser(self,username, name, cpf, phone, email=None, password=None):
-        user=self._create_user(username, name, email, password, cpf, phone, True, True)
-        user.is_active=True
-        user.save(using=self._db)
-        return user
-
-~~~
-
-~~~ FrontEnd
-
-function HomePage() {
-  let navigate = useNavigate()
-
-  function navigateToServicesPage() {
-    navigate('/servicePage')
-  }
-
-  function navigateToServiceCreate() {
-    navigate('/serviceCreatePage')
-  }
-
-  function navigateToUserRegistration() {
-    navigate('/userRegistrationPage')
-  }
-
-  function navigateToLogin() {
-    navigate('/login')
-  }
-
-
-~~~
+<p align='center'>
+    <img src='assets/images/gofsCriacionais/codigo2.png' width=100% height=auto>
+    <figcaption align='center'>
+        <b>Figura 3: Classe Factory</b>
+    </figcaption>
+</p>
 
 ## 3. Builder
 
-O Builder é um padrão de projeto criacional que permite a você construir objetos complexos passo a passo. O padrão permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção.
 
-~~~Python
-from django.urls import include, path
-from rest_framework import routers
-from service import views
-from service.views import ServiceViewSet
-from user.views import UserViewSet, ProviderViewSet
+Se tratando de um padrão de projeto criacional, o padrão builder tem "o objetivo de construir um objeto complexo a partir da sua representação, de tal forma que o mesmo processo de construção possa criar representações diferentes" [(Gamma, 1994, p.110)](./pages/Padroes_projeto/gof/criacionais.md#_4-referências) com esta sentença podemos dizer que o padrão **Builder** é um padrão de projeto que permite a você construir objetos complexos passo a passo, permitindo que um único código possa nos atender em diversas tarefas.
 
-router = routers.DefaultRouter()
-router.register(r'service', ServiceViewSet)
-router.register(r'user', UserViewSet)
-router.register(r'provider', ProviderViewSet)
+Como no exemplo do [trecho de código](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd/blob/master/jobz/jobz/urls.py), onde o código de criação de [usuários](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd/blob/master/jobz/user/models.py) e [serviços](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd/blob/master/jobz/service/models.py) da nossa aplicação são tratados da mesma forma, mesmo se tratando de objetos ligeiramente diferentes, por um único método **register** que disponibiliza o acesso, a recuperação e a criação destas tabelas.
 
-# Wire up our API using automatic URL routing.
-# Additionally, we include login URLs for the browsable API.
-urlpatterns = [
-    path('', include(router.urls)),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
-]
-~~~
+
+<p align='center'>
+    <img src='assets/images/gofsCriacionais/codigo3.png' width=100% height=auto>
+    <figcaption align='center'>
+        <b>Figura 4: Metodo Builder</b>
+    </figcaption>
+</p>
+
+<p align='center'>
+    <img src='assets/images/gofsCriacionais/registro.png' width=100% height=auto>
+    <figcaption align='center'>
+        <b>Figura 5: Modelo de acesso criado pelo método register.</b>
+    </figcaption>
+</p>
+
 
 <!--
 ## 4. Prototype (Duvida)
@@ -139,7 +109,7 @@ export default Button
 
 > Design Patterns. Refactoring Guru, 2014. Disponível em: https://refactoring.guru/pt-br/design-patterns/creational-patterns. Acesso em: 17 mar. de 2022.
 
-> Gamma, E. et al. Design Patterns: Elements of Reusable Object-Oriented Software. 1. ed. Addison-Wesley, 1994. p. 94-96.
+> Gamma, E. et al. Design Patterns: Elements of Reusable Object-Oriented Software. 1. ed. Addison-Wesley, 1994.
 
 > DEVMEDIA. Design Patterns - Factory. Disponível em: https://www.devmedia.com.br/design-patterns-factory/17158. Acesso em 17 mar. de 2022.
 
@@ -154,3 +124,4 @@ export default Button
 | :--------: | :----: | :---------: | :------------------: |
 | 17/03/2022 |  0.1   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Criação do documento e <br> inclusão inicial dos padrōes utilizados |
 | 18/03/2022 |  0.2   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Melhoria de introdução e descrição do metodo Factory |
+| 19/03/2022 |  0.3   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Adicionado o conteudo correspondente ao padão builder. |
