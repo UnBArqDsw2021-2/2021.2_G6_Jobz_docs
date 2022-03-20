@@ -16,6 +16,16 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 - Foram adicionadas as [Tasks](./pages/modelagem/backlogPriorizado.md#_6-tarefas) para cada história de usuário.
 - Foi adicionado o [mapeamento de história de usuários](./pages/modelagem/backlogPriorizado.md#_8-mapeamento-das-histórias-de-usuário).
 
+## 4. Refatoração do protótipo de alta fidelidade
+
+- Mudanças na [modelagem de protótipo de alta fidelidade](./pages/modelagem/prototipoAlta.md) para adicionar as views que faltavam e se alinhar com o design feito no desenvolvimento de algumas views no front-end.
+- Ajustado views de configuração de conta para com os do site
+- Criada view de meus serviços (provider)
+- Criada view de meus serviços (cliente)
+- Terminado flow do provider
+- Adicionado novos embeded codes na documentação do protótipo
+- Adicionar flow do provider
+
 </div>
 
 ### Histórico de versão
@@ -24,3 +34,4 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 | :--------: | :----: | :-----------------------------: | :--------------------------------------------------------: |
 | 15/03/2022 |  0.1   |   Fernando, Lorrayne e Ariel    | Consolidação da refatoração da modelagem do banco de dados |
 | 20/03/2022 |  0.2   | Rodrigo Balbino e Álvaro Gouvea |   Adicionando Tasks e Mapeamento de Histórias de usuário   |
+| 20/03/2022 |  0.2   | Pedro Henrique e Guilherme Braz |  Refatoração do protoípo de alta fidelidade |   |
