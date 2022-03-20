@@ -23,7 +23,9 @@ def hello_world(request):
 Nesse exemplo acima o decorator `@api_view` recebe uma lista de metodos HTTP que a view deve aceitar.
 
 ## 2. Facade
+O Facade é um GOF estrutural que tem como objetivo esconder a complexidade de um conjunto de classes e reduzir o acoplamento entre as camadas do porjeto. É muito utilizado por bibliotecas e frameworks para produzir uma interface mais simplificada.
 
+No nosso projeto serão utilizadas diversas bibliotecas que atuam com Facade de suas implementações.
 
 ## 3. Referências
 
@@ -33,6 +35,8 @@ Nesse exemplo acima o decorator `@api_view` recebe uma lista de metodos HTTP que
 
 > http://www.csi.uneb.br/padroes_de_projetos/decorator.html. Acesso em: 20/03/2022.
 
+> O Padrão Facade aplicado. Fábio Godoy DevMedia. Disponível em: https://www.devmedia.com.br/o-padrao-facade-aplicado/12683. Acesso em: 20/03/2022.
+
 </div>
 
 ### Histórico de versão
@@ -40,3 +44,4 @@ Nesse exemplo acima o decorator `@api_view` recebe uma lista de metodos HTTP que
 |    Data    | Versão |    Autor    |      Descrição       |
 | :--------: | :----: | :---------: | :------------------: |
 | 20/03/2022 |  0.1   | João Victor e Ariel | Criação do documento e adição do GOF Decorator |
+| 20/03/2022 |  0.2   | João Victor e Ariel | Adição do GOF Facade |
