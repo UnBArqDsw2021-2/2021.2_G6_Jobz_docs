@@ -16,6 +16,13 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 - Foram adicionadas as [Tasks](./pages/modelagem/backlogPriorizado.md#_6-tarefas) para cada história de usuário.
 - Foi adicionado o [mapeamento de história de usuários](./pages/modelagem/backlogPriorizado.md#_8-mapeamento-das-histórias-de-usuário).
 
+
+## 3. Refatoração do Diagrama de Classes
+
+- Refatoração da pagina referente ao [Diagrama de Classes](./pages/modelagem/diagramaDeClasses.md) da aplicação.
+- Foi adicionado novo [diagrama de classes na versão 2.0](./pages/modelagem/diagramaDeClasses.md#_3-diagrama-de-classes-v20).
+
+
 </div>
 
 ### Histórico de versão
@@ -24,3 +31,5 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 | :--------: | :----: | :-----------------------------: | :--------------------------------------------------------: |
 | 15/03/2022 |  0.1   |   Fernando, Lorrayne e Ariel    | Consolidação da refatoração da modelagem do banco de dados |
 | 20/03/2022 |  0.2   | Rodrigo Balbino e Álvaro Gouvea |   Adicionando Tasks e Mapeamento de Histórias de usuário   |
+| 20/03/2022 |  0.3   | Fernando e Luis |   Adicionada a refatoração do diagrama de classes   |
+
