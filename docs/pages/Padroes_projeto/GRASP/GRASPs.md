@@ -35,7 +35,7 @@ class ProviderViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 ~~~
 
-Nesse trecho temos a função retrieve, cujo papel é retornar a lista de provedores cujo o nome possuí a substring informada, é implementada dentro do viewset de provedores já que é o ambiente que possuí a maior quantidade de informação necessária para a execição da tarefa.
+Nesse trecho temos a função retrieve, cujo papel é retornar a lista de provedores cujo o nome possuí a substring informada, é implementada dentro do viewset de provedores já que é o ambiente que possuí a maior quantidade de informação necessária para a execução da tarefa.
 
 ## 3. Baixo Acoplamento
 
