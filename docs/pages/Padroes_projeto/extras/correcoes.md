@@ -10,6 +10,7 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 
 - Mudanças na [modelagem de banco de dados](./pages/modelagem/modelagemBanco.md) que foram feitas pelo grupo na reunião extra realizada no dia [01/03](./pages/sprints/sprint6/sprint_planning.md?id=observações).
 
+
 ## 3. Refatoração do Backlog do Produto
 
 - Refatoração das [histórias de usuário](./pages/modelagem/backlogPriorizado.md#_5-histórias-de-usuário).
@@ -17,6 +18,7 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 - Foi adicionado o [mapeamento de história de usuários](./pages/modelagem/backlogPriorizado.md#_8-mapeamento-das-histórias-de-usuário).
 
 ## 4. Refatoração do protótipo de alta fidelidade
+
 
 - Mudanças na [modelagem de protótipo de alta fidelidade](./pages/modelagem/prototipoAlta.md) para adicionar as views que faltavam e se alinhar com o design feito no desenvolvimento de algumas views no front-end.
 - Ajustado views de configuração de conta para com os do site
