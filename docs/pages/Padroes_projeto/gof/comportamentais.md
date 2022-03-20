@@ -4,7 +4,7 @@
 
 ## 1. Introdução
 
-Os padrões de projeto foram criados a partir da necessidade de se agilizar o projeto, no sentido de explicitar claramente padrões os quais ja foram utilizados em outros projetos e de toda forma sao recorrentes, assim evitando retrabalho. Portanto o uso de padrões de projetos ajudam a reduzir o tempo de desenvolvimento e aumentar a qualidade do código de maneira geral. Eles sao divididos em tres frentes: criacionais, estruturais e comportamentais, nesse documento iremos falar dos padrões de projetos comportamentais que seguiremos no desenvolvimento desse projeto. Os padrões de projetos comportamentais focam nos algoritmos e na designação de responsabilidades entre os objetos. Sendo eles:
+Os padrões de projeto foram criados a partir da necessidade de se agilizar o projeto, no sentido de explicitar claramente padrões nos quais ja foram utilizados em outros projetos e de toda forma são recorrentes, assim evitando retrabalho. Portanto o uso de padrões de projetos ajuda a reduzir o tempo de desenvolvimento e aumentar a qualidade do código de maneira geral. Eles são divididos em tres frentes: criacionais, estruturais e comportamentais, nesse documento iremos falar dos padrões de projetos comportamentais que seguiremos no desenvolvimento desse projeto. Os padrões de projetos comportamentais focam nos algoritmos e na designação de responsabilidades entre os objetos. Sendo eles:
 
 - Chain of Responsibility
 - Command
@@ -25,6 +25,13 @@ Os padrões de projeto foram criados a partir da necessidade de se agilizar o pr
 <!-- Exemplo do Gof aplicado em código -->
 
 ## 3. Iterator
+
+ <div align= "justify">  Essa padrão permite que nós passemos por elementos de uma coleção sem evidenciar a representação dele, que poderia ser um vetor, árvore, pilha, lista e etc. A principal ideia é descobrir o comportamento de travessia da coleção no objeto que chamamos de Iterator.</div>
+
+<div align= "justify"> O iterator guarda todos os detalhes da travessia, como por exemplo a posição atual e quantos elementos existem até o final. Assim vários iterators podem passar uns pelos outros ao mesmo tempo, independentemente.
+ <div>
+
+ <div align= "justify"> Os iterators implementam uma mesma interface, isso torna o código do cliente compatível com qualquer tipo de coleção ou qualquer algoritmo de travessia desde que tenha um iterator adequado. Se for necessário uma travessia especial, deve-se criar uma nova classe iterator sem precisar mudar o cliente ou coleção</div>
 
 <!-- Explicação do que é o Gof -->
 <!-- Por quê utilizar o Gof -->
@@ -100,7 +107,8 @@ PADRÃO PARA ADICIONAR IMAGENS:
 
 ### Histórico de versão
 
-|    Data    | Versão |                     Autor                     |      Descrição       |
-| :--------: | :----: | :-------------------------------------------: | :------------------: |
-| 19/03/2022 |  0.1   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Criação do documento |
-| 20/03/2022 |  0.2   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz |   Adição do State    |
+|    Data    | Versão |                     Autor                     |              Descrição              |
+| :--------: | :----: | :-------------------------------------------: | :---------------------------------: |
+| 19/03/2022 |  0.1   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz |        Criação do documento         |
+| 20/03/2022 |  0.2   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz |           Adição do State           |
+| 20/03/2022 |  0.3   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do texto inicial do Iterator |
