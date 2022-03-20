@@ -162,7 +162,7 @@ Site aglomerador de [prestadores de serviço](./pages/base/lexicos.md#l02-presta
     <img src='assets/images/backlog/MapeamentoDeHistoriasDeusuario.png' width=100% height=auto>
    
     <figcaption align='center'>
-        <b>Figura 2: Parte do mapeamento das histórias</b>
+        <b>Figura 1: Parte do mapeamento das histórias</b>
         <br>
     </figcaption>
 
@@ -186,10 +186,13 @@ Clique aqui para melhor visualizar nosso
 
 ## 10. Referências
 
-> - LEFFINGWELL, Dean; Agile Software Requirements: Lean Requirements Practices for Teams, Programs, and Enterprise. 1. ed. Boston: Pearson, 2011.
-> - WIEGERS, Karl; BEATTY, Joy; Software Requirements: Best practices. 3. ed; Microsoft Press, 2013
-> - Backlog do Produto. Animalesco. Disponível em: https://unbarqdsw2021-1.github.io/2021.1_G01_Animalesco_docs/#/pages/backlog-do-produto (Último acesso em 01/02/2022)
->   [3] Lei Geral de Proteção de Dados Pessoais(LGPD). 14 de Agosto 2018. (http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm). Acesso em 18 de Fevereiro de 2022.
+> LEFFINGWELL, Dean; Agile Software Requirements: Lean Requirements Practices for Teams, Programs, and Enterprise. 1. ed. Boston: Pearson, 2011.
+
+> WIEGERS, Karl; BEATTY, Joy; Software Requirements: Best practices. 3. ed; Microsoft Press, 2013
+
+> Backlog do Produto. Animalesco. Disponível em: https://unbarqdsw2021-1.github.io/2021.1_G01_Animalesco_docs/#/pages/backlog-do-produto (Último acesso em 01/02/2022)
+
+> [3] Lei Geral de Proteção de Dados Pessoais(LGPD). 14 de Agosto 2018. (http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm). Acesso em 18 de Fevereiro de 2022.
 
 </div>
 
