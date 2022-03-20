@@ -59,7 +59,7 @@
     - [Criacionais](./pages/base/planoRisco.md)
     - [Estruturais](./pages/base/planoRisco.md)
     - [Emergentes](./pages/base/planoRisco.md)
-  - [Emergentes](./pages/base/planoRisco.md)
+  - [Emergentes](./pages/Padroes_projeto/emergentes/emergentes.md)
   - Iniciativas Extras
     - [Correções](./pages/Padroes_projeto/extras/correcoes.md)
 
