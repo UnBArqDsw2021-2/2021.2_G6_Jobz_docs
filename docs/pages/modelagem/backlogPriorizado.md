@@ -28,95 +28,97 @@ Site aglomerador de [prestadores de serviço](./pages/base/lexicos.md#l02-presta
 
 ## 3. Épicos
 
-| ID  | Descrição                |
-| --- | ------------------------ |
-| [E01](#_3-Épicos)   | [Usuário](./pages/base/lexicos.md#l01-usuário)            |
-| [E02](#_3-Épicos)   | [Agendamento](./pages/base/lexicos.md#l09-agendar-serviço)|
-| [E03](#_3-Épicos)   | [Avaliação](./pages/base/lexicos.md#l05-avaliar)          |
-| [E04](#_3-Épicos)   | [Pesquisar](./pages/base/lexicos.md#l06-pesquisar)        |
-| [E05](#_3-Épicos)   | Interação entre [usuários](./pages/base/lexicos.md#l01-usuário) |
+| ID                | Descrição                                                              |
+| ----------------- | ---------------------------------------------------------------------- |
+| E01 | [Usuário](./pages/base/lexicos.md#l01-usuário)                         |
+| E02 | [Agendamento](./pages/base/lexicos.md#l09-agendar-serviço) de serviços |
+| E03 | [Avaliação](./pages/base/lexicos.md#l05-avaliar)                       |
+| E04 | [Pesquisa](./pages/base/lexicos.md#l06-pesquisar)                      |
+| E05 | Interação entre [usuários](./pages/base/lexicos.md#l01-usuário)        |
 
 ## 4. Features
 
-| Épico | ID   | Descrição                |
-| ----- | ---- | ------------------------ |
-| [E01](#_3-Épicos)     | [FT01](#_4-features) | Conta                    |
-| [E01](#_3-Épicos)     | [FT02](#_4-features) | Perfil                   |
-| [E01](#_3-Épicos)     | [FT03](#_4-features) | Favoritos                |
-| [E02](#_3-Épicos)     | [FT04](#_4-features) | Disponibilidade          |
-| [E02](#_3-Épicos)     | [FT05](#_4-features) | Controle de Compromissos |
-| [E03](#_3-Épicos)     | [FT06](#_4-features) | [Avaliações](./pages/base/lexicos.md#l05-avaliar)                |
-| [E03](#_3-Épicos)     | [FT07](#_4-features) | Denúncias                |
-| [E04](#_3-Épicos)     | [FT08](#_4-features) | [Buscar](./pages/base/lexicos.md#l06-pesquisar)                    |l07-categorias-de-serviço
-| [E04](#_3-Épicos)     | [FT09](#_4-features) | [Categorias](./pages/base/lexicos.md#l07-categorias-de-serviço)               |
-| [E05](#_3-Épicos)     | [FT10](#_4-features) | [Chat](./pages/base/lexicos.md#l12-chat) entre [usuários](./pages/base/lexicos.md#l01-usuário)      |
-| [E05](#_3-Épicos)     | [FT11](#_4-features) | Compartilhar             |
+| Épico             | ID                   | Descrição                                                                                      |
+| ----------------- | -------------------- | ---------------------------------------------------------------------------------------------- |
+| [E01](#_3-Épicos) | FT01               | Conta                                                                                          |
+| [E01](#_3-Épicos) | FT02               | Perfil                                                                                         |
+| [E02](#_3-Épicos) | FT03               | Agendamento de Serviços                                                                        |
+| [E02](#_3-Épicos) | FT04               | Controle de Serviços                                                                           |
+| [E03](#_3-Épicos) | FT05               | [Avaliações](./pages/base/lexicos.md#l05-avaliar)                                              |
+| [E03](#_3-Épicos) | FT06               | Denúncias                                                                                      |
+| [E04](#_3-Épicos) | FT07               | [Buscar](./pages/base/lexicos.md#l06-pesquisar)                                                |
+| [E04](#_3-Épicos) | FT08               | [Categorias](./pages/base/lexicos.md#l07-categorias-de-serviço)                                |
+| [E05](#_3-Épicos) | FT09               | [Chat](./pages/base/lexicos.md#l12-chat) entre [usuários](./pages/base/lexicos.md#l01-usuário) |
+| [E05](#_3-Épicos) | FT10               | Compartilhar                                                                                   |
 
 ## 5. Histórias de Usuário
 
-| Feture | ID   | Descrição                                                                                                                                                                 |
-| ------ | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [FT01](#_4-features)   | [US01](#_5-histórias-de-usuário) | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de me cadastrar, para que possa ter uma conta na plataforma.                                                                                   |
-| [FT01](#_4-features)   | [US02](#_5-histórias-de-usuário) | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de efetuar login no site, para que possa ter acesso as suas funcionalidades.                                                                   |
-| [FT01](#_4-features)   | [US03](#_5-histórias-de-usuário) | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de recuperar minha senha, para que possa acessar minha conta no caso que à tenha esquecido.                                                    |
-| [FT02](#_4-features)   | [US04](#_5-histórias-de-usuário) | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de visualizar os serviços que ja contratei, para que possa ter controle sobre o meu histórico de uso.                                          |
-| [FT02](#_4-features)   | [US05](#_5-histórias-de-usuário) | Eu, como [prestador de serviço](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de visualizar a localização do meu [cliente](./pages/base/lexicos.md#l03-cliente), para que possa saber onde será executado o serviço.                                   |
-| [FT02](#_4-features)   | [US06](#_5-histórias-de-usuário) | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de poder editar as informações de perfil, para que possa atualizar ou mudar minhas informações.                                                |
-| [FT03](#_4-features)   | [US07](#_5-histórias-de-usuário) | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de favoritar um [prestador de serviço](./pages/base/lexicos.md#l02-prestador-de-serviços), para que eu possa encontralo novamento com facilidade.                                                  |
-| [FT04](#_4-features)   | [US08](#_5-histórias-de-usuário) | Eu, como [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de cadastrar meus horários disponíveis, para que eu possa ter o controle dos horários que irei trabalhar.                        |
-| [FT04](#_4-features)   | [US09](#_5-histórias-de-usuário) | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de visualizar os horários que um [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços) está disponível, para que eu possa agendar um horário que me agrade.                    |
-| [FT04](#_4-features)   | [US10](#_5-histórias-de-usuário) | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de agendar um compromisso, para que o [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços) que escolhi esteja alocado para me visitar no horário que eu desejo.               |
-| [FT05](#_4-features)   | [US11](#_5-histórias-de-usuário) | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de visualizar os meus agendamentos, para que eu possa ter um melhor controle sobre os meus compromissos marcados.                              |
-| [FT05](#_4-features)   | [US12](#_5-histórias-de-usuário) | Eu, como [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de ter uma lista com as novas marcações de serviços, para que possa ter um bom controle dos novos pedidos.                       |
-| [FT05](#_4-features)   | [US13](#_5-histórias-de-usuário) | Eu, como [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de ter a opção de aprovar, ou não, a solicitação de um novo serviço.                                                             |
-| [FT05](#_4-features)   | [US14](#_5-histórias-de-usuário) | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de ser notificado sobre os meus agendamentos, para que não me esqueça dos compromissos marcados.                                               |
-| [FT05](#_4-features)   | [US15](#_5-histórias-de-usuário) | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de poder remarcar um compromisso, para que possa entrar em acordo com o horário de atendimento.                                                |
-| [FT05](#_4-features)   | [US16](#_5-histórias-de-usuário) | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de poder cancelar um compromisso, para que possa evitar um desencontro no caso de um imprevisto.                                               |
-| [FT06](#_4-features)   | [US17](#_5-histórias-de-usuário) | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de [avaliar](./pages/base/lexicos.md#l05-avaliar)  um [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), para que outros [clientes](./pages/base/lexicos.md#l03-cliente) possam ter um melhor entendimento sobre a qualidade do serviço prestado por ele. |
-| [FT06](#_4-features)   | [US18](#_5-histórias-de-usuário) | Eu, como [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de [avaliar](./pages/base/lexicos.md#l05-avaliar)  um [cliente](./pages/base/lexicos.md#l03-cliente), para que os outros [prestadores de serviço](./pages/base/lexicos.md#l02-prestador-de-serviços) possam ter ideia da minha experiência com o [cliente](./pages/base/lexicos.md#l03-cliente).            |
-| [FT06](#_4-features)   | [US19](#_5-histórias-de-usuário) | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de visualizar as [avaliações](./pages/base/lexicos.md#l05-avaliar) , para que possa ter uma noção sobre o seu comportamento.                                                           |
-| [FT07](#_4-features)   | [US20](#_5-histórias-de-usuário) | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de poder denúnciar um [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), para que possa alertar outros usuários sobre algum problema na execução de um serviço.            |
-| [FT07](#_4-features)   | [US21](#_5-histórias-de-usuário) | Eu, como [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de denúnciar um [usuário](./pages/base/lexicos.md#l01-usuário), para que outros usuários sejam alertados sobre o seu comportamento.                                     |
-| [FT08](#_4-features)   | [US22](#_5-histórias-de-usuário) | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de realizar [buscas](./pages/base/lexicos.md#l06-pesquisar)  na plataforma, para que possa encontrar um [prestador de serviço](./pages/base/lexicos.md#l02-prestador-de-serviços) que atenda as minhas necessidades.                          |
-| [FT09](#_4-features)   | [US23](#_5-histórias-de-usuário) | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de poder filtrar minha [busca](./pages/base/lexicos.md#l06-pesquisar)  por localidade, para que possa encontrar um [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços) próximo à mim com maior facilidade.             |
-| [FT09](#_4-features)   | [US24](#_5-histórias-de-usuário) | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de filtrar minha [busca](./pages/base/lexicos.md#l06-pesquisar)  por quantidade de contratações, para poder escolher os [prestadores de serviço](./pages/base/lexicos.md#l02-prestador-de-serviços) com maior experiência na plataforma.      |
-| [FT09](#_4-features)   | [US25](#_5-histórias-de-usuário) | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de filtrar minha [busca](./pages/base/lexicos.md#l06-pesquisar)  por [avaliações](./pages/base/lexicos.md#l05-avaliar) , para que possa escolher um [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços) que teve seu serviço elogiado por outros [clientes](./pages/base/lexicos.md#l03-cliente).     |
-| [FT10](#_4-features)   | [US26](#_5-histórias-de-usuário) | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de poder mandar uma mensagem para outro usuário, para que possa discutir algum detalhe sobre um compromisso.                                   |
-| [FT10](#_4-features)   | [US27](#_5-histórias-de-usuário) | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de poder visualizar as informações de contato de um [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), para que possa ter contato com ele fora da plataforma.              |
-| [FT11](#_4-features)   | [US28](#_5-histórias-de-usuário) | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de poder compartilhar o perfil de um prestador de serviços, para que possa indicar este [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços) para outro [cliente](./pages/base/lexicos.md#l03-cliente).              |
+| Feture               | ID                               | Descrição                                                                                                                                                                                                                                                                                                                                                                                     |
+| -------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [FT01](#_4-features) | US01 | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de me cadastrar, para que possa ter uma conta na plataforma.                                                                                                                                                                                                                                                                |
+| [FT01](#_4-features) | US02 | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de efetuar login no site, para que possa ter acesso as suas funcionalidades.                                                                                                                                                                                                                                                |
+| [FT01](#_4-features) | US03 | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de recuperar minha senha, para que possa acessar minha conta no caso que à tenha esquecido.                                                                                                                                                                                                                                 |
+| [FT02](#_4-features) | US04 | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de visualizar os serviços que ja contratei, para que possa ter controle sobre o meu histórico de uso.                                                                                                                                                                                                                       |
+| [FT02](#_4-features) | US05 | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de poder editar as informações de perfil, para que possa atualizar ou mudar minhas informações.                                                                                                                                                                                                                             |
+| [FT02](#_4-features) | US06 | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de favoritar um [prestador de serviço](./pages/base/lexicos.md#l02-prestador-de-serviços), para que eu possa encontra-lo novamente com facilidade.                                                                                                                                                                          |
+| [FT03](#_4-features) | US08 | Eu, como [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de cadastrar meus horários disponíveis, para que eu possa ter o controle dos horários que irei trabalhar.                                                                                                                                                                                       |
+| [FT03](#_4-features) | US08 | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de visualizar os horários que um [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços) está disponível, para que eu possa agendar um horário que me agrade.                                                                                                                                            |
+| [FT03](#_4-features) | US09 | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de agendar um compromisso, para que o [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços) que escolhi esteja alocado para me visitar no horário que eu desejo.                                                                                                                                       |
+| [FT03](#_4-features) | US10 | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de visualizar os meus agendamentos, para que eu possa ter um melhor controle sobre os meus compromissos marcados.                                                                                                                                                                                                           |
+| [FT03](#_4-features) | US11 | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de ser notificado sobre os meus agendamentos, para que não me esqueça dos compromissos marcados.                                                                                                                                                                                                                            |
+| [FT04](#_4-features) | US12 | Eu, como [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de ter uma lista com as novas marcações de serviços, para que possa ter um bom controle dos novos pedidos.                                                                                                                                                                                      |
+| [FT04](#_4-features) | US13 | Eu, como [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de ter a opção de aprovar, ou não, a solicitação de um novo serviço.                                                                                                                                                                                                                            |
+| [FT04](#_4-features) | US14 | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de poder remarcar um serviço, para que possa entrar em acordo com o horário de atendimento.                                                                                                                                                                                                                                 |
+| [FT04](#_4-features) | US15 | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de poder cancelar um serviço, para que possa evitar um desencontro no caso de um imprevisto.                                                                                                                                                                                                                                |
+| [FT04](#_4-features) | US16 | Eu, como [prestador de serviço](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de cadastrar um seviço, para que possa ser oferecido pela plataforma.                                                                                                                                                                                                                            |
+| [FT04](#_4-features) | US17 | Eu, como [prestador de serviço](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de visualizar as informações do meu [cliente](./pages/base/lexicos.md#l03-cliente), para que possa saber onde será executado o serviço.                                                                                                                                                          |
+| [FT05](#_4-features) | US18 | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de [avaliar](./pages/base/lexicos.md#l05-avaliar) um [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), para que outros [clientes](./pages/base/lexicos.md#l03-cliente) possam ter um melhor entendimento sobre a qualidade do serviço prestado por ele.                                           |
+| [FT05](#_4-features) | US19 | Eu, como [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de [avaliar](./pages/base/lexicos.md#l05-avaliar) um [cliente](./pages/base/lexicos.md#l03-cliente), para que os outros [prestadores de serviço](./pages/base/lexicos.md#l02-prestador-de-serviços) possam ter ideia da minha experiência com o [cliente](./pages/base/lexicos.md#l03-cliente). |
+| [FT05](#_4-features) | US20 | Eu, como [usuário](./pages/base/lexicos.md#l01-usuário), gostaria de visualizar as [avaliações](./pages/base/lexicos.md#l05-avaliar) , para que possa ter uma noção sobre o seu comportamento.                                                                                                                                                                                                |
+| [FT06](#_4-features) | US21 | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de poder denunciar um [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), para que possa alertar outros usuários sobre algum problema na execução de um serviço.                                                                                                                                    |
+| [FT06](#_4-features) | US22 | Eu, como [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de denunciar um [usuário](./pages/base/lexicos.md#l01-usuário), para que outros usuários sejam alertados sobre o seu comportamento.                                                                                                                                                             |
+| [FT07](#_4-features) | US23 | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de realizar [buscas](./pages/base/lexicos.md#l06-pesquisar) na plataforma, para que possa encontrar um [prestador de serviço](./pages/base/lexicos.md#l02-prestador-de-serviços).                                                                                                                                            |
+| [FT07](#_4-features) | US24 | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de realizar [buscas](./pages/base/lexicos.md#l06-pesquisar) na plataforma, para que possa encontrar um [prestador de serviço](./pages/base/lexicos.md#l02-prestador-de-serviços) por meio de seu nome ou serviço.                                                                                                           |
+| [FT08](#_4-features) | US25 | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de poder filtrar minha [busca](./pages/base/lexicos.md#l06-pesquisar) por localidade, para que possa encontrar um [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços) próximo à mim com maior facilidade.                                                                                            |
+| [FT08](#_4-features) | US26 | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de filtrar minha [busca](./pages/base/lexicos.md#l06-pesquisar) por quantidade de contratações, para poder escolher os [prestadores de serviço](./pages/base/lexicos.md#l02-prestador-de-serviços) com maior experiência na plataforma.                                                                                     |
+| [FT08](#_4-features) | US27 | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de filtrar minha [busca](./pages/base/lexicos.md#l06-pesquisar) por [avaliações](./pages/base/lexicos.md#l05-avaliar) , para que possa escolher um [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços) que teve seu serviço elogiado por outros [clientes](./pages/base/lexicos.md#l03-cliente).     |
+| [FT09](#_4-features) | US28 | Eu, como [clientes](./pages/base/lexicos.md#l03-cliente), gostaria de poder mandar uma mensagem para o [prestadores de serviço](./pages/base/lexicos.md#l02-prestador-de-serviços), para que possa discutir algum detalhe sobre um servico.                                                                                                                                                  |
+| [FT09](#_4-features) | US29 | Eu, como [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de poder mandar uma mensagem para um [clientes](./pages/base/lexicos.md#l03-cliente), para que possa discutir algum detalhe sobre um servico.                                                                                                                                                   |
+| [FT10](#_4-features) | US30 | Eu, como [cliente](./pages/base/lexicos.md#l03-cliente), gostaria de poder compartilhar o perfil de um prestador de serviços, para que possa indicar este [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços) para outro [cliente](./pages/base/lexicos.md#l03-cliente).                                                                                               |
+| [FT10](#_4-features) | US31 | Eu, como [prestador de serviços](./pages/base/lexicos.md#l02-prestador-de-serviços), gostaria de poder compartilhar o meu serviço de forma premium, para que seja apresentada de forma destacada pela plataforma.                                                                                                                                                                             |
 
 ## 6. Backlog Priorizado
 
-| Épico | Feature | História de Usuário | Moscow | Rastreabilidade |
-| ----- | ------- | ------------------- | ------ | --------------- |
-| [E01](#_3-Épicos)    | [FT01](#_4-features)    | [US01](#_5-histórias-de-usuário)                | MUST   | RF01            |
-| [E01](#_3-Épicos)    | [FT01](#_4-features)    | [US02](#_5-histórias-de-usuário)                | MUST   | RF01            |
-| [E01](#_3-Épicos)    | [FT01](#_4-features)    | [US03](#_5-histórias-de-usuário)                | MUST   | RF01            |
-| [E01](#_3-Épicos)    | [FT02](#_4-features)    | [US04](#_5-histórias-de-usuário)                | MUST   | RF07            |
-| [E01](#_3-Épicos)    | [FT02](#_4-features)    | [US05](#_5-histórias-de-usuário)                | MUST   | RF20            |
-| [E01](#_3-Épicos)    | [FT02](#_4-features)    | [US06](#_5-histórias-de-usuário)                | MUST   | RF02            |
-| [E01](#_3-Épicos)    | [FT03](#_4-features)    | [US07](#_5-histórias-de-usuário)                | COULD  | RF15            |
-| [E02](#_3-Épicos)     | [FT04](#_4-features)    | [US08](#_5-histórias-de-usuário)                | MUST   | RF17            |
-| [E02](#_3-Épicos)     | [FT04](#_4-features)    | [US09](#_5-histórias-de-usuário)                | MUST   | RF09            |
-| [E02](#_3-Épicos)     | [FT04](#_4-features)    | [US10](#_5-histórias-de-usuário)                | MUST   | RF10            |
-| [E02](#_3-Épicos)     | [FT05](#_4-features)    | [US11](#_5-histórias-de-usuário)                | MUST   | RF07            |
-| [E02](#_3-Épicos)     | [FT05](#_4-features)    | [US12](#_5-histórias-de-usuário)                | MUST   | RF25            |
-| [E02](#_3-Épicos)     | [FT05](#_4-features)    | [US13](#_5-histórias-de-usuário)                | MUST   | RF25            |
-| [E02](#_3-Épicos)     | [FT05](#_4-features)    | [US14](#_5-histórias-de-usuário)                | SHOULD | RF04            |
-| [E02](#_3-Épicos)     | [FT05](#_4-features)    | [US15](#_5-histórias-de-usuário)                | COULD  | RF12            |
-| [E02](#_3-Épicos)     | [FT05](#_4-features)    | [US16](#_5-histórias-de-usuário)                | SHOULD | RF14            |
-| [E03](#_3-Épicos)     | [FT06](#_4-features)    | [US17](#_5-histórias-de-usuário)                | COULD  | RF13            |
-| [E03](#_3-Épicos)     | [FT06](#_4-features)    | [US18](#_5-histórias-de-usuário)                | COULD  | RF13            |
-| [E03](#_3-Épicos)     | [FT06](#_4-features)    | [US19](#_5-histórias-de-usuário)                | COULD  | RF21            |
-| [E03](#_3-Épicos)     | [FT07](#_4-features)    | [US20](#_5-histórias-de-usuário)                | SHOULD | RF22            |
-| [E03](#_3-Épicos)     | [FT07](#_4-features)    | [US21](#_5-histórias-de-usuário)                | SHOULD | RF22            |
-| [E04](#_3-Épicos)     | [FT08](#_4-features)    | [US22](#_5-histórias-de-usuário)                | MUST   | RF08            |
-| [E04](#_3-Épicos)     | [FT09](#_4-features)    | [US23](#_5-histórias-de-usuário)                | MUST   | RF08            |
-| [E04](#_3-Épicos)     | [FT09](#_4-features)    | [US24](#_5-histórias-de-usuário)                | MUST   | RF08            |
-| [E04](#_3-Épicos)     | [FT09](#_4-features)    | [US25](#_5-histórias-de-usuário)                | MUST   | RF08            |
-| [E05](#_3-Épicos)     | [FT10](#_4-features)    | [US26](#_5-histórias-de-usuário)                | COULD  | RF03            |
-| [E05](#_3-Épicos)     | [FT10](#_4-features)    | [US27](#_5-histórias-de-usuário)                | MUST   | RF09            |
-| [E05](#_3-Épicos)     | [FT11](#_4-features)    | [US28](#_5-histórias-de-usuário)                  | WOULD  | RF05            |
+| Épico             | Feature              | História de Usuário              | Moscow | Rastreabilidade |
+| ----------------- | -------------------- | -------------------------------- | ------ | --------------- |
+| [E01](#_3-Épicos) | [FT01](#_4-features) | [US01](#_5-histórias-de-usuário) | MUST   | RF01            |
+| [E01](#_3-Épicos) | [FT01](#_4-features) | [US02](#_5-histórias-de-usuário) | MUST   | RF01            |
+| [E01](#_3-Épicos) | [FT01](#_4-features) | [US03](#_5-histórias-de-usuário) | MUST   | RF01            |
+| [E01](#_3-Épicos) | [FT02](#_4-features) | [US04](#_5-histórias-de-usuário) | MUST   | RF07            |
+| [E01](#_3-Épicos) | [FT02](#_4-features) | [US05](#_5-histórias-de-usuário) | MUST   | RF20            |
+| [E01](#_3-Épicos) | [FT02](#_4-features) | [US06](#_5-histórias-de-usuário) | MUST   | RF02            |
+| [E01](#_3-Épicos) | [FT03](#_4-features) | [US07](#_5-histórias-de-usuário) | COULD  | RF15            |
+| [E02](#_3-Épicos) | [FT04](#_4-features) | [US08](#_5-histórias-de-usuário) | MUST   | RF17            |
+| [E02](#_3-Épicos) | [FT04](#_4-features) | [US09](#_5-histórias-de-usuário) | MUST   | RF09            |
+| [E02](#_3-Épicos) | [FT04](#_4-features) | [US10](#_5-histórias-de-usuário) | MUST   | RF10            |
+| [E02](#_3-Épicos) | [FT05](#_4-features) | [US11](#_5-histórias-de-usuário) | MUST   | RF07            |
+| [E02](#_3-Épicos) | [FT05](#_4-features) | [US12](#_5-histórias-de-usuário) | MUST   | RF25            |
+| [E02](#_3-Épicos) | [FT05](#_4-features) | [US13](#_5-histórias-de-usuário) | MUST   | RF25            |
+| [E02](#_3-Épicos) | [FT05](#_4-features) | [US14](#_5-histórias-de-usuário) | SHOULD | RF04            |
+| [E02](#_3-Épicos) | [FT05](#_4-features) | [US15](#_5-histórias-de-usuário) | COULD  | RF12            |
+| [E02](#_3-Épicos) | [FT05](#_4-features) | [US16](#_5-histórias-de-usuário) | SHOULD | RF14            |
+| [E03](#_3-Épicos) | [FT06](#_4-features) | [US17](#_5-histórias-de-usuário) | COULD  | RF13            |
+| [E03](#_3-Épicos) | [FT06](#_4-features) | [US18](#_5-histórias-de-usuário) | COULD  | RF13            |
+| [E03](#_3-Épicos) | [FT06](#_4-features) | [US19](#_5-histórias-de-usuário) | COULD  | RF21            |
+| [E03](#_3-Épicos) | [FT07](#_4-features) | [US20](#_5-histórias-de-usuário) | SHOULD | RF22            |
+| [E03](#_3-Épicos) | [FT07](#_4-features) | [US21](#_5-histórias-de-usuário) | SHOULD | RF22            |
+| [E04](#_3-Épicos) | [FT08](#_4-features) | [US22](#_5-histórias-de-usuário) | MUST   | RF08            |
+| [E04](#_3-Épicos) | [FT09](#_4-features) | [US23](#_5-histórias-de-usuário) | MUST   | RF08            |
+| [E04](#_3-Épicos) | [FT09](#_4-features) | [US24](#_5-histórias-de-usuário) | MUST   | RF08            |
+| [E04](#_3-Épicos) | [FT09](#_4-features) | [US25](#_5-histórias-de-usuário) | MUST   | RF08            |
+| [E05](#_3-Épicos) | [FT10](#_4-features) | [US26](#_5-histórias-de-usuário) | COULD  | RF03            |
+| [E05](#_3-Épicos) | [FT10](#_4-features) | [US27](#_5-histórias-de-usuário) | MUST   | RF09            |
+| [E05](#_3-Épicos) | [FT11](#_4-features) | [US28](#_5-histórias-de-usuário) | WOULD  | RF05            |
 
 <!--
 <table class="backlogTable">
@@ -387,9 +389,10 @@ Site aglomerador de [prestadores de serviço](./pages/base/lexicos.md#l02-presta
 
 ### Histórico de versão
 
-|    Data    | Versão |             Autor             |              Descrição               |
-| :--------: | :----: | :---------------------------: | :----------------------------------: |
-| 01/02/2022 |  0.1   |       Fernando Miranda        | Adicionada introdução e Referências  |
-| 01/02/2022 |  1.0   |       Fernando Miranda        | Adicionada versão inicial do Backlog |
-| 18/02/2022 |  2.0   | Rodrigo Balbino e João Victor | Refatoração e priorização do backlog |
-| 19/02/2022 |  2.1   |       Fernando Miranda     | Adicionados links entre tabelas/paginas |
+|    Data    | Versão |             Autor             |                Descrição                |
+| :--------: | :----: | :---------------------------: | :-------------------------------------: |
+| 01/02/2022 |  0.1   |       Fernando Miranda        |   Adicionada introdução e Referências   |
+| 01/02/2022 |  1.0   |       Fernando Miranda        |  Adicionada versão inicial do Backlog   |
+| 18/02/2022 |  2.0   | Rodrigo Balbino e João Victor |  Refatoração e priorização do backlog   |
+| 19/02/2022 |  2.1   |       Fernando Miranda        | Adicionados links entre tabelas/paginas |
+| 20/03/2022 |  2.2   |       Rodrigo Balbino e Álvaro Gouvea        | Refatorando tabela das Histórias de usuário |
