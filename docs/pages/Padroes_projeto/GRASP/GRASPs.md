@@ -57,12 +57,22 @@ A resposta para isso é mais óbvia do que parece. Para oferecer suporte para to
 
 Um elemento com responsabilidades altamente relacionadas que não faz uma grande quantidade de trabalho tem alta coesão. Esses elementos incluem classes, subsistemas e assim por diante (LARMAN, 2004). Classes que possuem muitas responsabilidades não relacionadas dificultam sua compreensão, manutenibilidade e reutilização, além de aumentar sua fragilidade. Devido a isso, a alta coesão é utilizada pois possui o objetivo de manter os objetos adequadamente focados, compreensíveis e gerenciáveis, além de, consequentemente, com um baixo acoplamento.
 
-Além de fornecer um baixo acoplamento, o próprio padrão do *framework Django REST* utilizado no backend do projeto também oferce uma alta coesão, visto que cada um dos seus arquivos tem suas próprias responsabilidades e métodos bem definidos, de forma que não trabalhem demais. Além disso, o diagrama de classes desenvolvido pela equipe apresentado abaixo também é uma solução:
+Além de fornecer um baixo acoplamento, o próprio padrão do *framework Django REST* utilizado no backend do projeto também oferece uma alta coesão, visto que cada um dos seus arquivos tem suas próprias responsabilidades e métodos bem definidos de forma que não trabalhem demais, assim como é apresentado na Figura 1. 
+
+<p align='center'>
+    <img src='assets/images/grasps/altaCoesao.png' width=20% height=auto>
+    <figcaption align='center'>
+        <b>Figura 1: Estrutura das responsabilidades de cada classe do projeto. </b>
+        <br>
+    </figcaption>
+</p>
+
+Além disso, o diagrama de classes desenvolvido pela equipe apresentado abaixo também é uma solução:
 
 <p align='center'>
     <img src='assets/images/diagramasEstaticos/diagramaClasses/classDiagram.svg' width=40% height=auto>
     <figcaption align='center'>
-        <b>Figura 1: Diagrama de classes do produto. </b>
+        <b>Figura 2: Diagrama de classes do produto. </b>
         <br>
     </figcaption>
 </p>
