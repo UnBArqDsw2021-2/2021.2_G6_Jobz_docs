@@ -52,6 +52,17 @@
     - [Casos de Uso](./pages/modelagem/casosUso.md)
     - [Correções](./pages/modelagem/correcoes.md)
 
+- **Desenho de Software (Padrões de Projeto)**
+
+  - [GRASPs](./pages/Padroes_projeto/GRASP/GRASPs.md)
+  - GOFs
+    - [Criacionais](./pages/base/planoRisco.md)
+    - [Estruturais](./pages/base/planoRisco.md)
+    - [Emergentes](./pages/base/planoRisco.md)
+  - [Emergentes](./pages/base/planoRisco.md)
+  - Iniciativas Extras
+    - [Correções](./pages/Padroes_projeto/extras/correcoes.md)
+
 - **Apresentações**
   - [Base](./pages/Apresentacoes/base.md)
   - [Modelagem](./pages/Apresentacoes/modelagem.md)
@@ -93,18 +104,9 @@
     - [Planejamento](./pages/sprints/sprint12/sprint_planning.md)
     - [Resultados](./pages/sprints/sprint12/sprint_review.md) -->
 
-<!-- -   **Desenho de Software (Padrões de Projeto)**
 
-  - [GRASP](./pages/base/planoRisco.md)
-  - GOFs
-    - [Criacionais](./pages/base/planoRisco.md)
-    - [Estruturais](./pages/base/planoRisco.md)
-    - [Emergentes](./pages/base/planoRisco.md)
-  - [Emergentes](./pages/base/planoRisco.md)
-  - Iniciativas Extras
-    - [EXTRA](./pages/base/planoRisco.md)
 
-- **Arquitetura de Software & Reutilização**
+<!-- - **Arquitetura de Software & Reutilização**
 
   - [Documento de Arquitetura](./pages/base/planoRisco.md)
   - [Reutilização de Software](./pages/base/planoRisco.md)
