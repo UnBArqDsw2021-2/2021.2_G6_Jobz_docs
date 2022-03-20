@@ -54,7 +54,7 @@
 
 - **Desenho de Software (Padrões de Projeto)**
 
-  - [GRASP](./pages/Padroes_projeto/GRASP/GRASPs.md)
+  - [GRASPs](./pages/Padroes_projeto/GRASP/GRASPs.md)
   - GOFs
     - [Criacionais](./pages/base/planoRisco.md)
     - [Estruturais](./pages/base/planoRisco.md)
