@@ -17,24 +17,11 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 - Foram adicionadas as [Tasks](./pages/modelagem/backlogPriorizado.md#_6-tarefas) para cada história de usuário.
 - Foi adicionado o [mapeamento de história de usuários](./pages/modelagem/backlogPriorizado.md#_8-mapeamento-das-histórias-de-usuário).
 
-## 4. Refatoração do protótipo de alta fidelidade
-
-- Mudanças na [modelagem de protótipo de alta fidelidade](./pages/modelagem/prototipoAlta.md) para adicionar as views que faltavam e se alinhar com o design feito no desenvolvimento de algumas views no front-end.
-- Ajustada a views de configuração de conta para com os do site
-- Criada a view de meus serviços (provider)
-- Criada a view de meus serviços (cliente)
-- Terminado o flow do provider
-- Adicionado novos embeded codes na documentação do protótipo
-- Adicionado o flow do provider
-
-## 5. Refatoração do Diagrama de Classes
+## 4. Refatoração do Diagrama de Classes
 
 - Refatoração da pagina referente ao [Diagrama de Classes](./pages/modelagem/diagramaDeClasses.md) da aplicação.
 - Foi adicionado novo [diagrama de classes na versão 2.0](./pages/modelagem/diagramaDeClasses.md#_3-diagrama-de-classes-v20).
-
-
-## 6. Refatoração do protótipo de alta fidelidade
-
+## 5. Refatoração do protótipo de alta fidelidade
 
 - Mudanças na [modelagem de protótipo de alta fidelidade](./pages/modelagem/prototipoAlta.md) para adicionar as views que faltavam e se alinhar com o design feito no desenvolvimento de algumas views no front-end.
 - Ajustado views de configuração de conta para com os do site
@@ -44,20 +31,18 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 - Adicionado novos embeded codes na documentação do protótipo
 - Adicionar flow do provider
 
-## 7. Refatoração documento Guia de Estilo/Identidade Visual
+## 6. Refatoração documento Guia de Estilo/Identidade Visual
 
 - Mudanças na [modelagem da Identidade Visual](./pages/base/GuiaEstilo.md). 
 - Foi adicionado a [Tipografia](./pages/base/GuiaEstilo.md#3.tipografia).
 - Foi adicionado os [Símbolos não tipográficos](./pages/base/GuiaEstilo.md)
 - Foram adicionados os [Elementos de Interação](./pages/base/GuiaEstilo.md)
-
 ### Histórico de versão
 
 |    Data    | Versão |            Autor(es)            |                         Descrição                          |
 | :--------: | :----: | :-----------------------------: | :--------------------------------------------------------: |
 | 15/03/2022 |  0.1   |   Fernando, Lorrayne e Ariel    | Consolidação da refatoração da modelagem do banco de dados |
 | 20/03/2022 |  0.2   | Rodrigo Balbino e Álvaro Gouvea |   Adicionando Tasks e Mapeamento de Histórias de usuário   |
-| 20/03/2022 |  0.3   | Pedro Henrique e Guilherme Braz |  Refatoração do protoípo de alta fidelidade |   |
-| 20/03/2022 |  0.4   | Fernando e Luis |   Adicionada a refatoração do diagrama de classes   |
-| 20/03/2022 |  0.5   | Pedro Henrique e Guilherme Braz |  Refatoração do protoípo de alta fidelidade                |
-| 20/03/2022 |  0.6   | Pedro Henrique e Guilherme Braz |  Refatoração do documento guia de estilo/identidade visual |
+| 20/03/2022 |  0.3   | Fernando e Luis |   Adicionada a refatoração do diagrama de classes   |
+| 20/03/2022 |  0.4   | Pedro Henrique e Guilherme Braz |  Refatoração do prototípo de alta fidelidade                |
+| 20/03/2022 |  0.5   | Pedro Henrique e Guilherme Braz |  Refatoração do documento guia de estilo/identidade visual |
