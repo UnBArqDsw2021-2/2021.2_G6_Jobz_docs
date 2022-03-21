@@ -92,7 +92,52 @@ Ao utilizar Singleton temos mais controle sobre o acesso às propriedades e mét
     </figcaption>
 </p>
 
-A figura acima demonstra a estutura de um singleton, onde a classe Singleton possui o método estático _getInstance_ que retorna a mesma instancia de sua prŕpia classe.
+A figura acima demonstra a estutura de um singleton, onde a classe Singleton possui o método estático _getInstance_ que retorna a mesma instancia de sua própia classe.
+
+Um exemplo de código usando o singleton em python:
+
+```
+class SingletonMeta(type):
+    """
+    The Singleton class can be implemented in different ways in Python. Some
+    possible methods include: base class, decorator, metaclass. We will use the
+    metaclass because it is best suited for this purpose.
+    """
+
+    _instances = {}
+
+    def __call__(cls, *args, **kwargs):
+        """
+        Possible changes to the value of the `__init__` argument do not affect
+        the returned instance.
+        """
+        if cls not in cls._instances:
+            instance = super().__call__(*args, **kwargs)
+            cls._instances[cls] = instance
+        return cls._instances[cls]
+
+
+class Singleton(metaclass=SingletonMeta):
+    def some_business_logic(self):
+        """
+        Finally, any singleton should define some business logic, which can be
+        executed on its instance.
+        """
+
+        # ...
+
+
+if __name__ == "__main__":
+    # The client code.
+
+    s1 = Singleton()
+    s2 = Singleton()
+
+    if id(s1) == id(s2):
+        print("Singleton works, both variables contain the same instance.")
+    else:
+        print("Singleton failed, variables contain different instances.")
+```
 
 No nosso projeto esse padrão será utilizado para a conexão com o banco de dados, em que o própio _framework Django REST_ realiza esse controle.
 <!--
@@ -142,5 +187,6 @@ export default Button
 | :--------: | :----: | :---------: | :------------------: |
 | 17/03/2022 |  0.1   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Criação do documento e <br> inclusão inicial dos padrōes utilizados |
 | 18/03/2022 |  0.2   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Melhoria de introdução e descrição do metodo Factory |
-| 19/03/2022 |  0.3   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Adicionado o conteudo correspondente ao padão builder. |
-| 20/03/2022 |  0.4   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Adicionado o conteudo correspondente ao padão singleton. |
+| 19/03/2022 |  0.3   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Adicionado o conteudo correspondente ao padrão builder. |
+| 20/03/2022 |  0.4   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Adicionado o conteudo correspondente ao padrão singleton. |
+| 20/03/2022 |  0.5   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Adicionado exemplode código do padrão singleton. |
