@@ -64,6 +64,7 @@
   - [Emergentes](./pages/Padroes_projeto/emergentes/emergentes.md)
   - Iniciativas Extras
     - [Correções](./pages/Padroes_projeto/extras/correcoes.md)
+    - [Discussão Padrões de Projeto](./pages/Padroes_projeto/extras/reuniao_padroes_projeto.md)
 
 - **Apresentações**
   - [Base](./pages/Apresentacoes/base.md)
