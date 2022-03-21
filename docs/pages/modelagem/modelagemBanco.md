@@ -135,7 +135,7 @@ Um **PROVIDER** é uma **PERSON**.
 
 ### Versão 2
 <p align='center'>
-    <img src='assets/images/modelagemBanco/v2-DERR.png' width=auto height=auto>
+    <img src='assets/images/modelagemBanco/v2-DERR.jpg' width=auto height=auto>
     <figcaption align='center'>
         <b>Figura 1: Diagrama de entidade relacionamento</b>
         <br>
@@ -156,7 +156,7 @@ Um **PROVIDER** é uma **PERSON**.
 
 ### Versão 2
 <p align='center'>
-    <img src='assets/images/modelagemBanco/v2-DLDR.png' width=auto height=auto>
+    <img src='assets/images/modelagemBanco/v2-DLDR.jpg' width=auto height=auto>
     <figcaption align='center'>
         <b>Figura 2: Diagrama lógico</b>
         <br>

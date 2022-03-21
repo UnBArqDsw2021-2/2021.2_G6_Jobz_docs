@@ -56,6 +56,30 @@ A resposta para isso é mais óbvia do que parece. Para oferecer suporte para to
 
 É importante ressaltar que sempre que houver subclasses essas serão fortemente acopladas às suas superclasses, sendo assim sempre que houver o uso de herança deve-se ter cuidado com a forma com que foi desenvolvida essa questão. Além disso, é relevante saber que não é ideial existir um grau de acomplamento nulo entre as classes, pois isso fere o fato de objetos conectados poderem trocar mensagens entre si.
 
+Podemos ver a aplicação do baixo acoplamento no nosso código nos seguintes trechos de modelagem das nossas duas principais classes:
+~~~Python
+class Services(models.Model):
+	datePurchase = models.DateField()
+	dateSevice = models.DateField()
+	serviceDesription = models.CharField(max_length=5000)
+~~~
+~~~Python
+class Person(AbstractUser):
+    name = models.CharField(max_length=500)
+    cpf = models.BigIntegerField(primary_key=True)
+    phone = models.BigIntegerField()
+    email = models.EmailField(verbose_name="email", max_length=150, unique=True)
+
+    USERNAME_FIELD = 'email'
+    REQUIRED_FIELDS = []
+
+    objects = PersonManager()
+
+    def __str__(self):
+        return self.name
+~~~
+Nesses trechos podemos ver que as definições das duas classes não possuem uma relação direta, mesmo que existam dependências entre elas em partes do código, elas conseguem trabalhar também de forma independente.
+
 ## 4. Alta Coesão
 
 Um elemento com responsabilidades altamente relacionadas que não faz uma grande quantidade de trabalho tem alta coesão. Esses elementos incluem classes, subsistemas e assim por diante (LARMAN, 2004). Classes que possuem muitas responsabilidades não relacionadas dificultam sua compreensão, manutenibilidade e reutilização, além de aumentar sua fragilidade. Devido a isso, a alta coesão é utilizada pois possui o objetivo de manter os objetos adequadamente focados, compreensíveis e gerenciáveis, além de, consequentemente, com um baixo acoplamento.
@@ -99,4 +123,5 @@ Além disso, o diagrama de classes desenvolvido pela equipe apresentado abaixo t
 | 18/03/2022 |  0.1   | Álvaro Gouvea <br> Lorrayne Cardozo <br> Pedro Henrique Campos |      Criação do documento e <br> inclusão inicial dos padrōes utilizados       |
 | 19/03/2022 |  0.2   | Álvaro Gouvea <br> Lorrayne Cardozo <br> Pedro Henrique Campos |                       Inclusão inicial baixo acoplamento                       |
 | 20/03/2022 |  0.3   | Álvaro Gouvea <br> Lorrayne Cardozo <br> Pedro Henrique Campos | Adição do tópico de Alta Coesão, complementando Baixo Acoplamento e introdução |
-| 20/03/2022 |  0.4   |                        Rodrigo Balbino                         |                        Realizando revisão do documento                         |
+| 20/03/2022 |  0.4   | Rodrigo Balbino <br> Ariel Serafim <br> Guilherme Braz         |                        Realizando revisão do documento                         |
+| 20/03/2022 |  0.5   | Álvaro Gouvea <br> Lorrayne Cardozo <br> Pedro Henrique Campos |                        Adição de código sobre baixo acoplamento                |
