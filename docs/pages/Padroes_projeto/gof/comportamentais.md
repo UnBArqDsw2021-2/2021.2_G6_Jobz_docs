@@ -17,7 +17,129 @@ Os padrões de projeto foram criados a partir da necessidade de se agilizar o pr
 - Template Method
 - Visitor
 
-## 2. Chain of Responsability
+## 2. Chain of Responsibility
+
+<div align="justify"> Esse padrão consiste na utilização de vários objetos(handlers) para tratar requisições. Portanto se trata de uma cadeia de objetos que vao tratando as requisições sequencialmente. Um exemplo de uso do padrão Chain of Responsibility é o tratamento de requisições de um banco de dados, onde cada requisição vai para um handler, e o handler vai tratar a requisição e enviar para o proximo handler, até chegar no ultimo handler que trata a requisição.  
+</div>
+<br>
+<div align="justify"> Esse padrão pode ser utilizado para evitar o acoplamento do remetente com o destinatário, encadeando os handlers, passando a solicitação pela cadeia ate que a requisição seja tratada. Também pode ser utilizado quando a requisição precisa passar por uma sequencia de handlers, onde podem ocorre varias dinâmicas diferentes no jeito de utilizar os handlers que va de acordo com a logica da implementação, cada handler pode realizar uma operação e passar para o proximo, um handler pode também tratar a requisição e finaliza-la antes de terminar a sequencia, assim como também pode ocorrer de finalizar a sequencia visto que nao foi possível tratar a requisição ali e a sequencia nao iria mais funcionar, assim ja interrompendo a cadeia ali. Portanto resumindo em tópicos casos onde seriam interessante aplicar o chain of responsibility, seria:
+
+- Evitar o acoplamento do remetente com o destinatário.
+- Tratar requisições de forma sequencial de maneira menos rígida, visto que esse permite o remanejamento na ordem dos handlers.
+- Quando se quer aplicar o principio de responsabilidade única, onde cada handler é responsável por uma única operação.
+- Principio aberto/fechado, onde é possível adicionar novos handlers sem quebrar o código cliente existente.
+
+</div>
+
+<div align="justify"> Segue abaixo um exemplo de uso do padrão Chain of Responsibility, do site refactoring guru, em python:
+
+```Python
+from __future__ import annotations
+from abc import ABC, abstractmethod
+from typing import Any, Optional
+
+
+class Handler(ABC):
+    """
+    The Handler interface declares a method for building the chain of handlers.
+    It also declares a method for executing a request.
+    """
+
+    @abstractmethod
+    def set_next(self, handler: Handler) -> Handler:
+        pass
+
+    @abstractmethod
+    def handle(self, request) -> Optional[str]:
+        pass
+
+
+class AbstractHandler(Handler):
+    """
+    The default chaining behavior can be implemented inside a base handler
+    class.
+    """
+
+    _next_handler: Handler = None
+
+    def set_next(self, handler: Handler) -> Handler:
+        self._next_handler = handler
+        # Returning a handler from here will let us link handlers in a
+        # convenient way like this:
+        # monkey.set_next(squirrel).set_next(dog)
+        return handler
+
+    @abstractmethod
+    def handle(self, request: Any) -> str:
+        if self._next_handler:
+            return self._next_handler.handle(request)
+
+        return None
+
+
+"""
+All Concrete Handlers either handle a request or pass it to the next handler in
+the chain.
+"""
+
+
+class MonkeyHandler(AbstractHandler):
+    def handle(self, request: Any) -> str:
+        if request == "Banana":
+            return f"Monkey: I'll eat the {request}"
+        else:
+            return super().handle(request)
+
+
+class SquirrelHandler(AbstractHandler):
+    def handle(self, request: Any) -> str:
+        if request == "Nut":
+            return f"Squirrel: I'll eat the {request}"
+        else:
+            return super().handle(request)
+
+
+class DogHandler(AbstractHandler):
+    def handle(self, request: Any) -> str:
+        if request == "MeatBall":
+            return f"Dog: I'll eat the {request}"
+        else:
+            return super().handle(request)
+
+
+def client_code(handler: Handler) -> None:
+    """
+    The client code is usually suited to work with a single handler. In most
+    cases, it is not even aware that the handler is part of a chain.
+    """
+
+    for food in ["Nut", "Banana", "Cup of coffee"]:
+        print(f"\nClient: Who wants a {food}?")
+        result = handler.handle(food)
+        if result:
+            print(f"  {result}", end="")
+        else:
+            print(f"  {food} was left untouched.", end="")
+
+
+if __name__ == "__main__":
+    monkey = MonkeyHandler()
+    squirrel = SquirrelHandler()
+    dog = DogHandler()
+
+    monkey.set_next(squirrel).set_next(dog)
+
+    # The client should be able to send a request to any handler, not just the
+    # first one in the chain.
+    print("Chain: Monkey > Squirrel > Dog")
+    client_code(monkey)
+    print("\n")
+
+    print("Subchain: Squirrel > Dog")
+    client_code(squirrel)
+```
+
+</div>
 
 <!-- Braz -->
 <!-- Explicação do que é o Gof -->
@@ -125,6 +247,7 @@ func main() {
     }
 }
 ```
+
 ## 4. State
 
  <div align="">   O state é um padrão de projeto comportamental, o seu objetivo é permitir que um objeto seja capaz de mudar seu comportamento quando seu estado interno muda. É como se o objeto realizasse uma mudança de classes. Assim, esse padrão resolve o problema de como fazer um comportamento depender de um estado predeterminado e finito de opções. </div>
@@ -169,7 +292,7 @@ func main() {
 
 <div align="justify">   De inicio isso pode parecer redundante, 'por que escolher entre diferentes algoritmos se todos resolvem o mesmo problema?'. De forma geral, o objetivo é otimização baseada em situações específicas e mmudança de contexto.
 Para o primeiro caso podemos pensar em uma situação em que um algoritmo de exige ordenação de dados que são possivelmente todos inteiros ou não, caso todos os elementos são inteiros, usamos o gravity sort, caso tenha valores ponto flutuante, usamos o merge sort.
-No caso de mudança de contexto podemos pensar em uma aplicação em que uma classe de forma geométrica que pode se especilizar em triangulo, quadrado e outras formas, podemos usar o strategy para definir o funcionamento de um método getArea(), que usará diferentes formulas, a depender do contexto da forma geométrica a que pertence. 
+No caso de mudança de contexto podemos pensar em uma aplicação em que uma classe de forma geométrica que pode se especilizar em triangulo, quadrado e outras formas, podemos usar o strategy para definir o funcionamento de um método getArea(), que usará diferentes formulas, a depender do contexto da forma geométrica a que pertence.
 </div>
 
 <div align="justify"> Segue um exemplo de uso do strategy pattern em python, exemplo do site refactoring guru . </div>
@@ -282,13 +405,13 @@ PADRÃO PARA ADICIONAR IMAGENS:
 ## 6. Referências
 
 > Padrões de projeto comportamentais. Refactoring Guru, 2014. Disponível em: <https://refactoring.guru/pt-br/design-patterns/behavioral-patterns>. Acesso em: 19 mar. de 2022.1
-> Oseberg S., Fredrik. The modern guide to React state patterns, 2021. Disponível em:https://blog.logrocket.com/modern-guide-react-state-patterns/. Acesso em 20 mar. de 2022.1
-> Source Making. State Design Pattern, 2021. Disponível em: https://sourcemaking.com/design_patterns/state. Acesso em 20 mar. de 2022.1
-> GeeksforGeeks. State Design Pattern, 01 Sep, 2021. Disponível em: https://www.geeksforgeeks.org/state-design-pattern/. Acesso em 20 mar. de 2022.1
-> Refactoring Guru. Strategy in python: 
-https://refactoring.guru/design-patterns/strategy/python/example#example-0--main-py. Acesso em 20 mar. de 2022.1
-> Refactoring Guru. Iterator in Golang: 
-https://refactoring.guru/design-patterns/iterator/go/example. Acesso em 20 mar. de 2022.1
+> Oseberg S., Fredrik. The modern guide to React state patterns, 2021. Disponível em:<https://blog.logrocket.com/modern-guide-react-state-patterns/>. Acesso em 20 mar. de 2022.1
+> Source Making. State Design Pattern, 2021. Disponível em: <https://sourcemaking.com/design_patterns/state>. Acesso em 20 mar. de 2022.1
+> GeeksforGeeks. State Design Pattern, 01 Sep, 2021. Disponível em: <https://www.geeksforgeeks.org/state-design-pattern/>. Acesso em 20 mar. de 2022.1
+> Refactoring Guru. Strategy in python:
+<https://refactoring.guru/design-patterns/strategy/python/example#example-0--main-py>. Acesso em 20 mar. de 2022.1
+> Refactoring Guru. Iterator in Golang:
+<https://refactoring.guru/design-patterns/iterator/go/example>. Acesso em 20 mar. de 2022.1
 
 </div>
 
@@ -297,7 +420,9 @@ https://refactoring.guru/design-patterns/iterator/go/example. Acesso em 20 mar. 
 |    Data    | Versão |                     Autor                     |              Descrição              |
 | :--------: | :----: | :-------------------------------------------: | :---------------------------------: |
 | 19/03/2022 |  0.1   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz |        Criação do documento         |
-| 20/03/2022 |  0.2   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz |           Adição do State           |
-| 20/03/2022 |  0.3   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do texto inicial do Iterator |
-| 20/03/2022 |  0.4   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do strategy pattern |
-| 20/03/2022 |  0.5   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do exemplo do iterator pattern |
+| 20/03/2022 |  0.2   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz |           Adição da Introdução      |
+| 20/03/2022 |  0.3   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz |           Adição do State           |
+| 20/03/2022 |  0.4   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do texto inicial do Iterator |
+| 20/03/2022 |  0.5   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do strategy pattern |
+| 20/03/2022 |  0.6   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do exemplo do iterator pattern |
+| 20/03/2022 |  0.7   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do chain of responsibility |
