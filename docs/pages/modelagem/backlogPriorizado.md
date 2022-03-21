@@ -198,11 +198,12 @@ Clique aqui para melhor visualizar nosso
 
 ### Histórico de versão
 
-|    Data    | Versão |              Autor              |                       Descrição                        |
-| :--------: | :----: | :-----------------------------: | :----------------------------------------------------: |
-| 01/02/2022 |  0.1   |        Fernando Miranda         |          Adicionada introdução e Referências           |
-| 01/02/2022 |  1.0   |        Fernando Miranda         |          Adicionada versão inicial do Backlog          |
-| 18/02/2022 |  2.0   |  Rodrigo Balbino e João Victor  |          Refatoração e priorização do backlog          |
-| 19/02/2022 |  2.1   |        Fernando Miranda         |        Adicionados links entre tabelas/paginas         |
-| 20/03/2022 |  2.2   | Rodrigo Balbino e Álvaro Gouvea |      Refatorando tabela das Histórias de usuário       |
-| 20/03/2022 |  2.3   | Rodrigo Balbino e Álvaro Gouvea | Adicionando Tasks e Mapeamento de Histórias de usuário |
+|    Data    | Versão |              Autor                |                       Descrição                        |
+| :--------: | :----: | :-------------------------------: | :----------------------------------------------------: |
+| 01/02/2022 |  0.1   |        Fernando Miranda           |          Adicionada introdução e Referências           |
+| 01/02/2022 |  1.0   |        Fernando Miranda           |          Adicionada versão inicial do Backlog          |
+| 18/02/2022 |  2.0   |  Rodrigo Balbino e João Victor    |          Refatoração e priorização do backlog          |
+| 19/02/2022 |  2.1   |        Fernando Miranda           |        Adicionados links entre tabelas/paginas         |
+| 20/03/2022 |  2.2   | Rodrigo Balbino e Álvaro Gouvea   |      Refatorando tabela das Histórias de usuário       |
+| 20/03/2022 |  2.3   | Rodrigo Balbino e Álvaro Gouvea   | Adicionando Tasks e Mapeamento de Histórias de usuário |
+| 20/03/2022 |  2.4   | Lorrayne Cardozo e Pedro Henrique | Revisão do documento                                   |
