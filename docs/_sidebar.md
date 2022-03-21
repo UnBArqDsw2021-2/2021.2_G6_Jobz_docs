@@ -56,10 +56,10 @@
 
   - [GRASPs](./pages/Padroes_projeto/GRASP/GRASPs.md)
   - GOFs
-    - [Criacionais](./pages/base/planoRisco.md)
-    - [Estruturais](./pages/base/planoRisco.md)
-    - [Emergentes](./pages/base/planoRisco.md)
-  - [Emergentes](./pages/base/planoRisco.md)
+    - [Criacionais](./pages/Padroes_projeto/gof/criacionais.md)
+    - [Estruturais](./pages/Padroes_projeto/gof/gof_estrutural.md)
+
+  - [Emergentes](./pages/Padroes_projeto/emergentes/emergentes.md)
   - Iniciativas Extras
     - [Correções](./pages/Padroes_projeto/extras/correcoes.md)
 
