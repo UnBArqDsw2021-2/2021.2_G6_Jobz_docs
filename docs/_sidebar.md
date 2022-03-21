@@ -58,10 +58,13 @@
   - GOFs
     - [Criacionais](./pages/Padroes_projeto/gof/criacionais.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
     - [Estruturais](./pages/Padroes_projeto/gof/gof_estrutural.md)
 
   - [Emergentes](./pages/Padroes_projeto/emergentes/emergentes.md)
 =======
+=======
+>>>>>>> 8c6868e1f1174faa6201c82492a1caf718caa214
     - [Estruturais](./pages/base/planoRisco.md)
     - [Emergentes](./pages/base/planoRisco.md)
   - [Emergentes](./pages/base/planoRisco.md)
