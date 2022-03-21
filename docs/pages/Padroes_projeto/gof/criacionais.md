@@ -189,5 +189,5 @@ export default Button
 | 18/03/2022 |  0.2   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Melhoria de introdução e descrição do metodo Factory |
 | 19/03/2022 |  0.3   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Adicionado o conteudo correspondente ao padrão builder. |
 | 20/03/2022 |  0.4   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Adicionado o conteudo correspondente ao padrão singleton. |
-| 20/03/2022 |  0.5   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Adicionado exemplo de código do padrão singleton. |
-| 21/03/2022 |  0.6   | Pedro Henrique | Revisão do documento |
+| 20/03/2022 |  1.0   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Adicionado exemplo de código do padrão singleton. |
+| 21/03/2022 |  1.1   | Pedro Henrique <br> Ariel Serafim | Revisão do documento |
