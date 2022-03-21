@@ -8,11 +8,11 @@
    O diagrama de classes é uma representação visual estática, sendo ele um diagrama de estrutura UML que mostra a estrutura do sistema projetado, descrevendo no nível de classes e interfaces as suas características, restrições e relacionamentos, de maneira a incluir seus métodos, atributos, e as relações entre eles.
 <p/>
 
-<p style="text-indent: 20px; text-align: justify">	
+<p style="text-indent: 20px; text-align: justify">
    Segundo a OMG (Object Management Group), de maneira geral, o Diagrama de Classes descreve um conjunto de objetos que compartilham as mesmas especificações de atributos, operações, restrições e semântica. A finalidade de uma classe é classificar objetos e especificar os recursos que caracterizam a estrutura e o comportamento desses objetos.
 <p/>
 
-<p style="text-indent: 20px; text-align: justify">	
+<p style="text-indent: 20px; text-align: justify">
 Os elementos principais de um diagrama de classes são as classes e os atributos. As classes são uma espécie de "modelo" que descrevem estado e comportamentos comuns entre atributos. No diagrama elas são representadas por um retângulo, sendo divido em três seções: nome da classe, propriedades/ atributos e Métodos, como pode ser observado no exemplo a seguir da classe Aluno.
 <p/>
 
@@ -29,12 +29,22 @@ Os elementos principais de um diagrama de classes são as classes e os atributos
 Além disso o diagrama possui diversas formas de especificar determinados tipos de relacionamentos que poderão ser vistos de maneira mais clara na representação do diagrama feito que foi construído para o projeto JOBZ.
 <p/>
 
-## 2. Diagrama de Classes
+## 2. Diagrama de Classes (v1.0)
 
 <p align='center'>
     <img src='assets/images/diagramasEstaticos/diagramaClasses/classDiagram.svg' width=40% height=auto>
     <figcaption align='center'>
-        <b>Figura 2: Diagrama de classes do produto. </b>
+        <b>Figura 2: Diagrama de classes do produto v.1.0 </b>
+        <br>
+    </figcaption>
+</p>
+
+## 3. Diagrama de Classes (v2.0)
+
+<p align='center'>
+    <img src='assets/images/diagramasEstaticos/diagramaClasses/classDiagramV2.svg' width=80% height=auto>
+    <figcaption align='center'>
+        <b>Figura 3: Diagrama de classes do produto v.2.0 </b>
         <br>
     </figcaption>
 </p>
@@ -51,6 +61,10 @@ Obs.: O diagrama foi traduzido para o inglês para melhor aplicação do diagram
 
 > MAZER-DEV. **Diagrama de Classes**. Disponível em: https://mazer.dev/diagrama-de-classes/. Acesso em: 19 fev.2022.
 
+> DEVMEDIA. **Elaboração diagrama de classes**. Disponível em: https://www.devmedia.com.br/orientacoes-basicas-na-elaboracao-de-um-diagrama-de-classes/37224. Acesso em: 14 mar.2022.
+
+> IBM. **Diagrama de classes**. Disponível em: https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=structure-class-diagrams. Acesso em: 16 mar.2022.
+
 </div>
 
 ### Histórico de versão
@@ -63,5 +77,6 @@ Obs.: O diagrama foi traduzido para o inglês para melhor aplicação do diagram
 | 16/02/2022 |  1.2   |  Ariel Serafim  |     Correção legenda imagem      |
 | 19/02/2022 |  1.2   |  Pedro Campos   |       Revisão do documento       |
 | 19/02/2022 |  1.5   |  Pedro Campos   |    Refatoração da introdução     |
-| 19/02/2022 |  2.0   |  Pedro Campos   |       Tradução do diagrama       |
-| 20/02/2022 |  2.1   | Rodrigo Balbino |         corrigindo fonte         |
+| 19/02/2022 |  1.6   |  Pedro Campos   |       Tradução do diagrama       |
+| 20/02/2022 |  1.7   | Rodrigo Balbino |         corrigindo fonte         |
+| 16/03/2022 |  2.0   | Luís Araújo e Fernando Miranda |  Adição do diagrama de classes do produto v2.0 |
