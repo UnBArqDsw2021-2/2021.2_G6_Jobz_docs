@@ -1,8 +1,8 @@
-# <center> TEMPLATE
+# <center> Padrão de Component
 
 <div align="justify">
 
-## 1. Padrão de Component
+## 1. Introdução
 
 Amplamente utilizado na biblioteca React de desenvolvimento de interfaces de usuário, este padrão de projeto tem como o objetivo separar os componentes que serão utilizados em duas categorias  container e de apresentação:
 
@@ -55,3 +55,4 @@ Agora a [figura 2](./pages/Padroes_projeto/emergentes/emergentes?id=figura2) que
 | :--------: | :----: | :---------: | :------------------: |
 | 20/03/2022 |  1.0   | Fernando e pedro | Construção do documento |
 | 20/03/2022 |  1.1   | Ariel, Lorrayne e Antonio | Revisão do documento |
+
