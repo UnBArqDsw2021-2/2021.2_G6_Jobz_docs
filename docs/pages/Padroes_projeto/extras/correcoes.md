@@ -19,12 +19,12 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 ## 4. Refatoração do protótipo de alta fidelidade
 
 - Mudanças na [modelagem de protótipo de alta fidelidade](./pages/modelagem/prototipoAlta.md) para adicionar as views que faltavam e se alinhar com o design feito no desenvolvimento de algumas views no front-end.
-- Ajustado views de configuração de conta para com os do site
-- Criada view de meus serviços (provider)
-- Criada view de meus serviços (cliente)
-- Terminado flow do provider
+- Ajustada a views de configuração de conta para com os do site
+- Criada a view de meus serviços (provider)
+- Criada a view de meus serviços (cliente)
+- Terminado o flow do provider
 - Adicionado novos embeded codes na documentação do protótipo
-- Adicionar flow do provider
+- Adicionado o flow do provider
 
 </div>
 
