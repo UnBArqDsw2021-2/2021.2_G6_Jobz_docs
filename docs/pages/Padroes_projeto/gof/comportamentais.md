@@ -33,10 +33,98 @@ Os padrões de projeto foram criados a partir da necessidade de se agilizar o pr
 
  <div align= "justify"> Os iterators implementam uma mesma interface, isso torna o código do cliente compatível com qualquer tipo de coleção ou qualquer algoritmo de travessia desde que tenha um iterator adequado. Se for necessário uma travessia especial, deve-se criar uma nova classe iterator sem precisar mudar o cliente ou coleção</div>
 
-<!-- Explicação do que é o Gof -->
-<!-- Por quê utilizar o Gof -->
-<!-- Exemplo do Gof aplicado em código -->
+<div align="justify"> Segue um exemplo de uso do iterator pattern em Golang, exemplo do site refactoring guru . </div>
 
+```Golang
+//collection.go: Collection
+package main
+
+type collection interface {
+    createIterator() iterator
+}
+
+
+//userCollection.go: Concrete collection
+package main
+
+type userCollection struct {
+    users []*user
+}
+
+func (u *userCollection) createIterator() iterator {
+    return &userIterator{
+        users: u.users,
+    }
+}
+
+//iterator.go: Iterator
+package main
+
+type iterator interface {
+    hasNext() bool
+    getNext() *user
+}
+
+//userIterator.go: Concrete iterator
+package main
+
+type userIterator struct {
+    index int
+    users []*user
+}
+
+func (u *userIterator) hasNext() bool {
+    if u.index < len(u.users) {
+        return true
+    }
+    return false
+
+}
+func (u *userIterator) getNext() *user {
+    if u.hasNext() {
+        user := u.users[u.index]
+        u.index++
+        return user
+    }
+    return nil
+}
+
+//user.go: Client code
+package main
+
+type user struct {
+    name string
+    age  int
+}
+
+//main.go: Client code
+package main
+
+import "fmt"
+
+func main() {
+
+    user1 := &user{
+        name: "a",
+        age:  30,
+    }
+    user2 := &user{
+        name: "b",
+        age:  20,
+    }
+
+    userCollection := &userCollection{
+        users: []*user{user1, user2},
+    }
+
+    iterator := userCollection.createIterator()
+
+    for iterator.hasNext() {
+        user := iterator.getNext()
+        fmt.Printf("User is %+v\n", user)
+    }
+}
+```
 ## 4. State
 
  <div align="">   O state é um padrão de projeto comportamental, o seu objetivo é permitir que um objeto seja capaz de mudar seu comportamento quando seu estado interno muda. É como se o objeto realizasse uma mudança de classes. Assim, esse padrão resolve o problema de como fazer um comportamento depender de um estado predeterminado e finito de opções. </div>
@@ -199,6 +287,8 @@ PADRÃO PARA ADICIONAR IMAGENS:
 > GeeksforGeeks. State Design Pattern, 01 Sep, 2021. Disponível em: https://www.geeksforgeeks.org/state-design-pattern/. Acesso em 20 mar. de 2022.1
 > Refactoring Guru. Strategy in python: 
 https://refactoring.guru/design-patterns/strategy/python/example#example-0--main-py. Acesso em 20 mar. de 2022.1
+> Refactoring Guru. Iterator in Golang: 
+https://refactoring.guru/design-patterns/iterator/go/example. Acesso em 20 mar. de 2022.1
 
 </div>
 
@@ -210,3 +300,4 @@ https://refactoring.guru/design-patterns/strategy/python/example#example-0--main
 | 20/03/2022 |  0.2   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz |           Adição do State           |
 | 20/03/2022 |  0.3   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do texto inicial do Iterator |
 | 20/03/2022 |  0.4   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do strategy pattern |
+| 20/03/2022 |  0.5   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do exemplo do iterator pattern |
