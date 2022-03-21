@@ -44,11 +44,7 @@ Além disso o diagrama possui diversas formas de especificar determinados tipos 
 <p align='center'>
     <img src='assets/images/diagramasEstaticos/diagramaClasses/classDiagramV2.svg' width=80% height=auto>
     <figcaption align='center'>
-<<<<<<< HEAD
-        <b>Figura 2: Diagrama de classes do produto v.2.0 </b>
-=======
         <b>Figura 3: Diagrama de classes do produto v.2.0 </b>
->>>>>>> e29332cd54156581d6bdcb355d87063acb75dd2b
         <br>
     </figcaption>
 </p>
