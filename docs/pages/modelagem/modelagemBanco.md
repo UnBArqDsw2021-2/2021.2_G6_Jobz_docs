@@ -44,22 +44,6 @@ Traremos:
 
 ### 2.2 Relacionamentos
 
-**USER** -> is -> **PERSON**
-
-Um **USER** é uma **PERSON**.
-
-Cardinalidade -> **1:1**
-
-<hr>
-
-**PROVIDER** -> is -> **PERSON**
-
-Um **PROVIDER** é uma **PERSON**.
-
-Cardinalidade -> **1:1**
-
-<hr>
-
 **PROVIDER** -> works -> **COMPANY**
 
 Um **PROVIDER** pode trabalhar para apenas uma **COMPANY**, porém uma **COMPANY** pode ter vários **PROVIDER**
@@ -121,6 +105,20 @@ Cardinalidade -> **1:1**
 Um **PROVIDER** pode possuir várias **SCHEDULE** e uma **SCHEDULE** pertence a um **PROVIDER**
 
 Cardinalidade -> **1:n**
+<hr>
+
+### 2.3. Especializações
+#### 2.3.1. Exclusiva
+
+**USER** -> is -> **PERSON**
+
+Um **USER** é uma **PERSON**.
+
+<hr>
+
+**PROVIDER** -> is -> **PERSON**
+
+Um **PROVIDER** é uma **PERSON**.
 
 <hr>
 
@@ -137,7 +135,7 @@ Cardinalidade -> **1:n**
 
 ### Versão 2
 <p align='center'>
-    <img src='assets/images/modelagemBanco/v2-DERR.png' width=auto height=auto>
+    <img src='assets/images/modelagemBanco/v2-DERR.jpg' width=auto height=auto>
     <figcaption align='center'>
         <b>Figura 1: Diagrama de entidade relacionamento</b>
         <br>
@@ -158,7 +156,7 @@ Cardinalidade -> **1:n**
 
 ### Versão 2
 <p align='center'>
-    <img src='assets/images/modelagemBanco/v2-DLDR.png' width=auto height=auto>
+    <img src='assets/images/modelagemBanco/v2-DLDR.jpg' width=auto height=auto>
     <figcaption align='center'>
         <b>Figura 2: Diagrama lógico</b>
         <br>
@@ -187,5 +185,6 @@ Cardinalidade -> **1:n**
 |  1.1   | 14/01/2022 | Revisão do documento               | João Victor                     |
 |  1.2   | 21/02/2022 | Correções do documento             | Guilherme Braz                  |
 |  2.0   | 15/03/2022 | Adição da nova versão do documento | Fernando, Lorrayne e Ariel      |
-|  2.1   | 17/03/2022 | Melhorias pós revisão 		   | Fernando e Lorrayne             |
-|  2.2   | 17/03/2022 | Revisão versão 2 documento 	   | Pedro Campos, Guilherme Braz    |
+|  2.1   | 17/03/2022 | Melhorias pós revisão 	     	   | Fernando e Lorrayne             |
+|  2.2   | 17/03/2022 | Revisão versão 2 documento 	       | Pedro Campos, Guilherme Braz    |
+|  2.3   | 20/03/2022 | Corrigindo especialização     	   | Fernando e Lorrayne             |

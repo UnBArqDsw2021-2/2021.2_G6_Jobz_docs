@@ -54,14 +54,14 @@
 
 - **Desenho de Software (Padrões de Projeto)**
 
-  - [GRASP](./pages/base/planoRisco.md)
+  - [GRASPs](./pages/Padroes_projeto/GRASP/GRASPs.md)
   - GOFs
 
     - [Criacionais](./pages/base/planoRisco.md)
     - [Estruturais](./pages/base/planoRisco.md)
-    - [Comportamentais](./pages/Padroes_projeto/gof/comportamentais.md)
 
-  - [Emergentes](./pages/base/planoRisco.md)
+    - [Comportamentais](./pages/Padroes_projeto/gof/comportamentais.md)
+  - [Emergentes](./pages/Padroes_projeto/emergentes/emergentes.md)
   - Iniciativas Extras
     - [Correções](./pages/Padroes_projeto/extras/correcoes.md)
 

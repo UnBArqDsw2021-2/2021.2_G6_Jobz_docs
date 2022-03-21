@@ -8,11 +8,11 @@
    O diagrama de classes é uma representação visual estática, sendo ele um diagrama de estrutura UML que mostra a estrutura do sistema projetado, descrevendo no nível de classes e interfaces as suas características, restrições e relacionamentos, de maneira a incluir seus métodos, atributos, e as relações entre eles.
 <p/>
 
-<p style="text-indent: 20px; text-align: justify">	
+<p style="text-indent: 20px; text-align: justify">
    Segundo a OMG (Object Management Group), de maneira geral, o Diagrama de Classes descreve um conjunto de objetos que compartilham as mesmas especificações de atributos, operações, restrições e semântica. A finalidade de uma classe é classificar objetos e especificar os recursos que caracterizam a estrutura e o comportamento desses objetos.
 <p/>
 
-<p style="text-indent: 20px; text-align: justify">	
+<p style="text-indent: 20px; text-align: justify">
 Os elementos principais de um diagrama de classes são as classes e os atributos. As classes são uma espécie de "modelo" que descrevem estado e comportamentos comuns entre atributos. No diagrama elas são representadas por um retângulo, sendo divido em três seções: nome da classe, propriedades/ atributos e Métodos, como pode ser observado no exemplo a seguir da classe Aluno.
 <p/>
 
@@ -44,7 +44,11 @@ Além disso o diagrama possui diversas formas de especificar determinados tipos 
 <p align='center'>
     <img src='assets/images/diagramasEstaticos/diagramaClasses/classDiagramV2.svg' width=80% height=auto>
     <figcaption align='center'>
+<<<<<<< HEAD
         <b>Figura 2: Diagrama de classes do produto v.2.0 </b>
+=======
+        <b>Figura 3: Diagrama de classes do produto v.2.0 </b>
+>>>>>>> e29332cd54156581d6bdcb355d87063acb75dd2b
         <br>
     </figcaption>
 </p>
