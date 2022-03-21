@@ -58,6 +58,7 @@
   - GOFs
     - [Criacionais](./pages/Padroes_projeto/gof/criacionais.md)
     - [Estruturais](./pages/Padroes_projeto/gof/gof_estrutural.md)
+    - [Comportamentais](./pages/base/planoRisco.md)
 
   - [Emergentes](./pages/Padroes_projeto/emergentes/emergentes.md)
   - Iniciativas Extras
