@@ -97,7 +97,7 @@ Além de fornecer um baixo acoplamento, o próprio padrão do _framework Django 
 Além disso, o diagrama de classes desenvolvido pela equipe apresentado abaixo também é uma solução:
 
 <p align='center'>
-    <img src='assets/images/diagramasEstaticos/diagramaClasses/classDiagram.svg' width=40% height=auto>
+    <img src='assets/images/diagramasEstaticos/diagramaClasses/classDiagramV2.svg' width=40% height=auto>
     <figcaption align='center'>
         <b>Figura 2: Diagrama de classes do produto. </b>
         <br>
