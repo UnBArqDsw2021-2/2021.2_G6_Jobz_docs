@@ -56,9 +56,10 @@
 
   - [GRASPs](./pages/Padroes_projeto/GRASP/GRASPs.md)
   - GOFs
+
     - [Criacionais](./pages/Padroes_projeto/gof/criacionais.md)
     - [Estruturais](./pages/Padroes_projeto/gof/gof_estrutural.md)
-    - [Comportamentais](./pages/base/planoRisco.md)
+    - [Comportamentais](./pages/Padroes_projeto/gof/comportamentais.md)
 
   - [Emergentes](./pages/Padroes_projeto/emergentes/emergentes.md)
   - Iniciativas Extras
@@ -104,8 +105,6 @@
   - Sprint 12
     - [Planejamento](./pages/sprints/sprint12/sprint_planning.md)
     - [Resultados](./pages/sprints/sprint12/sprint_review.md) -->
-
-
 
 <!-- - **Arquitetura de Software & Reutilização**
 

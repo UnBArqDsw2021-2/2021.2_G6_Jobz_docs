@@ -54,4 +54,5 @@ Agora a [figura 2](./pages/Padroes_projeto/emergentes/emergentes?id=figura2) que
 |    Data    | Versão |    Autor    |      Descrição       |
 | :--------: | :----: | :---------: | :------------------: |
 | 20/03/2022 |  1.0   | Fernando e pedro | Construção do documento |
-| 21/03/2022 |  1.1   | Antônio Aldisio  | Revisão                 |    
+| 20/03/2022 |  1.1   | Ariel, Lorrayne e Antonio | Revisão do documento |
+

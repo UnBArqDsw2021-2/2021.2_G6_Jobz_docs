@@ -167,3 +167,4 @@ Além da logo principal tratada dessa forma, teremos outras disposições da mes
 |  1.1   | 03/02/2022 | Revisão do documento        | Lorrayne Cardozo |
 |  1.2   | 04/02/2022 | Adição de valores das cores | Ariel Serafim    |
 |  2.0   | 18/03/2022 | Refatoração e melhoria para <br/> o novo protótipo de alta fidelidade| Pedro Campos, Guilherme Braz|
+| 2.1 |  20/03/2022   | Ariel, Lorrayne e Antonio | Revisão do documento |
