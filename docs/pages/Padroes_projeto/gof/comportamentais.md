@@ -290,7 +290,7 @@ func main() {
 
 <div align="justify">   O Strategy é um padrão de projeto comportamental, o seu objetivo é permitir que diferentes algorítmos de uma mesma família, entende-se, resolvem o mesmo problema, sejam escolhidos e tempo de execução. </div>
 
-<div align="justify">   De inicio isso pode parecer redundante, 'por que escolher entre diferentes algoritmos se todos resolvem o mesmo problema?'. De forma geral, o objetivo é otimização baseada em situações específicas e mmudança de contexto.
+<div align="justify">   De inicio isso pode parecer redundante, 'por que escolher entre diferentes algoritmos se todos resolvem o mesmo problema?'. De forma geral, o objetivo é otimização baseada em situações específicas e mudança de contexto.
 Para o primeiro caso podemos pensar em uma situação em que um algoritmo de exige ordenação de dados que são possivelmente todos inteiros ou não, caso todos os elementos são inteiros, usamos o gravity sort, caso tenha valores ponto flutuante, usamos o merge sort.
 No caso de mudança de contexto podemos pensar em uma aplicação em que uma classe de forma geométrica que pode se especilizar em triangulo, quadrado e outras formas, podemos usar o strategy para definir o funcionamento de um método getArea(), que usará diferentes formulas, a depender do contexto da forma geométrica a que pertence.
 </div>
@@ -405,11 +405,16 @@ PADRÃO PARA ADICIONAR IMAGENS:
 ## 6. Referências
 
 > Padrões de projeto comportamentais. Refactoring Guru, 2014. Disponível em: <https://refactoring.guru/pt-br/design-patterns/behavioral-patterns>. Acesso em: 19 mar. de 2022.1
+    
 > Oseberg S., Fredrik. The modern guide to React state patterns, 2021. Disponível em:<https://blog.logrocket.com/modern-guide-react-state-patterns/>. Acesso em 20 mar. de 2022.1
+    
 > Source Making. State Design Pattern, 2021. Disponível em: <https://sourcemaking.com/design_patterns/state>. Acesso em 20 mar. de 2022.1
+    
 > GeeksforGeeks. State Design Pattern, 01 Sep, 2021. Disponível em: <https://www.geeksforgeeks.org/state-design-pattern/>. Acesso em 20 mar. de 2022.1
+    
 > Refactoring Guru. Strategy in python:
 <https://refactoring.guru/design-patterns/strategy/python/example#example-0--main-py>. Acesso em 20 mar. de 2022.1
+    
 > Refactoring Guru. Iterator in Golang:
 <https://refactoring.guru/design-patterns/iterator/go/example>. Acesso em 20 mar. de 2022.1
 
@@ -425,4 +430,5 @@ PADRÃO PARA ADICIONAR IMAGENS:
 | 20/03/2022 |  0.4   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do texto inicial do Iterator |
 | 20/03/2022 |  0.5   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do strategy pattern |
 | 20/03/2022 |  0.6   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do exemplo do iterator pattern |
-| 20/03/2022 |  0.7   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do chain of responsibility |
+| 20/03/2022 |  1.0   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do chain of responsibility |
+| 21/03/2022 |  1.1   | Fernando Miranda, Antônio Aldísio e João Victor  | Revisão do documento |
