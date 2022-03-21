@@ -33,8 +33,4 @@ Protótipos de alta fidelidade trocam velocidade por precisão, não sendo tão 
 | 15/02/2022 |  0.1   | Álvaro Gouvea e Guilherme Braz | Criação do documento |
 | 20/02/2022 |  1.0   | Álvaro Gouvea e Guilherme Braz | Revisão do Documento |
 | 20/03/2022 |  2.0   | Pedro Henrique e Guilherme Braz | Refatoração do Documento |
-<<<<<<< HEAD
 | 21/03/2022 |  2.1   | Fernando Miranda e Rodrigo Balbino | Revisão do documento |
-=======
-| 20/03/2022 |  2.1   | Rodrigo Balbino | Revisão do Documento |
->>>>>>> Revisando documento do prototipo de alta

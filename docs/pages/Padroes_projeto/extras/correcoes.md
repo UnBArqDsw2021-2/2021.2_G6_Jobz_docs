@@ -17,7 +17,6 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 - Foram adicionadas as [Tasks](./pages/modelagem/backlogPriorizado.md#_6-tarefas) para cada história de usuário.
 - Foi adicionado o [mapeamento de história de usuários](./pages/modelagem/backlogPriorizado.md#_8-mapeamento-das-histórias-de-usuário).
 
-
 ## 4. Refatoração do Diagrama de Classes
 
 - Refatoração da pagina referente ao [Diagrama de Classes](./pages/modelagem/diagramaDeClasses.md) da aplicação.
