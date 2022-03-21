@@ -14,6 +14,7 @@ Neste documento iremos abordar os seguintes **GoFs Criacionais** que foram adota
 
   - [Builder](./pages/Padroes_projeto/gof/criacionais.md#_3-builder)
   - [Factory](./pages/Padroes_projeto/gof/criacionais.md#_2-Factory)
+  - [Singleton](./pages/Padroes_projeto/gof/criacionais.md#_4-Singleton)
 
 
 ## 2. Factory
@@ -77,7 +78,23 @@ Como no exemplo do [trecho de código](https://github.com/UnBArqDsw2021-2/2021.2
     </figcaption>
 </p>
 
+## 4. Singleton
 
+O padrão criacional singleton especifica que apenas uma instância da classe pode existir, e esta será utilizada por toda a aplicação. Dessa forma temos apenas um ponto de acesso global a esta instância da classe.
+Ao utilizar Singleton temos mais controle sobre o acesso às propriedades e métodos de uma classe, e também reduzimos o consumo de memória desnecessário por utilizar várias instancias desnecessárias de uma classe.
+
+<p align='center'>
+    <img src='assets/images/gofsCriacionais/exSingleton.png' width=100% height=auto>
+    <figcaption align='center'>
+        <b>Figura 6: Estrutura de um Singleton.</b>
+        <br>
+        <small>Fonte: https://refactoring.guru/pt-br/design-patterns/singleton</small>
+    </figcaption>
+</p>
+
+A figura acima demonstra a estutura de um singleton, onde a classe Singleton possui o método estático _getInstance_ que retorna a mesma instancia de sua prŕpia classe.
+
+No nosso projeto esse padrão será utilizado para a conexão com o banco de dados, em que o própio _framework Django REST_ realiza esse controle.
 <!--
 ## 4. Prototype (Duvida)
 
@@ -105,7 +122,7 @@ export default Button
 <-->
 
 
-## 4. Referências
+## 5. Referências
 
 > Design Patterns. Refactoring Guru, 2014. Disponível em: https://refactoring.guru/pt-br/design-patterns/creational-patterns. Acesso em: 17 mar. de 2022.
 
@@ -115,6 +132,7 @@ export default Button
 
 > REAL PYTHON. The Factory Method pattern and its implementation in python. Disponível em: https://realpython.com/factory-method-python/. Acesso em 17 mar. de 2022.
 
+> Opus Software. Singleton Design Pattern – O que é, onde usar e quais as vantagens? Disponível em: https://www.opus-software.com.br/singleton-design-pattern/. Acesso em: 20/03/2022
 
 </div>
 
@@ -125,3 +143,4 @@ export default Button
 | 17/03/2022 |  0.1   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Criação do documento e <br> inclusão inicial dos padrōes utilizados |
 | 18/03/2022 |  0.2   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Melhoria de introdução e descrição do metodo Factory |
 | 19/03/2022 |  0.3   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Adicionado o conteudo correspondente ao padão builder. |
+| 20/03/2022 |  0.4   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Adicionado o conteudo correspondente ao padão singleton. |
