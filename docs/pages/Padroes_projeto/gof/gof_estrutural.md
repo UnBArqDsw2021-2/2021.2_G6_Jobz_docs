@@ -23,9 +23,32 @@ def hello_world(request):
 Nesse exemplo acima o decorator `@api_view` recebe uma lista de metodos HTTP que a view deve aceitar.
 
 ## 2. Facade
-O Facade é um GOF estrutural que tem como objetivo esconder a complexidade de um conjunto de classes e reduzir o acoplamento entre as camadas do porjeto. É muito utilizado por bibliotecas e frameworks para produzir uma interface mais simplificada.
+O Facade é um GOF estrutural que tem como objetivo esconder a complexidade de um conjunto de classes e reduzir o acoplamento entre as camadas do projeto. É muito utilizado por bibliotecas e frameworks para produzir uma interface mais simplificada.
 
 No nosso projeto serão utilizadas diversas bibliotecas que atuam com Facade de suas implementações.
+
+Um exemplo de código utilizando esse padrão, retirado do nosso projeto:
+
+```
+import UserRegistrationPage from '../views/userRegistrationPage/index'
+import CollaboratorRegistrationPage from '../views/collaboratorRegistrationPage/index'
+import HomePage from '../views/HomePage/index'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+function directions() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/userRegistrationPage" element={<UserRegistrationPage />} />
+        <Route path="/collaboratorRegistrationPage" element={<CollaboratorRegistrationPage />} />
+      </Routes>
+    </BrowserRouter>
+  )
+}
+export default directions
+```
+Nesse codigo é importado da biblioteca _react-router-dom_ apenas o métodos desejados.
 
 ## 3. Referências
 
@@ -45,3 +68,4 @@ No nosso projeto serão utilizadas diversas bibliotecas que atuam com Facade de 
 | :--------: | :----: | :---------: | :------------------: |
 | 20/03/2022 |  0.1   | João Victor e Ariel | Criação do documento e adição do GOF Decorator |
 | 20/03/2022 |  0.2   | João Victor e Ariel | Adição do GOF Facade |
+| 20/03/2022 |  0.3   | João Victor e Ariel | Adição do exemplo GOF Facade |
