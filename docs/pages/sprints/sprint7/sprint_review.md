@@ -1,40 +1,66 @@
-# Resultado sprint 1
+# Resultado sprint 7
 
-Período: 25/01/2022 a 28/01/2022
+Período: 07/03/2022 a 13/03/2022
 
-Data da reunião: 28/01/2022
+Data da reunião: 14/03/2022
 
-Membros presentes: Todos
+Membros presentes: Lorrayne, Fernando, Antônio, Ariel, Pedro, Guilherme, Alvaro e Rodrigo
 
-Membros faltantes: Nenhum
+Membros faltantes: João e Luis
 
 ## Issues entregues
 
-| Número                                                                  | Issue                                                    | Pontuação | Membros            |
-| ----------------------------------------------------------------------- | -------------------------------------------------------- | --------- | ------------------ |
-| [#1](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/1)   | Criar github pages                                       | -         | Antonio e Luis     |
-| [#2](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/2)   | Elaboração e construção do Artefato Causa e Efeito       | -         | Rodrigo e Pedro    |
-| [#3](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/3)   | Léxicos                                                  | -         | Fernando e Rodrigo |
-| [#4](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/4)   | Documentar Rich pictures                                 | -         | Antonio            |
-| [#5](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/5)   | Elaboração de um Questionário como técnica de elicitação | -         | Ariel e Guilherme  |
-| [#6](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/6)   | Elaboração do Plano de Risco                             | -         | Luis               |
-| [#7](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/7)   | Personas                                                 | -         | Lorrayne           |
-| [#9](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/9)   | 5W2H                                                     | -         | Todos os membros   |
-| [#10](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/10) | Guia de contribuição                                     | -         | Alvaro             |
-| [#12](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/12) | Metodologia de projeto                                   | -         | João               |
+| Número                                                                  | Issue                                                               | Pontuação | Membros                 |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------- | --------- | ----------------------- |
+| [#71](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/71) | Cadastro de Disponibilidade (BackEnd)                               | 5         | Fernando e Lorrayne     |
+| [#72](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/72) | Cadastro de Disponibilidade (FrontEnd)                              | 8         | Guilherme e Pedro       |
+| [#73](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/73) | Cadastro de Meios de contato com o Prestador de Serviços (BackEnd)  | 8         | Fernando e Lorrayne     |
+| [#74](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/74) | Cadastro de Meios de contato com o Prestador de Serviços (FrontEnd) | 8         | Guilherme, Luis e Pedro |
+| [#75](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/75) | Cadastro de Ocupação de um Prestador (BackEnd)                      | 5         | Antonio e Joao Victor   |
+| [#76](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/76) | Cadastro de Ocupação de um Prestador (BackEnd)                      | 5         | Joao Victor e Rodrigo   |
+| [#77](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/77) | Pesquisa de serviços (BackEnd)                                      | 8         | Ariel e Alvaro          |
 
-### Pontuação entregue na sprint: -
+### Pontuação entregue na sprint: 0
 
 ## Dívidas técnicas
 
-| [#11](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/11) | Storyboard | - | Fernando e João |
+| Número                                                                  | Issue                                                               | Pontuação | Membros                 |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------- | --------- | ----------------------- |
+| [#71](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/71) | Cadastro de Disponibilidade (BackEnd)                               | 5         | Fernando e Lorrayne     |
+| [#72](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/72) | Cadastro de Disponibilidade (FrontEnd)                              | 8         | Guilherme e Pedro       |
+| [#73](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/73) | Cadastro de Meios de contato com o Prestador de Serviços (BackEnd)  | 8         | Fernando e Lorrayne     |
+| [#74](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/74) | Cadastro de Meios de contato com o Prestador de Serviços (FrontEnd) | 8         | Guilherme, Luis e Pedro |
+| [#75](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/75) | Cadastro de Ocupação de um Prestador (BackEnd)                      | 5         | Antonio e Joao Victor   |
+| [#76](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/76) | Cadastro de Ocupação de um Prestador (BackEnd)                      | 5         | Joao Victor e Rodrigo   |
+| [#77](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_docs/issues/77) | Pesquisa de serviços (BackEnd)                                      | 8         | Ariel e Alvaro          |
 
 ## Burndown
 
-Ainda não implementado
+<p align='center'>
+    <img src='assets/images/metricas-zenhub/burndown_6.png' width=auto height=auto>
+</p>
 
 ## Velocity
 
-Ainda não implementado
+<p align='center'>
+    <img src='assets/images/metricas-zenhub/velocity_6.png' width=auto height=auto>
+</p>
 
-## Observações
+## Retrospectiva
+
+### Pontos positivos
+
+- Protótipo melhorou
+
+### Pontos negativos
+
+- Back e Front estão se atrapalhando.
+- Problemas de comunicação
+- Agendamento não está no MER
+- Os detalhes do agendamento estão confusos?
+- Docker com problema
+- Issues sem sentido
+- CRUD serviços.
+- Em processo de aprendizagem no Front.
+- Sem conexão front e back ainda.
+- João sumiu
