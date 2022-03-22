@@ -14,7 +14,14 @@ Entre os diversos padrões de GRASP, a equipe decidiu abordar os seguintes princ
 
 Estes padrões foram escolhidos com o objetivo de melhor organizar e dividir os diferentes módulos do projeto de forma coerente, tornando o código mais flexível, facilitando sua compreensão, manutenção e reutilização.
 
-## 2. Especialista
+## 2. Discussão preeliminar
+
+Para ajudar a tomar as decisões sobre os padrões de projetos foi feita uma reunião para discutir sobre as vantagens e desvantagens de cada padrão.
+
+Essa discussão pode ser encontrada [aqui](../extras/reuniao_padroes_projeto.md).
+
+
+## 3. Especialista
 
 Um questionamento muito comum no processo de desenvolvimento se refere à onde deve ser incluído uma nova funcionalidade ou método.
 O GRASP de especialista define que devemos procurar pelos pedaços de informação necessários para completar a tarefa, de forma que o lugar que possua maior conhecimento sobre essas informações é o melhor candidato para essa funcionalidade.
@@ -39,7 +46,7 @@ class ProviderViewSet(viewsets.ModelViewSet):
 
 Nesse trecho temos a função retrieve, cujo papel é retornar a lista de provedores cujo o nome possuí a substring informada, é implementada dentro do viewset de provedores já que é o ambiente que possuí a maior quantidade de informação necessária para a execução da tarefa.
 
-## 3. Baixo Acoplamento
+## 4. Baixo Acoplamento
 
 Pode-se dizer que o conceito de acoplamento está ligado a uma medida de quão fortemente um elemento está conectado, tem algum tipo de conhecimento ou depende de outros elementos. Sabe-se então, de antemão, que tanto o baixo acoplamento (classes dependendo minimamente de outras classes) e a alta coesão (as classes devem procurar ter apenas uma responsabilidade) são objetivos gerais de todo sistema projetado de maneira adequada.
 
@@ -80,7 +87,7 @@ class Person(AbstractUser):
 ~~~
 Nesses trechos podemos ver que as definições das duas classes não possuem uma relação direta, mesmo que existam dependências entre elas em partes do código, elas conseguem trabalhar também de forma independente.
 
-## 4. Alta Coesão
+## 5. Alta Coesão
 
 Um elemento com responsabilidades altamente relacionadas que não faz uma grande quantidade de trabalho tem alta coesão. Esses elementos incluem classes, subsistemas e assim por diante (LARMAN, 2004). Classes que possuem muitas responsabilidades não relacionadas dificultam sua compreensão, manutenibilidade e reutilização, além de aumentar sua fragilidade. Devido a isso, a alta coesão é utilizada pois possui o objetivo de manter os objetos adequadamente focados, compreensíveis e gerenciáveis, além de, consequentemente, com um baixo acoplamento.
 
@@ -104,7 +111,7 @@ Além disso, o diagrama de classes desenvolvido pela equipe apresentado abaixo t
     </figcaption>
 </p>
 
-## 5. Referências
+## 6. Referências
 
 > What are General Responsibility Assignment Software Patterns? Level Up Coding, 2020. Disponível em: https://levelup.gitconnected.com/what-are-general-responsibility-assignment-software-patterns-6ad9635a44da. Acesso em: 18, março de 2022.
 
@@ -125,3 +132,4 @@ Além disso, o diagrama de classes desenvolvido pela equipe apresentado abaixo t
 | 20/03/2022 |  0.3   | Álvaro Gouvea <br> Lorrayne Cardozo <br> Pedro Henrique Campos | Adição do tópico de Alta Coesão, complementando Baixo Acoplamento e introdução |
 | 20/03/2022 |  0.4   | Rodrigo Balbino <br> Ariel Serafim <br> Guilherme Braz         |                        Realizando revisão do documento                         |
 | 20/03/2022 |  0.5   | Álvaro Gouvea <br> Lorrayne Cardozo <br> Pedro Henrique Campos |                        Adição de código sobre baixo acoplamento                |
+| 21/03/2022 |  1.0   | João Victor e Fernando |                        Adição da discussão preeliminar                |
