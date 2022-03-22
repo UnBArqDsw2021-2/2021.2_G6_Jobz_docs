@@ -60,8 +60,10 @@ Uma aplicação web para conectar pequenas empresas, profissionais autonomos que
 
 <img src='docs/assets/images/apresentacao-padroes/grasps.png' width=auto height=auto>
 <img src='docs/assets/images/apresentacao-padroes/gofs.png' width=auto height=auto>
-<img src='docs/assets/images/apresentacao-padroes/emergentes.png' width=auto height=auto>
-<img src='docs/assets/images/apresentacao-padroes/correcoes.png' width=auto height=auto>
+<img src='docs/assets/images/apresentacao-padroes/gof_estrutural.jpg' width=auto height=auto>
+<img src='docs/assets/images/apresentacao-padroes/gofs_comportalmental.jpg' width=auto height=auto>
+<img src='docs/assets/images/apresentacao-padroes/emergentes.jpg' width=auto height=auto>
+<img src='docs/assets/images/apresentacao-padroes/correcoes.jpg' width=auto height=auto>
 
 ## Vídeo(s) Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 
