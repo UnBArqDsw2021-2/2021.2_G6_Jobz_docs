@@ -1,12 +1,12 @@
 # Planejamento sprint
 
-Período: 25/01/2022 a 28/01/2022
+Período: 14/03/2022 a 20/03/2022
 
-Data da reunião: 25/01/2022
+Data da reunião: 14/03/2022
 
-Membros presentes: Todos
+Membros presentes: Lorrayne, Fernando, Antônio, Ariel, Pedro, Guilherme, Alvaro e Rodrigo
 
-Membros faltantes: Nenhum
+Membros faltantes: João e Luis
 
 ## Issues da sprint
 
