@@ -58,11 +58,20 @@ Uma aplicação web para conectar pequenas empresas, profissionais autonomos que
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
+<img src='docs/assets/images/apresentacao-padroes/grasps.png' width=auto height=auto>
+<img src='docs/assets/images/apresentacao-padroes/gofs.png' width=auto height=auto>
+<img src='docs/assets/images/apresentacao-padroes/emergentes.png' width=auto height=auto>
+<img src='docs/assets/images/apresentacao-padroes/correcoes.png' width=auto height=auto>
 
 ## Vídeo(s) Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 
-Adicione o(s)s vídeo(s) da Terceira Entrega.
+[GRASPs](https://youtu.be/jic8z553Xeo ) 
+
+[GOFs](https://www.youtube.com/watch?v=OAdXKxiUW7E)
+
+[Padrões Emergentes](https://www.youtube.com/watch?v=qA6_NSfRncE)
+
+[Iniciativas Extras](https://www.youtube.com/watch?v=XkZczDKdXRg)
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 
