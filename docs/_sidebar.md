@@ -87,13 +87,13 @@
     - [Resultados](./pages/sprints/sprint5/sprint_review.md)
   - Sprint 6
     - [Planejamento](./pages/sprints/sprint6/sprint_planning.md)
-    <!-- - [Resultados](./pages/sprints/sprint6/sprint_review.md)
+    - [Resultados](./pages/sprints/sprint6/sprint_review.md)
   - Sprint 7
     - [Planejamento](./pages/sprints/sprint7/sprint_planning.md)
     - [Resultados](./pages/sprints/sprint7/sprint_review.md)
   - Sprint 8
     - [Planejamento](./pages/sprints/sprint8/sprint_planning.md)
-    - [Resultados](./pages/sprints/sprint8/sprint_review.md)
+    <!-- - [Resultados](./pages/sprints/sprint8/sprint_review.md)
   - Sprint 9
     - [Planejamento](./pages/sprints/sprint9/sprint_planning.md)
     - [Resultados](./pages/sprints/sprint9/sprint_review.md)
