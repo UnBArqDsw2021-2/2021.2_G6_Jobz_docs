@@ -2,8 +2,13 @@
 
 <div align="justify">
 
+## 1. Discussão preeliminar
 
-## 1. Decorator
+Para ajudar a tomar as decisões sobre os padrões de projetos foi feita uma reunião para discutir sobre as vantagens e desvantagens de cada padrão.
+
+Essa discussão pode ser encontrada [aqui](../extras/reuniao_padroes_projeto.md).
+
+## 2. Decorator
 
 O Decorator é um GOF estrutural que tem como objetivo agregar comportamentos adicionais a um objeto. É uma alternativa flexivel à herança no momento de extender funcionalidades, já que com o decorator adiciona esse novo comportamento ao objeto e não à classe.
 
@@ -22,7 +27,8 @@ def hello_world(request):
 
 Nesse exemplo acima o decorator `@api_view` recebe uma lista de metodos HTTP que a view deve aceitar.
 
-## 2. Facade
+
+## 3. Facade
 O Facade é um GOF estrutural que tem como objetivo esconder a complexidade de um conjunto de classes e reduzir o acoplamento entre as camadas do projeto. É muito utilizado por bibliotecas e frameworks para produzir uma interface mais simplificada.
 
 No nosso projeto serão utilizadas diversas bibliotecas que atuam com Facade de suas implementações.
@@ -50,7 +56,7 @@ export default directions
 ```
 Nesse codigo é importado da biblioteca _react-router-dom_ apenas o métodos desejados.
 
-## 3. Referências
+## 4. Referências
 
 > Padrões de Projeto. Refactoring Guru. Disponível em: https://refactoring.guru/pt-br. Acesso em: 20/03/2022.
 
@@ -69,3 +75,4 @@ Nesse codigo é importado da biblioteca _react-router-dom_ apenas o métodos des
 | 20/03/2022 |  0.1   | João Victor e Ariel | Criação do documento e adição do GOF Decorator |
 | 20/03/2022 |  0.2   | João Victor e Ariel | Adição do GOF Facade |
 | 20/03/2022 |  0.3   | João Victor e Ariel | Adição do exemplo GOF Facade |
+| 21/03/2022 |  1.0   | João Victor e Fernando |                        Adição da discussão preeliminar                |

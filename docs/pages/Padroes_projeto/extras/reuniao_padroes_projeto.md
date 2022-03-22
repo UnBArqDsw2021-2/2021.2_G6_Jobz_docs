@@ -25,13 +25,13 @@ Com isso foram gerados audios dessa reunião que podem ser escutados abaixo.
 ## 3.2 Estruturais
 
 <audio controls="controls">
-    <source type="audio/mp3" src="assets/audios/.mp3"></source>
+    <source type="audio/mp3" src="assets/audios/Estrutural.mp3"></source>
 </audio>
 
 ## 3.3 Comportamentais
 
 <audio controls="controls">
-    <source type="audio/mp3" src="assets/audios/.mp3"></source>
+    <source type="audio/mp3" src="assets/audios/Comportamentais.mp3"></source>
 </audio>
 
 

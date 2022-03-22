@@ -17,7 +17,13 @@ Os padrões de projeto foram criados a partir da necessidade de se agilizar o pr
 - Template Method
 - Visitor
 
-## 2. Chain of Responsibility
+## 2. Discussão preeliminar
+
+Para ajudar a tomar as decisões sobre os padrões de projetos foi feita uma reunião para discutir sobre as vantagens e desvantagens de cada padrão.
+
+Essa discussão pode ser encontrada [aqui](../extras/reuniao_padroes_projeto.md).
+
+## 3. Chain of Responsibility
 
 <div align="justify"> Esse padrão consiste na utilização de vários objetos(handlers) para tratar requisições. Portanto se trata de uma cadeia de objetos que vao tratando as requisições sequencialmente. Um exemplo de uso do padrão Chain of Responsibility é o tratamento de requisições de um banco de dados, onde cada requisição vai para um handler, e o handler vai tratar a requisição e enviar para o proximo handler, até chegar no ultimo handler que trata a requisição.  
 </div>
@@ -146,7 +152,7 @@ if __name__ == "__main__":
 <!-- Por quê utilizar o Gof -->
 <!-- Exemplo do Gof aplicado em código -->
 
-## 3. Iterator
+## 4. Iterator
 
  <div align= "justify">  Essa padrão permite que nós passemos por elementos de uma coleção sem evidenciar a representação dele, que poderia ser um vetor, árvore, pilha, lista e etc. A principal ideia é descobrir o comportamento de travessia da coleção no objeto que chamamos de Iterator.</div>
 
@@ -248,7 +254,7 @@ func main() {
 }
 ```
 
-## 4. State
+## 5. State
 
  <div align="">   O state é um padrão de projeto comportamental, o seu objetivo é permitir que um objeto seja capaz de mudar seu comportamento quando seu estado interno muda. É como se o objeto realizasse uma mudança de classes. Assim, esse padrão resolve o problema de como fazer um comportamento depender de um estado predeterminado e finito de opções. </div>
  <br>
@@ -286,7 +292,7 @@ func main() {
 
 <div align="justify"> Por meio desse código exemplo retirado de nosso projeto, conseguimos monitorar as adições feitas pelo usuário em cada um dos três campos de input: name, email e password. Sempre quando um caractere é escrito, a função handle recebe essa modificação e envia como um novo estado da varíavel interna de data. Para enfim, conseguirmos realizar a requisição POST de cadastro. </div>
 
-## 5. Strategy
+## 6. Strategy
 
 <div align="justify">   O Strategy é um padrão de projeto comportamental, o seu objetivo é permitir que diferentes algorítmos de uma mesma família, entende-se, resolvem o mesmo problema, sejam escolhidos e tempo de execução. </div>
 
@@ -402,7 +408,7 @@ PADRÃO PARA ADICIONAR IMAGENS:
 </p>
 -->
 
-## 6. Referências
+## 7. Referências
 
 > Padrões de projeto comportamentais. Refactoring Guru, 2014. Disponível em: <https://refactoring.guru/pt-br/design-patterns/behavioral-patterns>. Acesso em: 19 mar. de 2022.1
     
@@ -432,3 +438,4 @@ PADRÃO PARA ADICIONAR IMAGENS:
 | 20/03/2022 |  0.6   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do exemplo do iterator pattern |
 | 20/03/2022 |  1.0   | Rodrigo Balbino, Ariel Vieira, Guilherme Braz | Adição do chain of responsibility |
 | 21/03/2022 |  1.1   | Fernando Miranda, Antônio Aldísio e João Victor  | Revisão do documento |
+| 21/03/2022 |  1.0   | João Victor e Fernando |                        Adição da discussão preeliminar                |
