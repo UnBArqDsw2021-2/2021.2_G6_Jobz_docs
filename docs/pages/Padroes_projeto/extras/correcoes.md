@@ -21,6 +21,7 @@ Este documento tem como objetivo descrever as correções e refatorações feita
 
 - Refatoração da pagina referente ao [Diagrama de Classes](./pages/modelagem/diagramaDeClasses.md) da aplicação.
 - Foi adicionado novo [diagrama de classes na versão 2.0](./pages/modelagem/diagramaDeClasses.md#_3-diagrama-de-classes-v20).
+  
 ## 5. Refatoração do protótipo de alta fidelidade
 
 - Mudanças na [modelagem de protótipo de alta fidelidade](./pages/modelagem/prototipoAlta.md) para adicionar as views que faltavam e se alinhar com o design feito no desenvolvimento de algumas views no front-end.
