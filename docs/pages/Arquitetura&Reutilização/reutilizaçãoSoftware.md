@@ -19,7 +19,7 @@ Para o desenvolvimento da parte de frontend da aplicação, o grupo optou pela a
 
 A seguir temos um exemplo de [código](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd/blob/Issue%2372_FrontEnd_CadastroDisponibilidade/src/components/Button/index.js) que utiliza o padrão [Component](./pages/Padroes_projeto/emergentes/emergentes.md#padrão-de-component), que foi retirado do [repositório de frontend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd) da aplicação, onde podemos observar o exemplo de um botão que será reutilizado em várias partes do desenvolvimento das páginas da aplicação.
 
-<a id="figura1"></a>
+
 <p align='center'>
     <img src='assets/images/emergentes/component.png' width=70% height=auto>
     <figcaption align='center'>
@@ -34,7 +34,7 @@ Além da biblioteca [React](https://reactjs.org/), também podemos apontar a uti
 
 Visando criar configurações para as conexões HTTP necessárias, a biblioteca [Axios](https://axios-http.com/ptbr/docs/intro) foi adotada no nosso desenvolvimento de frontend. No [trecho de código](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd/blob/master/src/views/collaboratorRegistrationPage/index.js), podemos ver um exemplo de utilização da biblioteca na nossa aplicação.
 
-<a id="figura1"></a>
+
 <p align='center'>
     <img src='assets/images/reutilizaçãoSoftware/axios.png' width=70% height=auto>
     <figcaption align='center'>
@@ -46,10 +46,50 @@ Visando criar configurações para as conexões HTTP necessárias, a biblioteca 
 
 ### 2.3 Reutilização no Docker
 
+Para o desenvolvimento do [Dockerfile do backend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd/blob/master/Dockerfile) e do [Dockerfile do frontend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd/blob/master/Dockerfile) reutilizamos imagens já disponibilizadas no [Docker Hub](https://hub.docker.com/), o docker Hub é o maior repositório de imagens de contêiner do mundo com uma variedade de fontes de conteúdo, incluindo desenvolvedores da comunidade de contêineres, projetos de código aberto e fornecedores independentes de software (ISV) construindo e distribuindo seu código em contêineres.
+
+Na elaboração do projeto foram usadas as imagens do [python](https://hub.docker.com/_/python) e [node](https://hub.docker.com/_/node) para o backend e frontend, respectivamente.
+Nas figuras abaixos apresentamos com é a utilização dentro do projeto:
+
+
+<p align='center'>
+    <img src='assets/images/reutilizaçãoSoftware/dockerNode.png' width=70% height=auto>
+    <figcaption align='center'>
+        <b>Figura 3: O código demonstrando da utilização da imagem do node</b>
+        <br>
+    </figcaption>
+</p>
+
+
+<p align='center'>
+    <img src='assets/images/reutilizaçãoSoftware/dockerPython.png' width=70% height=auto>
+    <figcaption align='center'>
+        <b>Figura 3: O código demonstrando da utilização da imagem do python</b>
+        <br>
+    </figcaption>
+</p>
+
+
+Além do reaproveitamento de imagem dentro do Dockerfile acontece também dentro do [docker-compse](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd/blob/master/docker-compose.yml) para a construção do continer do banco de dados, que utiliza a imagem do [postgres](https://hub.docker.com/_/postgres), como pode ser visto no trecho de código apresentado abaixo.
+
+
+<p align='center'>
+    <img src='assets/images/reutilizaçãoSoftware/dockerPostgres.png' width=70% height=auto>
+    <figcaption align='center'>
+        <b>Figura 3: Trecho de código demonstrando da utilização da imagem do postgres</b>
+        <br>
+    </figcaption>
+</p>
+
+#### 2.3.2 Docker compose
+
+
+
 ## 3. Referências
 
 > REACT. React. Disponível em: https://pt-br.reactjs.org/. Acesso em: 26 de mar. de 2022.
 > AXIOS. Introdução. Disponível em: https://axios-http.com/ptbr/docs/intro. Acesso em: 26 de mar. de 2022.
+> DOCKER HUB. Docker.  Disponível em: https://www.docker.com/products/docker-hub/. Acesso em: 26 de mar. de 2022.
 
 </div>
 
@@ -59,3 +99,4 @@ Visando criar configurações para as conexões HTTP necessárias, a biblioteca 
 | :--------: | :----: | :----------------: | :----------------------: |
 | 26/03/2022 |  0.1   | Fernando e Antonio | Reutilização no FrontEnd |
 | 26/03/2022 |  0.2   | Fernando e Antonio | Correção de links        |
+| 26/03/2022 |  0.3   | Fernando e Antonio | Reutilização no Docker   |
