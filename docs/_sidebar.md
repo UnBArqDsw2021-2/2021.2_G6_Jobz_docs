@@ -56,7 +56,6 @@
 
   - [GRASPs](./pages/Padroes_projeto/GRASP/GRASPs.md)
   - GOFs
-
     - [Criacionais](./pages/Padroes_projeto/gof/criacionais.md)
     - [Estruturais](./pages/Padroes_projeto/gof/gof_estrutural.md)
     - [Comportamentais](./pages/Padroes_projeto/gof/comportamentais.md)
@@ -66,10 +65,19 @@
     - [Correções](./pages/Padroes_projeto/extras/correcoes.md)
     - [Discussão Padrões de Projeto](./pages/Padroes_projeto/extras/reuniao_padroes_projeto.md)
 
+- **Arquitetura de Software & Reutilização**
+  - **Módulo Estilos e Padrões Arquiteturais**
+    - [Documento de Arquitetura](./pages/base/planoRisco.md)
+  - **Módulo de Reutilização de Software**
+    - [Reutilização de Software](./pages/Arquitetura&Reutilização/reutilizaçãoSoftware.md)
+  - **Iniciativa Extras**
+    - [EXTRA](./pages/base/planoRisco.md)
+
 - **Apresentações**
   - [Base](./pages/Apresentacoes/base.md)
   - [Modelagem](./pages/Apresentacoes/modelagem.md)
   - [Padrões de Projetos](./pages/Apresentacoes/padroes_projetos.md)
+
 - **Sprints**
   - Sprint 1
     - [Planejamento](./pages/sprints/sprint1/sprint_planning.md)
@@ -107,10 +115,3 @@
   - Sprint 12
     - [Planejamento](./pages/sprints/sprint12/sprint_planning.md)
     - [Resultados](./pages/sprints/sprint12/sprint_review.md) -->
-
-<!-- - **Arquitetura de Software & Reutilização**
-
-  - [Documento de Arquitetura](./pages/base/planoRisco.md)
-  - [Reutilização de Software](./pages/base/planoRisco.md)
-  - Iniciativa Extras
-    - [EXTRA](./pages/base/planoRisco.md) -->
