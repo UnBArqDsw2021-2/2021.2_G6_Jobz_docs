@@ -56,7 +56,6 @@
 
   - [GRASPs](./pages/Padroes_projeto/GRASP/GRASPs.md)
   - GOFs
-
     - [Criacionais](./pages/Padroes_projeto/gof/criacionais.md)
     - [Estruturais](./pages/Padroes_projeto/gof/gof_estrutural.md)
     - [Comportamentais](./pages/Padroes_projeto/gof/comportamentais.md)
@@ -68,9 +67,15 @@
 
 - **Arquitetura de Software & Reutilização**
   - **Módulo Estilos e Padrões Arquiteturais**
+<<<<<<< HEAD
     - [Arquitetura de Software](./pages/arquitetura/arquitetura.md)
   - **Módulo de Reutilização de Software**
     - [Reutilização de Software](./pages/arquitetura/reutilizacao.md)
+=======
+    - [Documento de Arquitetura](./pages/base/planoRisco.md)
+  - **Módulo de Reutilização de Software**
+    - [Reutilização de Software](./pages/Arquitetura&Reutilização/reutilizaçãoSoftware.md)
+>>>>>>> Estrutura inicial da reutilização no FrontEnd
   - **Iniciativa Extras**
     - [EXTRA](./pages/base/planoRisco.md)
 
@@ -78,6 +83,7 @@
   - [Base](./pages/Apresentacoes/base.md)
   - [Modelagem](./pages/Apresentacoes/modelagem.md)
   - [Padrões de Projetos](./pages/Apresentacoes/padroes_projetos.md)
+
 - **Sprints**
   - Sprint 1
     - [Planejamento](./pages/sprints/sprint1/sprint_planning.md)
