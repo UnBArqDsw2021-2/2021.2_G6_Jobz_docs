@@ -15,9 +15,9 @@
 
 #### 2.2.1 Component
 
-Para o desenvolvimento da parte de frontend da aplicação, o grupo optou pela adoção da biblioteca [React](https://reactnative.dev/), a partir disso podemos apontar a presença do padrão [Component](./pages/Padroes_projeto/emergentes/emergentes.md#padrão-de-component) como reutilização de código na aplicação, já que a utilização do padrão visa dividir o código em componentes que podem ser reutilizados.
+Para o desenvolvimento da parte de frontend da aplicação, o grupo optou pela adoção da biblioteca [React](https://reactjs.org/), a partir disso podemos apontar a presença do padrão [Component](./pages/Padroes_projeto/emergentes/emergentes.md#padrão-de-component) como reutilização de código na aplicação, já que a utilização do padrão visa dividir o código em componentes que podem ser reutilizados.
 
-A seguir temos um [trecho de código](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd/blob/Issue%2372_FrontEnd_CadastroDisponibilidade/src/components/Button/index.js) que utiliza o padrão [Component](./pages/Padroes_projeto/emergentes/emergentes.md#padrão-de-component), código que foi retirado do [repositório de frontend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd) da aplicação, onde podemos observar o exemplo de um botão que será reutilizado em várias partes do desenvolvimento das páginas da aplicação.
+A seguir temos um exemplo de [código](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd/blob/Issue%2372_FrontEnd_CadastroDisponibilidade/src/components/Button/index.js) que utiliza o padrão [Component](./pages/Padroes_projeto/emergentes/emergentes.md#padrão-de-component), que foi retirado do [repositório de frontend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd) da aplicação, onde podemos observar o exemplo de um botão que será reutilizado em várias partes do desenvolvimento das páginas da aplicação.
 
 <a id="figura1"></a>
 <p align='center'>
@@ -30,7 +30,7 @@ A seguir temos um [trecho de código](https://github.com/UnBArqDsw2021-2/2021.2_
 
 #### 2.2.2 Axios
 
-Além da biblioteca [React](https://reactnative.dev/), também podemos apontar a utilização da biblioteca [Axios](https://axios-http.com/ptbr/docs/intro), cujo objetivo é criar configurações reutilizáveis para as conexões necessárias na aplicação.
+Além da biblioteca [React](https://reactjs.org/), também podemos apontar a utilização da biblioteca [Axios](https://axios-http.com/ptbr/docs/intro), cujo objetivo é criar configurações reutilizáveis para as conexões necessárias na aplicação.
 
 Visando criar configurações para as conexões HTTP necessárias, a biblioteca [Axios](https://axios-http.com/ptbr/docs/intro) foi adotada no nosso desenvolvimento de frontend. No [trecho de código](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd/blob/master/src/views/collaboratorRegistrationPage/index.js), podemos ver um exemplo de utilização da biblioteca na nossa aplicação.
 
@@ -58,3 +58,4 @@ Visando criar configurações para as conexões HTTP necessárias, a biblioteca 
 |    Data    | Versão |    Autor           |        Descrição         |
 | :--------: | :----: | :----------------: | :----------------------: |
 | 26/03/2022 |  0.1   | Fernando e Antonio | Reutilização no FrontEnd |
+| 26/03/2022 |  0.2   | Fernando e Antonio | Correção de links        |
