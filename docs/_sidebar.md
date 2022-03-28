@@ -66,6 +66,10 @@
     - [Correções](./pages/Padroes_projeto/extras/correcoes.md)
     - [Discussão Padrões de Projeto](./pages/Padroes_projeto/extras/reuniao_padroes_projeto.md)
 
+- **Arquitetura de Software e Reutilização**
+
+  - [Arquitetura de Software](./pages/arquitetura/arquitetura.md)
+
 - **Apresentações**
   - [Base](./pages/Apresentacoes/base.md)
   - [Modelagem](./pages/Apresentacoes/modelagem.md)
