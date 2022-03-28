@@ -14,7 +14,19 @@ O **ReactJS** é uma biblioteca da linguagem JavaScript que utiliza certos padr�
 ### 2.3. Banco de Dados
 O **PostgreSQL** é um Sistema Gerenciador de Banco de Dados (SGBD) Relacional, utilizado para armazenar informações de soluções de informática em todas as áreas de negócios existentes (Milani, André. PostgreSQL: Guia do Programador. Novatec. 2008).
 
-## 3. Referências
+## 3. Métricas e Restrições Arquiteturais
+### 3.1. Métricas
+### 3.2. Restrições
+
+|Restrições||
+|:-----|:------|
+|Plataforma|A aplicação terá suporte para browsers para computador.|
+|Público|A aplicação será desenvolvida para toda a população brasileira e será voltada para prestadores de diversos serviços e seus respectivos clientes.|
+|Linguagem|A aplicação Jobz será desenvolvida em idioma português do Brasil.|
+|Prazo|A aplicação terá o prazo estimado de termino até o fim da disciplina.|
+|Equipe|A equipe possui 10 integrantes do curso de Eng. de Software da UnB.|
+|Conectividade|É necessária a conectividade com a internet para o acesso e utilização da aplicação.|     
+## 4. Referências
 
 > ReactJS - Architecture. Disponível em: <https://www.tutorialspoint.com/reactjs/reactjs_architecture.htm#:~:text=Architecture%20of%20the%20React%20Application&text=Developers%20are%20free%20to%20choose,.%2C%20to%20write%20better%20code.>. Acesso em: 27 Mar. 2022.
 
@@ -27,3 +39,4 @@ O **PostgreSQL** é um Sistema Gerenciador de Banco de Dados (SGBD) Relacional, 
 |    Data    | Versão |          Autor(es)               |                Descrição                        |
 | :--------: | :----: | :------------------------------: | :---------------------------------------------: |
 | 27/03/2022 |  0.1   | Lorrayne Cardozo e Ariel Serafim | Criação do tópico de representação arquitetural |
+| 28/03/2022 | 0.2    | Pedro Campos e Luis Araujo       | Criação do tópico Métricas e Restrições Arquiteturais.|
