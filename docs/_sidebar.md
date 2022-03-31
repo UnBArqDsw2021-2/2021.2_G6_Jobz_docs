@@ -64,6 +64,30 @@
   - [Emergentes](./pages/Padroes_projeto/emergentes/emergentes.md)
   - Iniciativas Extras
     - [Correções](./pages/Padroes_projeto/extras/correcoes.md)
+<<<<<<< HEAD
+=======
+    - [Discussão Padrões de Projeto](./pages/Padroes_projeto/extras/reuniao_padroes_projeto.md)
+
+- **Arquitetura de Software & Reutilização**
+  - **Módulo Estilos e Padrões Arquiteturais**
+<<<<<<< HEAD
+<<<<<<< HEAD
+    - [Arquitetura de Software](./pages/arquitetura/arquitetura.md)
+  - **Módulo de Reutilização de Software**
+    - [Reutilização de Software](./pages/arquitetura/reutilizacao.md)
+=======
+    - [Documento de Arquitetura](./pages/base/planoRisco.md)
+  - **Módulo de Reutilização de Software**
+    - [Reutilização de Software](./pages/Arquitetura&Reutilização/reutilizaçãoSoftware.md)
+>>>>>>> Estrutura inicial da reutilização no FrontEnd
+=======
+    - [Arquitetura de Software](./pages/arquitetura/arquitetura.md)
+  - **Módulo de Reutilização de Software**
+    - [Reutilização de Software](./pages/arquitetura/reutilizacao.md)
+>>>>>>> Correção no padrão de pastas/sidebar e referencias
+  - **Iniciativa Extras**
+    - [EXTRA](./pages/base/planoRisco.md)
+>>>>>>> 3e4bce7... Correção no padrão de pastas/sidebar e referencias
 
 - **Apresentações**
   - [Base](./pages/Apresentacoes/base.md)
