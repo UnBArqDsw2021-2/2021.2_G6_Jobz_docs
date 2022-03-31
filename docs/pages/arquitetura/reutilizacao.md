@@ -4,8 +4,16 @@
 
 ## 1. Introdução
 
+<<<<<<< HEAD
 ## 2. Aplicações
 
+=======
+
+
+## 2. Aplicações
+
+
+>>>>>>> 3e27effec5c8cd49af65dd3987c6d40ad5dff204
 ### 2.1 Reutilização no BackEnd
 
 ### 2.2 Reutilização no FrontEnd
@@ -16,6 +24,10 @@ Para o desenvolvimento da parte de frontend da aplicação, o grupo optou pela a
 
 A seguir temos um exemplo de [código](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd/blob/Issue%2372_FrontEnd_CadastroDisponibilidade/src/components/Button/index.js) que utiliza o padrão [Component](./pages/Padroes_projeto/emergentes/emergentes.md#padrão-de-component), que foi retirado do [repositório de frontend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd) da aplicação, onde podemos observar o exemplo de um botão que será reutilizado em várias partes do desenvolvimento das páginas da aplicação.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3e27effec5c8cd49af65dd3987c6d40ad5dff204
 <p align='center'>
     <img src='assets/images/emergentes/component.png' width=70% height=auto>
     <figcaption align='center'>
@@ -30,6 +42,10 @@ Além da biblioteca [React](https://reactjs.org/), também podemos apontar a uti
 
 Visando criar configurações para as conexões HTTP necessárias, a biblioteca [Axios](https://axios-http.com/ptbr/docs/intro) foi adotada no nosso desenvolvimento de frontend. No [trecho de código](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd/blob/master/src/views/collaboratorRegistrationPage/index.js), podemos ver um exemplo de utilização da biblioteca na nossa aplicação.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3e27effec5c8cd49af65dd3987c6d40ad5dff204
 <p align='center'>
     <img src='assets/images/reutilizacao/axios.png' width=70% height=auto>
     <figcaption align='center'>
