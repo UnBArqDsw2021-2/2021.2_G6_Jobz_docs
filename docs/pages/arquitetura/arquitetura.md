@@ -218,13 +218,14 @@ https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/deployment_
 
 |    Data    |  Versão  |              Autor               |                          Descrição                           |
 | :--------: | :------: | :------------------------------: | :----------------------------------------------------------: |
-| 28/03/2022 |   0.1    |         Rodrigo Balbino          |                     Criação do documento                     |
+| 28/03/2022 |   0.1    |      Guilherme Braz e Rodrigo Balbino          |                     Criação do documento                     |
 | 28/03/2022 |   0.2    | Guilherme Braz e Rodrigo Balbino |                   adição das visão logica                    |
 | 28/03/2022 |   0.3    | Guilherme Braz e Rodrigo Balbino |              adição das visão de implementação               |
 | 28/03/2022 |   0.4    | Guilherme Braz e Rodrigo Balbino |               adição do tópico sobre qualidade               |
-| 30/03/2022 |   0.5    |         Rodrigo Balbino          |      Adicionando referências e conteúdo da visão lógica      |
-| 30/03/2022 |   0.6    |         Rodrigo Balbino          | Adicionando referências e conteúdo da visão de implementação |
+| 30/03/2022 |   0.5    |  Guilherme Braz e Rodrigo Balbino          |      Adicionando referências e conteúdo da visão lógica      |
+| 30/03/2022 |   0.6    |   Guilherme Braz e Rodrigo Balbino          | Adicionando referências e conteúdo da visão de implementação |
 | 30/03/2022 |  0.7   | João Victor e Álvaro Gouvea | Adição do tópico visão de Processos |
 | 31/03/2022 |  0.7.1   | João Victor e Álvaro Gouvea | Adição de mais uma referência |
 | 31/03/2022 |  0.7.2   |        Fernando e Antonio   |      Revião parcial do documento        |
 | 31/03/2022 |  0.7.3   | João Victor e Álvaro Gouvea | Adição das imagens dos diagramas no tópico Visão de Processos              |
+| 31/03/2022 |  0.8   | Fernando e Antonio |  Revisão da Visão de processos |
