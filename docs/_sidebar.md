@@ -66,8 +66,13 @@
     - [Correções](./pages/Padroes_projeto/extras/correcoes.md)
     - [Discussão Padrões de Projeto](./pages/Padroes_projeto/extras/reuniao_padroes_projeto.md)
 
-- **Arquitetura de Software e Reutilização**
-  - [Arquitetura de Software](./pages/arquitetura/arquitetura.md)
+- **Arquitetura de Software & Reutilização**
+  - **Módulo Estilos e Padrões Arquiteturais**
+    - [Arquitetura de Software](./pages/arquitetura/arquitetura.md)
+  - **Módulo de Reutilização de Software**
+    - [Reutilização de Software](./pages/reutilizacao/reutilizaçãoSoftware.md)
+  - **Iniciativa Extras**
+    - [EXTRA](./pages/base/planoRisco.md)
 
 - **Apresentações**
   - [Base](./pages/Apresentacoes/base.md)
