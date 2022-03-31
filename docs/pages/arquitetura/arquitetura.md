@@ -4,7 +4,8 @@
 
 ## 2. Visão Lógica
 
-A visão lógica tem o objetivo de representar a visão conceitual do projeto por meio de camadas, descrevendo melhor os elementos comportamentais e funcionalidades da arquitetura. Tendo isso em vista, fizemos os diagramas de classe e o diagrama de pacotes, tendo sido desenvolvidos para com os Frameworks [Django](https://www.djangoproject.com/) voltado para o Backend e o [React.js](https://pt-br.reactjs.org/) para o Frontend de nossa aplicação.
+<p>A visão lógica tem o objetivo de representar a visão conceitual do projeto por meio de camadas, para que possamos compreender a estrutura e a organização do design do sistema, descrevendo melhor os elementos comportamentais e funcionalidades da arquitetura. Essa é a visão arquitetural que contém as classes de design mais importantes, além de sua essencial organização em pacotes e subsistemas de camadas.</p>
+<p> Tendo isso em vista, elaboramos o diagrama de classe e o diagrama de pacote, tendo sido desenvolvidos para com os Frameworks [Django](https://www.djangoproject.com/) voltado para o Backend e o [React.js](https://pt-br.reactjs.org/) para o Frontend de nossa aplicação.</p>
 
 ### 2.1 Diagrama de Classes
 
@@ -138,6 +139,8 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 > Conceito: Visão da Implementação. Disponível em: https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/implementation_view_E373E3B6.html. Acesso em 30 de Março de 2022.
 
 > Lucidchart. Diagrama de componentes. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml. Acesso em 30 de Março de 2022.
+
+> Conceito: Visão Lógica. Disponível em: https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/logical_view_C135365E.html#:~:text=A%20vis%C3%A3o%20l%C3%B3gica%20mostra%20um,realiza%C3%A7%C3%B5es%20de%20caso%20de%20uso. Acesso em 30 de Março de 2022.
 
 ### Histórico de versão
 
