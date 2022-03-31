@@ -4,14 +4,15 @@
 
 ## 2. Visão Lógica
 
-<p>A visão lógica tem o objetivo de representar a visão conceitual do projeto por meio de camadas, para que possamos compreender a estrutura e a organização do design do sistema, descrevendo melhor os elementos comportamentais e funcionalidades da arquitetura. Essa é a visão arquitetural que contém as classes de design mais importantes, além de sua essencial organização em pacotes e subsistemas de camadas.</p>
-<p> Tendo isso em vista, elaboramos o diagrama de classe e o diagrama de pacote, tendo sido desenvolvidos para com os Frameworks [Django](https://www.djangoproject.com/) voltado para o Backend e o [React.js](https://pt-br.reactjs.org/) para o Frontend de nossa aplicação.</p>
+A visão lógica tem o objetivo de representar a visão conceitual do projeto por meio de camadas, para que possamos compreender a estrutura e a organização do design do sistema, descrevendo melhor os elementos comportamentais e funcionalidades da arquitetura. Essa é a visão arquitetural que contém as classes de design mais importantes, além de sua essencial organização em pacotes e subsistemas de camadas.
+
+Tendo isso em vista, elaboramos o diagrama de classe e o diagrama de pacotes, que foram desenvolvidos com uso do Framework [Django](https://www.djangoproject.com/) voltado para o Backend e a biblioteca [React.js](https://pt-br.reactjs.org/) para o Frontend de nossa aplicação.
 
 ### 2.1 Diagrama de Classes
 
-O [diagrama de classe](./pages/modelagem/diagramaDeClasses) é um dos principais [diagramas UML](https://www.lucidchart.com/pages/pt/o-que-e-uml) pois consegue mapear claramente a estrutura de nosso sistema apresentando suas classes, atributos, operações e relações entre os objetos.
+O [diagrama de classe](./pages/modelagem/diagramaDeClasses) é um dos principais [diagramas UML](https://www.lucidchart.com/pages/pt/o-que-e-uml), pois consegue mapear claramente a estrutura de nosso sistema apresentando suas classes, atributos, operações e relações entre os objetos.
 
-<p>Com o seu uso, somos capazes de entender melhor a visão geral do esquema de nossa aplicação e conseguimos expressar visualmente as necessidades específicas de nosso sistema. Além de sermos capazes de criar modelos de dados de nossos sistema e até mesmo gráficos detalhados para destacar alguma informação específica que seja necessária.</p>
+Com o seu uso, somos capazes de entender melhor a visão geral do esquema de nossa aplicação e conseguimos expressar visualmente as necessidades específicas de nosso sistema. Além de sermos capazes de criar modelos de dados de nossos sistema e até mesmo gráficos detalhados para destacar alguma informação específica que seja necessária.
 
 <p align='center'>
     <img src='assets/images/diagramasEstaticos/diagramaClasses/classDiagramV2.svg' width=80% height=auto>
@@ -21,11 +22,11 @@ O [diagrama de classe](./pages/modelagem/diagramaDeClasses) é um dos principais
     </figcaption>
 </p>
 
-### 2.2 Diagrana de Pacotes
+### 2.2 Diagrama de Pacotes
 
 Um [diagrama de pacotes](./pages/modelagem/diagramaPacotes) apresenta no formato de pastas ou pacotes, a organização e disposição de diferentes elementos de um modelo. Esses elementos que podem ser documentos, classes e até mesmo outros pacotes, são dispostos dentro dessas pastas de arquivos que são apresentados em nosso diagrama, que por fim é organizado e apresentado de forma hierárquica.
 
- <p> O diagrama de pacotes é capaz de fornecer uma visibilidade geral melhor sobre projetos e sistemas de grande escala. Pois oferece uma versão simplificada de diagramas de classes complexos, além de permitir que atualizações sejam feitas com facilidade com o decorrer do desenvolvimento do produto</p>
+O diagrama de pacotes é capaz de fornecer uma visibilidade geral melhor sobre projetos e sistemas de grande escala. Pois oferece uma versão simplificada de diagramas de classe complexos, além de permitir que atualizações sejam feitas com facilidade com o decorrer do desenvolvimento do produto
 
 #### 2.2.1 Backend
 
@@ -53,7 +54,7 @@ Por conseguinte, temos então o diagrama de pacotes voltado para o frontend de n
 
 #### 2.2.3 Sistema
 
-Por fim, temos a representação de nosso sistema completo, no qual é caracterizado pela conexão do frontend com o backend, nos quais utilizam o protocolo [HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP) para realizar trocas de dados por meio de suas requisições.
+Por fim, temos a representação de nosso sistema completo, no qual é caracterizado pela conexão do frontend com o backend, nos quais utilizam o [protocolo HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP) para realizar trocas de dados por meio de suas requisições.
 
 <p align='center'>
     <img src='assets/images/diagramasEstaticos/diagramapacotesgeral.png' height=auto>
@@ -65,8 +66,8 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
 
 ## 3. Visão de implementação
 
-<p>Para melhorar a compreensão física do processamento do sistema utilizamos a visão de implementação, no qual nos permite ilustrar e captar as decisões de arquitetura tomadas para a implementação. No qual, se aproveita do diagrama de componentes que apresenta os subsistemas e suas organizações em camadas de hierarquia.</p>
-<p>Além de que, a visão de implementação nos permite entender a quantidade de código que será produzida, discutir reutilizações no sistema, considerar estratégias para a release e até mesmo atribuir o trabalho de implementação ao indivíduos ou equipes.</p>
+Para melhorar a compreensão física do processamento do sistema utilizamos a visão de implementação, no qual nos permite ilustrar e captar as decisões de arquitetura tomadas para a implementação. No qual, se aproveita do [diagrama de componentes](./pages/modelagem/componentes) que apresenta os subsistemas e suas organizações em camadas de hierarquia.
+Além de que, a visão de implementação nos permite entender a quantidade de código que será produzida, discutir reutilizações no sistema, considerar estratégias para a release e até mesmo atribuir o trabalho de implementação ao indivíduos ou equipes.
 
 ### 3.1 Diagrama de Componentes
 
@@ -144,11 +145,12 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 
 ### Histórico de versão
 
-|    Data    | Versão |              Autor               |                          Descrição                           |
-| :--------: | :----: | :------------------------------: | :----------------------------------------------------------: |
-| 28/03/2022 |  0.1   |         Rodrigo Balbino          |                     Criação do documento                     |
-| 28/03/2022 |  0.2   | Guilherme Braz e Rodrigo Balbino |                   adição das visão logica                    |
-| 28/03/2022 |  0.3   | Guilherme Braz e Rodrigo Balbino |              adição das visão de implementação               |
-| 28/03/2022 |  0.4   | Guilherme Braz e Rodrigo Balbino |               adição do tópico sobre qualidade               |
-| 30/03/2022 |  0.5   |         Rodrigo Balbino          |      Adicionando referências e conteúdo da visão lógica      |
-| 30/03/2022 |  0.6   |         Rodrigo Balbino          | Adicionando referências e conteúdo da visão de implementação |
+|    Data    |  Versão  |              Autor               |                          Descrição                           |
+| :--------: | :------: | :------------------------------: | :----------------------------------------------------------: |
+| 28/03/2022 |   0.1    |         Rodrigo Balbino          |                     Criação do documento                     |
+| 28/03/2022 |   0.2    | Guilherme Braz e Rodrigo Balbino |                   adição das visão logica                    |
+| 28/03/2022 |   0.3    | Guilherme Braz e Rodrigo Balbino |              adição das visão de implementação               |
+| 28/03/2022 |   0.4    | Guilherme Braz e Rodrigo Balbino |               adição do tópico sobre qualidade               |
+| 30/03/2022 |   0.5    |         Rodrigo Balbino          |      Adicionando referências e conteúdo da visão lógica      |
+| 30/03/2022 |   0.6    |         Rodrigo Balbino          | Adicionando referências e conteúdo da visão de implementação |
+| 31/03/2022 |  0.6.1   |        Fernando e Antonio        |                    Revião parcial do documento               |
