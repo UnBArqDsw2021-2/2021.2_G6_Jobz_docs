@@ -66,8 +66,14 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
 
 ## 3. Visão de implementação
 
-A visão de implementacao tem o objetivo de representar de forma estática como o sistema será implementado. Tendo isso em vista, fizemos o diagrama de componentes para melhor detalhar as conexões entre os componentes e interfaces da arquitetura e a modelagem do banco de dados do sistema de em nossa aplicação.
+<p>Para melhorar a compreensão física do processamento do sistema utilizamos a visão de implementação, no qual nos permite ilustrar e captar as decisões de arquitetura tomadas para a implementação. No qual, se aproveita do diagrama de componentes que apresenta os subsistemas e suas organizações em camadas de hierarquia.</p>
+<p>Além de que, a visão de implementação nos permite entender a quantidade de código que será produzida, discutir reutilizações no sistema, considerar estratégias para a release e até mesmo atribuir o trabalho de implementação ao indivíduos ou equipes.</p>
 
+### 3.1 Diagrama de Componentes
+
+Um diagrama de componentes é considerado quase que indispensável para a criação de um sistema de software, existe até mesmo o chamado desenvolvimento baseado em componentes([CBD](https://www.techopedia.com/definition/31002/component-based-development-cbd)). Pois essa representação mostra com detalhes o relacionamento de diferentes módulos do sistema.
+
+<p>Mesmo que esse diagrama pareça complexo, ele é capaz de representar a estrutura física do sistema, dá atenção aos seus componentes e relacionamentos, além de destacar o comportamento do serviço em relação a interface.</p>
 <p align='center'>
     <img src='assets/images/Diagrama_Compomentes/Diagrama compomente.jpeg' width=100% height=auto>
     <figcaption align='center'>
@@ -131,12 +137,17 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 
 > Lucidchart. O que é um diagrama de classe UML?. Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml. Acesso em 30 de Março de 2022.
 
+> Conceito: Visão da Implementação. Disponível em: https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/implementation_view_E373E3B6.html. Acesso em 30 de Março de 2022.
+
+> Lucidchart. Diagrama de componentes. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml. Acesso em 30 de Março de 2022.
+
 ### Histórico de versão
 
-|    Data    | Versão |              Autor               |                  Descrição                   |
-| :--------: | :----: | :------------------------------: | :------------------------------------------: |
-| 29/01/2022 |  0.1   |           João Victor            |             Criação do documento             |
-| 28/03/2022 |  0.2   | Guilherme Braz e Rodrigo Balbino |           adição das visão logica            |
-| 28/03/2022 |  0.3   | Guilherme Braz e Rodrigo Balbino |      adição das visão de implementação       |
-| 28/03/2022 |  0.4   | Guilherme Braz e Rodrigo Balbino |       adição do tópico sobre qualidade       |
-| 30/03/2022 |  0.5   |         Rodrigo Balbino          | Adicionando referências e conteúdo na página |
+|    Data    | Versão |              Autor               |                          Descrição                           |
+| :--------: | :----: | :------------------------------: | :----------------------------------------------------------: |
+| 29/01/2022 |  0.1   |           João Victor            |                     Criação do documento                     |
+| 28/03/2022 |  0.2   | Guilherme Braz e Rodrigo Balbino |                   adição das visão logica                    |
+| 28/03/2022 |  0.3   | Guilherme Braz e Rodrigo Balbino |              adição das visão de implementação               |
+| 28/03/2022 |  0.4   | Guilherme Braz e Rodrigo Balbino |               adição do tópico sobre qualidade               |
+| 30/03/2022 |  0.5   |         Rodrigo Balbino          |      Adicionando referências e conteúdo da visão lógica      |
+| 30/03/2022 |  0.6   |         Rodrigo Balbino          | Adicionando referências e conteúdo da visão de implementação |
