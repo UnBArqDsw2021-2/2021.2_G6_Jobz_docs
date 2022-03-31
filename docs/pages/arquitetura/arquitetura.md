@@ -154,9 +154,7 @@ Para avaliar a qualidade de nosso projeto, decidimos utilizar a [ISO/IEC 9126](h
 
 ### 5.1 ISO/IEC 9126 in Software Engineering
 
-A [ISO/IEC 9126](https://jkolb.com.br/wp-content/uploads/2014/02/NBR-ISO_IEC-9126-1.pdf) é um padrão internacional de um modelo para medir de maneira mais sistemática e exata a qualidade de um software. Com isso
-| 31/03/2022 |  0.7.3   |    João Victor e Álvaro Gouvea   |                                   |
-usaremos ela como modelo para orientar nosso projeto de software com questão a qualidade do mesmo.
+A [ISO/IEC 9126](https://jkolb.com.br/wp-content/uploads/2014/02/NBR-ISO_IEC-9126-1.pdf) é um padrão internacional de um modelo para medir de maneira mais sistemática e exata a qualidade de um software. Com isso usaremos ela como modelo para orientar nosso projeto de software com questão a qualidade do mesmo.
 
 O padrão de qualidade pode ser dividido em 4 partes: 'Quality model', 'External Metrices', 'Internal Metrices' e 'Quality in use metrices'.
 As três primeiras partes estão preocupadas em descrever e medir a qualidade do produto de software enquanto que a quarta está preocupada com a qualidade do produto do ponto de vista do usuário.
@@ -170,7 +168,7 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 - **Usability** : esta relacionado a facilidade de uso do sistema e de sua velocidade de aprendizado. É subdividido em: training, learnability, communicativeness e usability compliance.
 
 - **Efficiency**: é um grupo de atributos que lida com o nível de performance do software de acordo com determinadas condições: Time Behaviorm Resource Utilization e Efficiency Compliance.
-https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/deployment_view_64CB74A6.html
+
 - **Maintainability**: é um grupo de a atributos que possuem a capacidade de fazer modificações específicas, eles são: Analyzability, Changeability, Stability, Testability e Maintainability Compliance.
 
 - **Portability**: um grupo de atributos que possui a habilidade de ser transferido de um ambiente de software para outro. É subdivido em adaptability, Installability, Co-existence, Replace ability e Portability Compliance.
@@ -200,7 +198,7 @@ https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/deployment_
 
 > Lucidchart. O que é um diagrama UML?. Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-uml. Acesso em 30 de Março de 2022.
 
-> Lucidchart. Tudo sobre diagramas de pacotes UML. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml#:~:text=Benef%C3%ADcios%20de%20um%20diagrama%20de%20pacotes&text=O%20diagrama%20fornece%20uma%20vis%C3%A3o,complexos%2C%20criando%20elementos%20visuais%20organizados. Acesso em 30 de Março de 2022.
+> Lucidchart. Tudo sobre diagramas de pacotes UML. Disponível em: https://bit.ly/3wSaRTE. Acesso em 30 de Março de 2022.
 
 > Lucidchart. O que é um diagrama de classe UML?. Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml. Acesso em 30 de Março de 2022.
 
@@ -208,7 +206,7 @@ https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/deployment_
 
 > Lucidchart. Diagrama de componentes. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml. Acesso em 30 de Março de 2022.
 
-> Conceito: Visão Lógica. Disponível em: https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/logical_view_C135365E.html#:~:text=A%20vis%C3%A3o%20l%C3%B3gica%20mostra%20um,realiza%C3%A7%C3%B5es%20de%20caso%20de%20uso. Acesso em 30 de Março de 2022.
+> Conceito: Visão Lógica. Disponível em: https://bit.ly/3uMHEa6. Acesso em 30 de Março de 2022.
 
 > Modelo de Implantação - Wiki - DTIC. Disponível em: https://dtic.tjpr.jus.br/wiki/-/wiki/Governan%C3%A7a-TIC/Modelo+de+Implanta%C3%A7%C3%A3o/pop_up?_36_version=1.0. Acesso em: 28/03/2022.
 
