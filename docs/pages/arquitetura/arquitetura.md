@@ -2,8 +2,6 @@
 
 <div align="justify">
 
-## 1. Introdução
-
 ## 2. Visão Lógica
 
 A visão lógica tem o objetivo de representar a visão conceitual do projeto por meio de camadas, descrevendo melhor os elementos comportamentais e funcionalidades da arquitetura. Tendo isso em vista, fizemos os diagramas de classe e o diagrama de pacotes, tendo sido desenvolvidos para com os Frameworks [Django](https://www.djangoproject.com/) voltado para o Backend e o [React.js](https://pt-br.reactjs.org/) para o Frontend de nossa aplicação.
@@ -84,7 +82,7 @@ Um diagrama de componentes é considerado quase que indispensável para a criaç
 
 ## 4. Qualidade
 
-Para avaliar a qualidade de nosso projeto, decidimos utilizar a ISO/IEC 9126. Essa ISO possui por objetivo padronizar a avaliação da qualidade de um software, possibilitando assim, que sejamos capazes de apresentar um produto final com qualidade, nos baseando em suas características e atributos.
+Para avaliar a qualidade de nosso projeto, decidimos utilizar a [ISO/IEC 9126](https://jkolb.com.br/wp-content/uploads/2014/02/NBR-ISO_IEC-9126-1.pdf). Essa ISO possui por objetivo padronizar a avaliação da qualidade de um software, possibilitando assim, que sejamos capazes de apresentar um produto final com qualidade, nos baseando em suas características e atributos.
 
 ### 4.1 ISO/IEC 9126 in Software Engineering
 
@@ -145,7 +143,7 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 
 |    Data    | Versão |              Autor               |                          Descrição                           |
 | :--------: | :----: | :------------------------------: | :----------------------------------------------------------: |
-| 29/01/2022 |  0.1   |           João Victor            |                     Criação do documento                     |
+| 28/03/2022 |  0.1   |         Rodrigo Balbino          |                     Criação do documento                     |
 | 28/03/2022 |  0.2   | Guilherme Braz e Rodrigo Balbino |                   adição das visão logica                    |
 | 28/03/2022 |  0.3   | Guilherme Braz e Rodrigo Balbino |              adição das visão de implementação               |
 | 28/03/2022 |  0.4   | Guilherme Braz e Rodrigo Balbino |               adição do tópico sobre qualidade               |
