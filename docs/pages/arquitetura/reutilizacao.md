@@ -36,7 +36,7 @@ Visando criar configurações para as conexões HTTP necessárias, a biblioteca 
 
 
 <p align='center'>
-    <img src='assets/images/reutilizaçãoSoftware/axios.png' width=70% height=auto>
+    <img src='assets/images/reutilizacao/axios.png' width=70% height=auto>
     <figcaption align='center'>
         <b>Figura 2: Trecho de código demonstrando a utilização da biblioteca Axios.</b>
         <br>
@@ -55,7 +55,7 @@ Nas figuras abaixo apresentamos com é a utilização no projeto:
 
 
 <p align='center'>
-    <img src='assets/images/reutilizaçãoSoftware/dockerNode.png' width=70% height=auto>
+    <img src='assets/images/reutilizacao/dockerNode.png' width=70% height=auto>
     <figcaption align='center'>
         <b>Figura 3: Código demonstrando da utilização da imagem do node</b>
         <br>
@@ -64,7 +64,7 @@ Nas figuras abaixo apresentamos com é a utilização no projeto:
 
 
 <p align='center'>
-    <img src='assets/images/reutilizaçãoSoftware/dockerPython.png' width=70% height=auto>
+    <img src='assets/images/reutilizacao/dockerPython.png' width=70% height=auto>
     <figcaption align='center'>
         <b>Figura 4: Código demonstrando da utilização da imagem do python</b>
         <br>
@@ -77,7 +77,7 @@ Além do reaproveitamento de imagem dentro do **Dockerfile** acontece também de
 
 
 <p align='center'>
-    <img src='assets/images/reutilizaçãoSoftware/dockerPostgres.png' width=70% height=auto>
+    <img src='assets/images/reutilizacao/dockerPostgres.png' width=70% height=auto>
     <figcaption align='center'>
         <b>Figura 5: Trecho de código demonstrando da utilização da imagem do postgres</b>
         <br>
@@ -90,8 +90,11 @@ Além do reaproveitamento de imagem dentro do **Dockerfile** acontece também de
 ## 3. Referências
 
 > REACT. React. Disponível em: https://pt-br.reactjs.org/. Acesso em: 26 de mar. de 2022.
+
 > AXIOS. Introdução. Disponível em: https://axios-http.com/ptbr/docs/intro. Acesso em: 26 de mar. de 2022.
+
 > DOCKER HUB. Docker.  Disponível em: https://www.docker.com/products/docker-hub/. Acesso em: 26 de mar. de 2022.
+
 > DOCKER. Docker. Disponível em: https://www.docker.com/. Acesso em: 26 de mar. de 2022.
 </div>
 
