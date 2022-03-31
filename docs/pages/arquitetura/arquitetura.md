@@ -66,11 +66,69 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
 
 ## 3. Visão de Processos
 
-Essa visão corresponde representa diferentes processos, suas responsabilidades, colaborações e como elas interagem entre si. É uma visão de modelo de projeto que pode ser representada utilizando objetos e mensagens trocadas, representados em classes e diagramas de interação usando a notação de processo.
+Essa visão corresponde a diferentes processos, suas responsabilidades, colaborações e como elas interagem entre si. É uma visão de modelo de projeto que pode ser representada utilizando objetos e mensagens trocadas, representados em classes e diagramas de interação usando a notação de processo.
 
-Para o nosso projeto temos os diagramas de [sequência](./pages/modelagem/diagramaSequencia.md), [atividades](./pages/modelagem/diagramaAtividades.md) e [comunicação](./pages/modelagem/diagrama-comunicacao.md) que trazem um detalhamento sobre essa visão.
+Para o nosso projeto temos os diagramas de [sequência](./pages/modelagem/diagramaSequencia.md), [atividades](./pages/modelagem/diagramaAtividades.md) e [comunicação](./pages/modelagem/diagrama-comunicacao.md) que trazem um detalhamento sobre essa visão e podem ser visualizados nas imagens a seguir:
 
+### 3.1 Diagrama de Sequência
 
+O diagrama de sequência da contratação de serviços, que é o principal processo da nossa aplicação.
+
+<p align='center'>
+    <img src='assets/images/diagramaSequencia/sequenceDiagramHiring.png' width=100% height=auto>
+    <figcaption align='center'>
+        <b>Figura 5: Diagrama de Sequência da Contratação de Serviços</b>
+        <br>
+    </figcaption>
+</p>
+
+### 3.2 Diagramas de Atividades
+
+O diagrama de atividades descreve as etapas que ocorrem quando um determinado cenário é iniciado, até que este cenário seja encerrado, ajudando a compreensão do processo que será executado. Temos então o detalhamento dos fluxos de login, perfil do cliente e perfil do prestador de serviço.
+
+<p align='center'>
+    <img src='assets/images/diagramaAtividades/diagramaLogin.png' width=40% height=auto>
+    <figcaption align='center'>
+        <b>Figura 6 - Diagrama de Atividades representando o login. </b>
+        <br>
+    </figcaption>
+</p>
+
+<p align='center'>
+    <img src='assets/images/diagramaAtividades/diagramaCliente.png' width=40% height=auto>
+    <figcaption align='center'>
+        <b>Figura 7 - Diagrama de Atividades representando o perfil de cliente.</b>
+        <br>
+    </figcaption>
+</p>
+
+<p align='center'>
+    <img src='assets/images/diagramaAtividades/diagramaPrestador.png' width=40% height=auto>
+    <figcaption align='center'>
+        <b>Figura 8 - Diagrama de Atividades representando o perfil de prestador de serviço.</b>
+        <br>
+    </figcaption>
+</p>
+
+### 3.3 Diagramas de Comunicação
+
+O diagrama de comunicação demonstra o comportamento dinâmico de um sistema ou software, entendendo a interligação e a comunicação entre as partes de um sistema completo.
+
+<p align='center'>
+    <img src='assets/images/diagrama-comunicacao/collaborator.png' width=auto height=auto>
+    <figcaption align='center'>
+        <b>Figura 9: Diagrama de comunicação da criação do serviço</b>
+        <br>
+    </figcaption>
+</p>
+
+<p align='center'>
+    <img src='assets/images/diagrama-comunicacao/comunicacao-criacao-cliente.png' width=auto height=auto>
+    <figcaption align='center'>
+        <b>Figura 10: Diagrama de comunicação da contratação do serviço</b>
+        <br>
+    </figcaption>
+</p>
 
 ## 4. Visão de implementação
 
@@ -85,7 +143,7 @@ Um diagrama de componentes é considerado quase que indispensável para a criaç
 <p align='center'>
     <img src='assets/images/Diagrama_Compomentes/Diagrama compomente.jpeg' width=100% height=auto>
     <figcaption align='center'>
-        <b>Figura 5: Diagrama de Componentes</b>
+        <b>Figura 11: Diagrama de Componentes</b>
         <br>
     </figcaption>
 </p>
@@ -168,4 +226,5 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 | 30/03/2022 |   0.6    |         Rodrigo Balbino          | Adicionando referências e conteúdo da visão de implementação |
 | 30/03/2022 |  0.7   | João Victor e Álvaro Gouvea | Adição do tópico visão de Processos |
 | 31/03/2022 |  0.7.1   | João Victor e Álvaro Gouvea | Adição de mais uma referência |
-| 31/03/2022 |  0.7.2   |        Fernando e Antonio        |                    Revião parcial do documento               |
+| 31/03/2022 |  0.7.2   |        Fernando e Antonio   |      Revião parcial do documento        |
+| 31/03/2022 |  0.7.3   | João Victor e Álvaro Gouvea | Adição das imagens dos diagramas no tópico Visão de Processos              |
