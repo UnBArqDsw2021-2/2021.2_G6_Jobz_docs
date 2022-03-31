@@ -67,7 +67,6 @@
     - [Discussão Padrões de Projeto](./pages/Padroes_projeto/extras/reuniao_padroes_projeto.md)
 
 - **Arquitetura de Software e Reutilização**
-
   - [Arquitetura de Software](./pages/arquitetura/arquitetura.md)
 
 - **Apresentações**
@@ -111,10 +110,3 @@
   - Sprint 12
     - [Planejamento](./pages/sprints/sprint12/sprint_planning.md)
     - [Resultados](./pages/sprints/sprint12/sprint_review.md) -->
-
-<!-- - **Arquitetura de Software & Reutilização**
-
-  - [Documento de Arquitetura](./pages/base/planoRisco.md)
-  - [Reutilização de Software](./pages/base/planoRisco.md)
-  - Iniciativa Extras
-    - [EXTRA](./pages/base/planoRisco.md) -->
