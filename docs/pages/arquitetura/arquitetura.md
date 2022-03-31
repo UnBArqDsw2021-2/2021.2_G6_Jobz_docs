@@ -6,7 +6,7 @@
 
 ## 2. Visão de Implantação
 
-O Jobz é uma aplicação web que segue o modelo de camadas, onde temos as camadas do frontend, backend e a base da dados. A figura 1 abaixo é o diagrama de implantação com representações dessas camadas juntamente com a camada do usuário que tem acesso apenas a interface do frontend. O usuário acessa por meio de um web browser nossa aplicação e o frontend realiza requisições ao backend, que por sua vez realiza os serviços solicitados, armazenado e buscando os dados necessários na base de dados.
+O Jobz é uma aplicação web que segue o modelo de camadas, onde temos as camadas do frontend, backend e a base da dados. A figura 1 abaixo é o diagrama de implantação com representações dessas camadas juntamente com a camada do usuário que tem acesso apenas a interface do frontend. O usuário acessa nossa aplicação por meio de um web browser, e o frontend realiza requisições ao backend, que por sua vez realiza os serviços solicitados, armazenado e buscando os dados necessários na base de dados.
 
 <p align='center'>
     <img src='assets/images/diagrama_implantacao/diagrama_implantacao.png' width=100% height=auto>
