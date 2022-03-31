@@ -70,6 +70,7 @@
 
   - [Documento de Arquitetura](./pages/arquitetura/documentoArquitetura.md)
   - [Reutilização de Software](./pages/base/planoRisco.md)
+  - [Arquitetura de Software](./pages/arquitetura/arquitetura.md)
   - Iniciativa Extras
     - [EXTRA](./pages/base/planoRisco.md)
 
