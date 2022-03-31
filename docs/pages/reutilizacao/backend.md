@@ -9,9 +9,9 @@ O desenvolvimento de um software é um processo que demanda bastante tempo e esf
 
 ## 2. Django
 
-O Django é utilizado para construção de aplicações web utilizando o padrão model-template-view, e já oferece um padrões de projeto com Alta Coesão e Baixo Acoplamento, organizando os métodos de forma bem definida e com suas respectivas responsabilidades. Desta forma, isso aumenta a qualidade do código e facilita sua reutilização.
+O **Django** é utilizado para construção de aplicações web utilizando o padrão *model-template-view* (MTV) que mantém o código bem organizado em suas devidas camadas, e já oferece os padrões de projeto Alta Coesão e Baixo Acoplamento, organizando os métodos de forma bem definida e com suas respectivas responsabilidades. Desta forma, isso aumenta a qualidade do código e facilita sua reutilização. Além disso, sua principal convenção é o *Don't Repeat Yourself* (DRY), que em tradução livre significa *Não Seja Repetitivo*, visando aproveitar ao máximo o código criado, evitando duplicação e auxiliando em sua reutilização.
 
-Já o Django Rest Framework é uma poderosa ferramenta para construção de API's, além de possuir um sistema de autenticação e serialização de dados. É de fácil reuso, pois os serviços fornecidos podem ser facilmente consumidos tanto por interfaces web quanto mobile
+Já o **Django Rest Framework** é uma poderosa ferramenta para construção de API's, além de possuir um sistema de autenticação e serialização de dados. É de fácil reuso, pois os serviços fornecidos podem ser facilmente consumidos tanto por interfaces web quanto mobile.
 
 <p align='center'>
     <img src='assets/images/reutilizacao/backend/django.png' width=25% height=auto>
