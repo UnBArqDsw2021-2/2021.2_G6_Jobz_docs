@@ -6,7 +6,7 @@
 
 ## 2. Visão de Casos de Uso
 
-A visão de casos de uso é uma representação visual mais aproximada do usuário, descrevendo as relações das funcionalidades do sistema esperadas pelo cliente. Essas relações podem ser observadas na figura abaixo, para mais detalhes no documento [diagrama de casos de uso](../modelagem/casosUso.md):
+A visão de casos de uso é uma representação visual mais aproximada do usuário, descrevendo as relações das funcionalidades do sistema esperadas pelo cliente. Essas relações podem ser observadas na figura abaixo:
 
 
 <p align='center'>
@@ -16,6 +16,8 @@ A visão de casos de uso é uma representação visual mais aproximada do usuár
         <br>
     </figcaption>
 </p>
+
+Caso deseje, acesse o documento de [diagrama de casos de uso](../modelagem/casosUso.md) para ter uma visão mais completa sobre a utilização desse diagrama em nosso projeto.
 
 ## 3. Referências
 
