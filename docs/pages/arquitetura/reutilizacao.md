@@ -71,6 +71,7 @@ Nas figuras abaixo apresentamos com é a utilização no projeto:
     </figcaption>
 </p>
 
+#### 2.3.2 Docker compose
 
 Além do reaproveitamento de imagem dentro do **Dockerfile** acontece também dentro do [docker-compose](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd/blob/master/docker-compose.yml) para a construção do continer do banco de dados, que utiliza a imagem do [postgres](https://hub.docker.com/_/postgres), como pode ser visto no trecho de código apresentado abaixo.
 
@@ -83,7 +84,6 @@ Além do reaproveitamento de imagem dentro do **Dockerfile** acontece também de
     </figcaption>
 </p>
 
-#### 2.3.2 Docker compose
 
 
 
