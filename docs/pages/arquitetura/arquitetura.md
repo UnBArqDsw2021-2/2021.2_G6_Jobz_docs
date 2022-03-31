@@ -150,19 +150,19 @@ Um diagrama de componentes é considerado quase que indispensável para a criaç
 
 ## 5. Visão de Casos de Uso
 
-A visão de casos de uso é uma representação visual mais aproximada do usuário, descrevendo as relações das funcionalidades do sistema esperadas pelo cliente. Essas relações podem ser observadas na figura abaixo:
+A visão de casos de uso é uma representação visual mais aproximada do usuário, descrevendo as relações das funcionalidades do sistema esperadas pelo cliente. Essas relações podem ser observadas no documento de [diagrama de casos de uso](./pages/modelagem/casosUso.md) que apresenta uma visão mais completa sobre a utilização desse diagrama em nosso projeto.
 
 ### 5.1 Casos de uso
 
 <p align='center'>
     <img src='assets/images/CasosUso/CasosUsoJOBZ2.png' width=80% height=auto>
     <figcaption align='center'>
-        <b>Figura 12: Diagrama de Casos de Uso. </b> 
+        <b>Figura 12: Diagrama de Casos de Uso. </b>
         <br>
     </figcaption>
 </p>
 
-Caso deseje, acesse o documento de [diagrama de casos de uso](../modelagem/casosUso.md) para ter uma visão mais completa sobre a utilização desse diagrama em nosso projeto.
+
 
 
 ## 6. Qualidade
@@ -246,4 +246,5 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 | 31/03/2022 |  0.8.3   | João Victor e Álvaro Gouvea | Adição das imagens dos diagramas no tópico Visão de Processos              |
 | 31/03/2022 |  0.9   | Fernando e Antonio |  Revisão da Visão de processos |
 | 31/03/2022 |  0.9.1   | João Victor e Álvaro Gouvea | Alteração na formatação de frase |
+| 31/03/2022 |  0.9.2  | Fernando e Antonio |  Revisão da Visão de Casos de Uso |
 
