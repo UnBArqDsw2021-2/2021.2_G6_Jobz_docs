@@ -16,6 +16,12 @@ Neste documento iremos abordar os seguintes **GoFs Criacionais** que foram adota
   - [Factory](./pages/Padroes_projeto/gof/criacionais.md#_2-Factory)
   - [Singleton](./pages/Padroes_projeto/gof/criacionais.md#_4-Singleton)
 
+## 2. Discussão preeliminar
+
+Para ajudar a tomar as decisões sobre os padrões de projetos foi feita uma reunião para discutir sobre as vantagens e desvantagens de cada padrão.
+
+Essa discussão pode ser encontrada [aqui](../extras/reuniao_padroes_projeto.md).
+
 
 ## 2. Factory
 
@@ -191,3 +197,4 @@ export default Button
 | 20/03/2022 |  0.4   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Adicionado o conteudo correspondente ao padrão singleton. |
 | 20/03/2022 |  1.0   | Antônio Aldísio <br> Fernando Miranda <br> João Victor | Adicionado exemplo de código do padrão singleton. |
 | 21/03/2022 |  1.1   | Pedro Henrique <br> Ariel Serafim | Revisão do documento |
+| 21/03/2022 |  1.0   | João Victor e Fernando |                        Adição da discussão preeliminar                |

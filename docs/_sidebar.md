@@ -56,7 +56,6 @@
 
   - [GRASPs](./pages/Padroes_projeto/GRASP/GRASPs.md)
   - GOFs
-
     - [Criacionais](./pages/Padroes_projeto/gof/criacionais.md)
     - [Estruturais](./pages/Padroes_projeto/gof/gof_estrutural.md)
     - [Comportamentais](./pages/Padroes_projeto/gof/comportamentais.md)
@@ -78,6 +77,7 @@
   - [Base](./pages/Apresentacoes/base.md)
   - [Modelagem](./pages/Apresentacoes/modelagem.md)
   - [Padrões de Projetos](./pages/Apresentacoes/padroes_projetos.md)
+
 - **Sprints**
   - Sprint 1
     - [Planejamento](./pages/sprints/sprint1/sprint_planning.md)
@@ -96,13 +96,13 @@
     - [Resultados](./pages/sprints/sprint5/sprint_review.md)
   - Sprint 6
     - [Planejamento](./pages/sprints/sprint6/sprint_planning.md)
-    <!-- - [Resultados](./pages/sprints/sprint6/sprint_review.md)
+    - [Resultados](./pages/sprints/sprint6/sprint_review.md)
   - Sprint 7
     - [Planejamento](./pages/sprints/sprint7/sprint_planning.md)
     - [Resultados](./pages/sprints/sprint7/sprint_review.md)
   - Sprint 8
     - [Planejamento](./pages/sprints/sprint8/sprint_planning.md)
-    - [Resultados](./pages/sprints/sprint8/sprint_review.md)
+    <!-- - [Resultados](./pages/sprints/sprint8/sprint_review.md)
   - Sprint 9
     - [Planejamento](./pages/sprints/sprint9/sprint_planning.md)
     - [Resultados](./pages/sprints/sprint9/sprint_review.md)
@@ -115,10 +115,3 @@
   - Sprint 12
     - [Planejamento](./pages/sprints/sprint12/sprint_planning.md)
     - [Resultados](./pages/sprints/sprint12/sprint_review.md) -->
-
-<!-- - **Arquitetura de Software & Reutilização**
-
-  - [Documento de Arquitetura](./pages/base/planoRisco.md)
-  - [Reutilização de Software](./pages/base/planoRisco.md)
-  - Iniciativa Extras
-    - [EXTRA](./pages/base/planoRisco.md) -->
