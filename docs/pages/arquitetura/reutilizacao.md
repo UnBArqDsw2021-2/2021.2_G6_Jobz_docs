@@ -43,10 +43,10 @@ Visando criar configurações para as conexões HTTP necessárias, a biblioteca 
 
 Com a intenção de isolar os ambientes criados para a aplicação, a equipe decidiu se utilizar da ferramenta [Docker](https://www.docker.com/), que possibilita o empacotamento da aplicação ou ambiente dentro de um container, facilitando o acesso para qualquer outro usuário.
 
-Para o desenvolvimento do [Dockerfile do backend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd/blob/master/Dockerfile) e do [Dockerfile do frontend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd/blob/master/Dockerfile) reutilizamos imagens já disponibilizadas no [Docker Hub](https://hub.docker.com/), o docker Hub é o maior repositório de imagens de contêiner do mundo com uma variedade de fontes de conteúdo, incluindo desenvolvedores da comunidade de container, projetos de código aberto e fornecedores independentes de software (ISV) construindo e distribuindo seu código em container.
+Para o desenvolvimento do [Dockerfile do backend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd/blob/master/Dockerfile) e do [Dockerfile do frontend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd/blob/master/Dockerfile) reutilizamos imagens já disponibilizadas no [Docker Hub](https://hub.docker.com/), o docker Hub é o maior repositório de imagens de container do mundo com uma variedade de fontes de conteúdo, incluindo desenvolvedores da comunidade de container, projetos de código aberto e fornecedores independentes de software (ISV) construindo e distribuindo seu código em container.
 
 Na elaboração do projeto foram usadas as imagens do [python](https://hub.docker.com/_/python) e [node](https://hub.docker.com/_/node) para o backend e frontend, respectivamente.
-Nas figuras abaixo apresentamos com é a utilização no projeto:
+Nas figuras abaixo apresentamos como é a utilização no projeto:
 
 
 <p align='center'>
@@ -68,7 +68,7 @@ Nas figuras abaixo apresentamos com é a utilização no projeto:
 
 #### 2.3.2 Docker compose
 
-Além do reaproveitamento de imagem dentro do **Dockerfile** acontece também dentro do [docker-compose](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd/blob/master/docker-compose.yml) para a construção do continer do banco de dados, que utiliza a imagem do [postgres](https://hub.docker.com/_/postgres), como pode ser visto no trecho de código apresentado abaixo.
+Além do reaproveitamento de imagem dentro do **Dockerfile**, acontece também dentro do [docker-compose](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd/blob/master/docker-compose.yml) para a construção do container do banco de dados, que utiliza a imagem do [postgres](https://hub.docker.com/_/postgres), como pode ser visto no trecho de código apresentado abaixo.
 
 
 <p align='center'>
@@ -103,3 +103,4 @@ Além do reaproveitamento de imagem dentro do **Dockerfile** acontece também de
 | 26/03/2022 |  0.3   | Fernando e Antonio | Reutilização no Docker   |
 | 26/03/2022 |  0.3.1  | Fernando e Antonio | Correções no Documento   |
 | 31/03/2022 |  0.4   | Rodrigo Balbino, Guilherme Braz e João Victor |    Revisão do tópico Reutilização no Frontend      |
+| 31/03/2022 |  0.4.1   | João Victor, Álvaro e Luis Fernando |    Revisão do tópico Reutilização no Docker      |
