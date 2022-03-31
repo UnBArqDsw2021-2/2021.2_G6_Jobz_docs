@@ -29,4 +29,5 @@ Caso deseje, acesse o documento de [diagrama de casos de uso](../modelagem/casos
 
 |    Data    | Versão |    Autor    |      Descrição       |
 | :--------: | :----: | :---------: | :------------------: |
-| 30/03/2022 |  0.1   | João Victor e Álvaro | Adição do tópico visão de Casos de Uso |
+| 30/03/2022 |  0.1   | João Victor e Álvaro Gouvea | Adição do tópico visão de Casos de Uso |
+| 31/03/2022 |  0.2   | João Victor e Álvaro Gouvea | Alteração na formtação de frase |
