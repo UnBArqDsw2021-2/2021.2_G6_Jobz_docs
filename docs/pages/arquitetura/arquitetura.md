@@ -25,4 +25,5 @@ O Jobz é uma aplicação web que segue o modelo de camadas, onde temos as camad
 
 |    Data    | Versão |    Autor    |      Descrição       |
 | :--------: | :----: | :---------: | :------------------: |
-| 28/03/2022 |  0.1   | João Victor e Álvaro | Adição do tópico visão de Implantação |
+| 28/03/2022 |  0.1   | João Victor e Álvaro Gouvea| Adição do tópico visão de Implantação |
+| 31/03/2022 |  0.2   | João Victor e Álvaro Gouvea | Alteração na elaboração de frase |
