@@ -22,3 +22,4 @@ Para o nosso projeto temos os diagramas de [sequência](./pages/modelagem/diagra
 |    Data    | Versão |    Autor    |      Descrição       |
 | :--------: | :----: | :---------: | :------------------: |
 | 30/03/2022 |  0.1   | João Victor e Álvaro Gouvea | Adição do tópico visão de Processos |
+| 31/03/2022 |  0.2   | João Victor e Álvaro Gouvea | Adição de mais uma referência |
