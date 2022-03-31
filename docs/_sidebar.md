@@ -66,6 +66,14 @@
     - [Correções](./pages/Padroes_projeto/extras/correcoes.md)
     - [Discussão Padrões de Projeto](./pages/Padroes_projeto/extras/reuniao_padroes_projeto.md)
 
+- **Arquitetura de Software & Reutilização**
+  - **Módulo Estilos e Padrões Arquiteturais**
+    - [Arquitetura de Software](./pages/arquitetura/arquitetura.md)
+  - **Módulo de Reutilização de Software**
+    - [Reutilização de Software](./pages/arquitetura/reutilizacao.md)
+  - **Iniciativa Extras**
+    - [EXTRA](./pages/base/planoRisco.md)
+
 - **Apresentações**
   - [Base](./pages/Apresentacoes/base.md)
   - [Modelagem](./pages/Apresentacoes/modelagem.md)
@@ -107,10 +115,3 @@
   - Sprint 12
     - [Planejamento](./pages/sprints/sprint12/sprint_planning.md)
     - [Resultados](./pages/sprints/sprint12/sprint_review.md) -->
-
-<!-- - **Arquitetura de Software & Reutilização**
-
-  - [Documento de Arquitetura](./pages/base/planoRisco.md)
-  - [Reutilização de Software](./pages/base/planoRisco.md)
-  - Iniciativa Extras
-    - [EXTRA](./pages/base/planoRisco.md) -->
