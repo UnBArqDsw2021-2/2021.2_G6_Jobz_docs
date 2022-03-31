@@ -99,7 +99,7 @@ Além do reaproveitamento de imagem dentro do **Dockerfile** acontece também de
 | :--------: | :----: | :-------------------------------------------: | :----------------------: |
 | 26/03/2022 |  0.1   |              Fernando e Antonio               | Reutilização no FrontEnd |
 | 26/03/2022 | 0.1.1  |              Fernando e Antonio               |    Correção de links     |
-| 31/03/2022 |  0.2   | Rodrigo Balbino, Guilherme Braz e João Victor |    Revisão do tópico Reutilização no Frontend      |
-| 26/03/2022 |  0.3   | Fernando e Antonio | Correção de links        |
-| 26/03/2022 |  0.4   | Fernando e Antonio | Reutilização no Docker   |
-| 26/03/2022 |  0.5  | Fernando e Antonio | Correções no Documento   |
+| 26/03/2022 |  0.2   | Fernando e Antonio | Correção de links        |
+| 26/03/2022 |  0.3   | Fernando e Antonio | Reutilização no Docker   |
+| 26/03/2022 |  0.3.1  | Fernando e Antonio | Correções no Documento   |
+| 31/03/2022 |  0.4   | Rodrigo Balbino, Guilherme Braz e João Victor |    Revisão do tópico Reutilização no Frontend      |
