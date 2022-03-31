@@ -38,7 +38,49 @@ Visando criar configurações para as conexões HTTP necessárias, a biblioteca 
     </figcaption>
 </p>
 
+
 ### 2.3 Reutilização no Docker
+
+Com a intenção de isolar os ambientes criados para a aplicação, a equipe decidiu se utilizar da ferramenta [Docker](https://www.docker.com/), que possibilita o empacotamento da aplicação ou ambiente dentro de um container, facilitando o acesso para qualquer outro usuário.
+
+Para o desenvolvimento do [Dockerfile do backend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd/blob/master/Dockerfile) e do [Dockerfile do frontend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd/blob/master/Dockerfile) reutilizamos imagens já disponibilizadas no [Docker Hub](https://hub.docker.com/), o docker Hub é o maior repositório de imagens de container do mundo com uma variedade de fontes de conteúdo, incluindo desenvolvedores da comunidade de container, projetos de código aberto e fornecedores independentes de software (ISV) construindo e distribuindo seu código em container.
+
+Na elaboração do projeto foram usadas as imagens do [python](https://hub.docker.com/_/python) e [node](https://hub.docker.com/_/node) para o backend e frontend, respectivamente.
+Nas figuras abaixo apresentamos como é a utilização no projeto:
+
+
+<p align='center'>
+    <img src='assets/images/reutilizacao/dockerNode.png' width=70% height=auto>
+    <figcaption align='center'>
+        <b>Figura 3: Código demonstrando da utilização da imagem do node</b>
+        <br>
+    </figcaption>
+</p>
+
+
+<p align='center'>
+    <img src='assets/images/reutilizacao/dockerPython.png' width=70% height=auto>
+    <figcaption align='center'>
+        <b>Figura 4: Código demonstrando da utilização da imagem do python</b>
+        <br>
+    </figcaption>
+</p>
+
+#### 2.3.2 Docker compose
+
+Além do reaproveitamento de imagem dentro do **Dockerfile**, acontece também dentro do [docker-compose](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd/blob/master/docker-compose.yml) para a construção do container do banco de dados, que utiliza a imagem do [postgres](https://hub.docker.com/_/postgres), como pode ser visto no trecho de código apresentado abaixo.
+
+
+<p align='center'>
+    <img src='assets/images/reutilizacao/dockerPostgres.png' width=70% height=auto>
+    <figcaption align='center'>
+        <b>Figura 5: Trecho de código demonstrando da utilização da imagem do postgres</b>
+        <br>
+    </figcaption>
+</p>
+
+
+
 
 ## 3. Referências
 
@@ -46,6 +88,9 @@ Visando criar configurações para as conexões HTTP necessárias, a biblioteca 
 
 > AXIOS. Introdução. Disponível em: https://axios-http.com/ptbr/docs/intro. Acesso em: 26 de mar. de 2022.
 
+> DOCKER HUB. Docker.  Disponível em: https://www.docker.com/products/docker-hub/. Acesso em: 26 de mar. de 2022.
+
+> DOCKER. Docker. Disponível em: https://www.docker.com/. Acesso em: 26 de mar. de 2022.
 </div>
 
 ### Histórico de versão
@@ -54,4 +99,8 @@ Visando criar configurações para as conexões HTTP necessárias, a biblioteca 
 | :--------: | :----: | :-------------------------------------------: | :----------------------: |
 | 26/03/2022 |  0.1   |              Fernando e Antonio               | Reutilização no FrontEnd |
 | 26/03/2022 | 0.1.1  |              Fernando e Antonio               |    Correção de links     |
-| 31/03/2022 |  0.2   | Rodrigo Balbino, Guilherme Braz e João Victor |    Revisão do tópico Reutilização no Frontend      |
+| 26/03/2022 |  0.2   | Fernando e Antonio | Correção de links        |
+| 26/03/2022 |  0.3   | Fernando e Antonio | Reutilização no Docker   |
+| 26/03/2022 |  0.3.1  | Fernando e Antonio | Correções no Documento   |
+| 31/03/2022 |  0.4   | Rodrigo Balbino, Guilherme Braz e João Victor |    Revisão do tópico Reutilização no Frontend      |
+| 31/03/2022 |  0.4.1   | João Victor, Álvaro e Luis Fernando |    Revisão do tópico Reutilização no Docker      |
