@@ -36,7 +36,7 @@ Visando criar configurações para as conexões HTTP necessárias, a biblioteca 
 
 
 <p align='center'>
-    <img src='assets/images/reutilizaçãoSoftware/axios.png' width=70% height=auto>
+    <img src='assets/images/reutilizacao/axios.png' width=70% height=auto>
     <figcaption align='center'>
         <b>Figura 2: Trecho de código demonstrando a utilização da biblioteca Axios.</b>
         <br>
