@@ -14,8 +14,18 @@ O **ReactJS** é uma biblioteca da linguagem JavaScript que utiliza certos padr�
 ### 2.3. Banco de Dados
 O **PostgreSQL** é um Sistema Gerenciador de Banco de Dados (SGBD) Relacional, utilizado para armazenar informações de soluções de informática em todas as áreas de negócios existentes (Milani, André. PostgreSQL: Guia do Programador. Novatec. 2008).
 
-## 3. Métricas e Restrições Arquiteturais
-### 3.1. Métricas
+
+
+## 3. Metas e Restrições Arquiteturais
+
+### 3.1. Metas
+
+#### 3.1.2 Portabilidade
+#### 3.1.1 Escalabilidade
+#### 3.1.2 Segurança
+#### 3.1.3 Usabilidade
+
+
 ### 3.2. Restrições
 
 |Restrições||
