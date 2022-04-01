@@ -23,7 +23,9 @@ O **PostgreSQL** é um Sistema Gerenciador de Banco de Dados (SGBD) Relacional, 
 #### 3.1.2 Portabilidade
 #### 3.1.1 Escalabilidade
 #### 3.1.2 Segurança
+
 #### 3.1.3 Usabilidade
+O sistema deverá ter a capacidade em fazer com que o usuário tenha sucesso na execução de suas tarefas de maneira simples.
 
 
 ### 3.2. Restrições
