@@ -164,5 +164,6 @@ Entidade: **SCHEDULE**
 |    Data    | Versão |          Autor(es)               |                Descrição                        |
 | :--------: | :----: | :------------------------------: | :---------------------------------------------: |
 | 27/03/2022 |  0.1   | Lorrayne Cardozo e Ariel Serafim | Criação do tópico de representação arquitetural. |
-| 28/03/2022 | 0.2    | Pedro Campos e Luis Araujo       | Criação do tópico Métricas e Restrições Arquiteturais.|
-| 28/03/2022 | 0.3    | Pedro Campos e Luis Araujo       | Criação do tópico Visão de dados. |
+| 28/03/2022 |  0.2    | Pedro Campos e Luis Araujo       | Criação do tópico Métricas e Restrições Arquiteturais.|
+| 28/03/2022 |  0.3    | Pedro Campos e Luis Araujo       | Criação do tópico Visão de dados. |
+| 28/03/2022 |  0.4    | Luis Araujo e Pedro Campos      | Criação dos subtópicos de Metas arquiteturais |
