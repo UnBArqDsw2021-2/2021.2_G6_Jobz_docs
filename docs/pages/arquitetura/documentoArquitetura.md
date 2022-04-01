@@ -27,7 +27,7 @@ A aplicação deve ser compatível e ser possível a execução com desempenho s
 A aplicação deve ser estruturada com o objetivo de ser escalável o suficiente para ser possível futuras evoluções com o crescimento do projeto.
 
 #### 3.1.2 Segurança
-O aplicativo deve ser seguro e lidar com os dados dos usuários com segurança.
+O aplicativo deve ser seguro e lidar com os dados dos usuários com segurança, de forma que a informação só pode ser acessada e atualizada por pessoas autorizadas e devidamente credenciadas (autenticação de usuários).
 
 #### 3.1.3 Usabilidade
 O sistema deverá ter a capacidade em fazer com que o usuário tenha sucesso na execução de suas tarefas de maneira simples.
