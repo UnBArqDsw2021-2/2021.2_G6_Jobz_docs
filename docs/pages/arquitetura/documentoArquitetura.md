@@ -172,3 +172,4 @@ Entidade: **SCHEDULE**
 | 28/03/2022 |  0.2    | Pedro Campos e Luis Araujo       | Criação do tópico Metas e Restrições Arquiteturais.|
 | 28/03/2022 |  0.3    | Pedro Campos e Luis Araujo       | Criação do tópico Visão de dados. |
 | 28/03/2022 |  0.4    | Luis Araujo e Pedro Campos      | Criação dos subtópicos de Metas arquiteturais |
+| 28/03/2022 |  0.5    | Luis Araujo e Pedro Campos      | Criação das descrições dos subtópicos de Metas arquiteturais |
