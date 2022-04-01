@@ -162,6 +162,12 @@ Entidade: **SCHEDULE**
 
 >  Milani, André. PostgreSQL: guia do programador. São Paulo. Novatec, 2008. Disponível em: https://books.google.com.br/books?hl=pt-BR&lr=&id=eb7fXbM70F4C&oi=fnd&pg=PA19&dq=postgresql&ots=FWcgYx_Oo1&sig=8Qv1Kfrdfj9Bzqz7ywREjIgBYZM#v=onepage&q=postgresql&f=false Acesso em: 27/03/2022.‌
 
+> Metas usabilidade. Disponível em: https://medium.com/difournier-uxr/as-6-metas-de-usabilidade-9491442fd56a. Acesso em 30 Mar. 2022.
+
+> Requisitos não funcionais. Disponível em: https://www.devmedia.com.br/artigo-engenharia-de-software-3-requisitos-nao-funcionais/9525#:~:text=Portabilidade%20pode%20ser%20definida%20como,ser%20executado%20em%20ambientes%20distintos. Acesso em 30 Mar.
+
+
+
 </div>
 
 ### Histórico de versão
