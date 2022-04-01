@@ -21,6 +21,8 @@ O **PostgreSQL** é um Sistema Gerenciador de Banco de Dados (SGBD) Relacional, 
 ### 3.1. Metas
 
 #### 3.1.2 Portabilidade
+A aplicação deve ser compatível e ser possível a execução com desempenho satisfatório nos navegadores mais utilizados e que possuem atualizacoes recentes.
+
 #### 3.1.1 Escalabilidade
 A aplicação deve ser estruturada com o objetivo de ser escalável o suficiente para ser possível futuras evoluções com o crescimento do projeto.
 
