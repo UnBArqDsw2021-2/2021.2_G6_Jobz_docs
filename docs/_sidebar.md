@@ -70,7 +70,10 @@
 
   - [Documento de Arquitetura](./pages/arquitetura/documentoArquitetura.md)
   - [Reutilização de Software](./pages/base/planoRisco.md)
-  - [Arquitetura de Software](./pages/arquitetura/arquitetura.md)
+  - Módulo Estilos e Padrões Arquiteturais
+    - [Arquitetura de Software](./pages/arquitetura/arquitetura.md)
+  - Módulo de Reutilização de Software
+    - [Reutilização de Software](./pages/arquitetura/reutilizacao.md)
   - Iniciativa Extras
     - [EXTRA](./pages/base/planoRisco.md)
 

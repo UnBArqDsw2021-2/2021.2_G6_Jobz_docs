@@ -4,9 +4,9 @@ Período: 07/03/2022 a 13/03/2022
 
 Data da reunião: 14/03/2022
 
-Membros presentes: Lorrayne, Fernando, Antônio, Ariel, Pedro, Guilherme, Alvaro e Rodrigo
+Membros presentes: Lorrayne, Fernando, Antônio, Ariel, Pedro, Guilherme, Alvaro, Luis e Rodrigo
 
-Membros faltantes: João e Luis
+Membros faltantes: João
 
 ## Issues entregues
 

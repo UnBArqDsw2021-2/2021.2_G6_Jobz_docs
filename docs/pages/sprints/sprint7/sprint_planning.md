@@ -4,9 +4,9 @@ Período: 07/03/2022 a 13/03/2022
 
 Data da reunião: 07/03/2022
 
-Membros presentes: Lorrayne, Fernando, João, Antônio, Ariel, Pedro, Guilherme, Alvaro e Rodrigo
+Membros presentes: Todos
 
-Membros faltantes: Luis
+Membros faltantes: Nenhum
 
 ## Issues da sprint
 
