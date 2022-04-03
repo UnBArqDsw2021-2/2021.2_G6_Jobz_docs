@@ -67,12 +67,10 @@
     - [Discussão Padrões de Projeto](./pages/Padroes_projeto/extras/reuniao_padroes_projeto.md)
 
 - **Arquitetura de Software & Reutilização**
-
-  - [Documento de Arquitetura](./pages/base/planoRisco.md)
-  
-  - Reutilização de Software
-    - [BackEnd](./pages/reutilizacao/backend.md)
-  
+  - Módulo Estilos e Padrões Arquiteturais
+    - [Arquitetura de Software](./pages/arquitetura/arquitetura.md)
+  - Módulo de Reutilização de Software
+    - [Reutilização de Software](./pages/arquitetura/reutilizacao.md)
   - Iniciativa Extras
     - [EXTRA](./pages/base/planoRisco.md)
 
