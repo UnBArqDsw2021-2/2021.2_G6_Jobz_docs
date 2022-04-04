@@ -2,6 +2,19 @@
 
 <div align="justify">
 
+## 1. Arquitetura
+
+Usamos **Django** com o **REST Framework**, **PostgreSQL** e **ReactJS** para a cosntrução da aplicação.
+O Django faz uso da arquitetura MVT, Model, View Template; Em que o Model lida com requisições (querys) de dados com objetos python, as Views recebem requisições Http e enviam respostas http, e o Template específica o formato de apresentação dos dados, que aqui é representado pelo módulo de ReactJS.
+Segue o diagrama de arquitetura do projeto.
+<p align='center'>
+    <img src='assets/images/arquitetura/Arquitetura.drawio.png' width=80% height=auto>
+    <figcaption align='center'>
+        <b>Figura 1: Diagrama de Arquitetura do produto </b>
+        <br>
+    </figcaption>
+</p>
+
 ## 2. Visão Lógica
 
 A visão lógica tem o objetivo de representar a visão conceitual do projeto por meio de camadas, para que possamos compreender a estrutura e a organização do design do sistema, descrevendo melhor os elementos comportamentais e funcionalidades da arquitetura. Essa é a visão arquitetural que contém as classes de design mais importantes, além de sua essencial organização em pacotes e subsistemas de camadas.
