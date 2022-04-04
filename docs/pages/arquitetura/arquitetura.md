@@ -162,14 +162,25 @@ A visão de casos de uso é uma representação visual mais aproximada do usuár
     </figcaption>
 </p>
 
+## 6. Visão de Implantação
+
+O Jobz é uma aplicação web que segue o modelo de camadas, onde temos as camadas do frontend, backend e a base da dados. O [diagrama de implementação](./pages/modelagem/diagramaImplementacao.md) possui representações dessas camadas juntamente com a camada do usuário que tem acesso apenas a interface do frontend. O usuário acessa por meio de um web browser nossa aplicação e o frontend realiza requisições ao backend, que por sua vez realiza os serviços solicitados, armazenando e buscando os dados necessários na base de dados.
+
+### 6.1 Diagrama de Implementação
+
+<p align='center'>
+    <img src='assets/images/diagramasEstaticos/diagramaImplementação.svg' width=100% height=auto>
+    <figcaption align='center'>
+        <b>Figura 13: Diagrama de implementação do produto. </b>
+    </figcaption>
+</p>
 
 
-
-## 6. Qualidade
+## 7. Qualidade
 
 Para avaliar a qualidade de nosso projeto, decidimos utilizar a [ISO/IEC 9126](https://jkolb.com.br/wp-content/uploads/2014/02/NBR-ISO_IEC-9126-1.pdf). Essa ISO possui por objetivo padronizar a avaliação da qualidade de um software, possibilitando assim, que sejamos capazes de apresentar um produto final com qualidade, nos baseando em suas características e atributos.
 
-### 6.1 ISO/IEC 9126 in Software Engineering
+### 7.1 ISO/IEC 9126 in Software Engineering
 
 A [ISO/IEC 9126](https://jkolb.com.br/wp-content/uploads/2014/02/NBR-ISO_IEC-9126-1.pdf) é um padrão internacional de um modelo para medir de maneira mais sistemática e exata a qualidade de um software. Com isso usaremos ela como modelo para orientar nosso projeto de software com questão a qualidade do mesmo.
 
@@ -199,7 +210,7 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 |  Maintainability   |                                                                                                              Jobz foi elaborada visando possuir uma [alta coesão e baixo acoplamento](./pages/Padroes_projeto/GRASP/GRASPs) para manter viável sua manutenibilidade.                                                                                                               |
 |    Portability     |                                                                                                                                                       A aplicação será responsiva de acordo com o tamnho de tela do usuário.                                                                                                                                                       |
 
-## 7. Referências
+## 8. Referências
 
 > Ludidchart, O que é um diagrama de implementação?. Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml. Acesso em 28 de Março de 2022.
 
@@ -237,14 +248,15 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 | 28/03/2022 |   0.2    | Guilherme Braz e Rodrigo Balbino |                   adição das visão logica                    |
 | 28/03/2022 |   0.3    | Guilherme Braz e Rodrigo Balbino |              adição das visão de implementação               |
 | 28/03/2022 |   0.4    | Guilherme Braz e Rodrigo Balbino |               adição do tópico sobre qualidade               |
-| 30/03/2022 |   0.5    |  Guilherme Braz e Rodrigo Balbino          |      Adicionando referências e conteúdo da visão lógica      |
-| 30/03/2022 |   0.6    |   Guilherme Braz e Rodrigo Balbino          | Adicionando referências e conteúdo da visão de implementação |
-| 30/03/2022 |  0.7   | João Victor e Álvaro Gouvea | Adição do tópico visão de Processos |
-| 30/03/2022 |  0.8   | João Victor e Álvaro | Adição do tópico visão de Casos de Uso |
-| 31/03/2022 |  0.8.1   | João Victor e Álvaro Gouvea | Adição de mais uma referência |
-| 31/03/2022 |  0.8.2   |        Fernando e Antonio   |      Revião parcial do documento        |
-| 31/03/2022 |  0.8.3   | João Victor e Álvaro Gouvea | Adição das imagens dos diagramas no tópico Visão de Processos              |
-| 31/03/2022 |  0.9   | Fernando e Antonio |  Revisão da Visão de processos |
-| 31/03/2022 |  0.9.1   | João Victor e Álvaro Gouvea | Alteração na formatação de frase |
-| 31/03/2022 |  0.9.2  | Fernando e Antonio |  Revisão da Visão de Casos de Uso |
-
+| 28/03/2022 |  0.5   | João Victor e Álvaro | Adição do tópico visão de Implantação |
+| 30/03/2022 |   0.6    |  Guilherme Braz e Rodrigo Balbino          |      Adicionando referências e conteúdo da visão lógica      |
+| 30/03/2022 |   0.7    |   Guilherme Braz e Rodrigo Balbino          | Adicionando referências e conteúdo da visão de implementação |
+| 30/03/2022 |  0.8  | João Victor e Álvaro Gouvea | Adição do tópico visão de Processos |
+| 30/03/2022 |  0.9   | João Victor e Álvaro | Adição do tópico visão de Casos de Uso |
+| 31/03/2022 |  0.9.1   | João Victor e Álvaro Gouvea | Adição de mais uma referência |
+| 31/03/2022 |  0.9.2   |        Fernando e Antonio   |      Revião parcial do documento        |
+| 31/03/2022 |  0.9.3   | João Victor e Álvaro Gouvea | Adição das imagens dos diagramas no tópico Visão de Processos              |
+| 31/03/2022 |  0.10   | Fernando e Antonio |  Revisão da Visão de processos |
+| 31/03/2022 |  0.10.1   | João Victor e Álvaro Gouvea | Alteração na formatação de frase |
+| 31/03/2022 |  0.10.2  | Fernando e Antonio |  Revisão da Visão de Casos de Uso |
+| 03/04/2022 |  0.10.3  | Lorrayne e Ariel |  Revisão da Visão de Implantação |
