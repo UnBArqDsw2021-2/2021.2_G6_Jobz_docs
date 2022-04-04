@@ -253,11 +253,10 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 | 30/03/2022 |   0.7    |   Guilherme Braz e Rodrigo Balbino          | Adicionando referências e conteúdo da visão de implementação |
 | 30/03/2022 |  0.8  | João Victor e Álvaro Gouvea | Adição do tópico visão de Processos |
 | 30/03/2022 |  0.9   | João Victor e Álvaro | Adição do tópico visão de Casos de Uso |
-
 | 31/03/2022 |  0.9.1   | João Victor e Álvaro Gouvea | Adição de mais uma referência |
 | 31/03/2022 |  0.9.2   |        Fernando e Antonio   |      Revião parcial do documento        |
 | 31/03/2022 |  0.9.3   | João Victor e Álvaro Gouvea | Adição das imagens dos diagramas no tópico Visão de Processos              |
 | 31/03/2022 |  0.10   | Fernando e Antonio |  Revisão da Visão de processos |
 | 31/03/2022 |  0.10.1   | João Victor e Álvaro Gouvea | Alteração na formatação de frase |
 | 31/03/2022 |  0.10.2  | Fernando e Antonio |  Revisão da Visão de Casos de Uso |
-
+| 03/04/2022 |  0.10.3  | Lorrayne e Ariel |  Revisão da Visão de Implantação |
