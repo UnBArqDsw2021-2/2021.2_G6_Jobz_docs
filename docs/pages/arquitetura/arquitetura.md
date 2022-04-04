@@ -2,7 +2,7 @@
 
 <div align="justify">
 
-## 1. Arquitetura
+## 1. Introdução
 
 Usamos **Django** com o **REST Framework**, **PostgreSQL** e **ReactJS** para a cosntrução da aplicação.
 O Django faz uso da arquitetura MVT, Model, View Template; Em que o Model lida com requisições (querys) de dados com objetos python, as Views recebem requisições Http e enviam respostas http, e o Template específica o formato de apresentação dos dados, que aqui é representado pelo módulo de ReactJS.
@@ -15,13 +15,72 @@ Segue o diagrama de arquitetura do projeto.
     </figcaption>
 </p>
 
-## 2. Visão Lógica
+### 1.1. Finalidade
+### 1.2. Escopo
+### 1.3. Definições, Acrônimos e Abreviações
+### 1.4. Visão Geral
+
+
+## 2. Representação Arquitetural
+
+### 2.1. Tecnologias
+Para o desenvolvimento da aplicação Jobz foi utilizado um conjunto de ferramentas, sendo elas o framework de desenvolvimento de API's web `Django Rest Framework` e a biblioteca `ReactJS` para a camada de visualização, além do sistema gerenciador de banco de dados relacional `PostgreSQL` e a virtualização do ambiente com  `Docker`.
+
+#### 2.1.1. FrontEnd
+
+O **ReactJS** é uma biblioteca da linguagem JavaScript que utiliza certos padrões de design baseados em Components. A aplicação React começa com um único componente raiz, que é construído usando um ou mais componentes, e cada um desses componentes pode ser aninhado com outro componente em qualquer nível. O framework foi escolhido porque alguns integrantes já possuíam experiência e a equipe julgou como uma boa opção para o projeto.
+
+#### 2.1.2. BackEnd
+Tanto o **Django** quanto o **Django Rest Framework** são escritos em [Python](https://www.python.org/), porém possuem finalidades diferentes.
+
+O **Django** tem o propósito focado no desenvolvimento de aplicações web e sites, fazendo uso do *Don't Repeat Yourself* (DRY), que em tradução livre significa *Não Seja Repetitivo*, aproveitando ao máximo o código criado facilitando a reutilização. Além disso, utiliza o padrão *model-template-view* (MTV), onde a aplicação é dividida em camadas, tornando o código mais organizado.
+
+O **Django Rest Framework** tem como objetivo o desenvolvimento de API's de forma simples e ágil, gerando uma API navegável que facilita na usabilidade para os desenvolvedores, além de possuir sistema de autenticação e serialização de dados.
+
+O framework foi escolhido porque alguns integrantes já possuíam experiência, se disponibilizando para fornecer ajuda aos demais, além de que a ferramenta oferece um rápido desenvolvimento.
+
+#### 2.1.3. Banco de Dados
+O **PostgreSQL** é um Sistema Gerenciador de Banco de Dados (SGBD) Relacional, utilizado para armazenar informações de soluções de informática em todas as áreas de negócios existentes (Milani, André. PostgreSQL: Guia do Programador. Novatec. 2008). É um dos cinco SGDB's relacionais mais utilizados do mercado, e foi escolhido por ser um sistema open-source de fácil instalação que possui interfaces simples e intuitivas que facilitam o aprendizado, além de ser muito fácil de manter devido a sua estabilidade.
+
+#### 2.1.4. Docker
+O **Docker** foi utilizado porque facilita o desenvolvimento em equipe possibilitando a containerização do ambiente de execução, permitindo o compartilhamento de tecnologias e dependências em qualquer host que contenha o Docker instalado.
+
+## 3. Metas e Restrições Arquiteturais
+
+### 3.1. Metas
+
+#### 3.1.2 Portabilidade
+A aplicação deve ser compatível e ser possível a execução com desempenho satisfatório nos navegadores mais utilizados e que possuem atualizações recentes.
+
+#### 3.1.1 Escalabilidade
+A aplicação deve ser estruturada com o objetivo de ser escalável o suficiente para ser possível futuras evoluções com o crescimento do projeto.
+
+#### 3.1.2 Segurança
+O aplicativo deve ser seguro e lidar com os dados dos usuários com segurança, de forma que a informação só pode ser acessada e atualizada por pessoas autorizadas e devidamente credenciadas (autenticação de usuários).
+
+#### 3.1.3 Usabilidade
+O sistema deverá ter a capacidade em fazer com que o usuário tenha sucesso na execução de suas tarefas de maneira simples.
+
+
+### 3.2. Restrições
+
+|Restrições||
+|:-----|:------|
+|Plataforma|A aplicação terá suporte para browsers para computador.|
+|Público|A aplicação será desenvolvida para toda a população brasileira e será voltada para prestadores de diversos serviços e seus respectivos clientes.|
+|Linguagem|A aplicação Jobz será desenvolvida em idioma português do Brasil.|
+|Prazo|A aplicação terá o prazo estimado de termino até o fim da disciplina.|
+|Equipe|A equipe possui 10 integrantes do curso de Eng. de Software da UnB.|
+|Conectividade|É necessária a conectividade com a internet para o acesso e utilização da aplicação.|
+
+
+## 4. Visão Lógica
 
 A visão lógica tem o objetivo de representar a visão conceitual do projeto por meio de camadas, para que possamos compreender a estrutura e a organização do design do sistema, descrevendo melhor os elementos comportamentais e funcionalidades da arquitetura. Essa é a visão arquitetural que contém as classes de design mais importantes, além de sua essencial organização em pacotes e subsistemas de camadas.
 
 Tendo isso em vista, elaboramos o diagrama de classe e o diagrama de pacotes, que foram desenvolvidos com uso do Framework [Django](https://www.djangoproject.com/) voltado para o Backend e a biblioteca [React.js](https://pt-br.reactjs.org/) para o Frontend de nossa aplicação.
 
-### 2.1 Diagrama de Classes
+### 4.1 Diagrama de Classes
 
 O [diagrama de classe](./pages/modelagem/diagramaDeClasses) é um dos principais [diagramas UML](https://www.lucidchart.com/pages/pt/o-que-e-uml), pois consegue mapear claramente a estrutura de nosso sistema apresentando suas classes, atributos, operações e relações entre os objetos.
 
@@ -35,13 +94,13 @@ Com o seu uso, somos capazes de entender melhor a visão geral do esquema de nos
     </figcaption>
 </p>
 
-### 2.2 Diagrama de Pacotes
+### 4.2 Diagrama de Pacotes
 
 Um [diagrama de pacotes](./pages/modelagem/diagramaPacotes) apresenta no formato de pastas ou pacotes, a organização e disposição de diferentes elementos de um modelo. Esses elementos que podem ser documentos, classes e até mesmo outros pacotes, são dispostos dentro dessas pastas de arquivos que são apresentados em nosso diagrama, que por fim é organizado e apresentado de forma hierárquica.
 
 O diagrama de pacotes é capaz de fornecer uma visibilidade geral melhor sobre projetos e sistemas de grande escala. Pois oferece uma versão simplificada de diagramas de classe complexos, além de permitir que atualizações sejam feitas com facilidade com o decorrer do desenvolvimento do produto
 
-#### 2.2.1 Backend
+#### 4.2.1 Backend
 
 Dessa forma, temos o diagrama de pacotes criado para apresentar a estrutura de nosso projeto do ponto de vista do backend da aplicação. No qual utiliza o banco de dados [PostgreSQL](https://www.postgresql.org/) para o seu armazenamento de dados.
 
@@ -53,7 +112,7 @@ Dessa forma, temos o diagrama de pacotes criado para apresentar a estrutura de n
     </figcaption>
 </p>
 
-#### 2.2.2 Frontend
+#### 4.2.2 Frontend
 
 Por conseguinte, temos então o diagrama de pacotes voltado para o frontend de nossa aplicação, no qual realiza o reaproveitamento dos componentes para a criação da telas, além de definir o padrão de desenvolvimento e simplificar o código.
 
@@ -65,7 +124,7 @@ Por conseguinte, temos então o diagrama de pacotes voltado para o frontend de n
     </figcaption>
 </p>
 
-#### 2.2.3 Sistema
+#### 4.2.3 Sistema
 
 Por fim, temos a representação de nosso sistema completo, no qual é caracterizado pela conexão do frontend com o backend, nos quais utilizam o [protocolo HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP) para realizar trocas de dados por meio de suas requisições.
 
@@ -76,52 +135,6 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
         <br>
     </figcaption>
 </p>
-
-#### 2.2.4. Padrões de Projeto
-Como explorado em módulos anteriores, padrões de projeto são uma continuação natural do     processo de desenvolvimento, que busca organizar não só estruturas e algoritmos, como também soluções a problemas comuns.
-Foram usados de forma direta e indireta, padrões de projeto que facilitam a reutilização de código, ao definir uma maneira validada e bem documentada de se resolver determinada questão.
-
-## 3. Representação Arquitetural
-
-### 3.1. FrontEnd
-
-O **ReactJS** é uma biblioteca da linguagem JavaScript que utiliza certos padrões de design baseados em Components. A aplicação React começa com um único componente raiz, que é construído usando um ou mais componentes, e cada um desses componentes pode ser aninhado com outro componente em qualquer nível.
-
-### 3.2. BackEnd
-
-
-### 3.3. Banco de Dados
-O **PostgreSQL** é um Sistema Gerenciador de Banco de Dados (SGBD) Relacional, utilizado para armazenar informações de soluções de informática em todas as áreas de negócios existentes (Milani, André. PostgreSQL: Guia do Programador. Novatec. 2008).
-
-
-
-## 4. Metas e Restrições Arquiteturais
-
-### 4.1. Metas
-
-#### 4.1.2 Portabilidade
-A aplicação deve ser compatível e ser possível a execução com desempenho satisfatório nos navegadores mais utilizados e que possuem atualizações recentes.
-
-#### 4.1.1 Escalabilidade
-A aplicação deve ser estruturada com o objetivo de ser escalável o suficiente para ser possível futuras evoluções com o crescimento do projeto.
-
-#### 4.1.2 Segurança
-O aplicativo deve ser seguro e lidar com os dados dos usuários com segurança, de forma que a informação só pode ser acessada e atualizada por pessoas autorizadas e devidamente credenciadas (autenticação de usuários).
-
-#### 4.1.3 Usabilidade
-O sistema deverá ter a capacidade em fazer com que o usuário tenha sucesso na execução de suas tarefas de maneira simples.
-
-
-### 4.2. Restrições
-
-|Restrições||
-|:-----|:------|
-|Plataforma|A aplicação terá suporte para browsers para computador.|
-|Público|A aplicação será desenvolvida para toda a população brasileira e será voltada para prestadores de diversos serviços e seus respectivos clientes.|
-|Linguagem|A aplicação Jobz será desenvolvida em idioma português do Brasil.|
-|Prazo|A aplicação terá o prazo estimado de termino até o fim da disciplina.|
-|Equipe|A equipe possui 10 integrantes do curso de Eng. de Software da UnB.|
-|Conectividade|É necessária a conectividade com a internet para o acesso e utilização da aplicação.|
 
 ## 5. Visão de dados
 
@@ -409,23 +422,25 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 
 > Conceito: Visão Lógica. Disponível em: https://bit.ly/3uMHEa6. Acesso em 30 de Março de 2022.
 
-> Modelo de Implantação - Wiki - DTIC. Disponível em: https://dtic.tjpr.jus.br/wiki/-/wiki/Governan%C3%A7a-TIC/Modelo+de+Implanta%C3%A7%C3%A3o/pop_up?_36_version=1.0. Acesso em: 28/03/2022.
+> Modelo de Implantação - Wiki - DTIC. Disponível em: https://bit.ly/3j37ukC. Acesso em: 28/03/2022.
 
 > 4+1 Architectural view model in Software - Javarevisited. Dísponivel em: https://medium.com/javarevisited/4-1-architectural-view-model-in-software-ec407bf27258. Acesso em: 30/03/2022.
 
-> ReactJS - Architecture. Disponível em: <https://www.tutorialspoint.com/reactjs/reactjs_architecture.htm#:~:text=Architecture%20of%20the%20React%20Application&text=Developers%20are%20free%20to%20choose,.%2C%20to%20write%20better%20code.>. Acesso em: 27 Mar. 2022.
+> ReactJS - Architecture. Disponível em: <https://bit.ly/3x4CMA7>. Acesso em: 27 Mar. 2022.
 
->  Milani, André. PostgreSQL: guia do programador. São Paulo. Novatec, 2008. Disponível em: https://books.google.com.br/books?hl=pt-BR&lr=&id=eb7fXbM70F4C&oi=fnd&pg=PA19&dq=postgresql&ots=FWcgYx_Oo1&sig=8Qv1Kfrdfj9Bzqz7ywREjIgBYZM#v=onepage&q=postgresql&f=false Acesso em: 27/03/2022.‌
+>  Milani, André. PostgreSQL: guia do programador. São Paulo. Novatec, 2008. Disponível em: https://bit.ly/3x4CMA7. Acesso em: 27/03/2022.‌
 
 > Metas usabilidade. Disponível em: https://medium.com/difournier-uxr/as-6-metas-de-usabilidade-9491442fd56a. Acesso em 30 Mar. 2022.
 
-> Requisitos não funcionais. Disponível em: https://www.devmedia.com.br/artigo-engenharia-de-software-3-requisitos-nao-funcionais/9525#:~:text=Portabilidade%20pode%20ser%20definida%20como,ser%20executado%20em%20ambientes%20distintos. Acesso em 30 Mar.
+> Requisitos não funcionais. Disponível em: https://bit.ly/3J335ZP. Acesso em 30 Mar.
+
+> ALURA. Django e Django Rest: Diferenças e aplicações. Alura. Disponível em: https://www.alura.com.br/artigos/django-django-rest-diferencas. Acesso em: 31 mar. 2022.
 
 
 
 ### Histórico de versão
 
-|    Data    |  Versão  |              Autor               |                          Descrição                           |
+|    Data    |  Versão  |              Autor(es)               |                          Descrição                           |
 | :--------: | :------: | :------------------------------: | :----------------------------------------------------------: |
 | 28/03/2022 |   0.1    |      Guilherme Braz e Rodrigo Balbino          |                     Criação do documento                     |
 | 28/03/2022 |  0.2    | Pedro Campos e Luis Araujo       | Criação do tópico Metas e Restrições Arquiteturais.|
@@ -446,6 +461,6 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 | 31/03/2022 |  0.10   | Fernando e Antonio |  Revisão da Visão de processos |
 | 31/03/2022 |  0.10.1   | João Victor e Álvaro Gouvea | Alteração na formatação de frase |
 | 31/03/2022 |  0.10.2  | Fernando e Antonio |  Revisão da Visão de Casos de Uso |
-| 03/04/2022 |  0.10.3  | Lorrayne e Ariel |  Revisão da Visão de Implantação |
+| 03/04/2022 |  0.10.3  | Lorrayne Cardozo e Ariel Serafim |  Revisão da Visão de Implantação |
 | 04/04/2022 |  0.10.4  | Luis Araujo e Pedro Campos |  União dos arquivos de documentos de arquitetura |
-| 04/04/2022 |  0.10.5  | Lorrayne e Ariel |  introdução e Diagrama de Arquitetura |
+| 04/04/2022 |  0.10.5  | Lorrayne Cardozo e Ariel Serafim |  Adição do tópico de representação arquitetural |
