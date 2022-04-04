@@ -4,6 +4,16 @@
 
 ## 1. Introdução
 
+### 1.1. Finalidade
+### 1.2. Escopo
+### 1.3. Definições, Acrônimos e Abreviações
+### 1.4. Visão Geral
+
+
+## 2. Representação Arquitetural
+
+## 2.1. Diagrama de Arquitetura.
+
 Usamos **Django** com o **REST Framework**, **PostgreSQL** e **ReactJS** para a cosntrução da aplicação.
 O Django faz uso da arquitetura MVT, Model, View Template; Em que o Model lida com requisições (querys) de dados com objetos python, as Views recebem requisições Http e enviam respostas http, e o Template específica o formato de apresentação dos dados, que aqui é representado pelo módulo de ReactJS.
 Segue o diagrama de arquitetura do projeto.
@@ -15,22 +25,14 @@ Segue o diagrama de arquitetura do projeto.
     </figcaption>
 </p>
 
-### 1.1. Finalidade
-### 1.2. Escopo
-### 1.3. Definições, Acrônimos e Abreviações
-### 1.4. Visão Geral
-
-
-## 2. Representação Arquitetural
-
-### 2.1. Tecnologias
+### 2.2. Tecnologias
 Para o desenvolvimento da aplicação Jobz foi utilizado um conjunto de ferramentas, sendo elas o framework de desenvolvimento de API's web `Django Rest Framework` e a biblioteca `ReactJS` para a camada de visualização, além do sistema gerenciador de banco de dados relacional `PostgreSQL` e a virtualização do ambiente com  `Docker`.
 
-#### 2.1.1. FrontEnd
+#### 2.2.1. FrontEnd
 
 O **ReactJS** é uma biblioteca da linguagem JavaScript que utiliza certos padrões de design baseados em Components. A aplicação React começa com um único componente raiz, que é construído usando um ou mais componentes, e cada um desses componentes pode ser aninhado com outro componente em qualquer nível. O framework foi escolhido porque alguns integrantes já possuíam experiência e a equipe julgou como uma boa opção para o projeto.
 
-#### 2.1.2. BackEnd
+#### 2.2.2. BackEnd
 Tanto o **Django** quanto o **Django Rest Framework** são escritos em [Python](https://www.python.org/), porém possuem finalidades diferentes.
 
 O **Django** tem o propósito focado no desenvolvimento de aplicações web e sites, fazendo uso do *Don't Repeat Yourself* (DRY), que em tradução livre significa *Não Seja Repetitivo*, aproveitando ao máximo o código criado facilitando a reutilização. Além disso, utiliza o padrão *model-template-view* (MTV), onde a aplicação é dividida em camadas, tornando o código mais organizado.
@@ -39,10 +41,10 @@ O **Django Rest Framework** tem como objetivo o desenvolvimento de API's de form
 
 O framework foi escolhido porque alguns integrantes já possuíam experiência, se disponibilizando para fornecer ajuda aos demais, além de que a ferramenta oferece um rápido desenvolvimento.
 
-#### 2.1.3. Banco de Dados
+#### 2.2.3. Banco de Dados
 O **PostgreSQL** é um Sistema Gerenciador de Banco de Dados (SGBD) Relacional, utilizado para armazenar informações de soluções de informática em todas as áreas de negócios existentes (Milani, André. PostgreSQL: Guia do Programador. Novatec. 2008). É um dos cinco SGDB's relacionais mais utilizados do mercado, e foi escolhido por ser um sistema open-source de fácil instalação que possui interfaces simples e intuitivas que facilitam o aprendizado, além de ser muito fácil de manter devido a sua estabilidade.
 
-#### 2.1.4. Docker
+#### 2.2.4. Docker
 O **Docker** foi utilizado porque facilita o desenvolvimento em equipe possibilitando a containerização do ambiente de execução, permitindo o compartilhamento de tecnologias e dependências em qualquer host que contenha o Docker instalado.
 
 ## 3. Metas e Restrições Arquiteturais
@@ -464,3 +466,4 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 | 03/04/2022 |  0.10.3  | Lorrayne Cardozo e Ariel Serafim |  Revisão da Visão de Implantação |
 | 04/04/2022 |  0.10.4  | Luis Araujo e Pedro Campos |  União dos arquivos de documentos de arquitetura |
 | 04/04/2022 |  0.10.5  | Lorrayne Cardozo e Ariel Serafim |  Adição do tópico de representação arquitetural |
+| 04/04/2022 |  0.10.6  | Lorrayne Cardozo e Ariel Serafim |  Correção de ordem da página |
