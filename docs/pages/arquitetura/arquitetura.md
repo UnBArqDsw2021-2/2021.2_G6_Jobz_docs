@@ -64,6 +64,10 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
     </figcaption>
 </p>
 
+#### 2.2.4. Padrões de Projeto
+Como explorado em módulos anteriores, padrões de projeto são uma continuação natural do     processo de desenvolvimento, que busca organizar não só estruturas e algoritmos, como também soluções a problemas comuns.
+Foram usados de forma direta e indireta, padrões de projeto que facilitam a reutilização de código, ao definir uma maneira validada e bem documentada de se resolver determinada questão.
+
 ## 3. Representação Arquitetural
 
 ### 3.1. FrontEnd
