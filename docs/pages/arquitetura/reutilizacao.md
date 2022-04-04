@@ -132,3 +132,4 @@ https://www.amazon.com/gp/product/0201633612/ref=as_li_tl?ie=UTF8&camp=1789&crea
 | 31/03/2022 |  0.4   | Rodrigo Balbino, Guilherme Braz e João Victor |    Revisão do tópico Reutilização no Frontend      |
 | 31/03/2022 |  0.4.1   | João Victor, Álvaro e Luis Fernando |    Revisão do tópico Reutilização no Docker      |
 | 03/04/2022 |  0.5   | Lorrayne Cardozo e Ariel Serafim | Adição do tópico do Backend |
+| 04/04/2022| 0.5.1   | Pedro, Guilherme, Fernando e João | Revisão tópico Reutilização Backend|
