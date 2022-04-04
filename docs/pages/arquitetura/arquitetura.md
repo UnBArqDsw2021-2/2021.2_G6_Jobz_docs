@@ -448,3 +448,4 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 | 31/03/2022 |  0.10.2  | Fernando e Antonio |  Revisão da Visão de Casos de Uso |
 | 03/04/2022 |  0.10.3  | Lorrayne e Ariel |  Revisão da Visão de Implantação |
 | 04/04/2022 |  0.10.4  | Luis Araujo e Pedro Campos |  União dos arquivos de documentos de arquitetura |
+| 04/04/2022 |  0.10.5  | Lorrayne e Ariel |  introdução e Diagrama de Arquitetura |
