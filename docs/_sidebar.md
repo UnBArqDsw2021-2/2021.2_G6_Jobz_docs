@@ -118,4 +118,3 @@
   - Sprint 12
     - [Planejamento](./pages/sprints/sprint12/sprint_planning.md)
     - [Resultados](./pages/sprints/sprint12/sprint_review.md) -->
-

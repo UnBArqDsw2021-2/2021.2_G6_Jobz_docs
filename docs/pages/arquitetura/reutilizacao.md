@@ -3,10 +3,27 @@
 <div align="justify">
 
 ## 1. Introdução
+Segundo o [Perforce](https://www.perforce.com/blog/qac/what-code-reuse-code-reuse-best-practices), a reutilização de código é a prática de usar um código existente para uma nova função ou software. Porém, em seu desenvolvimento devem ser levados em consideração diversos fatores que garantam que o código tenha uma alta qualidade e possa ser reutilizado, por isso deve ser seguro, protegido e confiável. A ideia do reuso é evitar retrabalho no desenvolvimento de um novo projeto, levando em consideração trabalhos feitos anteriormente.
+
+O desenvolvimento de um software é um processo que demanda bastante tempo e esforço, e a prática de reutilização de código é utilizada para otimizar esse processo, fazendo com que soluções previamente desenvolvidas sejam aproveitadas e implementadas em um novo contexto.
 
 ## 2. Aplicações
 
 ### 2.1 Reutilização no BackEnd
+O **Django** é utilizado para construção de aplicações web utilizando o padrão *model-template-view* (MTV) que mantém o código bem organizado em suas devidas camadas, e já oferece os padrões de projeto Alta Coesão e Baixo Acoplamento, organizando os métodos de forma bem definida e com suas respectivas responsabilidades. Desta forma, isso aumenta a qualidade do código e facilita sua reutilização. Além disso, sua principal convenção é o *Don't Repeat Yourself* (DRY), que em tradução livre significa *Não Seja Repetitivo*, visando aproveitar ao máximo o código criado, evitando duplicação e auxiliando em sua reutilização.
+
+Já o **Django Rest Framework** é uma poderosa ferramenta para construção de API's, além de possuir um sistema de autenticação e serialização de dados. É de fácil reuso, pois os serviços fornecidos podem ser facilmente consumidos tanto por interfaces web quanto mobile.
+
+Na imagem abaixo conseguimos visualizar como é organizada a estrutura do backend utilizando o framework:
+
+<p align='center'>
+    <img src='assets/images/reutilizacao/django.png' width=25% height=auto>
+    <figcaption align='center'>
+        <b>Figura 1: Estrutura do BackEnd utilizando o framework Django.</b>
+        <br>
+    </figcaption>
+</p>
+
 
 ### 2.2 Reutilização no FrontEnd
 
@@ -19,7 +36,7 @@ A seguir temos um exemplo de [código](https://github.com/UnBArqDsw2021-2/2021.2
 <p align='center'>
     <img src='assets/images/emergentes/component.png' width=70% height=auto>
     <figcaption align='center'>
-        <b>Figura 1: Trecho de código demonstrando um componente que é reaproveitado.</b>
+        <b>Figura 2: Trecho de código demonstrando um componente que é reaproveitado.</b>
         <br>
     </figcaption>
 </p>
@@ -33,7 +50,7 @@ Visando criar configurações para as conexões HTTP necessárias, a biblioteca 
 <p align='center'>
     <img src='assets/images/reutilizacao/axios.png' width=70% height=auto>
     <figcaption align='center'>
-        <b>Figura 2: Trecho de código demonstrando a utilização da biblioteca Axios.</b>
+        <b>Figura 3: Trecho de código demonstrando a utilização da biblioteca Axios.</b>
         <br>
     </figcaption>
 </p>
@@ -52,7 +69,7 @@ Nas figuras abaixo apresentamos como é a utilização no projeto:
 <p align='center'>
     <img src='assets/images/reutilizacao/dockerNode.png' width=70% height=auto>
     <figcaption align='center'>
-        <b>Figura 3: Código demonstrando da utilização da imagem do node</b>
+        <b>Figura 4: Código demonstrando da utilização da imagem do node</b>
         <br>
     </figcaption>
 </p>
@@ -61,7 +78,7 @@ Nas figuras abaixo apresentamos como é a utilização no projeto:
 <p align='center'>
     <img src='assets/images/reutilizacao/dockerPython.png' width=70% height=auto>
     <figcaption align='center'>
-        <b>Figura 4: Código demonstrando da utilização da imagem do python</b>
+        <b>Figura 5: Código demonstrando da utilização da imagem do python</b>
         <br>
     </figcaption>
 </p>
@@ -74,7 +91,7 @@ Além do reaproveitamento de imagem dentro do **Dockerfile**, acontece também d
 <p align='center'>
     <img src='assets/images/reutilizacao/dockerPostgres.png' width=70% height=auto>
     <figcaption align='center'>
-        <b>Figura 5: Trecho de código demonstrando da utilização da imagem do postgres</b>
+        <b>Figura 6: Trecho de código demonstrando da utilização da imagem do postgres</b>
         <br>
     </figcaption>
 </p>
@@ -91,6 +108,16 @@ Além do reaproveitamento de imagem dentro do **Dockerfile**, acontece também d
 > DOCKER HUB. Docker.  Disponível em: https://www.docker.com/products/docker-hub/. Acesso em: 26 de mar. de 2022.
 
 > DOCKER. Docker. Disponível em: https://www.docker.com/. Acesso em: 26 de mar. de 2022.
+
+> ALURA. Django e Django Rest: Diferenças e aplicações. Alura. Disponível em: <https://www.alura.com.br/artigos/django-django-rest-diferencas>. Acesso em: 27 Mar. 2022.
+
+> DEVMEDIA. Reutilização de Software: Técnicas e Ferramentas. DevMedia. Disponível em: <
+https://www.devmedia.com.br/reutilizacao-de-software-revista-engenharia-de-software-magazine-39/21956>. Acesso em: 27 Mar. 2022.
+
+> BELLAIRS, Richard. What Is Code Reuse? Code Reuse Best Practices. Perforce Software. Disponível em: <https://www.perforce.com/blog/qac/what-code-reuse-code-reuse-best-practices>. Acesso em: 27 Mar. 2022.
+
+> Design Patterns: Elements of Reusable Object-Oriented Software. Disponível em: <
+https://www.amazon.com/gp/product/0201633612/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0201633612&linkCode=as2&tag=triatcraft-20&linkId=XRGUDJCGWC6AJNZM. Acesso em: 31 Mar. 2022.
 </div>
 
 ### Histórico de versão
@@ -104,3 +131,5 @@ Além do reaproveitamento de imagem dentro do **Dockerfile**, acontece também d
 | 26/03/2022 |  0.3.1  | Fernando e Antonio | Correções no Documento   |
 | 31/03/2022 |  0.4   | Rodrigo Balbino, Guilherme Braz e João Victor |    Revisão do tópico Reutilização no Frontend      |
 | 31/03/2022 |  0.4.1   | João Victor, Álvaro e Luis Fernando |    Revisão do tópico Reutilização no Docker      |
+| 03/04/2022 |  0.5   | Lorrayne Cardozo e Ariel Serafim | Adição do tópico do Backend |
+| 04/04/2022| 0.5.1   | Pedro, Guilherme, Fernando e João | Revisão tópico Reutilização Backend|
