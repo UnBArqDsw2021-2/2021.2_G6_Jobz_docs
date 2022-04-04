@@ -68,8 +68,6 @@
 
 - **Arquitetura de Software & Reutilização**
 
-  - [Documento de Arquitetura](./pages/arquitetura/documentoArquitetura.md)
-  - [Reutilização de Software](./pages/base/planoRisco.md)
   - Módulo Estilos e Padrões Arquiteturais
     - [Arquitetura de Software](./pages/arquitetura/arquitetura.md)
   - Módulo de Reutilização de Software
