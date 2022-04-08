@@ -195,17 +195,17 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
 
 ### 5.3. Dicionário de dados
 
-Entidade: **PERSON**
+#### 5.3.1. PERSON
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
-|    name    |     Obrigatório     |               VARCHAR                  |             Nome completo de cada pessoa.                 |
-|    phone   |      Obrigatório       |               BIGINT                |             Telefone para contato de cada. pessoa.             |
-| email |      Obrigatório        |             VARCHAR                     | Email de cada pessoa que será utilizado na aplicação. |
+|    name    |     Obrigatório     |               VARCHAR(500)                  |             Nome completo de cada pessoa.                 |
+|    phone   |      Obrigatório       |               BIGINT                |             Telefone para contato de cada pessoa.             |
+| email |      Obrigatório        |             VARCHAR(150)                     | Email de cada pessoa que será utilizado na aplicação. |
 | cpf |      chave-Primária        |             BIGINT                     |  Chave-Primária Identificadora de cada pessoa.                            |
-|  password  |      Obrigatório       |               VARCHAR                |          Senha para autenticação do funcionário.           |
+|  password  |      Obrigatório       |               VARCHAR(50)                |          Senha para autenticação do funcionário.           |
 
-Entidade: **USER**
+#### 5.3.2. USER
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
@@ -214,57 +214,57 @@ Entidade: **USER**
 | idAddress |      Chave-Estrangeira        |             INT                     | Chave estrangeira correspondente ao endereço do usuário. |
 
 
-Entidade: **ADDRESS**
+#### 5.3.3. ADDRESS
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
 |    idAddress    |     Chave-Primária     |               INT                  |            Chave-Primária identificadora de cada endereço.                 |
-|    city   |      Obrigatório       |               VARCHAR                | Cidade correspondente ao endereço de cada usuário.             |
-| state |      Obrigatório        |             VARCHAR                     | Estado correspondente ao endereço de cada usuário. |
-| cep |      Obrigatório        |             VARCHAR                       |  CEP correspondente ao endereço de cada usuário.                         |
+|    city   |      Obrigatório       |               VARCHAR(100)                | Cidade correspondente ao endereço de cada usuário.             |
+| state |      Obrigatório        |             VARCHAR(2)                     | Estado correspondente ao endereço de cada usuário. |
+| cep |      Obrigatório        |             INT                       |  CEP correspondente ao endereço de cada usuário.                         |
 |  number  |      Obrigatório       |               INT               |          Número correspondente ao endereço de cada usuário.           |
-|  district  |      Obrigatório       |               VARCHAR               |   Bairro correspondente ao endereço de cada usuário.           |
-|  complement  |      Obrigatório       |               VARCHAR               |   Complemento correspondente ao endereço de cada usuário.           |
+|  district  |      Obrigatório       |               VARCHAR(100)               |   Bairro correspondente ao endereço de cada usuário.           |
+|  complement  |      Obrigatório       |               VARCHAR(100)               |   Complemento correspondente ao endereço de cada usuário.           |
 
 
-Entidade: **SERVICE**
+#### 5.3.4. SERVICE
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
 |    datePurchase    |     Obrigatório     |               DATETIME                  |             Data correspondente da aquisição do serviço.                 |
 |    dateService   |      Obrigatório       |               DATETIME                |            Data correspondente da publicação do serviço.             |
-| serviceDescription |      Obrigatório        |             VARCHAR                     | Descrição relativa a cada serviço disponibilizado. |
+| serviceDescription |      Obrigatório        |             VARCHAR(5000)                     | Descrição relativa a cada serviço disponibilizado. |
 | idService |      Chave-Primária        |             INT                     |  Chave-Primária Identificadora de cada serviço.                            |
 |  idUser  |      Chave-Estrangeira       |               INT                |          Chave estrangeira relativa ao id do usuário que contratou o serviço.           |
 |  cpf  |      Chave-Estrangeira       |               BIGINT                |          Chave estrangeira relativa ao cpf do usuário que contratou o serviço.           |
 |  idCategory  |      Chave-Estrangeira       |               INT                |          Chave estrangeira relativa ao id da categoria ao qual pertence o serviço.           |
 |  idEvaluation  |      Chave-Estrangeira       |               INT                |          Chave estrangeira relativa ao id da avaliação do serviço.           |
 
-Entidade: **SERVICE_CATEGORY**
+#### 5.3.5. SERVICE_CATEGORY
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
 |    idCategory    |     Chave-Primária     |               INT                  |             Chave Primária identificadora a cada categoria.                 |
-|    nameService   |      Obrigatório       |               VARCHAR                |      Nome de cada serviço que foi cadastrado.       |
+|    nameService   |      Obrigatório       |               VARCHAR(100)                |      Nome de cada serviço que foi cadastrado.       |
 
-Entidade: **EVALUATION**
+#### 5.3.6. EVALUATION
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
 |    idEvaluation    |     Chave-Primária     |               INT                  |            Chave primária identificadora de cada avaliação.                 |
-|    comment   |      Obrigatório       |               VARCHAR                |            Comentário relativo a cada avaliação dos serviços disponibilizados.            |
+|    comment   |      Obrigatório       |               VARCHAR(1000)                |            Comentário relativo a cada avaliação dos serviços disponibilizados.            |
 | grade |      Obrigatório        |             INT                     | Grau relativo à avaliação relativa ao serviço.  |
 
-Entidade: **COMPANY**
+#### 5.3.7. COMPANY
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
 |    idCompany    |     Chave-Primária     |               INT                  |            Chave-Primária identificadora de cada empresa/companhia.                 |
-| email |      Obrigatório        |             VARCHAR                     | Email de cada empresa que será utilizado na aplicação. |
-|    name   |      Obrigatório       |               VARCHAR                |            Nome completo da empresa que será cadastrado na aplicação.            |
+| email |      Obrigatório        |             VARCHAR(150)                     | Email de cada empresa que será utilizado na aplicação. |
+|    name   |      Obrigatório       |               VARCHAR(150)                |            Nome completo da empresa que será cadastrado na aplicação.            |
 
 
-Entidade: **PROVIDER**
+#### 5.3.8. PROVIDER
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
@@ -273,7 +273,7 @@ Entidade: **PROVIDER**
 |    idOccupation   |      Obrigatório       |               INT                |             Chave-Estrangeira relativa ao id da ocupação de cada prestador de serviços.                |
 
 
-Entidade: **SCHEDULE**
+#### 5.3.9. SCHEDULE
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
