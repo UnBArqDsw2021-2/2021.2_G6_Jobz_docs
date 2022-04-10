@@ -41,6 +41,7 @@ Traremos:
 **ADDRESS** (<u>idAddress</u>, state, city, cep, number, district, complement)<br>
 **EVALUATION** (<u>idEvalutation</u>, comment, grade)<br>
 **SERVICE_CATEGORY** (<u>idCategory</u>, nameService)<br>
+**PROVIDER_PRESENTATION** (<u> idPresentation</u>, presetationPhoto, descripton)<br>
 
 ### 2.2 Relacionamentos
 
@@ -106,7 +107,13 @@ Um **PROVIDER** pode possuir várias **SCHEDULE** e uma **SCHEDULE** pertence a 
 
 Cardinalidade -> **1:n**
 <hr>
+   
+ **PROVIDER** -> has -> **PROVIDER_PRESENTATION**
+Um **PROVIDER** pode possuir várias **PROVIDER_PRESENTATION** e uma **PROVIDER_PRESENTATION** pertence a um **PROVIDER**
 
+Cardinalidade -> **1:n**
+<hr>
+   
 ### 2.3. Especializações
 #### 2.3.1. Exclusiva
 
@@ -141,6 +148,16 @@ Um **PROVIDER** é uma **PERSON**.
         <br>
     </figcaption>
 </p>
+   
+   
+ ### Versão 3
+<p align='center'>
+    <img src='assets/images/modelagemBanco/v3-DERR.jpg' width=auto height=auto>
+    <figcaption align='center'>
+        <b>Figura 1: Diagrama de entidade relacionamento</b>
+        <br>
+    </figcaption>
+</p>
 
 ## 4. Diagrama lógico
 
@@ -163,6 +180,16 @@ Um **PROVIDER** é uma **PERSON**.
     </figcaption>
 </p>
 
+   
+### Versão 3
+<p align='center'>
+    <img src='assets/images/modelagemBanco/v3-DLDR.jpg' width=auto height=auto>
+    <figcaption align='center'>
+        <b>Figura 2: Diagrama lógico</b>
+        <br>
+    </figcaption>
+</p>
+   
 ## 3. Referências
 
 > DEVMEDIA. Modelagem de Dados Tutorial. Disponível em: https://www.devmedia.com.br/modelagem-de-dados-tutorial/20398. Acesso em: 14 jan. de 2022.
@@ -188,3 +215,4 @@ Um **PROVIDER** é uma **PERSON**.
 |  2.1   | 17/03/2022 | Melhorias pós revisão 	     	   | Fernando e Lorrayne             |
 |  2.2   | 17/03/2022 | Revisão versão 2 documento 	       | Pedro Campos, Guilherme Braz    |
 |  2.3   | 20/03/2022 | Corrigindo especialização     	   | Fernando e Lorrayne             |
+|  2.4   | 10/04/2022 | Versão 3 dos diagramas   	   | Antônio e Ariel           |
