@@ -152,7 +152,7 @@ Um **PROVIDER** é uma **PERSON**.
    
  ### Versão 3
 <p align='center'>
-    <img src='assets/images/modelagemBanco/v3-DERR.jpg' width=auto height=auto>
+    <img src='assets/images/modelagemBanco/v3-DERR.png' width=auto height=auto>
     <figcaption align='center'>
         <b>Figura 1: Diagrama de entidade relacionamento</b>
         <br>
@@ -183,7 +183,7 @@ Um **PROVIDER** é uma **PERSON**.
    
 ### Versão 3
 <p align='center'>
-    <img src='assets/images/modelagemBanco/v3-DLDR.jpg' width=auto height=auto>
+    <img src='assets/images/modelagemBanco/v3-DLDR.png' width=auto height=auto>
     <figcaption align='center'>
         <b>Figura 2: Diagrama lógico</b>
         <br>
@@ -216,3 +216,4 @@ Um **PROVIDER** é uma **PERSON**.
 |  2.2   | 17/03/2022 | Revisão versão 2 documento 	       | Pedro Campos, Guilherme Braz    |
 |  2.3   | 20/03/2022 | Corrigindo especialização     	   | Fernando e Lorrayne             |
 |  2.4   | 10/04/2022 | Versão 3 dos diagramas   	   | Antônio e Ariel           |
+|  2.5   | 10/04/2022 | Corrigindo imagens	   | Antônio e Ariel           |
