@@ -41,6 +41,7 @@ Traremos:
 **ADDRESS** (<u>idAddress</u>, state, city, cep, number, district, complement)<br>
 **EVALUATION** (<u>idEvalutation</u>, comment, grade)<br>
 **SERVICE_CATEGORY** (<u>idCategory</u>, nameService)<br>
+**PROVIDER_PRESENTATION** (<u> idPresentation</u>, presetationPhoto, descripton)<br>
 
 ### 2.2 Relacionamentos
 
@@ -105,6 +106,15 @@ Cardinalidade -> **1:1**
 Um **PROVIDER** pode possuir várias **SCHEDULE** e uma **SCHEDULE** pertence a um **PROVIDER**
 
 Cardinalidade -> **1:n**
+
+<hr>
+
+**PROVIDER** -> has -> **PROVIDER_PRESENTATION**
+
+Um **PROVIDER** pode possuir várias **PROVIDER_PRESENTATION** e uma **PROVIDER_PRESENTATION** pertence a um **PROVIDER**
+
+Cardinalidade -> **1:n**
+
 <hr>
 
 ### 2.3. Especializações
@@ -128,7 +138,7 @@ Um **PROVIDER** é uma **PERSON**.
 <p align='center'>
     <img src='assets/images/modelagemBanco/V1-MER.png' width=auto height=auto>
     <figcaption align='center'>
-        <b>Figura 1: Diagrama de entidade relacionamento</b>
+        <b>Figura 1: Diagrama de entidade relacionamento - V1</b>
         <br>
     </figcaption>
 </p>
@@ -137,7 +147,17 @@ Um **PROVIDER** é uma **PERSON**.
 <p align='center'>
     <img src='assets/images/modelagemBanco/v2-DERR.jpg' width=auto height=auto>
     <figcaption align='center'>
-        <b>Figura 1: Diagrama de entidade relacionamento</b>
+        <b>Figura 2: Diagrama de entidade relacionamento - V2</b>
+        <br>
+    </figcaption>
+</p>
+   
+
+### Versão 3
+<p align='center'>
+    <img src='assets/images/modelagemBanco/v3-DERR.png' width=auto height=auto>
+    <figcaption align='center'>
+        <b>Figura 3: Diagrama de entidade relacionamento - V3</b>
         <br>
     </figcaption>
 </p>
@@ -148,7 +168,7 @@ Um **PROVIDER** é uma **PERSON**.
 <p align='center'>
     <img src='assets/images/modelagemBanco/V1-DE-LOGICO.png' width=auto height=auto>
     <figcaption align='center'>
-        <b>Figura 2: Diagrama lógico</b>
+        <b>Figura 4: Diagrama lógico - V1</b>
         <br>
     </figcaption>
 </p>
@@ -158,7 +178,17 @@ Um **PROVIDER** é uma **PERSON**.
 <p align='center'>
     <img src='assets/images/modelagemBanco/v2-DLDR.jpg' width=auto height=auto>
     <figcaption align='center'>
-        <b>Figura 2: Diagrama lógico</b>
+        <b>Figura 5: Diagrama lógico - V2</b>
+        <br>
+    </figcaption>
+</p>
+
+
+### Versão 3
+<p align='center'>
+    <img src='assets/images/modelagemBanco/v3-DLDR.png' width=auto height=auto>
+    <figcaption align='center'>
+        <b>Figura 6: Diagrama lógico - V3</b>
         <br>
     </figcaption>
 </p>
@@ -188,3 +218,6 @@ Um **PROVIDER** é uma **PERSON**.
 |  2.1   | 17/03/2022 | Melhorias pós revisão 	     	   | Fernando e Lorrayne             |
 |  2.2   | 17/03/2022 | Revisão versão 2 documento 	       | Pedro Campos, Guilherme Braz    |
 |  2.3   | 20/03/2022 | Corrigindo especialização     	   | Fernando e Lorrayne             |
+|  2.4   | 10/04/2022 | Versão 3 dos diagramas   	       | Antônio e Ariel                 |
+|  2.5   | 10/04/2022 | Corrigindo imagens	               | Antônio e Ariel                 |
+|  2.6   | 11/04/2022 | Revisão dos novos diagramas        | Lorrayne                        |
