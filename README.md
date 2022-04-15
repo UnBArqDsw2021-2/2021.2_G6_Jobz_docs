@@ -92,10 +92,22 @@ Adicione o(s)s vídeo(s) da Entrega Final.
 
 ## O Projeto está rodando?
 
-( ) SIM
+( X ) SIM
 ( ) NÃO
-Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados em consultar o projeto.
+### Pré requisitos:
+
+Docker => 20.10.12
+
+Docker compose => 1.29.2
 
 ## Informações Complementares
 
-Quaisquer outras informações sobre seu projeto podem ser descritas nessa seção.
+Existe automação para criação da imagem docker para o frontend e backend
+
+```
+docker push antonioaldisio/jobzfrontend
+```
+
+```
+docker push antonioaldisio/jobzbackend
+```
