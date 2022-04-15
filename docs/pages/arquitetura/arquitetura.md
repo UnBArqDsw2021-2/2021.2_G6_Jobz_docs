@@ -176,7 +176,7 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
 
 ### 5.1. Diagrama Entidade-Relacionamento (DE-R)
 <p align='center'>
-    <img src='assets/images/modelagemBanco/v2-DERR.jpg' width=auto height=auto>
+    <img src='assets/images/modelagemBanco/DERR-PosG_Final.png' width=auto height=auto>
     <figcaption align='center'>
         <b>Figura 6: Diagrama de entidade relacionamento</b>
         <br>
@@ -186,7 +186,7 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
 ### 5.2. Diagrama Logico de Dados (DLD)
 
 <p align='center'>
-    <img src='assets/images/modelagemBanco/v2-DLDR.jpg' width=auto height=auto>
+    <img src='assets/images/modelagemBanco/DLDR-PosG_Final.png' width=auto height=auto>
     <figcaption align='center'>
         <b>Figura 7: Diagrama lógico</b>
         <br>
@@ -502,3 +502,4 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 | 04/04/2022 |  0.10.5  | Lorrayne Cardozo e Ariel Serafim |  Adição do tópico de representação arquitetural |
 | 04/04/2022 |  0.10.6  | Lorrayne Cardozo e Ariel Serafim |  Correção de ordem da página |
 | 05/04/2022 |  0.10.7  | Lorrayne Cardozo e Ariel Serafim |  Adição da introdução |
+| 15/04/2022 |  0.10.9  | Lorrayne Cardozo e Ariel Serafim |  Nova versão dos diagramas do banco |

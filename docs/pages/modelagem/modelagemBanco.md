@@ -162,13 +162,22 @@ Um **PROVIDER** é uma **PERSON**.
     </figcaption>
 </p>
 
+### Versão 4
+<p align='center'>
+    <img src='assets/images/modelagemBanco/DERR-PosG_Final.png' width=auto height=auto>
+    <figcaption align='center'>
+        <b>Figura 4: Diagrama de entidade relacionamento - V4</b>
+        <br>
+    </figcaption>
+</p>
+
 ## 4. Diagrama lógico
 
 ### Versão 1
 <p align='center'>
     <img src='assets/images/modelagemBanco/V1-DE-LOGICO.png' width=auto height=auto>
     <figcaption align='center'>
-        <b>Figura 4: Diagrama lógico - V1</b>
+        <b>Figura 5: Diagrama lógico - V1</b>
         <br>
     </figcaption>
 </p>
@@ -178,7 +187,7 @@ Um **PROVIDER** é uma **PERSON**.
 <p align='center'>
     <img src='assets/images/modelagemBanco/v2-DLDR.jpg' width=auto height=auto>
     <figcaption align='center'>
-        <b>Figura 5: Diagrama lógico - V2</b>
+        <b>Figura 6: Diagrama lógico - V2</b>
         <br>
     </figcaption>
 </p>
@@ -188,7 +197,16 @@ Um **PROVIDER** é uma **PERSON**.
 <p align='center'>
     <img src='assets/images/modelagemBanco/v3-DLDR.png' width=auto height=auto>
     <figcaption align='center'>
-        <b>Figura 6: Diagrama lógico - V3</b>
+        <b>Figura 7: Diagrama lógico - V3</b>
+        <br>
+    </figcaption>
+</p>
+
+### Versão 4
+<p align='center'>
+    <img src='assets/images/modelagemBanco/DLDR-PosG_Final.png' width=auto height=auto>
+    <figcaption align='center'>
+        <b>Figura 8: Diagrama lógico - V4</b>
         <br>
     </figcaption>
 </p>
@@ -221,3 +239,4 @@ Um **PROVIDER** é uma **PERSON**.
 |  2.4   | 10/04/2022 | Versão 3 dos diagramas   	       | Antônio e Ariel                 |
 |  2.5   | 10/04/2022 | Corrigindo imagens	               | Antônio e Ariel                 |
 |  2.6   | 11/04/2022 | Revisão dos novos diagramas        | Lorrayne                        |
+|  2.7   | 15/04/2022 | Novo diagrama        | Antônio e Ariel                        |
