@@ -1,21 +1,55 @@
-# <center> DAS - DOCUMENTO DE ARQUITETURA DE SOFTWARE
+# <center> Documento de Arquitetura de Software - DAS
 
 <div align="justify">
 
 ## 1. Introdução
 
-### 1.1. Finalidade
-### 1.2. Escopo
-### 1.3. Definições, Acrônimos e Abreviações
-### 1.4. Visão Geral
+O *Documento de Arquitetura de Software* (DAS) pode ser descrito como "uma visão arquitetural abrangente do sistema, usando diversas visões de arquitetura para representar diferentes aspectos do sistema" (IBM Corp, 2006). Possui o objetivo de descrever toda a arquitetura da aplicação web [**Jobz**](https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/) e deve ser usado para a documentação e comunicação entre os participantes do projeto sobre questões arquiteturais. O Jobz é um sistema criado para conectar empresas e profissionais autônomos que realizam serviços em geral a clientes que buscam por esses serviços, afim de ser útil para os dois perfis, tanto divulgando o trabalho desses prestadores quanto auxiliando os clientes a encontrarem a melhor solução.
 
+### 1.1. Finalidade
+O presente documento apresenta a arquitetura geral do sistema do projeto [**Jobz**](https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/), com a finalidade de especificar e documentar as diversas decisões arquiteturais que foram tomadas no decorrer do desenvolvimento do projeto, as quais foram documentadas por meio da utilização de tabelas, diagramas, entre outros artefatos.
+
+### 1.2. Escopo
+Esse documento refere-se a aplicação [**Jobz**](https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/), que consiste em uma aplicação web com o objetivo de intermediar prestadores de serviços em geral e clientes interessados, criando um espaço para que os profissionais divulguem suas habilidades, alcançando um maior público, e facilitando a busca dos clientes.
+
+No documento são contemplados padrões de software, componentes de software, plataformas e frameworks de desenvolvimento, casos de uso e serviços de persistência de dados. Desta forma, o documento é utilizado como um guia para o entendimento do desenvolvimento do projeto ao abordar os principais pontos desenvolvidos na construção de sua arquitetura.
+
+### 1.3. Definições, Acrônimos e Abreviações
+| Abreviação | Acrônimo | Definição |
+|:-:|:-:|:-|
+| API | Application Program Interface (Interface de Programação de Aplicações) | É uma interface de programação de aplicações, um conjunto de definições e protocolos para criar e integrar softwares de aplicações. |
+| HTTP | HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto) | É um protocolo de comunicação utilizado para sistemas de informação de hipermídia, distribuídos e colaborativos. |
+| MTV | Model Template View | É um padrão de projeto de software baseado em 3 componentes importantes: model, template e view. |
+| REST | Representational State Transfer | É um estilo de arquitetura de software que define um conjunto de restrições a serem usadas para a criação de web services (serviços Web). |
+| DRY | Don’t Repeat Yourself | DRY é um conceito de programação de computadores o qual propõe que cada porção de conhecimento em um sistema deve possuir uma representação única, de autoridade e livre de ambiguidades em todo o sistema. |
+| WEB | World Wide Web | A World Wide Web designa um sistema de documentos em hipermídia que são interligados e executados na Internet. |
+| DAS | Documento de Arquitetura de Software | Documento que descreve toda a arquitetura da aplicação. |
+| DE-R | Diagrama Entidade Relacionamento | É um modelo de dados para descrever os dados ou aspectos de informação de um domínio de negócio ou seus requisitos de processo, de uma maneira abstrata que em última análise se presta a ser implementada em um banco de dados, como um banco de dados relacional. |
+| DLD | Diagrama Lógico de Dados | Representa as estruturas que irão armazenar os dados dentro de um Banco de Dados.  |
+| UML | Unified Modeling Language(Linguagem de modelagem unificada) | É  é uma linguagem-padrão para a elaboração da estrutura de projetos de software. Ela poderá ser empregada para a visualização, a especificação, a construção e a documentação de artefatos que façam uso de sistemas complexos de software. |
+
+### 1.4. Visão Geral
+Com o objetivo de facilitar o entendimento do documento, o texto está organizado em 10 tópicos, nos quais foram documentadas a construção da arquitetura do projeto [**Jobz**](https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/) e as decisões tomadas durante seu desenvolvimento. Cada um dos tópicos possuem sua devida importância e estão divididos da seguinte forma:
+
+| Número | Tópico | Descrição |
+|:-:|:-:|:-|
+| 1 | Introdução | Fornece uma visão geral de todo o Documento de Arquitetura de Software, incluindo sua finalidade, seu escopo, definições, acrônimos e abreviações, e sua visão geral.  |
+| 2 | Representação Arquitetural | Descreve a arquitetura do sistema e como ela é representada, assim como as tecnologias utilizadas em seu desenvolvimento. |
+| 3 | Metas e Restrições Arquiteturais | Descreve as metas arquiteturais e os requisitos do software que têm algum impacto significativo em sua arquitetura. |
+| 4 | Visão Lógica | Descreve as partes significativas do ponto de vista da arquitetura do modelo de design, como sua decomposição em classes e pacotes. |
+| 5 | Visão de Dados | Descreve a perspectiva de armazenamento e modelagem de dados persistentes do sistema. |
+| 6 | Visão de Processos | Descreve o sistema em tempo de execução através de interações e comportamentos dos elementos |
+| 7 | Visão de Implementação | Descreve a estrutura geral do modelo de implementação, a decomposição do software em camadas e subsistemas no modelo de implementação e quaisquer componentes arquitetonicamente significativos. |
+| 8 | Visão de Casos de Uso | Descreve casos de uso ou cenários do modelo de caso de uso se eles representam alguma funcionalidade central significativa do sistema final. |
+| 9 | Visão de Implantação | Descreve a estrutura geral do modelo de implementação, a divisão do software em camadas e os subsistemas no modelo de implementação e todos os componentes significativos do ponto de vista da arquitetura. |
+| 10 | Qualidade | Descreve o impacto da arquitetura nos atributos de qualidade do software. |
 
 ## 2. Representação Arquitetural
 
-## 2.1. Diagrama de Arquitetura.
+### 2.1. Diagrama de Arquitetura
 
-Usamos **Django** com o **REST Framework**, **PostgreSQL** e **ReactJS** para a cosntrução da aplicação.
-O Django faz uso da arquitetura MVT, Model, View Template; Em que o Model lida com requisições (querys) de dados com objetos python, as Views recebem requisições Http e enviam respostas http, e o Template específica o formato de apresentação dos dados, que aqui é representado pelo módulo de ReactJS.
+Usamos [**Django**](https://docs.djangoproject.com/en/4.0/) com o [**REST Framework**](https://www.django-rest-framework.org/), [**PostgreSQL**](https://www.postgresql.org/) e [**ReactJS**](https://pt-br.reactjs.org/) para a cosntrução da aplicação.
+O Django faz uso da arquitetura MVT (Model, View Template) em que o Model lida com requisições (querys) de dados com objetos python, as Views recebem requisições Http e enviam respostas http, e o Template específica o formato de apresentação dos dados, que aqui é representado pelo módulo de ReactJS.
 Segue o diagrama de arquitetura do projeto.
 <p align='center'>
     <img src='assets/images/arquitetura/Arquitetura.drawio.png' width=80% height=auto>
@@ -30,10 +64,10 @@ Para o desenvolvimento da aplicação Jobz foi utilizado um conjunto de ferramen
 
 #### 2.2.1. FrontEnd
 
-O **ReactJS** é uma biblioteca da linguagem JavaScript que utiliza certos padrões de design baseados em Components. A aplicação React começa com um único componente raiz, que é construído usando um ou mais componentes, e cada um desses componentes pode ser aninhado com outro componente em qualquer nível. O framework foi escolhido porque alguns integrantes já possuíam experiência e a equipe julgou como uma boa opção para o projeto.
+O [**ReactJS**](https://pt-br.reactjs.org/) é uma biblioteca da linguagem JavaScript que utiliza certos padrões de design baseados em Components. A aplicação React começa com um único componente raiz, que é construído usando um ou mais componentes, e cada um desses componentes pode ser aninhado com outro componente em qualquer nível. O framework foi escolhido porque alguns integrantes já possuíam experiência e a equipe julgou como uma boa opção para o projeto.
 
 #### 2.2.2. BackEnd
-Tanto o **Django** quanto o **Django Rest Framework** são escritos em [Python](https://www.python.org/), porém possuem finalidades diferentes.
+Tanto o [**Django**](https://docs.djangoproject.com/en/4.0/) quanto o [**Django REST Framework**](https://www.django-rest-framework.org/) são escritos em [Python](https://www.python.org/), porém possuem finalidades diferentes.
 
 O **Django** tem o propósito focado no desenvolvimento de aplicações web e sites, fazendo uso do *Don't Repeat Yourself* (DRY), que em tradução livre significa *Não Seja Repetitivo*, aproveitando ao máximo o código criado facilitando a reutilização. Além disso, utiliza o padrão *model-template-view* (MTV), onde a aplicação é dividida em camadas, tornando o código mais organizado.
 
@@ -42,10 +76,10 @@ O **Django Rest Framework** tem como objetivo o desenvolvimento de API's de form
 O framework foi escolhido porque alguns integrantes já possuíam experiência, se disponibilizando para fornecer ajuda aos demais, além de que a ferramenta oferece um rápido desenvolvimento.
 
 #### 2.2.3. Banco de Dados
-O **PostgreSQL** é um Sistema Gerenciador de Banco de Dados (SGBD) Relacional, utilizado para armazenar informações de soluções de informática em todas as áreas de negócios existentes (Milani, André. PostgreSQL: Guia do Programador. Novatec. 2008). É um dos cinco SGDB's relacionais mais utilizados do mercado, e foi escolhido por ser um sistema open-source de fácil instalação que possui interfaces simples e intuitivas que facilitam o aprendizado, além de ser muito fácil de manter devido a sua estabilidade.
+O [**PostgreSQL**](https://www.postgresql.org/) é um Sistema Gerenciador de Banco de Dados (SGBD) Relacional, utilizado para armazenar informações de soluções de informática em todas as áreas de negócios existentes (Milani, André. PostgreSQL: Guia do Programador. Novatec. 2008). É um dos cinco SGDB's relacionais mais utilizados do mercado, e foi escolhido por ser um sistema open-source de fácil instalação que possui interfaces simples e intuitivas que facilitam o aprendizado, além de ser muito fácil de manter devido a sua estabilidade.
 
 #### 2.2.4. Docker
-O **Docker** foi utilizado porque facilita o desenvolvimento em equipe possibilitando a containerização do ambiente de execução, permitindo o compartilhamento de tecnologias e dependências em qualquer host que contenha o Docker instalado.
+O [**Docker**](https://www.docker.com/) foi utilizado porque facilita o desenvolvimento em equipe possibilitando a containerização do ambiente de execução, permitindo o compartilhamento de tecnologias e dependências em qualquer host que contenha o Docker instalado.
 
 ## 3. Metas e Restrições Arquiteturais
 
@@ -91,7 +125,7 @@ Com o seu uso, somos capazes de entender melhor a visão geral do esquema de nos
 <p align='center'>
     <img src='assets/images/diagramasEstaticos/diagramaClasses/classDiagramV2.svg' width=80% height=auto>
     <figcaption align='center'>
-        <b>Figura 1: Diagrama de classes do produto v.2.0 </b>
+        <b>Figura 2: Diagrama de classes do produto v.2.0 </b>
         <br>
     </figcaption>
 </p>
@@ -109,7 +143,7 @@ Dessa forma, temos o diagrama de pacotes criado para apresentar a estrutura de n
 <p align='center'>
     <img src='assets/images/diagramasEstaticos/diagramadepacotes.png' height=auto>
     <figcaption align='center'>
-        <b>Figura 2: Diagrama de pacotes do backend do produto. </b>
+        <b>Figura 3: Diagrama de pacotes do backend do produto. </b>
         <br>
     </figcaption>
 </p>
@@ -121,7 +155,7 @@ Por conseguinte, temos então o diagrama de pacotes voltado para o frontend de n
 <p align='center'>
     <img src='assets/images/diagramasEstaticos/diagramapacotesfrontend.png' height=auto>
     <figcaption align='center'>
-        <b>Figura 3: Diagrama de pacotes do frontend produto. </b>
+        <b>Figura 4: Diagrama de pacotes do frontend produto. </b>
         <br>
     </figcaption>
 </p>
@@ -133,18 +167,18 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
 <p align='center'>
     <img src='assets/images/diagramasEstaticos/diagramapacotesgeral.png' height=auto>
     <figcaption align='center'>
-        <b>Figura 4: Diagrama de pacotes do produto. </b>
+        <b>Figura 5: Diagrama de pacotes do produto. </b>
         <br>
     </figcaption>
 </p>
 
-## 5. Visão de dados
+## 5. Visão de Dados
 
 ### 5.1. Diagrama Entidade-Relacionamento (DE-R)
 <p align='center'>
     <img src='assets/images/modelagemBanco/v2-DERR.jpg' width=auto height=auto>
     <figcaption align='center'>
-        <b>Figura 1: Diagrama de entidade relacionamento</b>
+        <b>Figura 6: Diagrama de entidade relacionamento</b>
         <br>
     </figcaption>
 </p>
@@ -154,24 +188,24 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
 <p align='center'>
     <img src='assets/images/modelagemBanco/v2-DLDR.jpg' width=auto height=auto>
     <figcaption align='center'>
-        <b>Figura 2: Diagrama lógico</b>
+        <b>Figura 7: Diagrama lógico</b>
         <br>
     </figcaption>
 </p>
 
 ### 5.3. Dicionário de dados
 
-Entidade: **PERSON**
+#### 5.3.1. PERSON
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
-|    name    |     Obrigatório     |               VARCHAR                  |             Nome completo de cada pessoa.                 |
-|    phone   |      Obrigatório       |               BIGINT                |             Telefone para contato de cada. pessoa.             |
-| email |      Obrigatório        |             VARCHAR                     | Email de cada pessoa que será utilizado na aplicação. |
+|    name    |     Obrigatório     |               VARCHAR(500)                  |             Nome completo de cada pessoa.                 |
+|    phone   |      Obrigatório       |               BIGINT                |             Telefone para contato de cada pessoa.             |
+| email |      Obrigatório        |             VARCHAR(150)                     | Email de cada pessoa que será utilizado na aplicação. |
 | cpf |      chave-Primária        |             BIGINT                     |  Chave-Primária Identificadora de cada pessoa.                            |
-|  password  |      Obrigatório       |               VARCHAR                |          Senha para autenticação do funcionário.           |
+|  password  |      Obrigatório       |               VARCHAR(50)                |          Senha para autenticação do funcionário.           |
 
-Entidade: **USER**
+#### 5.3.2. USER
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
@@ -180,57 +214,57 @@ Entidade: **USER**
 | idAddress |      Chave-Estrangeira        |             INT                     | Chave estrangeira correspondente ao endereço do usuário. |
 
 
-Entidade: **ADDRESS**
+#### 5.3.3. ADDRESS
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
 |    idAddress    |     Chave-Primária     |               INT                  |            Chave-Primária identificadora de cada endereço.                 |
-|    city   |      Obrigatório       |               VARCHAR                | Cidade correspondente ao endereço de cada usuário.             |
-| state |      Obrigatório        |             VARCHAR                     | Estado correspondente ao endereço de cada usuário. |
-| cep |      Obrigatório        |             VARCHAR                       |  CEP correspondente ao endereço de cada usuário.                         |
+|    city   |      Obrigatório       |               VARCHAR(100)                | Cidade correspondente ao endereço de cada usuário.             |
+| state |      Obrigatório        |             VARCHAR(2)                     | Estado correspondente ao endereço de cada usuário. |
+| cep |      Obrigatório        |             INT                       |  CEP correspondente ao endereço de cada usuário.                         |
 |  number  |      Obrigatório       |               INT               |          Número correspondente ao endereço de cada usuário.           |
-|  district  |      Obrigatório       |               VARCHAR               |   Bairro correspondente ao endereço de cada usuário.           |
-|  complement  |      Obrigatório       |               VARCHAR               |   Complemento correspondente ao endereço de cada usuário.           |
+|  district  |      Obrigatório       |               VARCHAR(100)               |   Bairro correspondente ao endereço de cada usuário.           |
+|  complement  |      Obrigatório       |               VARCHAR(100)               |   Complemento correspondente ao endereço de cada usuário.           |
 
 
-Entidade: **SERVICE**
+#### 5.3.4. SERVICE
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
 |    datePurchase    |     Obrigatório     |               DATETIME                  |             Data correspondente da aquisição do serviço.                 |
 |    dateService   |      Obrigatório       |               DATETIME                |            Data correspondente da publicação do serviço.             |
-| serviceDescription |      Obrigatório        |             VARCHAR                     | Descrição relativa a cada serviço disponibilizado. |
+| serviceDescription |      Obrigatório        |             VARCHAR(5000)                     | Descrição relativa a cada serviço disponibilizado. |
 | idService |      Chave-Primária        |             INT                     |  Chave-Primária Identificadora de cada serviço.                            |
 |  idUser  |      Chave-Estrangeira       |               INT                |          Chave estrangeira relativa ao id do usuário que contratou o serviço.           |
 |  cpf  |      Chave-Estrangeira       |               BIGINT                |          Chave estrangeira relativa ao cpf do usuário que contratou o serviço.           |
 |  idCategory  |      Chave-Estrangeira       |               INT                |          Chave estrangeira relativa ao id da categoria ao qual pertence o serviço.           |
 |  idEvaluation  |      Chave-Estrangeira       |               INT                |          Chave estrangeira relativa ao id da avaliação do serviço.           |
 
-Entidade: **SERVICE_CATEGORY**
+#### 5.3.5. SERVICE_CATEGORY
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
 |    idCategory    |     Chave-Primária     |               INT                  |             Chave Primária identificadora a cada categoria.                 |
-|    nameService   |      Obrigatório       |               VARCHAR                |      Nome de cada serviço que foi cadastrado.       |
+|    nameService   |      Obrigatório       |               VARCHAR(100)                |      Nome de cada serviço que foi cadastrado.       |
 
-Entidade: **EVALUATION**
+#### 5.3.6. EVALUATION
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
 |    idEvaluation    |     Chave-Primária     |               INT                  |            Chave primária identificadora de cada avaliação.                 |
-|    comment   |      Obrigatório       |               VARCHAR                |            Comentário relativo a cada avaliação dos serviços disponibilizados.            |
+|    comment   |      Obrigatório       |               VARCHAR(1000)                |            Comentário relativo a cada avaliação dos serviços disponibilizados.            |
 | grade |      Obrigatório        |             INT                     | Grau relativo à avaliação relativa ao serviço.  |
 
-Entidade: **COMPANY**
+#### 5.3.7. COMPANY
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
 |    idCompany    |     Chave-Primária     |               INT                  |            Chave-Primária identificadora de cada empresa/companhia.                 |
-| email |      Obrigatório        |             VARCHAR                     | Email de cada empresa que será utilizado na aplicação. |
-|    name   |      Obrigatório       |               VARCHAR                |            Nome completo da empresa que será cadastrado na aplicação.            |
+| email |      Obrigatório        |             VARCHAR(150)                     | Email de cada empresa que será utilizado na aplicação. |
+|    name   |      Obrigatório       |               VARCHAR(150)                |            Nome completo da empresa que será cadastrado na aplicação.            |
 
 
-Entidade: **PROVIDER**
+#### 5.3.8. PROVIDER
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
@@ -239,7 +273,7 @@ Entidade: **PROVIDER**
 |    idOccupation   |      Obrigatório       |               INT                |             Chave-Estrangeira relativa ao id da ocupação de cada prestador de serviços.                |
 
 
-Entidade: **SCHEDULE**
+#### 5.3.9. SCHEDULE
 
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
@@ -264,7 +298,7 @@ O diagrama de sequência da contratação de serviços, que é o principal proce
 <p align='center'>
     <img src='assets/images/diagramaSequencia/sequenceDiagramHiring.png' width=100% height=auto>
     <figcaption align='center'>
-        <b>Figura 5: Diagrama de Sequência da Contratação de Serviços</b>
+        <b>Figura 8: Diagrama de Sequência da Contratação de Serviços</b>
         <br>
     </figcaption>
 </p>
@@ -276,7 +310,7 @@ O diagrama de atividades descreve as etapas que ocorrem quando um determinado ce
 <p align='center'>
     <img src='assets/images/diagramaAtividades/diagramaLogin.png' width=40% height=auto>
     <figcaption align='center'>
-        <b>Figura 6 - Diagrama de Atividades representando o login. </b>
+        <b>Figura 9: Diagrama de Atividades representando o login. </b>
         <br>
     </figcaption>
 </p>
@@ -284,7 +318,7 @@ O diagrama de atividades descreve as etapas que ocorrem quando um determinado ce
 <p align='center'>
     <img src='assets/images/diagramaAtividades/diagramaCliente.png' width=40% height=auto>
     <figcaption align='center'>
-        <b>Figura 7 - Diagrama de Atividades representando o perfil de cliente.</b>
+        <b>Figura 10: Diagrama de Atividades representando o perfil de cliente.</b>
         <br>
     </figcaption>
 </p>
@@ -292,7 +326,7 @@ O diagrama de atividades descreve as etapas que ocorrem quando um determinado ce
 <p align='center'>
     <img src='assets/images/diagramaAtividades/diagramaPrestador.png' width=40% height=auto>
     <figcaption align='center'>
-        <b>Figura 8 - Diagrama de Atividades representando o perfil de prestador de serviço.</b>
+        <b>Figura 11: Diagrama de Atividades representando o perfil de prestador de serviço.</b>
         <br>
     </figcaption>
 </p>
@@ -304,7 +338,7 @@ O diagrama de comunicação demonstra o comportamento dinâmico de um sistema ou
 <p align='center'>
     <img src='assets/images/diagrama-comunicacao/collaborator.png' width=auto height=auto>
     <figcaption align='center'>
-        <b>Figura 9: Diagrama de comunicação da criação do serviço</b>
+        <b>Figura 12: Diagrama de comunicação da criação do serviço</b>
         <br>
     </figcaption>
 </p>
@@ -312,12 +346,12 @@ O diagrama de comunicação demonstra o comportamento dinâmico de um sistema ou
 <p align='center'>
     <img src='assets/images/diagrama-comunicacao/comunicacao-criacao-cliente.png' width=auto height=auto>
     <figcaption align='center'>
-        <b>Figura 10: Diagrama de comunicação da contratação do serviço</b>
+        <b>Figura 13: Diagrama de comunicação da contratação do serviço</b>
         <br>
     </figcaption>
 </p>
 
-## 7. Visão de implementação
+## 7. Visão de Implementação
 
 Para melhorar a compreensão física do processamento do sistema utilizamos a visão de implementação, no qual nos permite ilustrar e captar as decisões de arquitetura tomadas para a implementação. No qual, se aproveita do [diagrama de componentes](./pages/modelagem/componentes) que apresenta os subsistemas e suas organizações em camadas de hierarquia.
 Além de que, a visão de implementação nos permite entender a quantidade de código que será produzida, discutir reutilizações no sistema, considerar estratégias para a release e até mesmo atribuir o trabalho de implementação ao indivíduos ou equipes.
@@ -330,7 +364,7 @@ Um diagrama de componentes é considerado quase que indispensável para a criaç
 <p align='center'>
     <img src='assets/images/Diagrama_Compomentes/Diagrama compomente.jpeg' width=100% height=auto>
     <figcaption align='center'>
-        <b>Figura 11: Diagrama de Componentes</b>
+        <b>Figura 14: Diagrama de Componentes</b>
         <br>
     </figcaption>
 </p>
@@ -344,7 +378,7 @@ A visão de casos de uso é uma representação visual mais aproximada do usuár
 <p align='center'>
     <img src='assets/images/CasosUso/CasosUsoJOBZ2.png' width=80% height=auto>
     <figcaption align='center'>
-        <b>Figura 12: Diagrama de Casos de Uso. </b>
+        <b>Figura 15: Diagrama de Casos de Uso. </b>
         <br>
     </figcaption>
 </p>
@@ -358,7 +392,7 @@ O Jobz é uma aplicação web que segue o modelo de camadas, onde temos as camad
 <p align='center'>
     <img src='assets/images/diagramasEstaticos/diagramaImplementação.svg' width=100% height=auto>
     <figcaption align='center'>
-        <b>Figura 13: Diagrama de implementação do produto. </b>
+        <b>Figura 16: Diagrama de implementação do produto. </b>
     </figcaption>
 </p>
 
@@ -467,3 +501,4 @@ As qualidades externas e internas determinam a qualidade do produto por meio de 
 | 04/04/2022 |  0.10.4  | Luis Araujo e Pedro Campos |  União dos arquivos de documentos de arquitetura |
 | 04/04/2022 |  0.10.5  | Lorrayne Cardozo e Ariel Serafim |  Adição do tópico de representação arquitetural |
 | 04/04/2022 |  0.10.6  | Lorrayne Cardozo e Ariel Serafim |  Correção de ordem da página |
+| 05/04/2022 |  0.10.7  | Lorrayne Cardozo e Ariel Serafim |  Adição da introdução |
