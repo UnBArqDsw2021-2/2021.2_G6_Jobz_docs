@@ -100,6 +100,29 @@ Docker => 20.10.12
 
 Docker compose => 1.29.2
 
+### Passo a passo para rodar
+
+1. Clone o [Jobz Backend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd) ou [Jobz Backend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd).
+```
+git clone https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd.git
+```
+ou 
+
+```
+git clone https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackendEnd.git
+```
+
+2. Entre na pasta /deploy.
+
+3. Rodar o projeto
+```
+make run
+```
+4. Parar o projeto.
+```
+make stop
+```
+
 ## Informações Complementares
 
 Existe automação para criação da imagem docker para o frontend e backend
