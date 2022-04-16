@@ -284,6 +284,13 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
 |  idProvider  |      Chave-Estrangeira       |               INT                |          Chave-Estrangeira relativa ao id do prestador de serviços ao qual é dono da agenda.           |
 |  cpf  |      Chave-Estrangeira       |               VARCHAR(11)                |          Chave-Estrangeira relativa ao cpf do prestador de serviços ao qual é dono da agenda.           |
 
+#### 5.3.10. PROVIDER_PRESENTATION
+|  Atributo       | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
+| :-------------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
+| idPresentation  | Chave-Primária         | INT                                 | Chave-Primária identificadora de cada perfil de apresentação.    |
+| presetationPhoto| Obrigatório            | IMAGE                               | Foto do prestador de serviço.                             |
+| description     | Obrigatório            | VARCHAR(5000)                       | Descrição dos serviços prestados.                            |
+| cpf             | Chave-Estrangeira      | VARCHAR(11)                         | Chave-Estrangeira relativa ao cpf do prestador de serviços.|
 
 ## 6. Visão de Processos
 
