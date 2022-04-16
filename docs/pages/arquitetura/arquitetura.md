@@ -26,7 +26,7 @@ No documento são contemplados padrões de software, componentes de software, pl
 | DAS | Documento de Arquitetura de Software | Documento que descreve toda a arquitetura da aplicação. |
 | DE-R | Diagrama Entidade Relacionamento | É um modelo de dados para descrever os dados ou aspectos de informação de um domínio de negócio ou seus requisitos de processo, de uma maneira abstrata que em última análise se presta a ser implementada em um banco de dados, como um banco de dados relacional. |
 | DLD | Diagrama Lógico de Dados | Representa as estruturas que irão armazenar os dados dentro de um Banco de Dados.  |
-| UML | Unified Modeling Language(Linguagem de modelagem unificada) | É  é uma linguagem-padrão para a elaboração da estrutura de projetos de software. Ela poderá ser empregada para a visualização, a especificação, a construção e a documentação de artefatos que façam uso de sistemas complexos de software. |
+| UML | Unified Modeling Language(Linguagem de modelagem unificada) | É uma linguagem-padrão para a elaboração da estrutura de projetos de software. Ela poderá ser empregada para a visualização, a especificação, a construção e a documentação de artefatos que façam uso de sistemas complexos de software. |
 
 ### 1.4. Visão Geral
 Com o objetivo de facilitar o entendimento do documento, o texto está organizado em 10 tópicos, nos quais foram documentadas a construção da arquitetura do projeto [**Jobz**](https://unbarqdsw2021-2.github.io/2021.2_G6_Jobz_docs/#/) e as decisões tomadas durante seu desenvolvimento. Cada um dos tópicos possuem sua devida importância e estão divididos da seguinte forma:
@@ -202,7 +202,7 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
 |    name    |     Obrigatório     |               VARCHAR(500)                  |             Nome completo de cada pessoa.                 |
 |    phone   |      Obrigatório       |               BIGINT                |             Telefone para contato de cada pessoa.             |
 | email |      Obrigatório        |             VARCHAR(150)                     | Email de cada pessoa que será utilizado na aplicação. |
-| cpf |      chave-Primária        |             BIGINT                     |  Chave-Primária Identificadora de cada pessoa.                            |
+| cpf |      chave-Primária        |             VARCHAR(11)                     |  Chave-Primária Identificadora de cada pessoa.                            |
 |  password  |      Obrigatório       |               VARCHAR(50)                |          Senha para autenticação do funcionário.           |
 
 #### 5.3.2. USER
@@ -210,7 +210,7 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
 |    idUser    |     Chave-Primária    |               INT                  |             Chave-Primária identificadora de cada usuário.               |
-|    cpf   |      Chave-Primaria, Estrangeira |               BIGINT                |             Chave-Primária Identificadora de cada pessoa.             |
+|    cpf   |      Chave-Primaria, Estrangeira |               VARCHAR(11)                |             Chave-Primária Identificadora de cada pessoa.             |
 | idAddress |      Chave-Estrangeira        |             INT                     | Chave estrangeira correspondente ao endereço do usuário. |
 
 
@@ -236,7 +236,7 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
 | serviceDescription |      Obrigatório        |             VARCHAR(5000)                     | Descrição relativa a cada serviço disponibilizado. |
 | idService |      Chave-Primária        |             INT                     |  Chave-Primária Identificadora de cada serviço.                            |
 |  idUser  |      Chave-Estrangeira       |               INT                |          Chave estrangeira relativa ao id do usuário que contratou o serviço.           |
-|  cpf  |      Chave-Estrangeira       |               BIGINT                |          Chave estrangeira relativa ao cpf do usuário que contratou o serviço.           |
+|  cpf  |      Chave-Estrangeira       |               VARCHAR(11)                |          Chave estrangeira relativa ao cpf do usuário que contratou o serviço.           |
 |  idCategory  |      Chave-Estrangeira       |               INT                |          Chave estrangeira relativa ao id da categoria ao qual pertence o serviço.           |
 |  idEvaluation  |      Chave-Estrangeira       |               INT                |          Chave estrangeira relativa ao id da avaliação do serviço.           |
 
@@ -269,7 +269,7 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
 |  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
 |    idProvider    |     Chave-Primária     |               INT                  |             Chave-Primária identificadora de cada prestador de serviços.                 |
-| cpf |      chave-primária, Estrangeira       |             BIGINT                     |  Chave-Primária, Estrangeira Identificadora de cada pessoa.                            |
+| cpf |      chave-primária, Estrangeira       |             VARCHAR(11)                     |  Chave-Primária, Estrangeira Identificadora de cada pessoa.                            |
 |    idOccupation   |      Obrigatório       |               INT                |             Chave-Estrangeira relativa ao id da ocupação de cada prestador de serviços.                |
 
 
@@ -282,7 +282,7 @@ Por fim, temos a representação de nosso sistema completo, no qual é caracteri
 | endOfWork |      Obrigatório        |             DATETIME                     | Horário de saída respectivo a agenda de cada prestador de serviços. |
 | idSchedule |      Chave-Primária        |             INT                     |  Chave-Primária identificadora de cada agenda.                            |
 |  idProvider  |      Chave-Estrangeira       |               INT                |          Chave-Estrangeira relativa ao id do prestador de serviços ao qual é dono da agenda.           |
-|  cpf  |      Chave-Estrangeira       |               BIGINT                |          Chave-Estrangeira relativa ao cpf do prestador de serviços ao qual é dono da agenda.           |
+|  cpf  |      Chave-Estrangeira       |               VARCHAR(11)                |          Chave-Estrangeira relativa ao cpf do prestador de serviços ao qual é dono da agenda.           |
 
 
 ## 6. Visão de Processos
