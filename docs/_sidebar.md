@@ -73,7 +73,7 @@
   - Módulo de Reutilização de Software
     - [Reutilização de Software](./pages/arquitetura/reutilizacao.md)
   - Iniciativa Extras
-    - [EXTRA](./pages/base/planoRisco.md)
+    - [EXTRA](./pages/arquitetura/comoRodar.md)
 
 - **Apresentações**
   - [Base](./pages/Apresentacoes/base.md)

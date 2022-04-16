@@ -92,10 +92,45 @@ Adicione o(s)s vídeo(s) da Entrega Final.
 
 ## O Projeto está rodando?
 
-( ) SIM
+( X ) SIM
 ( ) NÃO
-Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados em consultar o projeto.
+### Pré requisitos:
+
+Docker => 20.10.12
+
+Docker compose => 1.29.2
+
+### Passo a passo para rodar
+
+1. Clone o [Jobz Backend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd) ou [Jobz Frontend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd).
+```
+git clone https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd.git
+```
+ou 
+
+```
+git clone https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackendEnd.git
+```
+
+2. Entre na pasta /deploy.
+
+3. Rodar o projeto
+```
+make run
+```
+4. Parar o projeto.
+```
+make stop
+```
 
 ## Informações Complementares
 
-Quaisquer outras informações sobre seu projeto podem ser descritas nessa seção.
+Existe automação para criação da imagem docker para o frontend e backend
+
+```
+docker push antonioaldisio/jobzfrontend
+```
+
+```
+docker push antonioaldisio/jobzbackend
+```
