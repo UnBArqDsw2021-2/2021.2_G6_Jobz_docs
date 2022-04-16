@@ -102,7 +102,7 @@ Docker compose => 1.29.2
 
 ### Passo a passo para rodar
 
-1. Clone o [Jobz Backend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd) ou [Jobz Backend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd).
+1. Clone o [Jobz Backend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackEnd) ou [Jobz Frontend](https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd).
 ```
 git clone https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_FrontEnd.git
 ```
