@@ -29,6 +29,8 @@ git clone https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackendEnd.git
 ```
 make run
 ```
+(Acesso ao Jobz)[localhost:3000]  
+  
 4. Parar o projeto.
 ```
 make stop
@@ -53,3 +55,4 @@ docker push antonioaldisio/jobzbackend
 |    Data    | Versão |    Autor    |      Descrição       |
 | :--------: | :----: | :---------: | :------------------: |
 | 15/04/2022 |  0.1   | Antônio Aldísio | Criação do documento |
+| 17/04/2022 |  0.2   | Antônio Aldísio | Correção de link |
