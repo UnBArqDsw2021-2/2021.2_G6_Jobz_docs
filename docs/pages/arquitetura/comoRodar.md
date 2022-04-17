@@ -29,7 +29,7 @@ git clone https://github.com/UnBArqDsw2021-2/2021.2_G6_Jobz_BackendEnd.git
 ```
 make run
 ```
-(Acesso ao Jobz)[localhost:3000]  
+[Acesso ao Jobz](localhost:3000) - localhost:3000
   
 4. Parar o projeto.
 ```
