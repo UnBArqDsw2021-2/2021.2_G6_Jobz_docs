@@ -81,7 +81,11 @@ Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcioname
 
 ## Vídeo(s) Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 
-Adicione o(s)s vídeo(s) da Entrega Final.
+[Arquitetura de Software](https://youtu.be/I9VUMNwnM30)
+
+[Reutilização de Software](https://youtu.be/zjb_lCm1ql4)
+
+[Iniciativas Extras]()
 
 ## Descritivo dos Principais Aspectos Técnicos
 
