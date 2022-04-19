@@ -77,7 +77,10 @@ Uma aplicação web para conectar pequenas empresas, profissionais autonomos que
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+![image](https://user-images.githubusercontent.com/54644626/163896301-0200d596-05d8-497a-95d4-412274ab32c4.png)
+
+![image](https://user-images.githubusercontent.com/54644626/163896335-85024a81-6a3b-4874-b3dc-179608de914e.png)
+
 
 ## Vídeo(s) Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 
@@ -85,14 +88,14 @@ Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcioname
 
 [Reutilização de Software](https://youtu.be/zjb_lCm1ql4)
 
-[Iniciativas Extras]()
+[Iniciativas Extras](https://www.youtube.com/watch?v=9wW1D2s1bOQ)
 
 ## Descritivo dos Principais Aspectos Técnicos
 
-**Principal(is) Metodologia(s) Adotada(s)**: xxxxxx<br>
-**Principais Linguagens Utilizadas e/ou Pretendidas**: xxxxxx<br>
-**Principais Tecnologias Utilizadas e/ou Pretendidas**: xxxxxx<br>
-**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br>
+**Principal(is) Metodologia(s) Adotada(s)**: <br> Scrum, xp e kanban. <br>
+**Principais Linguagens Utilizadas e/ou Pretendidas**: <br> Foi utilizado o Javascript para o frontend enquanto que  para o backend foi utilizado a linguagem  Python. <br>
+**Principais Tecnologias Utilizadas e/ou Pretendidas**: <br> Para o frontend utilizamos  o framework React, usufruindo assim de suas bibliotecas já agregadas. Enquanto que para o desenvolvimento do backend foi decidido utilizar o framework Django. <br>
+**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: <br> Nós utilizamos o estilo Client-Server, no qual o sistema está em duas aplicações, onde o cliente faz uma requisição de serviço do frontend ao servidor backend.<br>
 
 ## O Projeto está rodando?
 
