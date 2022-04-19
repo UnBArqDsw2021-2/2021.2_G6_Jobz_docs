@@ -79,6 +79,7 @@
   - [Base](./pages/Apresentacoes/base.md)
   - [Modelagem](./pages/Apresentacoes/modelagem.md)
   - [Padrões de Projetos](./pages/Apresentacoes/padroes_projetos.md)
+  - [Arquitetura de Software](./pages/Apresentacoes/arquitetura.md)
 - **Sprints**
   - Sprint 1
     - [Planejamento](./pages/sprints/sprint1/sprint_planning.md)
